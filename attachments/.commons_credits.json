@@ -161,5 +161,40 @@
   "licurl": "https://creativecommons.org/licenses/by/2.0/",
   "artist": "Vishay Intertechnology",
   "source": "Openverse (flickr)"
+ },
+ "자동제어_PLC_전경.webp": {
+  "title": "Programmable logic controller.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Programmable_logic_controller.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": ""
+ },
+ "자동제어_나이퀴스트.webp": {
+  "title": "Nyquist plot.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nyquist_plot.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Engelec"
+ },
+ "자동제어_서보_블록.webp": {
+  "title": "Servo Diagram.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Servo_Diagram.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Stefan Tauner"
+ },
+ "자동제어_서보_드라이브모터.webp": {
+  "title": "Yeskawa Servo Drive & Motor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yeskawa_Servo_Drive_%26_Motor.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Projuktiponno"
+ },
+ "자동제어_서보모터_외관.webp": {
+  "title": "Servo Motor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Servo_Motor.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "AnasBHX"
  }
 }
