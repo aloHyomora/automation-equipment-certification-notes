@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#333"/></marker>
+  <marker id="r" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#C00000"/></marker></defs>
+  <rect width="780" height="300" fill="#ffffff"/>
+  <text x="390" y="24" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">서보 드라이버의 3중 제어 루프 (바깥 → 안쪽)</text>
+  <!-- summing junctions -->
+  <circle cx="70" cy="90" r="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <circle cx="230" cy="90" r="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <circle cx="390" cy="90" r="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <!-- blocks -->
+  <rect x="100" y="68" width="100" height="44" fill="#DAE3F3" stroke="#2F5597" stroke-width="2"/>
+  <text x="150" y="86" font-size="13" fill="#2F5597" text-anchor="middle">위치 제어기</text>
+  <text x="150" y="103" font-size="12" fill="#555" text-anchor="middle">(P 게인)</text>
+  <rect x="260" y="68" width="100" height="44" fill="#DAE3F3" stroke="#2F5597" stroke-width="2"/>
+  <text x="310" y="86" font-size="13" fill="#2F5597" text-anchor="middle">속도 제어기</text>
+  <text x="310" y="103" font-size="12" fill="#555" text-anchor="middle">(PI)</text>
+  <rect x="420" y="68" width="100" height="44" fill="#DAE3F3" stroke="#2F5597" stroke-width="2"/>
+  <text x="470" y="86" font-size="13" fill="#2F5597" text-anchor="middle">전류 제어기</text>
+  <text x="470" y="103" font-size="12" fill="#555" text-anchor="middle">(PWM 인버터)</text>
+  <rect x="550" y="68" width="80" height="44" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+  <text x="590" y="95" font-size="14" fill="#C55A11" text-anchor="middle">서보 모터</text>
+  <rect x="660" y="68" width="90" height="44" fill="#FBE5D6" stroke="#C55A11" stroke-width="2"/>
+  <text x="705" y="95" font-size="13" fill="#C55A11" text-anchor="middle">기계(부하)</text>
+  <!-- forward arrows -->
+  <g stroke="#333" stroke-width="2" fill="none">
+    <line x1="22" y1="90" x2="57" y2="90" marker-end="url(#a)"/>
+    <line x1="82" y1="90" x2="98" y2="90" marker-end="url(#a)"/>
+    <line x1="200" y1="90" x2="216" y2="90" marker-end="url(#a)"/>
+    <line x1="242" y1="90" x2="258" y2="90" marker-end="url(#a)"/>
+    <line x1="360" y1="90" x2="376" y2="90" marker-end="url(#a)"/>
+    <line x1="402" y1="90" x2="418" y2="90" marker-end="url(#a)"/>
+    <line x1="520" y1="90" x2="548" y2="90" marker-end="url(#a)"/>
+    <line x1="630" y1="90" x2="658" y2="90" marker-end="url(#a)"/>
+  </g>
+  <text x="22" y="76" font-size="12" fill="#333">위치 지령</text>
+  <text x="170" y="58" font-size="11" fill="#555" text-anchor="middle">속도 지령</text>
+  <text x="330" y="58" font-size="11" fill="#555" text-anchor="middle">전류(토크) 지령</text>
+  <text x="490" y="58" font-size="11" fill="#555" text-anchor="middle">PWM 전압</text>
+  <!-- feedback: current (inner) -->
+  <polyline points="535,90 535,135 390,135 390,104" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#r)"/>
+  <text x="462" y="152" font-size="12" fill="#C00000" text-anchor="middle">① 전류 검출 (안쪽 루프)</text>
+  <!-- feedback: speed (middle) -->
+  <polyline points="640,90 640,185 230,185 230,104" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#r)"/>
+  <text x="435" y="202" font-size="12" fill="#C00000" text-anchor="middle">② 엔코더 속도 (중간 루프)</text>
+  <!-- feedback: position (outer) -->
+  <polyline points="650,90 650,235 70,235 70,104" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#r)"/>
+  <text x="360" y="252" font-size="12" fill="#C00000" text-anchor="middle">③ 엔코더 위치 (바깥 루프)</text>
+  <text x="390" y="282" font-size="13" fill="#555" text-anchor="middle">안쪽일수록 빠르게 돈다: 전류 &gt; 속도 &gt; 위치. 각 ○는 지령 − 검출값 = 편차를 만든다.</text>
+  <text x="62" y="124" font-size="14" fill="#333">−</text>
+  <text x="222" y="124" font-size="14" fill="#333">−</text>
+  <text x="382" y="124" font-size="14" fill="#333">−</text>
+</svg>
