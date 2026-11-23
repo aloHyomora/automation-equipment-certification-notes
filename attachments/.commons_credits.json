@@ -623,5 +623,47 @@
   "license": "CC BY-SA 3.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
   "artist": "Lucasbosch"
+ },
+ "자동제어_Pt100_3선식.webp": {
+  "title": "3 wire PT100 Sensor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:3_wire_PT100_Sensor.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Suyash Dwivedi"
+ },
+ "자동제어_NTC_서미스터.webp": {
+  "title": "NTC Thermistor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:NTC_Thermistor.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Soumyapatra13"
+ },
+ "자동제어_로드셀.webp": {
+  "title": "Miniature S-beam load cell.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Miniature_S-beam_load_cell.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "FUTEK Advanced Sensor Technology, Inc."
+ },
+ "자동제어_홀효과.webp": {
+  "title": "Hall-Effect-diagram.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hall-Effect-diagram.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Hall-effect.png: [1] derivative work: Gregors (talk) 13:27, 15 March 2011 (UTC)"
+ },
+ "자동제어_코리올리_유량계.webp": {
+  "title": "Coriolis Flow Meter.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Coriolis_Flow_Meter.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Bitjungle"
+ },
+ "자동제어_포텐셔미터_구조.webp": {
+  "title": "Potentiometer cutaway drawing.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Potentiometer_cutaway_drawing.png",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Original work: Unknown Altered work: Chetvorno"
  }
 }

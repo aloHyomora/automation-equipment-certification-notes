@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="760" height="340" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#2F5597">차압식 유량계(오리피스): 조임부 앞뒤 압력차로 유량을 잰다</text>
+  <!-- pipe -->
+  <rect x="60" y="150" width="640" height="100" fill="#DEEBF7"/>
+  <line x1="60" y1="150" x2="700" y2="150" stroke="#2F5597" stroke-width="4"/>
+  <line x1="60" y1="250" x2="700" y2="250" stroke="#2F5597" stroke-width="4"/>
+  <!-- orifice plate -->
+  <rect x="372" y="150" width="10" height="32" fill="#333"/>
+  <rect x="372" y="218" width="10" height="32" fill="#333"/>
+  <text x="377" y="280" text-anchor="middle" font-size="14" fill="#333" font-weight="bold">오리피스 판</text>
+  <!-- flow arrows: converge through orifice -->
+  <g stroke="#2F5597" stroke-width="2" fill="none">
+    <path d="M 90 170 C 250 172, 330 188, 377 192 C 430 196, 470 180, 560 172 L 690 170"/>
+    <path d="M 90 200 L 690 200"/>
+    <path d="M 90 230 C 250 228, 330 212, 377 208 C 430 204, 470 220, 560 228 L 690 230"/>
+  </g>
+  <polygon points="700,200 688,194 688,206" fill="#2F5597"/>
+  <text x="95" y="268" font-size="14" fill="#2F5597" font-weight="bold">흐름 Q →</text>
+  <!-- taps -->
+  <line x1="300" y1="150" x2="300" y2="95" stroke="#C00000" stroke-width="3"/>
+  <line x1="450" y1="150" x2="450" y2="95" stroke="#C00000" stroke-width="3"/>
+  <line x1="300" y1="95" x2="345" y2="95" stroke="#C00000" stroke-width="3"/>
+  <line x1="405" y1="95" x2="450" y2="95" stroke="#C00000" stroke-width="3"/>
+  <rect x="345" y="72" width="60" height="46" rx="6" fill="#FBE5D6" stroke="#C00000" stroke-width="2"/>
+  <text x="375" y="101" text-anchor="middle" font-size="15" fill="#C00000" font-weight="bold">ΔP</text>
+  <text x="300" y="140" text-anchor="end" font-size="14" fill="#C00000" dx="-8">P₁ (높음)</text>
+  <text x="450" y="140" font-size="14" fill="#C00000" dx="8">P₂ (낮음)</text>
+  <text x="560" y="90" font-size="13" fill="#333">차압 변환기 → 4~20 mA</text>
+  <!-- formula -->
+  <text x="380" y="315" text-anchor="middle" font-size="17" fill="#C00000" font-weight="bold">Q ∝ √ΔP   (차압이 4배가 되어야 유량이 2배)</text>
+</svg>

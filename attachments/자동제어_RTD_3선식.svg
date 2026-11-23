@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" width="780" height="440" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="780" height="440" fill="#ffffff"/>
+  <text x="390" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#2F5597">측온 저항체(RTD) 3선식 브리지: 도선 저항 상쇄</text>
+  <!-- bridge nodes: A(top) 200,80 ; B(left) 100,200 ; C(right) 300,200 ; Y (RTD far end, remote) -->
+  <!-- supply -->
+  <line x1="200" y1="80" x2="200" y2="60" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="60" x2="40" y2="60" stroke="#333" stroke-width="2"/>
+  <line x1="40" y1="60" x2="40" y2="190" stroke="#333" stroke-width="2"/>
+  <line x1="28" y1="190" x2="52" y2="190" stroke="#333" stroke-width="2.5"/>
+  <line x1="33" y1="200" x2="47" y2="200" stroke="#333" stroke-width="2.5"/>
+  <text x="22" y="200" text-anchor="end" font-size="14" fill="#333">E</text>
+  <line x1="40" y1="200" x2="40" y2="400" stroke="#333" stroke-width="2"/>
+  <!-- R1: A-B -->
+  <line x1="200" y1="80" x2="100" y2="200" stroke="#333" stroke-width="2"/>
+  <rect x="133" y="125" width="34" height="18" fill="#fff" stroke="#333" stroke-width="2" transform="rotate(-50 150 134)"/>
+  <text x="128" y="122" text-anchor="end" font-size="14" fill="#333">R₁</text>
+  <!-- R2: A-C -->
+  <line x1="200" y1="80" x2="300" y2="200" stroke="#333" stroke-width="2"/>
+  <rect x="233" y="125" width="34" height="18" fill="#fff" stroke="#333" stroke-width="2" transform="rotate(50 250 134)"/>
+  <text x="275" y="122" font-size="14" fill="#333">R₂</text>
+  <!-- detector B-C -->
+  <line x1="100" y1="200" x2="175" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="225" y1="200" x2="300" y2="200" stroke="#333" stroke-width="2"/>
+  <circle cx="200" cy="200" r="22" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="200" y="206" text-anchor="middle" font-size="15" fill="#333" font-weight="bold">G</text>
+  <circle cx="100" cy="200" r="4" fill="#333"/><circle cx="300" cy="200" r="4" fill="#333"/><circle cx="200" cy="80" r="4" fill="#333"/>
+  <!-- R3 arm from B down -->
+  <line x1="100" y1="200" x2="100" y2="270" stroke="#333" stroke-width="2"/>
+  <rect x="91" y="240" width="18" height="34" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="80" y="262" text-anchor="end" font-size="14" fill="#333">R₃</text>
+  <line x1="100" y1="274" x2="100" y2="320" stroke="#333" stroke-width="2"/>
+  <!-- lead L2 from R3 bottom to RTD node Y -->
+  <line x1="100" y1="320" x2="560" y2="320" stroke="#2F5597" stroke-width="3"/>
+  <!-- lead L1 from C to RTD top -->
+  <line x1="300" y1="200" x2="300" y2="240" stroke="#333" stroke-width="2"/>
+  <line x1="300" y1="240" x2="600" y2="240" stroke="#2F5597" stroke-width="3"/>
+  <!-- lead L3 from supply to Y -->
+  <line x1="40" y1="400" x2="560" y2="400" stroke="#2F5597" stroke-width="3"/>
+  <!-- lead labels with small r -->
+  <text x="430" y="232" text-anchor="middle" font-size="14" fill="#2F5597" font-weight="bold">도선 L₁ (r)</text>
+  <text x="330" y="312" text-anchor="middle" font-size="14" fill="#2F5597" font-weight="bold">도선 L₂ (r)</text>
+  <text x="330" y="392" text-anchor="middle" font-size="14" fill="#2F5597" font-weight="bold">도선 L₃ (전원 쪽, 브리지 평형과 무관)</text>
+  <!-- cable box -->
+  <rect x="360" y="220" width="150" height="200" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="435" y="436" text-anchor="middle" font-size="12" fill="#999">현장까지 긴 케이블</text>
+  <!-- RTD element -->
+  <rect x="535" y="225" width="125" height="190" rx="10" fill="#FBE5D6" stroke="#C00000" stroke-width="1.5"/>
+  <text x="625" y="270" font-size="13" fill="#C00000" font-weight="bold">현장</text>
+  <line x1="600" y1="240" x2="600" y2="262" stroke="#C00000" stroke-width="2.5"/>
+  <rect x="590" y="262" width="20" height="40" fill="#fff" stroke="#C00000" stroke-width="2.5"/>
+  <text x="618" y="292" font-size="14" fill="#C00000" font-weight="bold">Rt</text>
+  <line x1="600" y1="302" x2="600" y2="360" stroke="#C00000" stroke-width="2.5"/>
+  <line x1="560" y1="360" x2="600" y2="360" stroke="#C00000" stroke-width="2.5"/>
+  <line x1="560" y1="320" x2="560" y2="400" stroke="#C00000" stroke-width="2.5"/>
+  <circle cx="560" cy="360" r="5" fill="#C00000"/>
+  <text x="572" y="380" font-size="12" fill="#C00000">Y</text>
+  <text x="600" y="235" text-anchor="middle" font-size="11" fill="#C00000"></text>
+  <!-- explanation -->
+  <text x="410" y="80" font-size="14" fill="#333">• 옆 변 ① : R₃ + r (L₂)</text>
+  <text x="410" y="104" font-size="14" fill="#333">• 옆 변 ② : Rt + r (L₁)</text>
+  <text x="410" y="132" font-size="15" fill="#C00000" font-weight="bold">평형(R₁ = R₂): R₃ + r = Rt + r</text>
+  <text x="410" y="158" font-size="15" fill="#C00000" font-weight="bold">→ Rt = R₃  (도선 저항 r 상쇄)</text>
+  <text x="410" y="186" font-size="12" fill="#666">2선식이면 Rt + 2r 이 한 변에 몰려 오차가 된다</text>
+</svg>

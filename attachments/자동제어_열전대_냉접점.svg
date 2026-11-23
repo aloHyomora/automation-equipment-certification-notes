@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="760" height="360" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#2F5597">열전대: 두 접점의 온도차 → 열기전력 (제벡 효과)</text>
+  <!-- hot zone -->
+  <rect x="40" y="80" width="150" height="160" rx="10" fill="#FBE5D6" stroke="#C00000" stroke-width="1.5"/>
+  <text x="115" y="105" text-anchor="middle" font-size="14" fill="#C00000" font-weight="bold">측정 대상 (고온)</text>
+  <!-- wires -->
+  <polyline points="130,165 260,120 470,120" fill="none" stroke="#2F5597" stroke-width="5"/>
+  <polyline points="130,165 260,210 470,210" fill="none" stroke="#7F6000" stroke-width="5"/>
+  <circle cx="130" cy="165" r="9" fill="#C00000"/>
+  <text x="115" y="200" text-anchor="middle" font-size="13" fill="#333">측온접점</text>
+  <text x="115" y="218" text-anchor="middle" font-size="13" fill="#333">온도 T₁</text>
+  <text x="330" y="110" text-anchor="middle" font-size="14" fill="#2F5597">금속 A (+) 예: 크로멜</text>
+  <text x="330" y="236" text-anchor="middle" font-size="14" fill="#7F6000">금속 B (−) 예: 알루멜</text>
+  <!-- reference junction block -->
+  <rect x="470" y="90" width="100" height="150" rx="8" fill="#DEEBF7" stroke="#2F5597" stroke-width="1.5"/>
+  <circle cx="480" cy="120" r="6" fill="#2F5597"/>
+  <circle cx="480" cy="210" r="6" fill="#2F5597"/>
+  <text x="520" y="160" text-anchor="middle" font-size="13" fill="#2F5597" font-weight="bold">기준접점</text>
+  <text x="520" y="178" text-anchor="middle" font-size="13" fill="#2F5597">(냉접점)</text>
+  <text x="520" y="196" text-anchor="middle" font-size="13" fill="#2F5597">온도 T₂</text>
+  <!-- copper leads to meter -->
+  <line x1="570" y1="120" x2="650" y2="120" stroke="#333" stroke-width="2.5"/>
+  <line x1="570" y1="210" x2="650" y2="210" stroke="#333" stroke-width="2.5"/>
+  <line x1="650" y1="120" x2="650" y2="135" stroke="#333" stroke-width="2.5"/>
+  <line x1="650" y1="210" x2="650" y2="195" stroke="#333" stroke-width="2.5"/>
+  <circle cx="650" cy="165" r="30" fill="#ffffff" stroke="#333" stroke-width="2.5"/>
+  <text x="650" y="172" text-anchor="middle" font-size="18" fill="#333" font-weight="bold">mV</text>
+  <text x="700" y="160" font-size="13" fill="#333">E</text>
+  <!-- formula and compensation note -->
+  <text x="380" y="285" text-anchor="middle" font-size="16" fill="#C00000" font-weight="bold">E ∝ (T₁ − T₂)   → 전압은 '온도차'만 알려 준다</text>
+  <text x="380" y="315" text-anchor="middle" font-size="14" fill="#333">냉접점 보상: 기준접점 온도 T₂를 따로 재어(서미스터·IC 센서) 그만큼을 더해 T₁을 구한다</text>
+  <text x="380" y="340" text-anchor="middle" font-size="12" fill="#666">기준접점에서 계측기까지는 구리선 또는 같은 재질의 보상도선으로 잇는다</text>
+</svg>
