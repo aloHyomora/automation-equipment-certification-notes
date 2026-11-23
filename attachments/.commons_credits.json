@@ -61,5 +61,75 @@
   "license": "CC BY-SA 4.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "Wjcw"
+ },
+ "자동제어_RC_계단응답.webp": {
+  "title": "Series RC capacitor voltage.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Series_RC_capacitor_voltage.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "No machine-readable author provided. Ktims assumed (based on copyright claims)."
+ },
+ "자동제어_피드백_블록.webp": {
+  "title": "Feedback Loop.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Feedback_Loop.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_피드백_등가.webp": {
+  "title": "Feedback Loop Equivalent 1.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Feedback_Loop_Equivalent_1.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_PID_블록.webp": {
+  "title": "PID en.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:PID_en.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Arturo Urquizo"
+ },
+ "자동제어_2차계_감쇠비.webp": {
+  "title": "Second order transfer function.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Second_order_transfer_function.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Krishnavedala"
+ },
+ "자동제어_시간응답_특성.webp": {
+  "title": "Second order under-damped response.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Second_order_under-damped_response.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Krishnavedala"
+ },
+ "자동제어_보드선도.webp": {
+  "title": "Low-Pass filter Bode Magnitude and Phase plots.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Low-Pass_filter_Bode_Magnitude_and_Phase_plots.png",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "User:Brews_ohare"
+ },
+ "자동제어_엔코더_원판.webp": {
+  "title": "Encoder Disc (3-Bit).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Encoder_Disc_(3-Bit).svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "jjbeard"
+ },
+ "자동제어_리졸버_원리.webp": {
+  "title": "ResolverPrinzip.png",
+  "page": "https://commons.wikimedia.org/wiki/File:ResolverPrinzip.png",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Heinz Seehagel (Hasee)"
+ },
+ "자동제어_PLC_랙.webp": {
+  "title": "Programmable logic controller.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Programmable_logic_controller.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": ""
  }
 }

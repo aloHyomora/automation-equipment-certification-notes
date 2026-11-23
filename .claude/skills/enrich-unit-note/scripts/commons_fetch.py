@@ -28,21 +28,27 @@ import urllib.request
 from PIL import Image, ImageSequence
 
 sys.stdout.reconfigure(encoding="utf-8")
-UA = {"User-Agent": "study-notes-client/1.0 (educational notes)"}
+UA = {"User-Agent": "ObsidianStudyNotesImageFetcher/1.1 (personal study notes; python-urllib)"}
 API = "https://commons.wikimedia.org/w/api.php?"
 MAX_SIDE = 960
 
 
+class Throttled(Exception):
+    pass
+
+
 def get(url):
-    for wait in (0, 30, 60, 120, 240):
-        time.sleep(wait + 4)
+    # Commons throttles in bursts: space every request out, back off on 429,
+    # and give up on just this item (not the whole run) if it keeps refusing.
+    for wait in (0, 20, 45, 90):
+        time.sleep(wait + 6)
         try:
             return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
         except urllib.error.HTTPError as e:
             if e.code != 429:
                 raise
             print("  (429 rate limited, backing off)", flush=True)
-    raise SystemExit("Commons kept refusing; rerun later — finished files are kept.")
+    raise Throttled(url)
 
 
 def to_webp(data, out):
@@ -67,6 +73,7 @@ def main():
     dest = pathlib.Path(a.dest)
     cache = dest / ".commons_credits.json"
     credits = json.loads(cache.read_text(encoding="utf-8")) if cache.exists() else {}
+    skipped = []
 
     for item in a.items:
         title, name = item.rsplit("=", 1)
@@ -77,14 +84,19 @@ def main():
         params = dict(action="query", format="json", titles=title, prop="imageinfo",
                       iiprop="url|extmetadata", iiurlwidth=MAX_SIDE,
                       iiextmetadatafilter="LicenseShortName|LicenseUrl|Artist")
-        d = json.loads(get(API + urllib.parse.urlencode(params)))
-        page = next(iter(d["query"]["pages"].values()))
-        if "imageinfo" not in page:
-            print("NOT FOUND:", title)
+        try:
+            d = json.loads(get(API + urllib.parse.urlencode(params)))
+            page = next(iter(d["query"]["pages"].values()))
+            if "imageinfo" not in page:
+                print("NOT FOUND:", title, flush=True)
+                continue
+            ii = page["imageinfo"][0]
+            m = ii["extmetadata"]
+            to_webp(get(ii.get("thumburl") or ii["url"]), out)
+        except Throttled:
+            skipped.append(out.name)
+            print("SKIPPED (throttled):", out.name, flush=True)
             continue
-        ii = page["imageinfo"][0]
-        m = ii["extmetadata"]
-        to_webp(get(ii.get("thumburl") or ii["url"]), out)
         credits[out.name] = dict(
             title=title.removeprefix("File:"), page=ii["descriptionurl"],
             license=m.get("LicenseShortName", {}).get("value", "?"),
@@ -102,6 +114,8 @@ def main():
         lic = f"[{c['license']}]({c['licurl']})" if c.get("licurl") and "BY" in c["license"] else c["license"]
         lic = lic.replace("Public domain", "퍼블릭 도메인")
         print(f"| [{c['title'].rsplit('.', 1)[0]}]({c['page']}) | {c['artist']} | {lic} |")
+    if skipped:
+        print(f"\n{len(skipped)} skipped by rate limit — rerun the same command later to fetch:", ", ".join(skipped))
 
 
 if __name__ == "__main__":
