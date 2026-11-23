@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="590" viewBox="0 0 900 590" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="900" height="590" fill="white"/>
+<text x="450.0" y="28" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">스테핑 모터 여자 방식 (4상 · 유니폴라 기준) — 굵은 칸 = 그 상에 전류가 흐름</text>
+<text x="20" y="74" font-size="15" fill="#2F5597" text-anchor="start" font-weight="bold">1상 여자</text>
+<text x="171.0" y="74" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<text x="233.0" y="74" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<text x="295.0" y="74" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<text x="357.0" y="74" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<text x="419.0" y="74" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<text x="481.0" y="74" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">6</text>
+<text x="543.0" y="74" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">7</text>
+<text x="605.0" y="74" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">8</text>
+<text x="126" y="102" font-size="14" fill="#222" text-anchor="end" font-weight="bold">A</text>
+<rect x="140" y="88" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="388" y="88" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,88 L202,88 L202,106 L264,106 L326,106 L388,106 L388,88 L450,88 L450,106 L512,106 L574,106 L636,106 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="128" font-size="14" fill="#222" text-anchor="end" font-weight="bold">B</text>
+<rect x="202" y="114" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="450" y="114" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,132 L202,132 L202,114 L264,114 L264,132 L326,132 L388,132 L450,132 L450,114 L512,114 L512,132 L574,132 L636,132 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="154" font-size="14" fill="#222" text-anchor="end" font-weight="bold">A'</text>
+<rect x="264" y="140" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="512" y="140" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,158 L202,158 L264,158 L264,140 L326,140 L326,158 L388,158 L450,158 L512,158 L512,140 L574,140 L574,158 L636,158 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="180" font-size="14" fill="#222" text-anchor="end" font-weight="bold">B'</text>
+<rect x="326" y="166" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="574" y="166" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,184 L202,184 L264,184 L326,184 L326,166 L388,166 L388,184 L450,184 L512,184 L574,184 L574,166 L636,166 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="140" y1="82" x2="140" y2="188" stroke="#ccc" stroke-width="1"/>
+<line x1="202" y1="82" x2="202" y2="188" stroke="#ccc" stroke-width="1"/>
+<line x1="264" y1="82" x2="264" y2="188" stroke="#ccc" stroke-width="1"/>
+<line x1="326" y1="82" x2="326" y2="188" stroke="#ccc" stroke-width="1"/>
+<line x1="388" y1="82" x2="388" y2="188" stroke="#ccc" stroke-width="1"/>
+<line x1="450" y1="82" x2="450" y2="188" stroke="#ccc" stroke-width="1"/>
+<line x1="512" y1="82" x2="512" y2="188" stroke="#ccc" stroke-width="1"/>
+<line x1="574" y1="82" x2="574" y2="188" stroke="#ccc" stroke-width="1"/>
+<line x1="636" y1="82" x2="636" y2="188" stroke="#ccc" stroke-width="1"/>
+<text x="654" y="120" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">전류 1배 · 토크 작음</text>
+<text x="654" y="144" font-size="13" fill="#222" text-anchor="start" font-weight="normal">감쇠 진동 커서 난조 쉬움</text>
+<text x="20" y="239" font-size="15" fill="#2F5597" text-anchor="start" font-weight="bold">2상 여자</text>
+<text x="171.0" y="239" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<text x="233.0" y="239" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<text x="295.0" y="239" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<text x="357.0" y="239" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<text x="419.0" y="239" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<text x="481.0" y="239" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">6</text>
+<text x="543.0" y="239" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">7</text>
+<text x="605.0" y="239" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">8</text>
+<text x="126" y="267" font-size="14" fill="#222" text-anchor="end" font-weight="bold">A</text>
+<rect x="140" y="253" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="326" y="253" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="388" y="253" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="574" y="253" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,253 L202,253 L202,271 L264,271 L326,271 L326,253 L388,253 L450,253 L450,271 L512,271 L574,271 L574,253 L636,253 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="293" font-size="14" fill="#222" text-anchor="end" font-weight="bold">B</text>
+<rect x="140" y="279" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="202" y="279" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="388" y="279" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="450" y="279" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,279 L202,279 L264,279 L264,297 L326,297 L388,297 L388,279 L450,279 L512,279 L512,297 L574,297 L636,297 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="319" font-size="14" fill="#222" text-anchor="end" font-weight="bold">A'</text>
+<rect x="202" y="305" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="264" y="305" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="450" y="305" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="512" y="305" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,323 L202,323 L202,305 L264,305 L326,305 L326,323 L388,323 L450,323 L450,305 L512,305 L574,305 L574,323 L636,323 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="345" font-size="14" fill="#222" text-anchor="end" font-weight="bold">B'</text>
+<rect x="264" y="331" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="326" y="331" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="512" y="331" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="574" y="331" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,349 L202,349 L264,349 L264,331 L326,331 L388,331 L388,349 L450,349 L512,349 L512,331 L574,331 L636,331 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="140" y1="247" x2="140" y2="353" stroke="#ccc" stroke-width="1"/>
+<line x1="202" y1="247" x2="202" y2="353" stroke="#ccc" stroke-width="1"/>
+<line x1="264" y1="247" x2="264" y2="353" stroke="#ccc" stroke-width="1"/>
+<line x1="326" y1="247" x2="326" y2="353" stroke="#ccc" stroke-width="1"/>
+<line x1="388" y1="247" x2="388" y2="353" stroke="#ccc" stroke-width="1"/>
+<line x1="450" y1="247" x2="450" y2="353" stroke="#ccc" stroke-width="1"/>
+<line x1="512" y1="247" x2="512" y2="353" stroke="#ccc" stroke-width="1"/>
+<line x1="574" y1="247" x2="574" y2="353" stroke="#ccc" stroke-width="1"/>
+<line x1="636" y1="247" x2="636" y2="353" stroke="#ccc" stroke-width="1"/>
+<text x="654" y="285" font-size="13" fill="#222" text-anchor="start" font-weight="bold">전류 2배 · 토크 큼</text>
+<text x="654" y="309" font-size="13" fill="#222" text-anchor="start" font-weight="normal">진동 적음 · 가장 일반적</text>
+<text x="20" y="404" font-size="15" fill="#2F5597" text-anchor="start" font-weight="bold">1-2상 여자</text>
+<text x="171.0" y="404" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<text x="233.0" y="404" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<text x="295.0" y="404" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<text x="357.0" y="404" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<text x="419.0" y="404" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<text x="481.0" y="404" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">6</text>
+<text x="543.0" y="404" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">7</text>
+<text x="605.0" y="404" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">8</text>
+<text x="126" y="432" font-size="14" fill="#222" text-anchor="end" font-weight="bold">A</text>
+<rect x="140" y="418" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="202" y="418" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="574" y="418" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,418 L202,418 L264,418 L264,436 L326,436 L388,436 L450,436 L512,436 L574,436 L574,418 L636,418 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="458" font-size="14" fill="#222" text-anchor="end" font-weight="bold">B</text>
+<rect x="202" y="444" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="264" y="444" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="326" y="444" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,462 L202,462 L202,444 L264,444 L326,444 L388,444 L388,462 L450,462 L512,462 L574,462 L636,462 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="484" font-size="14" fill="#222" text-anchor="end" font-weight="bold">A'</text>
+<rect x="326" y="470" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="388" y="470" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="450" y="470" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,488 L202,488 L264,488 L326,488 L326,470 L388,470 L450,470 L512,470 L512,488 L574,488 L636,488 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="126" y="510" font-size="14" fill="#222" text-anchor="end" font-weight="bold">B'</text>
+<rect x="450" y="496" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="512" y="496" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<rect x="574" y="496" width="62" height="18" fill="#2F5597" fill-opacity="0.18"/>
+<path d="M140,514 L202,514 L264,514 L326,514 L388,514 L450,514 L450,496 L512,496 L574,496 L636,496 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="140" y1="412" x2="140" y2="518" stroke="#ccc" stroke-width="1"/>
+<line x1="202" y1="412" x2="202" y2="518" stroke="#ccc" stroke-width="1"/>
+<line x1="264" y1="412" x2="264" y2="518" stroke="#ccc" stroke-width="1"/>
+<line x1="326" y1="412" x2="326" y2="518" stroke="#ccc" stroke-width="1"/>
+<line x1="388" y1="412" x2="388" y2="518" stroke="#ccc" stroke-width="1"/>
+<line x1="450" y1="412" x2="450" y2="518" stroke="#ccc" stroke-width="1"/>
+<line x1="512" y1="412" x2="512" y2="518" stroke="#ccc" stroke-width="1"/>
+<line x1="574" y1="412" x2="574" y2="518" stroke="#ccc" stroke-width="1"/>
+<line x1="636" y1="412" x2="636" y2="518" stroke="#ccc" stroke-width="1"/>
+<text x="654" y="450" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">전류 1.5배 · 스텝각 1/2</text>
+<text x="654" y="474" font-size="13" fill="#222" text-anchor="start" font-weight="normal">하프 스텝 · 분해능 최고</text>
+<text x="388" y="561" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">→ 펄스 1개마다 한 칸(스텝)씩 진행. 순서를 거꾸로 보내면 역회전</text>
+</svg>

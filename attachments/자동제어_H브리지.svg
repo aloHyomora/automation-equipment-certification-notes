@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="400" fill="white"/>
+<defs><marker id="ar" markerWidth="14" markerHeight="14" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#C00000"/></marker><marker id="ag" markerWidth="14" markerHeight="14" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#888"/></marker></defs>
+<text x="380.0" y="28" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">H-브리지: 대각선 스위치 한 쌍을 켜서 모터 전류 방향을 바꾼다</text>
+<rect x="20" y="45" width="350" height="300" rx="8" fill="none" stroke="#ccc"/>
+<text x="195" y="70" font-size="15" fill="#2F5597" text-anchor="middle" font-weight="bold">정회전: S1 · S4 ON</text>
+<line x1="100" y1="95" x2="290" y2="95" stroke="#222" stroke-width="2" />
+<line x1="100" y1="315" x2="290" y2="315" stroke="#222" stroke-width="2" />
+<text x="195" y="89" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">+V</text>
+<text x="195" y="333" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">0 V (GND)</text>
+<line x1="100" y1="95" x2="100" y2="125" stroke="#222" stroke-width="2" />
+<line x1="100" y1="125" x2="100" y2="125" stroke="#222" stroke-width="2" />
+<circle cx="100" cy="125" r="3.5" fill="#222"/><circle cx="100" cy="165" r="3.5" fill="#222"/>
+<line x1="100" y1="125" x2="100" y2="165" stroke="#C00000" stroke-width="3" />
+<text x="86" y="150.0" font-size="13" fill="#C00000" text-anchor="end" font-weight="bold">S1</text>
+<line x1="100" y1="165" x2="100" y2="245" stroke="#222" stroke-width="2" />
+<line x1="100" y1="245" x2="100" y2="245" stroke="#222" stroke-width="2" />
+<circle cx="100" cy="245" r="3.5" fill="#222"/><circle cx="100" cy="285" r="3.5" fill="#222"/>
+<line x1="100" y1="285" x2="80" y2="251" stroke="#222" stroke-width="2.5" />
+<text x="86" y="270.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold">S3</text>
+<line x1="100" y1="285" x2="100" y2="315" stroke="#222" stroke-width="2" />
+<circle cx="100" cy="205" r="3.5" fill="#222"/>
+<line x1="290" y1="95" x2="290" y2="125" stroke="#222" stroke-width="2" />
+<line x1="290" y1="125" x2="290" y2="125" stroke="#222" stroke-width="2" />
+<circle cx="290" cy="125" r="3.5" fill="#222"/><circle cx="290" cy="165" r="3.5" fill="#222"/>
+<line x1="290" y1="165" x2="270" y2="131" stroke="#222" stroke-width="2.5" />
+<text x="304" y="150.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold">S2</text>
+<line x1="290" y1="165" x2="290" y2="245" stroke="#222" stroke-width="2" />
+<line x1="290" y1="245" x2="290" y2="245" stroke="#222" stroke-width="2" />
+<circle cx="290" cy="245" r="3.5" fill="#222"/><circle cx="290" cy="285" r="3.5" fill="#222"/>
+<line x1="290" y1="245" x2="290" y2="285" stroke="#C00000" stroke-width="3" />
+<text x="304" y="270.0" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">S4</text>
+<line x1="290" y1="285" x2="290" y2="315" stroke="#222" stroke-width="2" />
+<circle cx="290" cy="205" r="3.5" fill="#222"/>
+<line x1="100" y1="205" x2="167" y2="205" stroke="#222" stroke-width="2" />
+<line x1="223" y1="205" x2="290" y2="205" stroke="#222" stroke-width="2" />
+<circle cx="195" cy="205" r="28" fill="white" stroke="#222" stroke-width="2"/><text x="195" y="211" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">M</text>
+<polyline points="92,103 92,197 298,197 298,307" fill="none" stroke="#C00000" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="9,5" marker-end="url(#ar)"/>
+<text x="195" y="165" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">전류 →</text>
+<rect x="390" y="45" width="350" height="300" rx="8" fill="none" stroke="#ccc"/>
+<text x="565" y="70" font-size="15" fill="#2F5597" text-anchor="middle" font-weight="bold">역회전: S2 · S3 ON</text>
+<line x1="470" y1="95" x2="660" y2="95" stroke="#222" stroke-width="2" />
+<line x1="470" y1="315" x2="660" y2="315" stroke="#222" stroke-width="2" />
+<text x="565" y="89" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">+V</text>
+<text x="565" y="333" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">0 V (GND)</text>
+<line x1="470" y1="95" x2="470" y2="125" stroke="#222" stroke-width="2" />
+<line x1="470" y1="125" x2="470" y2="125" stroke="#222" stroke-width="2" />
+<circle cx="470" cy="125" r="3.5" fill="#222"/><circle cx="470" cy="165" r="3.5" fill="#222"/>
+<line x1="470" y1="165" x2="450" y2="131" stroke="#222" stroke-width="2.5" />
+<text x="456" y="150.0" font-size="13" fill="#222" text-anchor="end" font-weight="bold">S1</text>
+<line x1="470" y1="165" x2="470" y2="245" stroke="#222" stroke-width="2" />
+<line x1="470" y1="245" x2="470" y2="245" stroke="#222" stroke-width="2" />
+<circle cx="470" cy="245" r="3.5" fill="#222"/><circle cx="470" cy="285" r="3.5" fill="#222"/>
+<line x1="470" y1="245" x2="470" y2="285" stroke="#C00000" stroke-width="3" />
+<text x="456" y="270.0" font-size="13" fill="#C00000" text-anchor="end" font-weight="bold">S3</text>
+<line x1="470" y1="285" x2="470" y2="315" stroke="#222" stroke-width="2" />
+<circle cx="470" cy="205" r="3.5" fill="#222"/>
+<line x1="660" y1="95" x2="660" y2="125" stroke="#222" stroke-width="2" />
+<line x1="660" y1="125" x2="660" y2="125" stroke="#222" stroke-width="2" />
+<circle cx="660" cy="125" r="3.5" fill="#222"/><circle cx="660" cy="165" r="3.5" fill="#222"/>
+<line x1="660" y1="125" x2="660" y2="165" stroke="#C00000" stroke-width="3" />
+<text x="674" y="150.0" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">S2</text>
+<line x1="660" y1="165" x2="660" y2="245" stroke="#222" stroke-width="2" />
+<line x1="660" y1="245" x2="660" y2="245" stroke="#222" stroke-width="2" />
+<circle cx="660" cy="245" r="3.5" fill="#222"/><circle cx="660" cy="285" r="3.5" fill="#222"/>
+<line x1="660" y1="285" x2="640" y2="251" stroke="#222" stroke-width="2.5" />
+<text x="674" y="270.0" font-size="13" fill="#222" text-anchor="start" font-weight="bold">S4</text>
+<line x1="660" y1="285" x2="660" y2="315" stroke="#222" stroke-width="2" />
+<circle cx="660" cy="205" r="3.5" fill="#222"/>
+<line x1="470" y1="205" x2="537" y2="205" stroke="#222" stroke-width="2" />
+<line x1="593" y1="205" x2="660" y2="205" stroke="#222" stroke-width="2" />
+<circle cx="565" cy="205" r="28" fill="white" stroke="#222" stroke-width="2"/><text x="565" y="211" font-size="18" fill="#222" text-anchor="middle" font-weight="bold">M</text>
+<polyline points="668,103 668,197 462,197 462,307" fill="none" stroke="#C00000" stroke-width="3" stroke-opacity="0.55" stroke-dasharray="9,5" marker-end="url(#ar)"/>
+<text x="565" y="165" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">← 전류</text>
+<text x="380.0" y="372" font-size="13" fill="#C00000" text-anchor="middle" font-weight="normal">같은 쪽 위·아래(S1·S3 또는 S2·S4)가 동시에 켜지면 +V와 GND가 바로 이어져 단락(관통 전류)</text>
+<text x="380.0" y="392" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">→ 한쪽을 끄고 잠깐 기다렸다 다른 쪽을 켜는 데드 타임을 둔다</text>
+</svg>

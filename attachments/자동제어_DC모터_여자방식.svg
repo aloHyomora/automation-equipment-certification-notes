@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="960" height="330" fill="white"/>
+<text x="480.0" y="26" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">직류 전동기의 여자 방식 — 계자 코일(F)을 전기자(A)와 어떻게 잇느냐</text>
+<rect x="10" y="42" width="225" height="275" rx="8" fill="none" stroke="#ccc"/>
+<text x="122" y="66" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">타여자</text>
+<line x1="50" y1="95" x2="100" y2="95" stroke="#222" stroke-width="2"/>
+<line x1="50" y1="235" x2="100" y2="235" stroke="#222" stroke-width="2"/>
+<line x1="50" y1="95" x2="50" y2="235" stroke="#222" stroke-width="2"/>
+<rect x="35" y="157" width="30" height="16" fill="white"/>
+<line x1="36" y1="159" x2="64" y2="159" stroke="#222" stroke-width="2.5"/>
+<line x1="43" y1="171" x2="57" y2="171" stroke="#222" stroke-width="4"/>
+<text x="28" y="170" font-size="13" fill="#222" text-anchor="end" font-weight="normal">V<tspan font-size='10' dy='4'>f</tspan></text>
+<text x="68" y="155" font-size="12" fill="#222" text-anchor="start" font-weight="normal">+</text>
+<line x1="100" y1="95" x2="100" y2="141" stroke="#222" stroke-width="2"/>
+<path d="M100,141 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12" fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="100" y1="189" x2="100" y2="235" stroke="#222" stroke-width="2"/>
+<text x="82" y="170" font-size="14" fill="#2F5597" text-anchor="middle" font-weight="bold">F</text>
+<line x1="150" y1="95" x2="210" y2="95" stroke="#222" stroke-width="2"/>
+<line x1="150" y1="235" x2="210" y2="235" stroke="#222" stroke-width="2"/>
+<line x1="150" y1="95" x2="150" y2="235" stroke="#222" stroke-width="2"/>
+<rect x="135" y="157" width="30" height="16" fill="white"/>
+<line x1="136" y1="159" x2="164" y2="159" stroke="#222" stroke-width="2.5"/>
+<line x1="143" y1="171" x2="157" y2="171" stroke="#222" stroke-width="4"/>
+<text x="128" y="170" font-size="13" fill="#222" text-anchor="end" font-weight="normal">V</text>
+<text x="168" y="155" font-size="12" fill="#222" text-anchor="start" font-weight="normal">+</text>
+<line x1="210" y1="95" x2="210" y2="235" stroke="#222" stroke-width="2"/>
+<circle cx="210" cy="165" r="20" fill="white" stroke="#222" stroke-width="2"/>
+<rect x="204" y="138" width="12" height="7" fill="#555"/>
+<rect x="204" y="185" width="12" height="7" fill="#555"/>
+<text x="210" y="170" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<text x="122" y="268" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">계자 전원이 따로</text>
+<text x="122" y="292" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">정밀 속도 제어</text>
+<rect x="247" y="42" width="225" height="275" rx="8" fill="none" stroke="#ccc"/>
+<text x="359" y="66" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">분권</text>
+<line x1="282" y1="95" x2="282" y2="235" stroke="#222" stroke-width="2"/>
+<rect x="267" y="157" width="30" height="16" fill="white"/>
+<line x1="268" y1="159" x2="296" y2="159" stroke="#222" stroke-width="2.5"/>
+<line x1="275" y1="171" x2="289" y2="171" stroke="#222" stroke-width="4"/>
+<text x="260" y="170" font-size="13" fill="#222" text-anchor="end" font-weight="normal">V</text>
+<text x="300" y="155" font-size="12" fill="#222" text-anchor="start" font-weight="normal">+</text>
+<line x1="282" y1="235" x2="437" y2="235" stroke="#222" stroke-width="2"/>
+<line x1="437" y1="95" x2="437" y2="235" stroke="#222" stroke-width="2"/>
+<circle cx="437" cy="165" r="20" fill="white" stroke="#222" stroke-width="2"/>
+<rect x="431" y="138" width="12" height="7" fill="#555"/>
+<rect x="431" y="185" width="12" height="7" fill="#555"/>
+<text x="437" y="170" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<line x1="367" y1="95" x2="367" y2="141" stroke="#222" stroke-width="2"/>
+<path d="M367,141 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12" fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="367" y1="189" x2="367" y2="235" stroke="#222" stroke-width="2"/>
+<text x="392" y="170" font-size="14" fill="#2F5597" text-anchor="middle" font-weight="bold">F</text>
+<circle cx="367" cy="95" r="3" fill="#222"/><circle cx="367" cy="235" r="3" fill="#222"/>
+<line x1="282" y1="95" x2="437" y2="95" stroke="#222" stroke-width="2"/>
+<text x="359" y="268" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">F가 A와 병렬</text>
+<text x="359" y="292" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">부하 변해도 속도 거의 일정</text>
+<rect x="484" y="42" width="225" height="275" rx="8" fill="none" stroke="#ccc"/>
+<text x="596" y="66" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">직권</text>
+<line x1="519" y1="95" x2="519" y2="235" stroke="#222" stroke-width="2"/>
+<rect x="504" y="157" width="30" height="16" fill="white"/>
+<line x1="505" y1="159" x2="533" y2="159" stroke="#222" stroke-width="2.5"/>
+<line x1="512" y1="171" x2="526" y2="171" stroke="#222" stroke-width="4"/>
+<text x="497" y="170" font-size="13" fill="#222" text-anchor="end" font-weight="normal">V</text>
+<text x="537" y="155" font-size="12" fill="#222" text-anchor="start" font-weight="normal">+</text>
+<line x1="519" y1="235" x2="674" y2="235" stroke="#222" stroke-width="2"/>
+<line x1="674" y1="95" x2="674" y2="235" stroke="#222" stroke-width="2"/>
+<circle cx="674" cy="165" r="20" fill="white" stroke="#222" stroke-width="2"/>
+<rect x="668" y="138" width="12" height="7" fill="#555"/>
+<rect x="668" y="185" width="12" height="7" fill="#555"/>
+<text x="674" y="170" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<line x1="519" y1="95" x2="542" y2="95" stroke="#222" stroke-width="2"/>
+<path d="M542,95 a6,6 0 0 1 12,0 a6,6 0 0 1 12,0 a6,6 0 0 1 12,0 a6,6 0 0 1 12,0" fill="none" stroke="#C00000" stroke-width="2.5"/>
+<line x1="590" y1="95" x2="674" y2="95" stroke="#222" stroke-width="2"/>
+<text x="566" y="81" font-size="14" fill="#C00000" text-anchor="middle" font-weight="bold">F</text>
+<text x="596" y="268" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">F가 A와 직렬</text>
+<text x="596" y="292" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">기동 토크 최대 · 무부하 위험</text>
+<rect x="721" y="42" width="225" height="275" rx="8" fill="none" stroke="#ccc"/>
+<text x="833" y="66" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">복권 (가동)</text>
+<line x1="756" y1="95" x2="756" y2="235" stroke="#222" stroke-width="2"/>
+<rect x="741" y="157" width="30" height="16" fill="white"/>
+<line x1="742" y1="159" x2="770" y2="159" stroke="#222" stroke-width="2.5"/>
+<line x1="749" y1="171" x2="763" y2="171" stroke="#222" stroke-width="4"/>
+<text x="734" y="170" font-size="13" fill="#222" text-anchor="end" font-weight="normal">V</text>
+<text x="774" y="155" font-size="12" fill="#222" text-anchor="start" font-weight="normal">+</text>
+<line x1="756" y1="235" x2="911" y2="235" stroke="#222" stroke-width="2"/>
+<line x1="911" y1="95" x2="911" y2="235" stroke="#222" stroke-width="2"/>
+<circle cx="911" cy="165" r="20" fill="white" stroke="#222" stroke-width="2"/>
+<rect x="905" y="138" width="12" height="7" fill="#555"/>
+<rect x="905" y="185" width="12" height="7" fill="#555"/>
+<text x="911" y="170" font-size="15" fill="#222" text-anchor="middle" font-weight="bold">A</text>
+<line x1="841" y1="95" x2="841" y2="141" stroke="#222" stroke-width="2"/>
+<path d="M841,141 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12 a6,6 0 0 1 0,12" fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="841" y1="189" x2="841" y2="235" stroke="#222" stroke-width="2"/>
+<text x="866" y="170" font-size="14" fill="#2F5597" text-anchor="middle" font-weight="bold">F</text>
+<circle cx="841" cy="95" r="3" fill="#222"/><circle cx="841" cy="235" r="3" fill="#222"/>
+<line x1="756" y1="95" x2="779" y2="95" stroke="#222" stroke-width="2"/>
+<path d="M779,95 a6,6 0 0 1 12,0 a6,6 0 0 1 12,0 a6,6 0 0 1 12,0 a6,6 0 0 1 12,0" fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="827" y1="95" x2="911" y2="95" stroke="#222" stroke-width="2"/>
+<text x="803" y="81" font-size="14" fill="#2F5597" text-anchor="middle" font-weight="bold">F</text>
+<text x="833" y="268" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">직렬 F + 병렬 F</text>
+<text x="833" y="292" font-size="13" fill="#222" text-anchor="middle" font-weight="bold">토크 크고 무부하에도 안전</text>
+</svg>

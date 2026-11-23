@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="465" viewBox="0 0 760 465" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="465" fill="white"/>
+<text x="380.0" y="28" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">스테핑 모터 토크–펄스 속도 특성 (풀인 · 풀아웃)</text>
+<line x1="90" y1="370" x2="700" y2="370" stroke="#222" stroke-width="2"/>
+<line x1="90" y1="370" x2="90" y2="60" stroke="#222" stroke-width="2"/>
+<polygon points="700,370 690,365 690,375" fill="#222"/><polygon points="90,60 85,70 95,70" fill="#222"/>
+<text x="700" y="414" font-size="13" fill="#222" text-anchor="end" font-weight="normal">펄스 속도 [pps] (∝ 회전 속도) →</text>
+<text x="80" y="52" font-size="13" fill="#222" text-anchor="start" font-weight="normal">토크</text>
+<path d="M90,175 C200,180 300,230 360,290 S395,355 400,370 L90,370 Z" fill="#2F5597" fill-opacity="0.18" stroke="none"/>
+<path d="M90,125 C260,128 470,160 560,250 S630,350 645,370 L400,370 " fill="none" stroke="none"/>
+<path d="M90,125 C260,128 470,160 560,250 S630,350 645,370" fill="none" stroke="#C00000" stroke-width="3"/>
+<path d="M90,175 C200,180 300,230 360,290 S395,355 400,370" fill="none" stroke="#2F5597" stroke-width="3"/>
+<line x1="90" y1="95" x2="130" y2="95" stroke="#555" stroke-width="1.5" stroke-dasharray="5,4"/>
+<circle cx="90" cy="95" r="5" fill="#222"/>
+<text x="136" y="99" font-size="13" fill="#222" text-anchor="start" font-weight="normal">유지(홀딩) 토크 — 정지 상태에서 여자된 채 버팀</text>
+<text x="470" y="150" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">풀아웃 토크 곡선</text>
+<text x="150" y="165" font-size="14" fill="#2F5597" text-anchor="start" font-weight="bold">풀인 토크 곡선</text>
+<text x="215" y="300" font-size="15" fill="#2F5597" text-anchor="middle" font-weight="bold">자기 기동 영역</text>
+<text x="215" y="322" font-size="12" fill="#2F5597" text-anchor="middle" font-weight="normal">(풀인 · 가속 없이 바로 기동·정지)</text>
+<text x="490" y="300" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">슬루 영역</text>
+<text x="490" y="322" font-size="12" fill="#C00000" text-anchor="middle" font-weight="normal">(풀아웃 · 가감속하면 사용)</text>
+<text x="400" y="390" font-size="12" fill="#2F5597" text-anchor="middle" font-weight="normal">최대 자기 기동 주파수</text>
+<text x="645" y="390" font-size="12" fill="#C00000" text-anchor="middle" font-weight="normal">최대 연속 응답 주파수</text>
+<text x="380.0" y="450" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">곡선 밖(부하 토크가 곡선보다 큼)에서는 탈조 — 개루프라 스스로 알아채지 못한다</text>
+</svg>

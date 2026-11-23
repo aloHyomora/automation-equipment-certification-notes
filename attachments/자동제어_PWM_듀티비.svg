@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="410" viewBox="0 0 760 410" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="410" fill="white"/>
+<text x="380.0" y="28" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">PWM: 듀티비 D로 평균 전압을 바꾼다 (V_avg = V × D)</text>
+<text x="20" y="100" font-size="15" fill="#2F5597" text-anchor="start" font-weight="bold">D = 25 %</text>
+<text x="20" y="122" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">평균 6 V</text>
+<path d="M150,140 L150,70 L187.5,70 L187.5,140 L300,140 L300,70 L337.5,70 L337.5,140 L450,140 L450,70 L487.5,70 L487.5,140 L600,140 L600,70 L637.5,70 L637.5,140 L750,140 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="150" y1="122.5" x2="750" y2="122.5" stroke="#C00000" stroke-width="2" stroke-dasharray="8,5"/>
+<line x1="150" y1="140" x2="750" y2="140" stroke="#bbb" stroke-width="1"/>
+<text x="20" y="205" font-size="15" fill="#2F5597" text-anchor="start" font-weight="bold">D = 50 %</text>
+<text x="20" y="227" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">평균 12 V</text>
+<path d="M150,245 L150,175 L225.0,175 L225.0,245 L300,245 L300,175 L375.0,175 L375.0,245 L450,245 L450,175 L525.0,175 L525.0,245 L600,245 L600,175 L675.0,175 L675.0,245 L750,245 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="150" y1="210.0" x2="750" y2="210.0" stroke="#C00000" stroke-width="2" stroke-dasharray="8,5"/>
+<line x1="150" y1="245" x2="750" y2="245" stroke="#bbb" stroke-width="1"/>
+<text x="20" y="310" font-size="15" fill="#2F5597" text-anchor="start" font-weight="bold">D = 75 %</text>
+<text x="20" y="332" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">평균 18 V</text>
+<path d="M150,350 L150,280 L262.5,280 L262.5,350 L300,350 L300,280 L412.5,280 L412.5,350 L450,350 L450,280 L562.5,280 L562.5,350 L600,350 L600,280 L712.5,280 L712.5,350 L750,350 " fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<line x1="150" y1="297.5" x2="750" y2="297.5" stroke="#C00000" stroke-width="2" stroke-dasharray="8,5"/>
+<line x1="150" y1="350" x2="750" y2="350" stroke="#bbb" stroke-width="1"/>
+<text x="144" y="74" font-size="11" fill="#555" text-anchor="end" font-weight="normal">24 V</text>
+<text x="144" y="144" font-size="11" fill="#555" text-anchor="end" font-weight="normal">0 V</text>
+<line x1="150" y1="382" x2="300" y2="382" stroke="#222" stroke-width="1.5"/>
+<line x1="150" y1="376" x2="150" y2="388" stroke="#222" stroke-width="1.5"/>
+<line x1="300" y1="376" x2="300" y2="388" stroke="#222" stroke-width="1.5"/>
+<text x="310" y="387" font-size="13" fill="#222" text-anchor="start" font-weight="normal">주기 T 는 같고 ON 시간만 바뀐다. 빨간 점선 = 평균 전압 (24 V 전원 예)</text>
+</svg>

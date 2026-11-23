@@ -665,5 +665,40 @@
   "license": "Public domain",
   "licurl": null,
   "artist": "Original work: Unknown Altered work: Chetvorno"
+ },
+ "자동제어_정류자_브러시.webp": {
+  "title": "Commutator and brushes DC motor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Commutator_and_brushes_DC_motor.jpg",
+  "license": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0",
+  "artist": "Christian Kral"
+ },
+ "자동제어_BLDC_고정자.webp": {
+  "title": "Stator of a brushless DC motor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Stator_of_a_brushless_DC_motor.jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "No machine-readable author provided. Xmastree~commonswiki assumed (based on copyright claims)."
+ },
+ "자동제어_스테핑_회전자.webp": {
+  "title": "Stepper motor rotor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Stepper_motor_rotor.jpg",
+  "license": "CC BY 3.0",
+  "licurl": "https://creativecommons.org/licenses/by/3.0",
+  "artist": "Dolly1010"
+ },
+ "자동제어_스테핑_드라이버.webp": {
+  "title": "28BYJ-48 unipolar stepper motor with ULN2003 driver.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:28BYJ-48_unipolar_stepper_motor_with_ULN2003_driver.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Kushagra Keshari"
+ },
+ "자동제어_스테핑_VR형.webp": {
+  "title": "Motore a riluttanza magnetica variabile.gif",
+  "page": "https://commons.wikimedia.org/wiki/File:Motore_a_riluttanza_magnetica_variabile.gif",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Carmelo 1955"
  }
 }

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="470" viewBox="0 0 680 470" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="680" height="470" fill="white"/>
+<defs><marker id="ar" markerWidth="14" markerHeight="14" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#C00000"/></marker><marker id="ag" markerWidth="14" markerHeight="14" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#888"/></marker></defs>
+<text x="340.0" y="28" font-size="17" fill="#222" text-anchor="middle" font-weight="bold">DC 모터의 원리 — 자속 속 전류에 힘(F = BIL), 정류자가 방향을 유지</text>
+<rect x="40" y="75" width="90" height="230" rx="6" fill="#C00000"/><text x="85" y="204" font-size="40" fill="white" text-anchor="middle" font-weight="bold">N</text>
+<rect x="550" y="75" width="90" height="230" rx="6" fill="#2F5597"/><text x="595" y="204" font-size="40" fill="white" text-anchor="middle" font-weight="bold">S</text>
+<line x1="135" y1="125" x2="543" y2="125" stroke="#888" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#ag)"/>
+<line x1="135" y1="190" x2="543" y2="190" stroke="#888" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#ag)"/>
+<line x1="135" y1="255" x2="543" y2="255" stroke="#888" stroke-width="1.5" stroke-dasharray="7,5" marker-end="url(#ag)"/>
+<circle cx="340" cy="190" r="95" fill="#ddd" fill-opacity="0.55" stroke="#555" stroke-width="2"/>
+<text x="340" y="160" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">전기자(회전자)</text>
+<circle cx="245" cy="190" r="14" fill="white" stroke="#222" stroke-width="2"/><line x1="235" y1="180" x2="255" y2="200" stroke="#222" stroke-width="2" />
+<line x1="255" y1="180" x2="235" y2="200" stroke="#222" stroke-width="2" />
+<circle cx="435" cy="190" r="14" fill="white" stroke="#222" stroke-width="2"/><circle cx="435" cy="190" r="4" fill="#222"/>
+<line x1="245" y1="208" x2="245" y2="268" stroke="#C00000" stroke-width="4" marker-end="url(#ar)"/>
+<text x="262" y="260" font-size="16" fill="#C00000" text-anchor="start" font-weight="bold">F</text>
+<line x1="435" y1="172" x2="435" y2="112" stroke="#C00000" stroke-width="4" marker-end="url(#ar)"/>
+<text x="452" y="128" font-size="16" fill="#C00000" text-anchor="start" font-weight="bold">F</text>
+<path d="M461.2,120.0 A140,140 0 0 0 218.8,120.0" fill="none" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="340" y="80" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">회전 방향</text>
+<text x="85" y="325" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">계자 (고정자)</text>
+<text x="595" y="325" font-size="13" fill="#555" text-anchor="middle" font-weight="normal">계자 (고정자)</text>
+<text x="340" y="330" font-size="13" fill="#222" text-anchor="middle" font-weight="normal">자속 Φ: N → S (점선)   전류 I: ⊗ 들어감 · ⊙ 나옴</text>
+<path d="M116,384 A26,26 0 0 0 116,436" fill="none" stroke="#B87333" stroke-width="9"/>
+<path d="M124,384 A26,26 0 0 1 124,436" fill="none" stroke="#B87333" stroke-width="9"/>
+<rect x="70" y="402" width="18" height="16" fill="#555"/><text x="62" y="416" font-size="16" fill="#C00000" text-anchor="end" font-weight="bold">+</text>
+<rect x="152" y="402" width="18" height="16" fill="#555"/><text x="178" y="416" font-size="16" fill="#2F5597" text-anchor="start" font-weight="bold">−</text>
+<text x="120" y="458" font-size="12" fill="#555" text-anchor="middle" font-weight="normal">정류자(구리 편) + 브러시</text>
+<text x="200" y="400" font-size="13" fill="#222" text-anchor="start" font-weight="normal">코일이 반 바퀴 돌 때마다 브러시가 닿는 정류자 편이 바뀌어</text>
+<text x="200" y="422" font-size="13" fill="#222" text-anchor="start" font-weight="normal">코일 전류 방향이 뒤집힌다 → 토크가 늘 같은 방향 (역회전은 전원 극성 반대로)</text>
+</svg>
