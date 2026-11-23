@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="b" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#2F5597"/></marker>
+<marker id="r" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#C00000"/></marker>
+<marker id="k" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#333"/></marker>
+</defs>
+<rect width="760" height="380" fill="#ffffff"/>
+<text x="380" y="28" font-size="17" font-weight="bold" fill="#2F5597" text-anchor="middle">응차 거리(히스테리시스): 켜지는 거리 ≠ 꺼지는 거리</text>
+
+<!-- axes -->
+<line x1="110" y1="260" x2="700" y2="260" stroke="#333" stroke-width="2" marker-end="url(#k)"/>
+<line x1="110" y1="260" x2="110" y2="70" stroke="#333" stroke-width="2" marker-end="url(#k)"/>
+<text x="700" y="285" font-size="12" fill="#333" text-anchor="end">검출면에서 검출체까지 거리 →</text>
+<text x="100" y="64" font-size="12" fill="#333" text-anchor="end">출력</text>
+<text x="100" y="124" font-size="12" fill="#333" text-anchor="end">ON</text>
+<text x="100" y="264" font-size="12" fill="#333" text-anchor="end">OFF</text>
+<text x="110" y="282" font-size="11" fill="#333" text-anchor="middle">0</text>
+
+<!-- approach path (blue): from far OFF to 동작거리 then ON -->
+<line x1="660" y1="250" x2="340" y2="250" stroke="#2F5597" stroke-width="3" marker-end="url(#b)"/>
+<line x1="330" y1="250" x2="330" y2="130" stroke="#2F5597" stroke-width="3" marker-end="url(#b)"/>
+<line x1="330" y1="120" x2="140" y2="120" stroke="#2F5597" stroke-width="3" marker-end="url(#b)"/>
+<text x="520" y="242" font-size="12" fill="#2F5597" text-anchor="middle">다가올 때 (OFF 유지)</text>
+
+<!-- departure path (red): from near ON to 복귀거리 then OFF -->
+<line x1="140" y1="108" x2="410" y2="108" stroke="#C00000" stroke-width="3" marker-end="url(#r)"/>
+<line x1="420" y1="108" x2="420" y2="228" stroke="#C00000" stroke-width="3" marker-end="url(#r)"/>
+<text x="270" y="98" font-size="12" fill="#C00000" text-anchor="middle">멀어질 때 (ON 유지)</text>
+
+<!-- distance marks -->
+<line x1="330" y1="260" x2="330" y2="300" stroke="#2F5597" stroke-dasharray="3 3"/>
+<line x1="420" y1="260" x2="420" y2="300" stroke="#C00000" stroke-dasharray="3 3"/>
+<text x="330" y="316" font-size="13" font-weight="bold" fill="#2F5597" text-anchor="middle">동작 거리</text>
+<text x="330" y="333" font-size="11" fill="#2F5597" text-anchor="middle">(예: 4.0 mm에서 ON)</text>
+<text x="440" y="316" font-size="13" font-weight="bold" fill="#C00000" text-anchor="start">복귀 거리</text>
+<text x="440" y="333" font-size="11" fill="#C00000" text-anchor="start">(예: 4.4 mm에서 OFF)</text>
+<rect x="330" y="160" width="90" height="50" fill="#FBE5E5" stroke="none" opacity="0.7"/>
+<text x="375" y="182" font-size="13" font-weight="bold" fill="#C00000" text-anchor="middle">응차</text>
+<text x="375" y="200" font-size="11" fill="#C00000" text-anchor="middle">0.4 mm</text>
+
+<text x="380" y="362" font-size="13" fill="#333" text-anchor="middle">경계 근처에서 검출체가 조금 흔들려도 출력이 ON/OFF를 반복(채터링)하지 않는다</text>
+</svg>

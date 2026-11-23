@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="r" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#C00000"/></marker>
+</defs>
+<rect width="760" height="330" fill="#ffffff"/>
+<text x="380" y="28" font-size="17" font-weight="bold" fill="#2F5597" text-anchor="middle">포토 인터럽터(대향) vs 포토 리플렉터(반사)</text>
+
+<!-- Photo interrupter: U shape -->
+<text x="190" y="62" font-size="15" font-weight="bold" fill="#2F5597" text-anchor="middle">포토 인터럽터</text>
+<path d="M60,90 L120,90 L120,200 L260,200 L260,90 L320,90 L320,250 L60,250 Z" fill="#595959" stroke="#333" stroke-width="2"/>
+<rect x="95" y="125" width="25" height="40" fill="#FBE5E5" stroke="#C00000" stroke-width="1.5"/>
+<text x="78" y="150" font-size="11" fill="#ffffff" text-anchor="middle">LED</text>
+<rect x="260" y="125" width="25" height="40" fill="#DEEBF7" stroke="#2F5597" stroke-width="1.5"/>
+<text x="302" y="150" font-size="11" fill="#ffffff" text-anchor="middle">수광</text>
+<line x1="122" y1="145" x2="256" y2="145" stroke="#C00000" stroke-width="2.5" marker-end="url(#r)"/>
+<!-- slotted disk edge passing through the slot -->
+<rect x="178" y="80" width="22" height="112" fill="#BFBFBF" stroke="#595959" stroke-width="1.5" opacity="0.9"/>
+<rect x="178" y="134" width="22" height="22" fill="#ffffff" stroke="#595959" stroke-width="1.5"/>
+<text x="206" y="104" font-size="11" fill="#333">슬릿 원판</text>
+<text x="190" y="275" font-size="12" fill="#333" text-anchor="middle">ㄷ자 홈 양쪽에서 <tspan font-weight="bold">마주 봄</tspan></text>
+<text x="190" y="293" font-size="12" fill="#333" text-anchor="middle">물체(원판 살)가 홈을 지나며 빛을 가림</text>
+<text x="190" y="311" font-size="12" fill="#C00000" text-anchor="middle">→ 회전수 계수, 원점·위치 검출</text>
+
+<line x1="380" y1="50" x2="380" y2="315" stroke="#D9D9D9"/>
+
+<!-- Photo reflector -->
+<text x="570" y="62" font-size="15" font-weight="bold" fill="#2F5597" text-anchor="middle">포토 리플렉터</text>
+<rect x="470" y="200" width="200" height="50" fill="#595959" stroke="#333" stroke-width="2"/>
+<rect x="500" y="185" width="40" height="20" fill="#FBE5E5" stroke="#C00000" stroke-width="1.5"/>
+<text x="520" y="232" font-size="11" fill="#ffffff" text-anchor="middle">LED</text>
+<rect x="600" y="185" width="40" height="20" fill="#DEEBF7" stroke="#2F5597" stroke-width="1.5"/>
+<text x="620" y="232" font-size="11" fill="#ffffff" text-anchor="middle">수광</text>
+<rect x="460" y="90" width="220" height="22" fill="#BFBFBF" stroke="#595959" stroke-width="1.5"/>
+<rect x="470" y="90" width="45" height="22" fill="#262626"/>
+<text x="570" y="84" font-size="11" fill="#333" text-anchor="middle">검출 면 (왼쪽 검은 마크는 반사가 적어 OFF)</text>
+<line x1="520" y1="183" x2="566" y2="116" stroke="#C00000" stroke-width="2.5" marker-end="url(#r)"/>
+<line x1="574" y1="116" x2="618" y2="181" stroke="#C00000" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#r)"/>
+<text x="570" y="275" font-size="12" fill="#333" text-anchor="middle">발광·수광이 <tspan font-weight="bold">같은 방향</tspan>을 봄</text>
+<text x="570" y="293" font-size="12" fill="#333" text-anchor="middle">앞 물체에서 반사된 빛을 받아 검출</text>
+<text x="570" y="311" font-size="12" fill="#C00000" text-anchor="middle">→ 근거리 물체·마크 검출</text>
+</svg>

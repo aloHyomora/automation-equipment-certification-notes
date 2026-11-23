@@ -567,5 +567,61 @@
   "license": "Public domain",
   "licurl": null,
   "artist": "Baran Ivo"
+ },
+ "자동제어_유도형_근접스위치.webp": {
+  "title": "Pepperl+Fuchs inductive proximity switch 3RG4113-3AG33-PF.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pepperl%2BFuchs_inductive_proximity_switch_3RG4113-3AG33-PF.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Lucasbosch"
+ },
+ "자동제어_정전용량형_근접스위치.webp": {
+  "title": "Capacitiv Proximity Switch.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Capacitiv_Proximity_Switch.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": ""
+ },
+ "자동제어_리밋스위치.webp": {
+  "title": "Limit Switches.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Limit_Switches.JPG",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Mixabest"
+ },
+ "자동제어_마이크로스위치.webp": {
+  "title": "Z-15GQ22-B Switch MADE IN INDONESIA.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Z-15GQ22-B_Switch_MADE_IN_INDONESIA.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Helar Lukats"
+ },
+ "자동제어_리드스위치.webp": {
+  "title": "Reed switch (aka).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Reed_switch_(aka).jpg",
+  "license": "CC BY-SA 2.5",
+  "licurl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "artist": "André Karwath aka Aka"
+ },
+ "자동제어_초음파센서.webp": {
+  "title": "HC SR04 Ultrasonic Module.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:HC_SR04_Ultrasonic_Module.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Suyash Dwivedi"
+ },
+ "자동제어_CdS셀.webp": {
+  "title": "25mm light-dependent resistor (LDR) (1).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:25mm_light-dependent_resistor_(LDR)_(1).jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Suyash Dwivedi"
+ },
+ "자동제어_광전센서_회귀반사형.webp": {
+  "title": "SICK WL12G-3B2531 Photoelectric reflex switch angled1.png",
+  "page": "https://commons.wikimedia.org/wiki/File:SICK_WL12G-3B2531_Photoelectric_reflex_switch_angled1.png",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Lucasbosch"
  }
 }
