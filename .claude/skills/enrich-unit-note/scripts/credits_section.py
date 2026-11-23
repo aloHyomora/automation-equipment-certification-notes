@@ -25,13 +25,22 @@ for f in EMBED.findall(t):
         used.append(f)
 
 rows = ["### 그림 출처", "",
-        "모두 위키미디어 공용(Wikimedia Commons) 자료이고, 노트에 맞게 크기를 줄이고 WebP로 변환했다.", "",
-        "| 그림 | 작성자 | 라이선스 |", "| --- | --- | --- |"]
+        "위키미디어 공용(Wikimedia Commons)과 Openverse에서 가져온 공개 라이선스 자료이고, 노트에 맞게 크기를 줄이고 WebP로 변환했다.", "",
+        "| 그림 | 작성자 | 라이선스 | 출처 |", "| --- | --- | --- | --- |"]
 for f in used:
     c = cred[f]
     lic = f"[{c['license']}]({c['licurl']})" if c.get("licurl") and "BY" in c["license"] else c["license"]
     lic = lic.replace("Public domain", "퍼블릭 도메인")
-    rows.append(f"| [{c['title'].rsplit('.', 1)[0]}]({c['page']}) | {c['artist']} | {lic} |")
+    title = re.sub(r"\.(svg|png|jpe?g|gif|tiff?|webp)$", "", c["title"], flags=re.I)
+    src = c.get("source", "Wikimedia Commons")
+    rows.append(f"| [{title}]({c['page']}) | {c['artist']} | {lic} | {src} |")
+own = []
+for f in re.findall(r"\.\./attachments/([^)|]+?\.svg)", t):
+    name = f.rstrip("\\").rsplit(".", 1)[0].split("_", 1)[-1].replace("_", " ")
+    if name not in own:
+        own.append(name)
+if own:
+    rows += ["", "직접 그린 그림(SVG, 이 볼트용으로 새로 작성): " + ", ".join(own) + "."]
 block = "## 참고\n\n" + "\n".join(rows) + "\n\n"
 
 anchor = "## 수신 기록"

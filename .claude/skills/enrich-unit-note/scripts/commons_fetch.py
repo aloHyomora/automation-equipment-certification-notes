@@ -102,7 +102,11 @@ def main():
             license=m.get("LicenseShortName", {}).get("value", "?"),
             licurl=m.get("LicenseUrl", {}).get("value"),
             artist=re.sub(r"<[^>]+>", "", m.get("Artist", {}).get("value", "")).strip().replace("\n", " "))
-        cache.write_text(json.dumps(credits, ensure_ascii=False, indent=1), encoding="utf-8")
+        # merge with the file on disk so a parallel openverse_fetch run is not overwritten
+        on_disk = json.loads(cache.read_text(encoding="utf-8")) if cache.exists() else {}
+        on_disk.update({out.name: credits[out.name]})
+        credits.update(on_disk)
+        cache.write_text(json.dumps(on_disk, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"saved {out}  {out.stat().st_size // 1024} KB  [{credits[out.name]['license']}]", flush=True)
 
     print("\n| 그림 | 작성자 | 라이선스 |\n| --- | --- | --- |")

@@ -25,7 +25,15 @@ python -I .claude/skills/enrich-unit-note/scripts/loss_check.py 30_공유압/공
 - **절 제목만 걸림** (예: `## 개념 정리`가 번호 붙은 절로 바뀜) → 새 구조로 대체된 것이라 괜찮다.
 - **본문 문장이 걸림** → 표현을 바꿨더라도 원래 문장을 그대로 되살린다. 실제로 처음 보강 때 보일 법칙 계산 예의 식이 빠진 것을 이 검사로 찾았다.
 
-파이썬 문자열로 수식을 치환할 때는 `\nu`, `\theta` 같은 LaTeX가 줄바꿈·탭으로 바뀌지 않게 raw 문자열(`r"..."`)이나 Edit 도구를 쓴다.
+파이썬 문자열로 수식을 치환할 때는 `\nu`, `\theta` 같은 LaTeX가 줄바꿈·탭으로 바뀌지 않게 raw 문자열(`r"..."`)이나 Edit 도구를 쓴다. 셸 heredoc(`<<'EOF'`)으로 넘긴 파이썬 코드는 `\\`가 `\`로 줄어들 수 있으니, 백슬래시가 들어간 코드(LaTeX·정규식)는 Write 도구로 파일을 만든 뒤 실행한다.
+
+### 긴 문서·여러 절을 보강할 때
+절 단위 추가 내용은 `=== NN` 구분자로 나눈 Markdown 파일에 쓰고, 각 절 제목 바로 아래에 끼워 넣는 방식이 안전하다 (기존 본문은 그 아래에 그대로 남는다). 그림 다운로드가 429로 늦어지면 **본문을 먼저 커밋·푸시**하고, 그림은 들어오는 대로 다음 커밋에 싣는다. 출처 표는 매번 다시 만든다:
+
+```powershell
+python -I .claude/skills/enrich-unit-note/scripts/credits_section.py 00_Inbox/교재_CH01.md
+```
+아직 안 받아진 그림 목록도 함께 알려 준다.
 
 ### 여러 노트를 맡았을 때 (예: "공유압 1~10 진행")
 
@@ -70,9 +78,31 @@ python -I .claude/skills/enrich-unit-note/scripts/loss_check.py 30_공유압/공
 ### 1. 그림이 필요한 자리 고르기
 절마다 "그림이 있으면 이해가 빨라지는가"로 판단한다. 원리도(유압 잭, 벤투리관), 실물 사진(압력계, 실린더, 베어링), 비교도(층류/난류), 애니메이션(보일 법칙)이 효과가 크다. 보통 노트 하나에 5~8장.
 
+### 그림 출처 우선순위 (하나가 막히면 다음으로)
+
+한 곳만 믿으면 그 서버가 막힐 때 작업 전체가 멈춘다. 아래 순서로 내려가되, 어느 단계든 **출처 페이지에서 라이선스를 확인할 수 있는 그림만** 쓴다.
+
+| 순서 | 출처 | 언제 | 도구 |
+| --- | --- | --- | --- |
+| 1 | 위키미디어 공용 | 기본. 원리도·SVG가 가장 많다 | `commons_search.py` → `commons_fetch.py` |
+| 2 | **Openverse** (위키미디어·Flickr·박물관·NASA 등 통합 검색) | 1에 맞는 그림이 없거나 **429가 계속될 때**. 자체 썸네일 서버를 거쳐서 위키미디어 제한을 피한다 | `openverse_search.py` → `openverse_fetch.py` |
+| 3 | 직접 그리기 | 1·2 모두 없거나, 있는 그림이 시험 정의와 다를 때 | SVG(아래 5번) 또는 Mermaid·표·코드 블록 |
+| 4 | 보류 | 위가 다 안 되면 그림 자리를 설명 상자로 바꾸고 최종 보고에 "그림 보류"로 남긴다 | — |
+
+- 라이선스는 어느 출처든 **CC0 / 퍼블릭 도메인 / CC BY / CC BY-SA** 만. NC(비영리)·ND(변경 금지)는 크기 변환·WebP 변환이 '변경'이라 쓰지 않는다.
+- **계정·API 키가 필요한 곳**(Pixabay, Unsplash API 등)은 키를 만들지 않는다. 사용자가 키를 직접 준비해 주면 그때 쓴다.
+- 구글 이미지 검색 결과, 블로그·쇼핑몰 사진, 교재·기출문제 이미지는 라이선스를 확인할 수 없으므로 쓰지 않는다.
+- **주의**: 위키미디어가 막혀 있을 때는 Openverse도 위키미디어에 올라간 파일은 못 가져온다(424 응답). 이때는 `openverse_search.py --no-wikimedia ...`로 Flickr·박물관 등 다른 곳의 사진만 찾고, 원리도·그래프는 바로 3번(직접 그리기)으로 간다. 실제로 CH01에서는 원리도 9장을 직접 그렸고, 한국어 시험 용어를 그림 안에 바로 쓸 수 있어 오히려 더 좋았다.
+- 두 fetch 스크립트는 같은 `attachments/.commons_credits.json`에 기록하고(저장 직전에 다시 읽어 합치므로 동시에 돌려도 안전), `credits_section.py`가 출처 열까지 포함한 표 하나로 만든다.
+
 ### 2. 검색
 ```powershell
 python -I .claude/skills/enrich-unit-note/scripts/commons_search.py "hydraulic jack principle" "venturi tube" "pneumatic cylinder"
+```
+위키미디어에서 안 나오면 같은 검색어로 Openverse를 찾는다:
+```powershell
+python -I .claude/skills/enrich-unit-note/scripts/openverse_search.py "relay coil contact" "optocoupler"
+python -I .claude/skills/enrich-unit-note/scripts/openverse_fetch.py --prefix 자동제어 "<openverse id>=릴레이_원리"
 ```
 - **영어 검색어**가 결과가 훨씬 많다. 원리도는 `svg`, `diagram`, `principle`을 붙이면 잘 나온다.
 - 위키미디어는 요청 속도 제한(HTTP 429)이 심하다. 검색어 여러 개를 **한 번에** 넘기고, 연달아 여러 번 호출하지 않는다. 스크립트가 알아서 기다렸다 재시도한다.
@@ -94,7 +124,12 @@ SVG로 그려 `attachments/<과목>_<이름>.svg`에 둔다 (예: `공유압_절
 - 흰 배경 `rect`를 깔아 Obsidian 어두운 테마에서도 보이게 한다.
 - 색은 과목 팔레트를 쓴다: 자동제어 `#2F5597`, 기계요소설계 `#548235`, 공유압 `#C55A11`, 강조 빨강 `#C00000`.
 - 글꼴은 `Malgun Gothic, Apple SD Gothic Neo, sans-serif`.
-- 브라우저 창에 띄워 **글자와 막대가 겹치지 않는지** 확인한다 (처음 그린 그림은 거의 항상 한두 군데 겹친다).
+- **반드시 렌더링해서 눈으로 본다.** 처음 그린 그림은 거의 항상 글자 겹침·오른쪽 잘림이 있다. 여러 장은 한 HTML에 모아 헤드리스 Edge로 PNG를 찍어 Read로 보면 빠르다 (브라우저 창이 숨겨져 있거나 볼트 밖 파일이라 열리지 않을 때도 된다):
+  ```powershell
+  & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --headless=new --disable-gpu --hide-scrollbars "--screenshot=<scratch>\gallery.png" --window-size=620,3400 "file:///<scratch>/gallery.html"
+  ```
+- **내용도 검증한다.** 겹침만 보지 말고 그림이 물리적으로 맞는지 본다. CH01 릴레이 그림은 처음에 지렛대 양 끝이 모두 내려가게 그려서, a접점(NO)을 위로 옮겨 고쳤다. 그래프는 본문 수치와 맞는 예제 값으로 그린다 (퍼지 25 ℃ → 0.7/0.3, 근궤적 극점 0·−2).
+- 출처 표의 "직접 그린 그림" 줄은 `credits_section.py`가 SVG 링크를 찾아 자동으로 만든다.
 
 ## 마무리 확인
 

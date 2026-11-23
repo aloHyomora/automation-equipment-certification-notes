@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="640" height="340" rx="16" fill="#fff"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9z" fill="#2F5597"/></marker></defs>
+  <circle cx="230" cy="170" r="110" fill="none" stroke="#2F5597" stroke-width="3"/>
+  <!-- direction arrows on ring -->
+  <path d="M 308 92 A 110 110 0 0 1 338 150" fill="none" stroke="#2F5597" stroke-width="3" marker-end="url(#a)"/>
+  <path d="M 152 248 A 110 110 0 0 1 122 190" fill="none" stroke="#2F5597" stroke-width="3" marker-end="url(#a)"/>
+  <!-- stations -->
+  <g font-size="15" font-weight="bold" text-anchor="middle">
+    <rect x="200" y="42" width="60" height="36" rx="8" fill="#FBE5E5" stroke="#C00000" stroke-width="2"/><text x="230" y="66" fill="#C00000">A</text>
+    <rect x="310" y="152" width="60" height="36" rx="8" fill="#EAF0FA" stroke="#2F5597"/><text x="340" y="176" fill="#222">B</text>
+    <rect x="200" y="262" width="60" height="36" rx="8" fill="#EAF0FA" stroke="#2F5597"/><text x="230" y="286" fill="#222">C</text>
+    <rect x="90" y="152" width="60" height="36" rx="8" fill="#EAF0FA" stroke="#2F5597"/><text x="120" y="176" fill="#222">D</text>
+  </g>
+  <!-- token -->
+  <circle cx="280" cy="52" r="12" fill="#C55A11"/>
+  <text x="298" y="40" font-size="13" fill="#C55A11" font-weight="bold">토큰</text>
+  <!-- legend -->
+  <text x="390" y="110" font-size="14" fill="#222">① 토큰이 링을 한 방향으로 돈다</text>
+  <text x="390" y="145" font-size="14" fill="#222">② 토큰을 잡은 장치(A)만 송신</text>
+  <text x="390" y="180" font-size="14" fill="#222">③ 다 보내면 토큰을 다음으로 넘김</text>
+  <text x="390" y="230" font-size="14" fill="#C00000" font-weight="bold">→ 동시에 보내는 일이 없어</text>
+  <text x="390" y="252" font-size="14" fill="#C00000" font-weight="bold">   충돌이 생기지 않는다</text>
+</svg>

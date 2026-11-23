@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="640" height="300" rx="16" fill="#fff"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9z" fill="#2F5597"/></marker>
+        <marker id="r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9z" fill="#C00000"/></marker></defs>
+  <!-- forward branches -->
+  <line x1="92" y1="120" x2="200" y2="120" stroke="#2F5597" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="232" y1="120" x2="380" y2="120" stroke="#2F5597" stroke-width="2.5" marker-end="url(#a)"/>
+  <line x1="412" y1="120" x2="530" y2="120" stroke="#2F5597" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="146" y="108" font-size="18" text-anchor="middle" fill="#2F5597" font-style="italic">a</text>
+  <text x="306" y="108" font-size="18" text-anchor="middle" fill="#2F5597" font-style="italic">b</text>
+  <text x="471" y="108" font-size="18" text-anchor="middle" fill="#2F5597" font-style="italic">c</text>
+  <!-- feedback branch x3 -> x2 -->
+  <path d="M 396 136 C 380 210, 240 210, 220 140" fill="none" stroke="#C00000" stroke-width="2.5" marker-end="url(#r)"/>
+  <text x="308" y="214" font-size="18" text-anchor="middle" fill="#C00000" font-style="italic">−d</text>
+  <!-- nodes -->
+  <g font-size="15" text-anchor="middle" fill="#222">
+    <circle cx="76" cy="120" r="14" fill="#fff" stroke="#222" stroke-width="2"/><text x="76" y="88">x₁ 입력</text>
+    <circle cx="216" cy="120" r="14" fill="#fff" stroke="#222" stroke-width="2"/><text x="216" y="88">x₂</text>
+    <circle cx="396" cy="120" r="14" fill="#fff" stroke="#222" stroke-width="2"/><text x="396" y="88">x₃</text>
+    <circle cx="546" cy="120" r="14" fill="#fff" stroke="#222" stroke-width="2"/><text x="546" y="88">x₄ 출력</text>
+  </g>
+  <!-- legend -->
+  <text x="30" y="250" font-size="13" fill="#222">○ 마디(신호)   → 가지(이득, 한 방향)   전향 경로 이득 P₁ = a·b·c (곱)</text>
+  <text x="30" y="274" font-size="13" fill="#222">루프 이득 L₁ = b·(−d) = −bd   →   M = P₁ / (1 − L₁) = abc / (1 + bd)</text>
+</svg>

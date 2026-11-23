@@ -131,5 +131,35 @@
   "license": "CC BY-SA 3.0",
   "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "artist": ""
+ },
+ "자동제어_AD_양자화.webp": {
+  "title": "Digital.signal.discret.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Digital.signal.discret.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Original:  Rbj (talk · contribs) Derivative work:  wdwd (talk · contribs)"
+ },
+ "자동제어_폰노이만.webp": {
+  "title": "VonNeumann-01.png",
+  "page": "https://commons.wikimedia.org/wiki/File:VonNeumann-01.png",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "TuuleT"
+ },
+ "자동제어_PLC_입출력모듈.webp": {
+  "title": "PLC Digital Input Output Module",
+  "page": "https://commons.wikimedia.org/w/index.php?curid=85230985",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "artist": "Raihan",
+  "source": "Openverse (wikimedia)"
+ },
+ "자동제어_포토커플러.webp": {
+  "title": "New CNY64ST and CNY65ST Series High Voltage Isolation Optocouplers",
+  "page": "https://www.flickr.com/photos/43093990@N05/6263689593",
+  "license": "CC BY 2.0",
+  "licurl": "https://creativecommons.org/licenses/by/2.0/",
+  "artist": "Vishay Intertechnology",
+  "source": "Openverse (flickr)"
  }
 }

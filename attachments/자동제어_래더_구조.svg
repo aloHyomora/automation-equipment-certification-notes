@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="640" height="320" rx="16" fill="#fff"/>
+  <!-- rails -->
+  <line x1="80" y1="40" x2="80" y2="250" stroke="#222" stroke-width="4"/>
+  <line x1="560" y1="40" x2="560" y2="250" stroke="#222" stroke-width="4"/>
+  <!-- rung 1: X0 (a) - X1 (b) - (Y0) -->
+  <line x1="80" y1="100" x2="160" y2="100" stroke="#222" stroke-width="2"/>
+  <line x1="160" y1="80" x2="160" y2="120" stroke="#2F5597" stroke-width="3"/><line x1="180" y1="80" x2="180" y2="120" stroke="#2F5597" stroke-width="3"/>
+  <line x1="180" y1="100" x2="280" y2="100" stroke="#222" stroke-width="2"/>
+  <line x1="280" y1="80" x2="280" y2="120" stroke="#C00000" stroke-width="3"/><line x1="300" y1="80" x2="300" y2="120" stroke="#C00000" stroke-width="3"/>
+  <line x1="274" y1="122" x2="306" y2="78" stroke="#C00000" stroke-width="2.5"/>
+  <line x1="300" y1="100" x2="455" y2="100" stroke="#222" stroke-width="2"/>
+  <path d="M465 80 Q 452 100 465 120" fill="none" stroke="#548235" stroke-width="3"/>
+  <path d="M485 80 Q 498 100 485 120" fill="none" stroke="#548235" stroke-width="3"/>
+  <line x1="495" y1="100" x2="560" y2="100" stroke="#222" stroke-width="2"/>
+  <text x="170" y="70" font-size="13" text-anchor="middle" fill="#2F5597">X0</text>
+  <text x="290" y="70" font-size="13" text-anchor="middle" fill="#C00000">X1</text>
+  <text x="475" y="70" font-size="13" text-anchor="middle" fill="#548235">Y0</text>
+  <!-- rung 2: X2 (a) - (Y1) -->
+  <line x1="80" y1="190" x2="160" y2="190" stroke="#222" stroke-width="2"/>
+  <line x1="160" y1="170" x2="160" y2="210" stroke="#2F5597" stroke-width="3"/><line x1="180" y1="170" x2="180" y2="210" stroke="#2F5597" stroke-width="3"/>
+  <line x1="180" y1="190" x2="455" y2="190" stroke="#222" stroke-width="2"/>
+  <path d="M465 170 Q 452 190 465 210" fill="none" stroke="#548235" stroke-width="3"/>
+  <path d="M485 170 Q 498 190 485 210" fill="none" stroke="#548235" stroke-width="3"/>
+  <line x1="495" y1="190" x2="560" y2="190" stroke="#222" stroke-width="2"/>
+  <text x="170" y="160" font-size="13" text-anchor="middle" fill="#2F5597">X2</text>
+  <text x="475" y="160" font-size="13" text-anchor="middle" fill="#548235">Y1</text>
+  <!-- labels -->
+  <text x="80" y="275" font-size="13" text-anchor="middle" fill="#222">왼쪽 모선</text>
+  <text x="560" y="275" font-size="13" text-anchor="middle" fill="#222">오른쪽 모선</text>
+  <text x="170" y="236" font-size="12" text-anchor="middle" fill="#2F5597">a접점 ┤ ├</text>
+  <text x="290" y="148" font-size="12" text-anchor="middle" fill="#C00000">b접점 ┤/├</text>
+  <text x="475" y="236" font-size="12" text-anchor="middle" fill="#548235">코일 ( ) — 오른쪽 끝</text>
+  <text x="320" y="305" font-size="13" text-anchor="middle" fill="#222">가로줄 하나가 렁(rung). 위 렁부터 아래로, 왼쪽에서 오른쪽으로 읽는다: Y0 = X0 AND (NOT X1)</text>
+</svg>

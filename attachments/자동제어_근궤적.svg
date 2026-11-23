@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="640" height="390" rx="16" fill="#fff"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1L9 5L1 9z" fill="#C00000"/></marker>
+        <marker id="ax" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9z" fill="#444"/></marker></defs>
+  <!-- sigma = 0 at x=400, 1 unit = 80 px; real axis at y=175 -->
+  <rect x="40" y="30" width="360" height="290" fill="#EEF5E9"/>
+  <text x="56" y="54" font-size="14" fill="#548235" font-weight="bold">안정 영역 (좌반면)</text>
+  <text x="456" y="86" font-size="14" fill="#C00000" font-weight="bold">불안정 영역</text>
+  <text x="456" y="104" font-size="14" fill="#C00000" font-weight="bold">(우반면)</text>
+  <!-- axes -->
+  <line x1="40" y1="175" x2="590" y2="175" stroke="#444" stroke-width="1.5" marker-end="url(#ax)"/>
+  <line x1="400" y1="320" x2="400" y2="34" stroke="#444" stroke-width="1.5" marker-end="url(#ax)"/>
+  <text x="575" y="198" font-size="15" fill="#444">σ</text>
+  <text x="410" y="46" font-size="15" fill="#444">jω</text>
+  <g font-size="12" fill="#444" text-anchor="middle"><text x="410" y="196">0</text><text x="306" y="196">−1</text><text x="240" y="160">−2</text></g>
+  <!-- locus on real axis: from both poles toward breakaway at -1 -->
+  <line x1="397" y1="175" x2="330" y2="175" stroke="#C00000" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="243" y1="175" x2="310" y2="175" stroke="#C00000" stroke-width="4" marker-end="url(#a)"/>
+  <!-- branches at sigma = -1 -->
+  <line x1="320" y1="168" x2="320" y2="50" stroke="#C00000" stroke-width="4" marker-end="url(#a)"/>
+  <line x1="320" y1="182" x2="320" y2="300" stroke="#C00000" stroke-width="4" marker-end="url(#a)"/>
+  <!-- poles -->
+  <g stroke="#2F5597" stroke-width="3.5">
+    <line x1="391" y1="166" x2="409" y2="184"/><line x1="409" y1="166" x2="391" y2="184"/>
+    <line x1="231" y1="166" x2="249" y2="184"/><line x1="249" y1="166" x2="231" y2="184"/>
+  </g>
+  <text x="400" y="222" font-size="12" text-anchor="middle" fill="#2F5597">극점 s = 0</text>
+  <text x="240" y="222" font-size="12" text-anchor="middle" fill="#2F5597">극점 s = −2</text>
+  <text x="330" y="245" font-size="12" fill="#C00000">이탈점 s = −1</text>
+  <text x="330" y="96" font-size="13" fill="#C00000">K가 커지면</text>
+  <text x="330" y="114" font-size="13" fill="#C00000">위·아래로 갈라짐</text>
+  <!-- caption -->
+  <text x="40" y="350" font-size="13" fill="#222">예: G(s)H(s) = K / s(s+2). 두 극점에서 출발해 −1에서 만난 뒤 위아래로 뻗는다.</text>
+  <text x="40" y="372" font-size="13" fill="#222">궤적이 끝까지 좌반면에 있으므로 <tspan font-weight="bold" fill="#548235">모든 K &gt; 0에서 안정</tspan>이다.</text>
+</svg>
