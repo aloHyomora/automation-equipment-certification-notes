@@ -189,5 +189,68 @@
   "license": "CC BY-SA 4.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "AnasBHX"
+ },
+ "자동제어_논리게이트.webp": {
+  "title": "LogicGates.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:LogicGates.svg",
+  "license": "CC BY 3.0",
+  "licurl": "https://creativecommons.org/licenses/by/3.0",
+  "artist": "User:Vaughan Pratt"
+ },
+ "자동제어_카르노맵.webp": {
+  "title": "Karnaugh map KV K-map 2.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Karnaugh_map_KV_K-map_2.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "RosarioVanTulpe"
+ },
+ "자동제어_전가산기.webp": {
+  "title": "Full Adder Modules.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Full_Adder_Modules.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "inductiveload"
+ },
+ "자동제어_멀티플렉서.webp": {
+  "title": "Multiplexer 4-to-1.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Multiplexer_4-to-1.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "en:User:Cburnett"
+ },
+ "자동제어_7세그먼트.webp": {
+  "title": "Common segment displays.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Common_segment_displays.svg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Errorage"
+ },
+ "자동제어_RS232_핀.webp": {
+  "title": "RS-232 Pinouts for the DE-9 Connector.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:RS-232_Pinouts_for_the_DE-9_Connector.svg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Rljacobson"
+ },
+ "자동제어_RS485_트랜시버.webp": {
+  "title": "RS-485 transceiver.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:RS-485_transceiver.svg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Lambtron"
+ },
+ "자동제어_OSI_통신.webp": {
+  "title": "OSI-model-Communication.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:OSI-model-Communication.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Runtux"
+ },
+ "자동제어_프로피버스_토폴로지.webp": {
+  "title": "Profibus-Topo.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Profibus-Topo.svg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Cabfdb"
  }
 }
