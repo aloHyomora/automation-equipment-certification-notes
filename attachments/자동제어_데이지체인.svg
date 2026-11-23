@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="640" height="300" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+  </defs>
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#2F5597">데이지 체인: CPU에 가까울수록 우선순위가 높다</text>
+
+  <rect x="20" y="110" width="90" height="70" rx="8" fill="#E8EEF8" stroke="#2F5597" stroke-width="2"/>
+  <text x="65" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F5597">CPU</text>
+
+  <rect x="170" y="110" width="110" height="70" rx="8" fill="#FCE4E4" stroke="#C00000" stroke-width="2"/>
+  <text x="225" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#C00000">장치 1</text>
+  <text x="225" y="162" text-anchor="middle" font-size="12" fill="#C00000">우선순위 높음</text>
+  <rect x="340" y="110" width="110" height="70" rx="8" fill="#F2F2F2" stroke="#666" stroke-width="1.5"/>
+  <text x="395" y="140" text-anchor="middle" font-size="14" font-weight="bold">장치 2</text>
+  <text x="395" y="162" text-anchor="middle" font-size="12" fill="#555">중간</text>
+  <rect x="510" y="110" width="110" height="70" rx="8" fill="#F2F2F2" stroke="#666" stroke-width="1.5"/>
+  <text x="565" y="140" text-anchor="middle" font-size="14" font-weight="bold">장치 3</text>
+  <text x="565" y="162" text-anchor="middle" font-size="12" fill="#555">낮음</text>
+
+  <!-- INTR shared line on top -->
+  <line x1="565" y1="108" x2="565" y2="70" stroke="#2F5597" stroke-width="1.5"/>
+  <line x1="395" y1="108" x2="395" y2="70" stroke="#2F5597" stroke-width="1.5"/>
+  <line x1="225" y1="108" x2="225" y2="70" stroke="#2F5597" stroke-width="1.5"/>
+  <line x1="565" y1="70" x2="65" y2="70" stroke="#2F5597" stroke-width="2"/>
+  <line x1="65" y1="70" x2="65" y2="106" stroke="#2F5597" stroke-width="2" marker-end="url(#a)"/>
+  <text x="300" y="62" text-anchor="middle" font-size="12" fill="#2F5597">인터럽트 요청 INTR (모든 장치가 한 선을 공유)</text>
+
+  <!-- INTA chain at bottom -->
+  <path d="M65,182 L65,220 L190,220 L190,184" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#r)"/>
+  <path d="M260,182 L260,220 L360,220 L360,184" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#r)"/>
+  <path d="M430,182 L430,220 L530,220 L530,184" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#r)"/>
+  <text x="128" y="238" text-anchor="middle" font-size="11" fill="#C00000">승인 INTA</text>
+  <text x="310" y="238" text-anchor="middle" font-size="11" fill="#C00000">요청 안 했으면 전달</text>
+  <text x="480" y="238" text-anchor="middle" font-size="11" fill="#C00000">요청 안 했으면 전달</text>
+
+  <text x="320" y="272" text-anchor="middle" font-size="13" fill="#333">승인 신호가 직렬로 흘러가다 <tspan font-weight="bold" fill="#C00000">요청한 첫 장치</tspan>에서 멈춘다 → 하드웨어 방식, 빠름</text>
+  <text x="320" y="292" text-anchor="middle" font-size="12" fill="#555">(폴링은 CPU가 소프트웨어로 장치를 차례로 물어보는 방식)</text>
+</svg>

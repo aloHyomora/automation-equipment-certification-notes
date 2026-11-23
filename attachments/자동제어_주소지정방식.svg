@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+  </defs>
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#2F5597">주소 지정 방식: 명령의 주소 필드에 무엇이 들어 있나</text>
+
+  <!-- column headers -->
+  <text x="120" y="56" text-anchor="middle" font-size="13" fill="#555">명령어 (연산코드 | 주소 필드)</text>
+  <text x="450" y="56" text-anchor="middle" font-size="13" fill="#555">메모리 (번지 : 내용)</text>
+
+  <!-- Immediate -->
+  <text x="20" y="92" font-size="14" font-weight="bold" fill="#2F5597">① 즉시</text>
+  <rect x="80" y="74" width="60" height="28" fill="#E8EEF8" stroke="#2F5597"/>
+  <text x="110" y="93" text-anchor="middle" font-size="13">LDA</text>
+  <rect x="140" y="74" width="60" height="28" fill="#FCE4E4" stroke="#C00000" stroke-width="2"/>
+  <text x="170" y="93" text-anchor="middle" font-size="13" font-weight="bold" fill="#C00000">#25</text>
+  <text x="220" y="93" font-size="13" fill="#333">→ 25가 곧 데이터 (메모리 접근 0회)</text>
+
+  <!-- Direct -->
+  <text x="20" y="172" font-size="14" font-weight="bold" fill="#2F5597">② 직접</text>
+  <rect x="80" y="154" width="60" height="28" fill="#E8EEF8" stroke="#2F5597"/>
+  <text x="110" y="173" text-anchor="middle" font-size="13">LDA</text>
+  <rect x="140" y="154" width="60" height="28" fill="#ffffff" stroke="#2F5597"/>
+  <text x="170" y="173" text-anchor="middle" font-size="13">200</text>
+  <rect x="390" y="154" width="60" height="28" fill="#F2F2F2" stroke="#888"/>
+  <text x="420" y="173" text-anchor="middle" font-size="13">200</text>
+  <rect x="450" y="154" width="60" height="28" fill="#FCE4E4" stroke="#C00000" stroke-width="2"/>
+  <text x="480" y="173" text-anchor="middle" font-size="13" font-weight="bold" fill="#C00000">25</text>
+  <line x1="202" y1="168" x2="386" y2="168" stroke="#2F5597" stroke-width="2" marker-end="url(#a)"/>
+  <text x="294" y="160" text-anchor="middle" font-size="12" fill="#2F5597">1회 접근</text>
+  <text x="80" y="206" font-size="12" fill="#555">주소 필드 = 데이터의 주소. 필드 길이만큼만 번지를 가리킬 수 있다</text>
+
+  <!-- Indirect -->
+  <text x="20" y="262" font-size="14" font-weight="bold" fill="#2F5597">③ 간접</text>
+  <rect x="80" y="244" width="60" height="28" fill="#E8EEF8" stroke="#2F5597"/>
+  <text x="110" y="263" text-anchor="middle" font-size="13">LDA</text>
+  <rect x="140" y="244" width="60" height="28" fill="#ffffff" stroke="#2F5597"/>
+  <text x="170" y="263" text-anchor="middle" font-size="13">300</text>
+  <rect x="390" y="244" width="60" height="28" fill="#F2F2F2" stroke="#888"/>
+  <text x="420" y="263" text-anchor="middle" font-size="13">300</text>
+  <rect x="450" y="244" width="60" height="28" fill="#ffffff" stroke="#888"/>
+  <text x="480" y="263" text-anchor="middle" font-size="13">200</text>
+  <rect x="390" y="314" width="60" height="28" fill="#F2F2F2" stroke="#888"/>
+  <text x="420" y="333" text-anchor="middle" font-size="13">200</text>
+  <rect x="450" y="314" width="60" height="28" fill="#FCE4E4" stroke="#C00000" stroke-width="2"/>
+  <text x="480" y="333" text-anchor="middle" font-size="13" font-weight="bold" fill="#C00000">25</text>
+  <line x1="202" y1="258" x2="386" y2="258" stroke="#2F5597" stroke-width="2" marker-end="url(#a)"/>
+  <text x="294" y="250" text-anchor="middle" font-size="12" fill="#2F5597">1회째: 주소를 읽음</text>
+  <path d="M512,258 C560,258 560,328 514,328" fill="none" stroke="#C00000" stroke-width="2" marker-end="url(#r)"/>
+  <text x="566" y="298" font-size="12" fill="#C00000">2회째</text>
+  <text x="80" y="300" font-size="12" fill="#555">주소 필드 = 주소가 들어 있는 곳의 주소</text>
+  <text x="80" y="318" font-size="12" fill="#555">넓은 번지 표현, 대신 느림</text>
+
+  <text x="320" y="384" text-anchor="middle" font-size="13" fill="#333">세 방식 모두 결과는 누산기에 25 — 다른 것은 <tspan fill="#C00000" font-weight="bold">메모리 접근 횟수 0 · 1 · 2</tspan></text>
+</svg>

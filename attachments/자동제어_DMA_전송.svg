@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#777"/></marker>
+  </defs>
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#2F5597">프로그램 I/O vs DMA: 데이터가 어디를 지나가나</text>
+
+  <!-- blocks -->
+  <rect x="250" y="50" width="140" height="56" rx="8" fill="#E8EEF8" stroke="#2F5597" stroke-width="2"/>
+  <text x="320" y="83" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F5597">CPU</text>
+  <rect x="40" y="230" width="140" height="56" rx="8" fill="#E8EEF8" stroke="#2F5597" stroke-width="2"/>
+  <text x="110" y="263" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F5597">메모리</text>
+  <rect x="460" y="230" width="140" height="56" rx="8" fill="#E8EEF8" stroke="#2F5597" stroke-width="2"/>
+  <text x="530" y="263" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F5597">입출력 장치</text>
+  <rect x="250" y="150" width="140" height="50" rx="8" fill="#FCE4E4" stroke="#C00000" stroke-width="2"/>
+  <text x="320" y="180" text-anchor="middle" font-size="14" font-weight="bold" fill="#C00000">DMA 제어기</text>
+
+  <!-- program I/O path through CPU (dashed blue) -->
+  <path d="M530,228 L530,78 L394,78" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#a)"/>
+  <path d="M246,78 L110,78 L110,226" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#a)"/>
+  <text x="118" y="150" font-size="11" fill="#2F5597">프로그램 I/O (점선):</text>
+  <text x="118" y="166" font-size="11" fill="#2F5597">한 워드마다 CPU가</text>
+  <text x="118" y="182" font-size="11" fill="#2F5597">읽고 다시 씀</text>
+
+  <!-- DMA path direct (red) -->
+  <line x1="456" y1="262" x2="186" y2="262" stroke="#C00000" stroke-width="3" marker-end="url(#r)"/>
+  <text x="320" y="254" text-anchor="middle" font-size="13" font-weight="bold" fill="#C00000">DMA: 장치 ↔ 메모리 직접 전송</text>
+  <line x1="320" y1="202" x2="320" y2="244" stroke="#C00000" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="326" y="226" font-size="11" fill="#C00000">버스 제어</text>
+
+  <!-- handshake signals CPU<->DMA -->
+  <line x1="296" y1="148" x2="296" y2="110" stroke="#777" stroke-width="1.5" marker-end="url(#g)"/>
+  <text x="290" y="134" text-anchor="end" font-size="11" fill="#555">① 버스 요청 (HOLD)</text>
+  <line x1="344" y1="110" x2="344" y2="148" stroke="#777" stroke-width="1.5" marker-end="url(#g)"/>
+  <text x="350" y="134" font-size="11" fill="#555">② 버스 승인 (HLDA)</text>
+
+  <!-- steps -->
+  <text x="40" y="316" font-size="12" fill="#333">① 장치가 DMA 제어기에 요청 → 제어기가 CPU에 버스 사용 요청</text>
+  <text x="40" y="336" font-size="12" fill="#333">② CPU가 버스를 넘겨줌 → ③ 제어기가 주소를 내며 블록을 직접 전송</text>
+  <text x="40" y="356" font-size="12" fill="#C00000" font-weight="bold">④ 다 끝나면 인터럽트로 CPU에 완료를 알림 (DMA는 CPU 기능이 아니다)</text>
+</svg>

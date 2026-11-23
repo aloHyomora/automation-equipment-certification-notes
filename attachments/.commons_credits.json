@@ -259,5 +259,47 @@
   "license": "CC BY-SA 3.0",
   "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "artist": "Stefan-Xp"
+ },
+ "자동제어_8051_칩.webp": {
+  "title": "KL Intel P8051.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:KL_Intel_P8051.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "Konstantin Lanzet (with permission)"
+ },
+ "자동제어_8051_구조.webp": {
+  "title": "Intel 8051 arch.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_8051_arch.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Appaloosa"
+ },
+ "자동제어_DRAM_셀.webp": {
+  "title": "Speicherzelle.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Speicherzelle.svg",
+  "license": "CC BY-SA 2.0 de",
+  "licurl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+  "artist": "Patrick-Emil Zörner (Paddy)"
+ },
+ "자동제어_SRAM_셀.webp": {
+  "title": "SRAM Cell (6 Transistors).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:SRAM_Cell_(6_Transistors).svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_EPROM_창.webp": {
+  "title": "EPROM Window -3 20090609.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:EPROM_Window_-3_20090609.jpg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Pascal"
+ },
+ "자동제어_8255_칩.webp": {
+  "title": "Ic-photo-Intel--D8255.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Ic-photo-Intel--D8255.JPG",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Myself User:ZyMOS"
  }
 }
