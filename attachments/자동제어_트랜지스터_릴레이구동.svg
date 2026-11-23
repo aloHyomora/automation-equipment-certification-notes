@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="380" viewBox="0 0 680 380" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker><marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker></defs>
+<rect width="680" height="380" fill="#FFFFFF"/>
+<text x="340" y="28" font-size="17" fill="#2F5597" text-anchor="middle" font-weight="bold">NPN 트랜지스터로 릴레이 코일 구동 + 플라이휠 다이오드</text>
+<line x1="260" y1="60" x2="420" y2="60" stroke="#333333" stroke-width="3" />
+<text x="250" y="65" font-size="15" fill="#C00000" text-anchor="end" font-weight="bold">+24 V</text>
+<line x1="300" y1="60" x2="300" y2="100" stroke="#333333" stroke-width="2" />
+<line x1="300" y1="180" x2="300" y2="222" stroke="#333333" stroke-width="2" />
+<rect x="286" y="100" width="28" height="80" fill="#FFFFFF" stroke="#2F5597" stroke-width="2.5"/>
+<path d="M286,108 q14,9 28,0" fill="none" stroke="#2F5597" stroke-width="1.5"/>
+<path d="M286,126 q14,9 28,0" fill="none" stroke="#2F5597" stroke-width="1.5"/>
+<path d="M286,144 q14,9 28,0" fill="none" stroke="#2F5597" stroke-width="1.5"/>
+<path d="M286,162 q14,9 28,0" fill="none" stroke="#2F5597" stroke-width="1.5"/>
+<text x="276" y="145" font-size="14" fill="#2F5597" text-anchor="end" font-weight="bold">릴레이</text>
+<text x="276" y="163" font-size="14" fill="#2F5597" text-anchor="end" font-weight="bold">코일</text>
+<line x1="300" y1="76" x2="410" y2="76" stroke="#333333" stroke-width="2" />
+<line x1="410" y1="76" x2="410" y2="128" stroke="#333333" stroke-width="2" />
+<line x1="410" y1="150" x2="410" y2="202" stroke="#333333" stroke-width="2" />
+<line x1="410" y1="202" x2="300" y2="202" stroke="#333333" stroke-width="2" />
+<circle cx="300" cy="76" r="3.5" fill="#333333"/><circle cx="300" cy="202" r="3.5" fill="#333333"/>
+<polygon points="398,150 422,150 410,129" fill="#2F5597"/>
+<line x1="398" y1="128" x2="422" y2="128" stroke="#2F5597" stroke-width="3" />
+<text x="434" y="136" font-size="14" fill="#2F5597" text-anchor="start" font-weight="bold">플라이휠 다이오드</text>
+<text x="434" y="156" font-size="13" fill="#333333" text-anchor="start" font-weight="normal">캐소드(띠)가 +24 V 쪽</text>
+<text x="434" y="174" font-size="13" fill="#333333" text-anchor="start" font-weight="normal">= 코일에 역병렬</text>
+<path d="M326,92 L326,188 L394,188 L394,92 L336,92" fill="none" stroke="#C00000" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arR)"/>
+<circle cx="292" cy="262" r="30" fill="none" stroke="#2F5597" stroke-width="2"/>
+<line x1="280" y1="246" x2="280" y2="278" stroke="#2F5597" stroke-width="4" />
+<line x1="280" y1="254" x2="300" y2="238" stroke="#2F5597" stroke-width="2" />
+<line x1="300" y1="238" x2="300" y2="222" stroke="#333333" stroke-width="2" />
+<line x1="280" y1="270" x2="300" y2="286" stroke="#2F5597" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="300" y1="286" x2="300" y2="320" stroke="#333333" stroke-width="2" />
+<line x1="284" y1="320" x2="316" y2="320" stroke="#333333" stroke-width="2.5" />
+<line x1="290" y1="327" x2="310" y2="327" stroke="#333333" stroke-width="2" />
+<line x1="296" y1="334" x2="304" y2="334" stroke="#333333" stroke-width="2" />
+<text x="330" y="266" font-size="14" fill="#2F5597" text-anchor="start" font-weight="bold">NPN</text>
+<text x="330" y="324" font-size="13" fill="#333333" text-anchor="start" font-weight="normal">GND</text>
+<line x1="60" y1="262" x2="140" y2="262" stroke="#333333" stroke-width="2" />
+<rect x="140" y="252" width="56" height="20" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<line x1="196" y1="262" x2="280" y2="262" stroke="#333333" stroke-width="2" />
+<text x="168" y="244" font-size="14" fill="#333333" text-anchor="middle" font-weight="bold">R_B</text>
+<circle cx="60" cy="262" r="4" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<text x="60" y="292" font-size="13" fill="#333333" text-anchor="middle" font-weight="normal">PLC·MCU 출력</text>
+<text x="60" y="310" font-size="13" fill="#C00000" text-anchor="middle" font-weight="normal">H → ON(포화)</text>
+<text x="60" y="328" font-size="13" fill="#333333" text-anchor="middle" font-weight="normal">L → OFF(차단)</text>
+<text x="434" y="260" font-size="13" fill="#C00000" text-anchor="start" font-weight="normal">끄는 순간 코일의 역기전력이</text>
+<text x="434" y="278" font-size="13" fill="#C00000" text-anchor="start" font-weight="normal">빨간 점선 고리로 돌며 사라짐</text>
+<text x="434" y="296" font-size="13" fill="#C00000" text-anchor="start" font-weight="normal">→ 트랜지스터 C–E 과전압 보호</text>
+</svg>

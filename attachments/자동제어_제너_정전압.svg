@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="290" viewBox="0 0 620 290" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker><marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker></defs>
+<rect width="620" height="290" fill="#FFFFFF"/>
+<text x="310" y="28" font-size="17" fill="#2F5597" text-anchor="middle" font-weight="bold">제너 다이오드 정전압 회로</text>
+<line x1="110" y1="70" x2="140" y2="70" stroke="#333333" stroke-width="2" />
+<rect x="140" y="60" width="60" height="20" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<line x1="200" y1="70" x2="480" y2="70" stroke="#333333" stroke-width="2" />
+<line x1="110" y1="220" x2="480" y2="220" stroke="#333333" stroke-width="2" />
+<line x1="110" y1="70" x2="110" y2="125" stroke="#333333" stroke-width="2" />
+<line x1="110" y1="165" x2="110" y2="220" stroke="#333333" stroke-width="2" />
+<line x1="94" y1="125" x2="126" y2="125" stroke="#333333" stroke-width="3" />
+<line x1="102" y1="135" x2="118" y2="135" stroke="#333333" stroke-width="3" />
+<line x1="94" y1="145" x2="126" y2="145" stroke="#333333" stroke-width="3" />
+<line x1="102" y1="155" x2="118" y2="155" stroke="#333333" stroke-width="3" />
+<line x1="110" y1="155" x2="110" y2="165" stroke="#333333" stroke-width="2" />
+<text x="86" y="140" font-size="14" fill="#333333" text-anchor="end" font-weight="bold">V_in</text>
+<text x="86" y="158" font-size="12" fill="#333333" text-anchor="end" font-weight="normal">(맥동 DC)</text>
+<text x="170" y="52" font-size="14" fill="#333333" text-anchor="middle" font-weight="bold">직렬 R</text>
+<text x="170" y="102" font-size="12" fill="#333333" text-anchor="middle" font-weight="normal">I = (V_in − V_Z) / R</text>
+<line x1="300" y1="70" x2="300" y2="130" stroke="#333333" stroke-width="2" />
+<line x1="300" y1="154" x2="300" y2="220" stroke="#333333" stroke-width="2" />
+<polygon points="287,154 313,154 300,131" fill="#2F5597"/>
+<line x1="287" y1="130" x2="313" y2="130" stroke="#2F5597" stroke-width="3" />
+<line x1="287" y1="130" x2="281" y2="123" stroke="#2F5597" stroke-width="3" />
+<line x1="313" y1="130" x2="319" y2="137" stroke="#2F5597" stroke-width="3" />
+<text x="326" y="125" font-size="14" fill="#2F5597" text-anchor="start" font-weight="bold">제너 다이오드</text>
+<text x="326" y="145" font-size="13" fill="#C00000" text-anchor="start" font-weight="normal">캐소드(띠)가 + 쪽</text>
+<text x="326" y="163" font-size="13" fill="#C00000" text-anchor="start" font-weight="normal">= 역방향 연결</text>
+<circle cx="300" cy="70" r="3.5" fill="#333333"/><circle cx="300" cy="220" r="3.5" fill="#333333"/>
+<line x1="480" y1="70" x2="480" y2="115" stroke="#333333" stroke-width="2" />
+<rect x="470" y="115" width="20" height="60" fill="#FFFFFF" stroke="#333333" stroke-width="2"/>
+<line x1="480" y1="175" x2="480" y2="220" stroke="#333333" stroke-width="2" />
+<text x="498" y="150" font-size="14" fill="#333333" text-anchor="start" font-weight="bold">부하 R_L</text>
+<line x1="560" y1="74" x2="560" y2="216" stroke="#C00000" stroke-width="2" marker-start="url(#arR)" marker-end="url(#arR)"/>
+<text x="570" y="150" font-size="15" fill="#C00000" text-anchor="start" font-weight="bold">V_Z</text>
+<text x="310" y="255" font-size="13" fill="#333333" text-anchor="middle" font-weight="normal">입력이 흔들려도 남는 전압은 R이 떠안고, 부하에는 항복 전압 V_Z만 걸린다</text>
+</svg>

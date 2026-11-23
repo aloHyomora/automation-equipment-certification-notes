@@ -427,5 +427,75 @@
   "license": "CC BY-SA 3.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
   "artist": "File:VFPt cylindrical magnet thumb.svg: Geek3 derivative work: MikeRun"
+ },
+ "자동제어_저항_색띠.webp": {
+  "title": "Resistor Color Code.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Resistor_Color_Code.svg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Knarfili"
+ },
+ "자동제어_콘덴서_종류.webp": {
+  "title": "Capacitors (7189597135).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Capacitors_(7189597135).jpg",
+  "license": "CC BY-SA 2.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "artist": "Eric Schrader from San Francisco, CA, United States"
+ },
+ "자동제어_다이오드_특성.webp": {
+  "title": "Current vs. voltage for a semiconductor diode rectifier.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Current_vs._voltage_for_a_semiconductor_diode_rectifier.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Hldsc"
+ },
+ "자동제어_제너_특성.webp": {
+  "title": "V-a characteristic Zener diode.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:V-a_characteristic_Zener_diode.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "Filip Dominec"
+ },
+ "자동제어_P형_N형_도핑.webp": {
+  "title": "Silicon doping - Type P and N.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Silicon_doping_-_Type_P_and_N.svg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "VectorVoyager"
+ },
+ "자동제어_PN_순방향.webp": {
+  "title": "Forward-Biased pn Junction.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Forward-Biased_pn_Junction.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "inductiveload"
+ },
+ "자동제어_PN_역방향.webp": {
+  "title": "Reverse-Biased pn Junction.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Reverse-Biased_pn_Junction.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "inductiveload"
+ },
+ "자동제어_멀티바이브레이터.webp": {
+  "title": "Astable Multivibrator.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Astable_Multivibrator.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "Astable_multivibrator.png: Peo derivative work: McSush (talk)"
+ },
+ "자동제어_납축전지.webp": {
+  "title": "Photo-CarBattery.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Photo-CarBattery.jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "No machine-readable author provided. Shaddack assumed (based on copyright claims)."
+ },
+ "자동제어_78xx_레귤레이터.webp": {
+  "title": "7809 (OnSemi) 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:7809_(OnSemi)_01.jpg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Retired electrician"
  }
 }
