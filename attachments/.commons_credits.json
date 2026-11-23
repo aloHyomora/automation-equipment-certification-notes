@@ -47,5 +47,19 @@
   "license": "Public domain",
   "licurl": null,
   "artist": "Bureau of Land Management"
+ },
+ "자동제어_피드백루프.webp": {
+  "title": "Feedback loop with descriptions.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Feedback_loop_with_descriptions.svg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Orzetto"
+ },
+ "자동제어_개루프_폐루프.webp": {
+  "title": "Open loop vs closed loop.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Open_loop_vs_closed_loop.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Wjcw"
  }
 }
