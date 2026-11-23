@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="320" fill="#ffffff"/>
+<text x="380" y="26" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">제어반 배선과 접지: 분리하고, 전용으로, 굵고 짧게</text>
+<rect x="260" y="60" width="150" height="110" fill="#DAE3F3" stroke="#2F5597" stroke-width="3"/>
+<text x="335" y="110" font-size="18" font-weight="bold" fill="#2F5597" text-anchor="middle">PLC</text>
+<text x="335" y="136" font-size="12" fill="#555" text-anchor="middle">입력·출력·CPU</text>
+<rect x="30" y="60" width="150" height="70" fill="#FBE5D6" stroke="#C55A11" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="105" y="90" font-size="14" font-weight="bold" fill="#C55A11" text-anchor="middle">동력 덕트</text>
+<text x="105" y="112" font-size="12" fill="#555" text-anchor="middle">인버터·모터·전원선</text>
+<rect x="30" y="170" width="150" height="70" fill="#E2F0D9" stroke="#548235" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="105" y="200" font-size="14" font-weight="bold" fill="#548235" text-anchor="middle">신호 덕트</text>
+<text x="105" y="222" font-size="12" fill="#555" text-anchor="middle">센서·실드선(꼬임선)</text>
+<line x1="180" y1="205" x2="225" y2="205" stroke="#548235" stroke-width="3"/><line x1="225" y1="205" x2="225" y2="125" stroke="#548235" stroke-width="3"/><line x1="225" y1="125" x2="260" y2="125" stroke="#548235" stroke-width="3"/>
+<text x="105" y="148" font-size="12" font-weight="bold" fill="#C00000" text-anchor="middle">✕ 한 덕트에 함께 넣지 않는다</text>
+<text x="105" y="163" font-size="11" fill="#C00000" text-anchor="middle">(분리 배선)</text>
+<line x1="335" y1="170" x2="335" y2="250" stroke="#333" stroke-width="7"/>
+<line x1="300" y1="250" x2="370" y2="250" stroke="#333" stroke-width="4"/><line x1="311" y1="262" x2="359" y2="262" stroke="#333" stroke-width="4"/><line x1="322" y1="274" x2="348" y2="274" stroke="#333" stroke-width="4"/>
+<text x="400" y="222" font-size="13" font-weight="bold" fill="#333">전용 접지선: 굵고 짧게</text>
+<text x="400" y="242" font-size="12" fill="#555">다른 기기와 공용 금지(전용·단독)</text>
+<text x="400" y="262" font-size="12" fill="#555">옛 표현(교재): 제3종 접지 100 Ω 이하</text>
+<rect x="470" y="60" width="270" height="110" fill="#fff" stroke="#bbb"/>
+<text x="480" y="82" font-size="13" font-weight="bold" fill="#333">노이즈 대책 요약</text>
+<text x="480" y="104" font-size="12" fill="#333">• 전원: 절연(차폐) 변압기, 노이즈 필터</text>
+<text x="480" y="124" font-size="12" fill="#333">• 신호선: 실드선(한쪽 접지), 트위스트 페어</text>
+<text x="480" y="144" font-size="12" fill="#333">• 입력부: 포토커플러, 서지 킬러</text>
+<text x="480" y="164" font-size="12" fill="#333">• 퓨즈는 과전류 보호용(노이즈 대책 아님)</text>
+</svg>
