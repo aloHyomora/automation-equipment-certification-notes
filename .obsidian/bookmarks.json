@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1795427519001,
+      "title": "자동화설비산업기사 그래프",
+      "options": {
+        "collapse-filter": true,
+        "search": "-path:templates -path:attachments",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "tag:#주제/자동제어/제어이론",
+            "color": {
+              "a": 1,
+              "rgb": 10335456
+            }
+          },
+          {
+            "query": "tag:#주제/자동제어/PLC",
+            "color": {
+              "a": 1,
+              "rgb": 5999577
+            }
+          },
+          {
+            "query": "tag:#주제/자동제어/HMI",
+            "color": {
+              "a": 1,
+              "rgb": 9080800
+            }
+          },
+          {
+            "query": "tag:#주제/자동제어/전기전자",
+            "color": {
+              "a": 1,
+              "rgb": 6269132
+            }
+          },
+          {
+            "query": "tag:#주제/자동제어/센서",
+            "color": {
+              "a": 1,
+              "rgb": 8177364
+            }
+          },
+          {
+            "query": "tag:#주제/자동제어/모터",
+            "color": {
+              "a": 1,
+              "rgb": 4221360
+            }
+          },
+          {
+            "query": "tag:#주제/기계요소설계/기초와_재료",
+            "color": {
+              "a": 1,
+              "rgb": 11915151
+            }
+          },
+          {
+            "query": "tag:#주제/기계요소설계/체결요소",
+            "color": {
+              "a": 1,
+              "rgb": 8435819
+            }
+          },
+          {
+            "query": "tag:#주제/기계요소설계/운동요소",
+            "color": {
+              "a": 1,
+              "rgb": 6200946
+            }
+          },
+          {
+            "query": "tag:#주제/기계요소설계/도면과_공차",
+            "color": {
+              "a": 1,
+              "rgb": 9424043
+            }
+          },
+          {
+            "query": "tag:#주제/공유압/공통",
+            "color": {
+              "a": 1,
+              "rgb": 14269580
+            }
+          },
+          {
+            "query": "tag:#주제/공유압/공압",
+            "color": {
+              "a": 1,
+              "rgb": 14920047
+            }
+          },
+          {
+            "query": "tag:#주제/공유압/유압",
+            "color": {
+              "a": 1,
+              "rgb": 13204306
+            }
+          },
+          {
+            "query": "tag:#주제/자동제어",
+            "color": {
+              "a": 1,
+              "rgb": 3102103
+            }
+          },
+          {
+            "query": "tag:#주제/기계요소설계",
+            "color": {
+              "a": 1,
+              "rgb": 5538357
+            }
+          },
+          {
+            "query": "tag:#주제/공유압",
+            "color": {
+              "a": 1,
+              "rgb": 12933649
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": false,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": true,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 0.5087618855792572,
+        "close": false
+      }
+    }
+  ]
+}

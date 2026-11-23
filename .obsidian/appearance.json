@@ -1,1 +1,7 @@
-{}
+{
+  "showRibbon": true,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "subject-colors"
+  ]
+}

@@ -1,0 +1,23 @@
+/* 과목별 색상 — 그래프 뷰(graph.json colorGroups)와 같은 색 계열
+   자동제어 = 파랑, 기계요소설계 = 초록, 공유압 = 주황
+   글자색은 어두운 테마에서 눈이 편하도록 밝은 톤(파스텔)을 쓴다. */
+
+body {
+  --subj-ctrl: #8EA9DB;
+  --subj-mech: #A9D18E;
+  --subj-flui: #F4B183;
+}
+
+/* 파일 탐색기: 과목 폴더 이름 + 폴더 왼쪽 세로선 */
+.nav-folder-title[data-path="10_자동제어"]     { color: var(--subj-ctrl); font-weight: 600; }
+.nav-folder-title[data-path="20_기계요소설계"] { color: var(--subj-mech); font-weight: 600; }
+.nav-folder-title[data-path="30_공유압"]       { color: var(--subj-flui); font-weight: 600; }
+
+.nav-folder:has(> .nav-folder-title[data-path="10_자동제어"])     > .nav-folder-children { border-inline-start: 2px solid color-mix(in srgb, var(--subj-ctrl) 45%, transparent); }
+.nav-folder:has(> .nav-folder-title[data-path="20_기계요소설계"]) > .nav-folder-children { border-inline-start: 2px solid color-mix(in srgb, var(--subj-mech) 45%, transparent); }
+.nav-folder:has(> .nav-folder-title[data-path="30_공유압"])       > .nav-folder-children { border-inline-start: 2px solid color-mix(in srgb, var(--subj-flui) 45%, transparent); }
+
+/* 태그 알약: #주제/... 태그만 과목 색으로 (배경은 옅게, 글자는 밝게) */
+a.tag[href^="#주제/자동제어"]     { color: var(--subj-ctrl); background-color: color-mix(in srgb, var(--subj-ctrl) 16%, transparent); }
+a.tag[href^="#주제/기계요소설계"] { color: var(--subj-mech); background-color: color-mix(in srgb, var(--subj-mech) 16%, transparent); }
+a.tag[href^="#주제/공유압"]       { color: var(--subj-flui); background-color: color-mix(in srgb, var(--subj-flui) 16%, transparent); }
