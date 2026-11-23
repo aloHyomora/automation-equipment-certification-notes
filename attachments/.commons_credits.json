@@ -336,5 +336,96 @@
   "license": "CC BY-SA 3.0",
   "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "artist": "en:User:Cburnett"
+ },
+ "자동제어_옴의법칙_삼각형.webp": {
+  "title": "Ohm's law triangle.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ohm%27s_law_triangle.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": ""
+ },
+ "자동제어_KCL_전류법칙.webp": {
+  "title": "Kirchhoff's Current Law.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kirchhoff%27s_Current_Law.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "inductiveload"
+ },
+ "자동제어_KVL_루프.webp": {
+  "title": "Kirchhoff-example-circuit-loops.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kirchhoff-example-circuit-loops.svg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "MikeRun"
+ },
+ "자동제어_저항_직렬.webp": {
+  "title": "Resistors in Series.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Resistors_in_Series.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_저항_병렬.webp": {
+  "title": "Resistors in Parallel.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Resistors_in_Parallel.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_정현파_실효값.webp": {
+  "title": "Sine wave voltages.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sine_wave_voltages.svg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "AlanM1"
+ },
+ "자동제어_전력삼각형.webp": {
+  "title": "PowerTriangle.png",
+  "page": "https://commons.wikimedia.org/wiki/File:PowerTriangle.png",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Wtshymanski at English Wikipedia"
+ },
+ "자동제어_평행판_콘덴서.webp": {
+  "title": "Parallel plate capacitor.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Parallel_plate_capacitor.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "inductiveload"
+ },
+ "자동제어_플레밍_왼손.webp": {
+  "title": "LeftHandOutline.png",
+  "page": "https://commons.wikimedia.org/wiki/File:LeftHandOutline.png",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "Douglas Morrison DougM"
+ },
+ "자동제어_패러데이_유도.webp": {
+  "title": "Faraday emf experiment.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Faraday_emf_experiment.svg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Eviatar Bach"
+ },
+ "자동제어_변압기_원리.webp": {
+  "title": "Transformer3d col3.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Transformer3d_col3.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "BillC at English Wikipedia"
+ },
+ "자동제어_BH_히스테리시스.webp": {
+  "title": "B-H loop.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:B-H_loop.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "Original:  ZureksDerivative work:  Sautoir"
+ },
+ "자동제어_막대자석_자기력선.webp": {
+  "title": "Bar-magnet-field-and-iron-filings.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bar-magnet-field-and-iron-filings.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "File:VFPt cylindrical magnet thumb.svg: Geek3 derivative work: MikeRun"
  }
 }

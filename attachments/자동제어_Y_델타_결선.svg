@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="380" y="26" font-size="17" font-weight="bold" fill="#2F5597" text-anchor="middle">3상 결선: Y(성형) 결선과 Δ(삼각) 결선</text>
+  <line x1="380" y1="45" x2="380" y2="350" stroke="#ccc" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ===== Y connection ===== -->
+  <text x="190" y="58" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">Y 결선</text>
+  <g stroke="#2F5597" stroke-width="2.5" fill="none">
+    <line x1="190" y1="200" x2="190" y2="90"/>
+    <line x1="190" y1="200" x2="86" y2="260"/>
+    <line x1="190" y1="200" x2="294" y2="260"/>
+  </g>
+  <g fill="#DCE6F5" stroke="#2F5597" stroke-width="2">
+    <rect x="-22" y="-9" width="44" height="18" transform="translate(190,145) rotate(90)"/>
+    <rect x="-22" y="-9" width="44" height="18" transform="translate(138,230) rotate(150)"/>
+    <rect x="-22" y="-9" width="44" height="18" transform="translate(242,230) rotate(30)"/>
+  </g>
+  <circle cx="190" cy="200" r="5" fill="#2F5597"/>
+  <text x="180" y="192" font-size="13" fill="#333" text-anchor="end">N (중성점)</text>
+  <g fill="#333"><circle cx="190" cy="90" r="4"/><circle cx="86" cy="260" r="4"/><circle cx="294" cy="260" r="4"/></g>
+  <text x="178" y="100" font-size="14" font-weight="bold" fill="#333" text-anchor="end">R</text>
+  <text x="74" y="276" font-size="14" font-weight="bold" fill="#333" text-anchor="end">S</text>
+  <text x="306" y="276" font-size="14" font-weight="bold" fill="#333">T</text>
+  <text x="208" y="150" font-size="13" fill="#2F5597" font-weight="bold">V<tspan font-size="10" dy="3">P</tspan></text>
+  <!-- line voltage R-T -->
+  <line x1="196" y1="88" x2="300" y2="250" stroke="#C00000" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="262" y="150" font-size="13" fill="#C00000" font-weight="bold">V<tspan font-size="10" dy="3">L</tspan><tspan dy="-3"> (선간)</tspan></text>
+  <text x="190" y="305" font-size="14" fill="#333" text-anchor="middle">선간전압 V<tspan font-size="10" dy="3">L</tspan><tspan dy="-3"> = </tspan><tspan fill="#C00000" font-weight="bold">√3</tspan> V<tspan font-size="10" dy="3">P</tspan></text>
+  <text x="190" y="328" font-size="14" fill="#333" text-anchor="middle">선전류 I<tspan font-size="10" dy="3">L</tspan><tspan dy="-3"> = 상전류 I</tspan><tspan font-size="10" dy="3">P</tspan></text>
+
+  <!-- ===== Delta connection ===== -->
+  <text x="570" y="58" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">Δ 결선</text>
+  <g stroke="#2F5597" stroke-width="2.5" fill="none">
+    <polygon points="570,90 466,260 674,260"/>
+  </g>
+  <g fill="#DCE6F5" stroke="#2F5597" stroke-width="2">
+    <rect x="-22" y="-9" width="44" height="18" transform="translate(518,175) rotate(121.5)"/>
+    <rect x="-22" y="-9" width="44" height="18" transform="translate(622,175) rotate(58.5)"/>
+    <rect x="-22" y="-9" width="44" height="18" transform="translate(570,260) rotate(0)"/>
+  </g>
+  <g fill="#333"><circle cx="570" cy="90" r="4"/><circle cx="466" cy="260" r="4"/><circle cx="674" cy="260" r="4"/></g>
+  <text x="558" y="100" font-size="14" font-weight="bold" fill="#333" text-anchor="end">R</text>
+  <text x="454" y="276" font-size="14" font-weight="bold" fill="#333" text-anchor="end">S</text>
+  <text x="686" y="276" font-size="14" font-weight="bold" fill="#333">T</text>
+  <!-- line current arrow into R -->
+  <line x1="610" y1="70" x2="577" y2="86" stroke="#C00000" stroke-width="2"/>
+  <polygon points="574,88 584,78 586,88" fill="#C00000"/>
+  <text x="614" y="72" font-size="13" fill="#C00000" font-weight="bold">I<tspan font-size="10" dy="3">L</tspan><tspan dy="-3"> (선전류)</tspan></text>
+  <text x="586" y="190" font-size="13" fill="#2F5597" font-weight="bold">I<tspan font-size="10" dy="3">P</tspan><tspan dy="-3">, V</tspan><tspan font-size="10" dy="3">P</tspan></text>
+  <text x="570" y="305" font-size="14" fill="#333" text-anchor="middle">선간전압 V<tspan font-size="10" dy="3">L</tspan><tspan dy="-3"> = 상전압 V</tspan><tspan font-size="10" dy="3">P</tspan></text>
+  <text x="570" y="328" font-size="14" fill="#333" text-anchor="middle">선전류 I<tspan font-size="10" dy="3">L</tspan><tspan dy="-3"> = </tspan><tspan fill="#C00000" font-weight="bold">√3</tspan> I<tspan font-size="10" dy="3">P</tspan></text>
+
+  <!-- common -->
+  <rect x="160" y="360" width="440" height="42" rx="6" fill="#F3F6FB" stroke="#2F5597" stroke-width="1.5"/>
+  <text x="380" y="387" font-size="15" fill="#2F5597" text-anchor="middle" font-weight="bold">두 결선 공통: P = √3 V<tspan font-size="11" dy="3">L</tspan><tspan dy="-3"> I</tspan><tspan font-size="11" dy="3">L</tspan><tspan dy="-3"> cosθ</tspan></text>
+</svg>
