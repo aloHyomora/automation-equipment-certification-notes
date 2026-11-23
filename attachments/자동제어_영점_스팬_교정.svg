@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="340" fill="#ffffff"/>
+<text x="380" y="26" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">영점(Zero)·스팬(Span) 교정</text>
+<!-- axes -->
+<line x1="80" y1="280" x2="440" y2="280" stroke="#333" stroke-width="2"/>
+<line x1="80" y1="280" x2="80" y2="50" stroke="#333" stroke-width="2"/>
+<text x="440" y="324" font-size="13" fill="#333" text-anchor="end">입력 (측정량) [%] →</text>
+<text x="74" y="44" font-size="13" fill="#333">출력 [mA]</text>
+<text x="80" y="298" font-size="12" fill="#333" text-anchor="middle">0</text>
+<text x="400" y="298" font-size="12" fill="#333" text-anchor="middle">100</text>
+<text x="72" y="254" font-size="12" fill="#333" text-anchor="end">4</text>
+<text x="72" y="84" font-size="12" fill="#333" text-anchor="end">20</text>
+<line x1="80" y1="80" x2="400" y2="80" stroke="#bbb" stroke-dasharray="3 3"/>
+<line x1="400" y1="80" x2="400" y2="280" stroke="#bbb" stroke-dasharray="3 3"/>
+<!-- ideal -->
+<line x1="80" y1="250" x2="400" y2="80" stroke="#2F5597" stroke-width="3.5"/>
+<text x="408" y="86" font-size="13" font-weight="bold" fill="#2F5597">기준</text>
+<!-- zero error: parallel shift up -->
+<line x1="80" y1="220" x2="400" y2="50" stroke="#C55A11" stroke-width="2.5" stroke-dasharray="7 4"/>
+<text x="408" y="48" font-size="12" font-weight="bold" fill="#C55A11">영점 오차</text><text x="408" y="63" font-size="11" fill="#C55A11">(평행 이동)</text>
+<!-- span error: slope -->
+<line x1="80" y1="250" x2="400" y2="140" stroke="#C00000" stroke-width="2.5" stroke-dasharray="7 4"/>
+<text x="408" y="140" font-size="12" font-weight="bold" fill="#C00000">스팬 오차</text><text x="408" y="155" font-size="11" fill="#C00000">(기울기)</text>
+<circle cx="80" cy="250" r="5" fill="#2F5597"/><circle cx="400" cy="80" r="5" fill="#2F5597"/>
+<!-- steps -->
+<rect x="480" y="60" width="262" height="220" rx="8" fill="#EEF3FA" stroke="#2F5597"/>
+<text x="496" y="88" font-size="14" font-weight="bold" fill="#2F5597">교정 순서 (기준기와 비교)</text>
+<text x="496" y="122" font-size="14" fill="#333">① 입력 0 % → 출력 4 mA로</text>
+<text x="520" y="142" font-size="14" font-weight="bold" fill="#C55A11">영점(Zero) 조정</text>
+<text x="496" y="176" font-size="14" fill="#333">② 입력 100 % → 20 mA로</text>
+<text x="520" y="196" font-size="14" font-weight="bold" fill="#C00000">스팬(Span) 조정</text>
+<text x="496" y="230" font-size="14" fill="#333">③ 스팬을 돌리면 영점이</text>
+<text x="520" y="250" font-size="14" fill="#333">움직일 수 있어 <tspan font-weight="bold" fill="#2F5597">영점 재확인</tspan></text>
+</svg>

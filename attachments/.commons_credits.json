@@ -497,5 +497,75 @@
   "license": "CC0",
   "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "artist": "Retired electrician"
+ },
+ "자동제어_OP앰프_반전.webp": {
+  "title": "Op-Amp Inverting Amplifier.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Op-Amp_Inverting_Amplifier.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_OP앰프_비반전.webp": {
+  "title": "Op-Amp Non-Inverting Amplifier.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Op-Amp_Non-Inverting_Amplifier.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_OP앰프_전압팔로워.webp": {
+  "title": "Opampvoltagefollower.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Opampvoltagefollower.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "Alessio Damato"
+ },
+ "자동제어_OP앰프_가산기.webp": {
+  "title": "Op-Amp Summing Amplifier.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Op-Amp_Summing_Amplifier.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_OP앰프_적분기.webp": {
+  "title": "Op-Amp Integrating Amplifier.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Op-Amp_Integrating_Amplifier.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_OP앰프_미분기.webp": {
+  "title": "Op-Amp Differentiating Amplifier.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Op-Amp_Differentiating_Amplifier.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Inductiveload"
+ },
+ "자동제어_스트레인게이지.webp": {
+  "title": "Strain gauge 062TZ.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strain_gauge_062TZ.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Arnold.p"
+ },
+ "자동제어_열전대.webp": {
+  "title": "Thermocouple K (2).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Thermocouple_K_(2).jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Harke"
+ },
+ "자동제어_실드케이블.webp": {
+  "title": "Braid and foil shielded usb cable.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Braid_and_foil_shielded_usb_cable.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Anordal"
+ },
+ "자동제어_트위스트페어.webp": {
+  "title": "UTP cable.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:UTP_cable.jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Baran Ivo"
  }
 }

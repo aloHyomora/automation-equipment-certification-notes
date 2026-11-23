@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="340" fill="#ffffff"/>
+<text x="380" y="26" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">2선식 4~20 mA 전류 루프</text>
+<!-- transmitter -->
+<rect x="40" y="100" width="170" height="110" rx="8" fill="#EEF3FA" stroke="#2F5597" stroke-width="2"/>
+<text x="125" y="135" font-size="14" font-weight="bold" fill="#2F5597" text-anchor="middle">센서 + 2선식</text>
+<text x="125" y="155" font-size="14" font-weight="bold" fill="#2F5597" text-anchor="middle">변환기(트랜스미터)</text>
+<text x="125" y="180" font-size="12" fill="#333" text-anchor="middle">측정값에 비례해</text>
+<text x="125" y="196" font-size="12" fill="#333" text-anchor="middle">루프 전류를 조절</text>
+<text x="218" y="124" font-size="14" fill="#333">+</text>
+<text x="218" y="204" font-size="14" fill="#333">−</text>
+<!-- top wire: transmitter + to supply + -->
+<polyline points="210,130 600,130 600,150" fill="none" stroke="#333" stroke-width="2"/>
+<!-- line resistance on top wire -->
+<rect x="330" y="122" width="50" height="16" fill="#ffffff" stroke="#888" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="355" y="112" font-size="12" fill="#666" text-anchor="middle">긴 배선의 선 저항 r</text>
+<!-- supply -->
+<line x1="580" y1="150" x2="620" y2="150" stroke="#333" stroke-width="3"/>
+<line x1="588" y1="164" x2="612" y2="164" stroke="#333" stroke-width="3"/>
+<text x="628" y="154" font-size="13" fill="#333">+</text>
+<text x="640" y="166" font-size="14" font-weight="bold" fill="#333">DC 24 V</text>
+<polyline points="600,164 600,280 440,280" fill="none" stroke="#333" stroke-width="2"/>
+<!-- PLC box with 250 ohm -->
+<rect x="300" y="236" width="200" height="86" rx="8" fill="#FBE5E5" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="400" y="314" font-size="13" font-weight="bold" fill="#C00000" text-anchor="middle">PLC A/D 입력</text>
+<rect x="360" y="271" width="80" height="18" fill="#ffffff" stroke="#C00000" stroke-width="2.5"/>
+<text x="400" y="262" font-size="13" fill="#C00000" text-anchor="middle">250 Ω → 1~5 V</text>
+<polyline points="360,280 240,280 240,200 210,200" fill="none" stroke="#333" stroke-width="2"/>
+<!-- current arrows -->
+<polygon points="470,124 482,130 470,136" fill="#C00000" transform="rotate(180 476 130)"/>
+<text x="476" y="152" font-size="13" font-weight="bold" fill="#C00000" text-anchor="middle">I</text>
+<polygon points="276,274 288,280 276,286" fill="#C00000"/>
+<text x="282" y="268" font-size="13" font-weight="bold" fill="#C00000" text-anchor="middle">I</text>
+<!-- notes -->
+<text x="40" y="62" font-size="13" fill="#333">직렬 고리라서 어디서 재도 같은 전류 I → 선 저항·노이즈에 강하다 (원거리 전송)</text>
+<text x="40" y="84" font-size="13" fill="#333">4 mA = 0 %,  20 mA = 100 %,  </text>
+<text x="230" y="84" font-size="13" font-weight="bold" fill="#C00000">0 mA = 단선 검출</text>
+<text x="40" y="250" font-size="12" fill="#2F5597">4 mA의 바닥 전류로</text>
+<text x="40" y="266" font-size="12" fill="#2F5597">변환기 자신의 전원을</text>
+<text x="40" y="282" font-size="12" fill="#2F5597">공급(2선으로 충분)</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="400" fill="#ffffff"/>
+<text x="380" y="26" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">필터 4종의 주파수 특성 (세로: 통과 정도, 가로: 주파수 →)</text>
+<!-- panel 1 LPF -->
+<g transform="translate(50,50)">
+<text x="0" y="14" font-size="14" font-weight="bold" fill="#2F5597">저역통과 LPF</text>
+<text x="300" y="14" font-size="12" fill="#333" text-anchor="end">고주파 노이즈 제거</text>
+<line x1="0" y1="130" x2="300" y2="130" stroke="#333" stroke-width="1.5"/>
+<line x1="0" y1="130" x2="0" y2="30" stroke="#333" stroke-width="1.5"/>
+<path d="M0,40 L110,40 C150,40 165,80 290,126" fill="none" stroke="#2F5597" stroke-width="3"/>
+<line x1="140" y1="30" x2="140" y2="130" stroke="#C00000" stroke-dasharray="4 3"/>
+<text x="140" y="148" font-size="12" fill="#C00000" text-anchor="middle">f<tspan font-size="9" dy="3">c</tspan></text>
+<text x="50" y="64" font-size="12" fill="#2F5597" text-anchor="middle">통과</text>
+<text x="240" y="80" font-size="12" fill="#666" text-anchor="middle">차단</text>
+</g>
+<!-- panel 2 HPF -->
+<g transform="translate(410,50)">
+<text x="0" y="14" font-size="14" font-weight="bold" fill="#2F5597">고역통과 HPF</text>
+<text x="300" y="14" font-size="12" fill="#333" text-anchor="end">직류(DC 오프셋)·저주파 제거</text>
+<line x1="0" y1="130" x2="300" y2="130" stroke="#333" stroke-width="1.5"/>
+<line x1="0" y1="130" x2="0" y2="30" stroke="#333" stroke-width="1.5"/>
+<path d="M10,126 C135,80 150,40 190,40 L300,40" fill="none" stroke="#2F5597" stroke-width="3"/>
+<line x1="160" y1="30" x2="160" y2="130" stroke="#C00000" stroke-dasharray="4 3"/>
+<text x="160" y="148" font-size="12" fill="#C00000" text-anchor="middle">f<tspan font-size="9" dy="3">c</tspan></text>
+<text x="250" y="64" font-size="12" fill="#2F5597" text-anchor="middle">통과</text>
+<text x="60" y="80" font-size="12" fill="#666" text-anchor="middle">차단</text>
+</g>
+<!-- panel 3 BPF -->
+<g transform="translate(50,225)">
+<text x="0" y="14" font-size="14" font-weight="bold" fill="#2F5597">대역통과 BPF</text>
+<text x="300" y="14" font-size="12" fill="#333" text-anchor="end">특정 대역 신호만 추출</text>
+<line x1="0" y1="130" x2="300" y2="130" stroke="#333" stroke-width="1.5"/>
+<line x1="0" y1="130" x2="0" y2="30" stroke="#333" stroke-width="1.5"/>
+<path d="M10,126 C80,110 100,40 150,40 C200,40 220,110 290,126" fill="none" stroke="#2F5597" stroke-width="3"/>
+<text x="150" y="64" font-size="12" fill="#2F5597" text-anchor="middle">통과 대역</text>
+</g>
+<!-- panel 4 BSF -->
+<g transform="translate(410,225)">
+<text x="0" y="14" font-size="14" font-weight="bold" fill="#2F5597">대역저지 BSF (노치)</text>
+<text x="300" y="14" font-size="12" fill="#333" text-anchor="end">60 Hz 전원 험 제거</text>
+<line x1="0" y1="130" x2="300" y2="130" stroke="#333" stroke-width="1.5"/>
+<line x1="0" y1="130" x2="0" y2="30" stroke="#333" stroke-width="1.5"/>
+<path d="M0,40 L110,40 C135,40 140,124 150,124 C160,124 165,40 190,40 L300,40" fill="none" stroke="#2F5597" stroke-width="3"/>
+<text x="150" y="148" font-size="12" fill="#C00000" text-anchor="middle">60 Hz</text>
+<text x="60" y="64" font-size="12" fill="#2F5597" text-anchor="middle">통과</text>
+<text x="245" y="64" font-size="12" fill="#2F5597" text-anchor="middle">통과</text>
+</g>
+<text x="380" y="392" font-size="13" fill="#C00000" text-anchor="middle">RC 필터 차단 주파수 f<tspan font-size="9" dy="3">c</tspan> = 1 / (2πRC)</text>
+</svg>
