@@ -301,5 +301,40 @@
   "license": "CC BY-SA 4.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "Myself User:ZyMOS"
+ },
+ "자동제어_7세그먼트_구성.webp": {
+  "title": "Seven-segment design + segments.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Seven-segment_design_%2B_segments.svg",
+  "license": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0",
+  "artist": "Mercury"
+ },
+ "자동제어_그레이코드_엔코더.webp": {
+  "title": "Gray code rotary encoder 13-track opened.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gray_code_rotary_encoder_13-track_opened.jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Mike1024"
+ },
+ "자동제어_ASCII_표.webp": {
+  "title": "ASCII Code Chart.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:ASCII_Code_Chart.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Anomie"
+ },
+ "자동제어_7세그먼트_LED.webp": {
+  "title": "LED-7-Segment-Display.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:LED-7-Segment-Display.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "RetroEditor"
+ },
+ "자동제어_엔코더_원판_2진.webp": {
+  "title": "Encoder disc (3-Bit binary).svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Encoder_disc_(3-Bit_binary).svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "en:User:Cburnett"
  }
 }
