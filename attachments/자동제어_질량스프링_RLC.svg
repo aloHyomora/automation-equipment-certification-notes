@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="720" height="320" fill="#ffffff"/>
+  <text x="170" y="28" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">기계계: 질량-스프링-댐퍼</text>
+  <text x="550" y="28" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">전기계: 직렬 RLC</text>
+  <line x1="360" y1="40" x2="360" y2="300" stroke="#bbbbbb" stroke-dasharray="5 4"/>
+  <!-- wall -->
+  <line x1="30" y1="60" x2="30" y2="200" stroke="#333" stroke-width="4"/>
+  <g stroke="#333" stroke-width="2"><line x1="30" y1="75" x2="18" y2="87"/><line x1="30" y1="105" x2="18" y2="117"/><line x1="30" y1="135" x2="18" y2="147"/><line x1="30" y1="165" x2="18" y2="177"/><line x1="30" y1="195" x2="18" y2="207"/></g>
+  <!-- spring -->
+  <polyline points="30,90 60,90 68,76 84,104 100,76 116,104 132,76 140,90 170,90" fill="none" stroke="#2F5597" stroke-width="3"/>
+  <text x="100" y="64" font-size="14" fill="#2F5597" text-anchor="middle">스프링 K</text>
+  <!-- damper -->
+  <line x1="30" y1="170" x2="80" y2="170" stroke="#2F5597" stroke-width="3"/>
+  <rect x="80" y="156" width="50" height="28" fill="none" stroke="#2F5597" stroke-width="3"/>
+  <line x1="105" y1="170" x2="170" y2="170" stroke="#2F5597" stroke-width="3"/>
+  <line x1="118" y1="162" x2="118" y2="178" stroke="#2F5597" stroke-width="3"/>
+  <text x="100" y="204" font-size="14" fill="#2F5597" text-anchor="middle">댐퍼 B</text>
+  <!-- mass -->
+  <rect x="170" y="70" width="90" height="120" fill="#DAE3F3" stroke="#2F5597" stroke-width="3"/>
+  <text x="215" y="136" font-size="22" font-weight="bold" fill="#2F5597" text-anchor="middle">M</text>
+  <!-- F and x -->
+  <line x1="260" y1="130" x2="330" y2="130" stroke="#C00000" stroke-width="3"/>
+  <polygon points="330,130 318,124 318,136" fill="#C00000"/>
+  <text x="300" y="118" font-size="15" fill="#C00000" text-anchor="middle">힘 F</text>
+  <text x="215" y="226" font-size="14" fill="#333" text-anchor="middle">변위 x (오른쪽 +)</text>
+  <text x="170" y="270" font-size="14" fill="#333" text-anchor="middle">M s² X + B s X + K X = F</text>
+  <text x="170" y="292" font-size="14" fill="#333" text-anchor="middle">X/F = 1 / (Ms² + Bs + K)</text>
+  <!-- RLC -->
+  <polyline points="400,88 400,60 440,60" fill="none" stroke="#333" stroke-width="2.5"/><polyline points="490,60 520,60" fill="none" stroke="#333" stroke-width="2.5"/><polyline points="590,60 690,60 690,124" fill="none" stroke="#333" stroke-width="2.5"/><polyline points="690,136 690,200 400,200 400,132" fill="none" stroke="#333" stroke-width="2.5"/>
+  <circle cx="400" cy="110" r="22" fill="#fff" stroke="#C00000" stroke-width="3"/>
+  <text x="400" y="116" font-size="16" fill="#C00000" text-anchor="middle">V</text>
+  <rect x="440" y="48" width="50" height="24" fill="#fff" stroke="#2F5597" stroke-width="3"/>
+  <text x="465" y="94" font-size="14" fill="#2F5597" text-anchor="middle">R 저항</text>
+  <polyline points="520,60 526,60 530,46 540,74 550,46 560,74 570,46 576,60 590,60" fill="none" stroke="#2F5597" stroke-width="3" stroke-linejoin="round"/>
+  <text x="555" y="94" font-size="14" fill="#2F5597" text-anchor="middle">L 인덕턴스</text>
+    <line x1="675" y1="124" x2="705" y2="124" stroke="#2F5597" stroke-width="3"/>
+  <line x1="675" y1="136" x2="705" y2="136" stroke="#2F5597" stroke-width="3"/>
+  <text x="655" y="134" font-size="14" fill="#2F5597" text-anchor="end">C 커패시터</text>
+  <text x="550" y="228" font-size="14" fill="#333" text-anchor="middle">L s I + R I + I/(Cs) = V</text>
+  <!-- mapping -->
+  <text x="550" y="256" font-size="14" fill="#C55A11" text-anchor="middle">F↔V · M↔L · B↔R · K↔1/C · x↔전하 q · v↔전류 i</text>
+  <text x="550" y="290" font-size="13" fill="#555" text-anchor="middle">(힘-전압 상사: 같은 모양의 2차 방정식)</text>
+</svg>
