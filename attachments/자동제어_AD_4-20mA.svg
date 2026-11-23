@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="720" height="300" fill="#ffffff"/>
+<text x="360" y="26" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">A/D 변환 예: 4~20 mA → 0~4000</text>
+<rect x="90" y="50" width="104.0" height="200" fill="#FBE5E5"/>
+<line x1="90" y1="250" x2="630" y2="250" stroke="#333" stroke-width="2"/>
+<line x1="90" y1="250" x2="90" y2="40" stroke="#333" stroke-width="2"/>
+<text x="626" y="286" font-size="13" fill="#333" text-anchor="end">입력 전류 [mA]</text>
+<text x="82" y="34" font-size="13" fill="#333" text-anchor="end">디지털 값</text>
+<line x1="90.0" y1="250" x2="90.0" y2="255" stroke="#333"/><text x="90.0" y="270" font-size="13" fill="#333" text-anchor="middle">0</text>
+<line x1="194.0" y1="250" x2="194.0" y2="255" stroke="#333"/><text x="194.0" y="270" font-size="13" fill="#333" text-anchor="middle">4</text>
+<line x1="298.0" y1="250" x2="298.0" y2="255" stroke="#333"/><text x="298.0" y="270" font-size="13" fill="#333" text-anchor="middle">8</text>
+<line x1="402.0" y1="250" x2="402.0" y2="255" stroke="#333"/><text x="402.0" y="270" font-size="13" fill="#333" text-anchor="middle">12</text>
+<line x1="506.0" y1="250" x2="506.0" y2="255" stroke="#333"/><text x="506.0" y="270" font-size="13" fill="#333" text-anchor="middle">16</text>
+<line x1="610.0" y1="250" x2="610.0" y2="255" stroke="#333"/><text x="610.0" y="270" font-size="13" fill="#333" text-anchor="middle">20</text>
+<line x1="85" y1="250.0" x2="90" y2="250.0" stroke="#333"/><text x="81" y="254.0" font-size="13" fill="#333" text-anchor="end">0</text>
+<line x1="85" y1="202.5" x2="90" y2="202.5" stroke="#333"/><text x="81" y="206.5" font-size="13" fill="#333" text-anchor="end">1000</text>
+<line x1="85" y1="155.0" x2="90" y2="155.0" stroke="#333"/><text x="81" y="159.0" font-size="13" fill="#333" text-anchor="end">2000</text>
+<line x1="85" y1="107.5" x2="90" y2="107.5" stroke="#333"/><text x="81" y="111.5" font-size="13" fill="#333" text-anchor="end">3000</text>
+<line x1="85" y1="60.0" x2="90" y2="60.0" stroke="#333"/><text x="81" y="64.0" font-size="13" fill="#333" text-anchor="end">4000</text>
+<text x="142.0" y="80" font-size="12" fill="#C00000" text-anchor="middle">4 mA 미만</text>
+<text x="142.0" y="96" font-size="12" fill="#C00000" text-anchor="middle">(0 mA = 단선)</text>
+<line x1="194.0" y1="250.0" x2="610.0" y2="60.0" stroke="#2F5597" stroke-width="3.5"/>
+<line x1="402.0" y1="155.0" x2="402.0" y2="250" stroke="#C55A11" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="402.0" y1="155.0" x2="90" y2="155.0" stroke="#C55A11" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="402.0" cy="155.0" r="6" fill="#C55A11"/>
+<text x="414.0" y="177.0" font-size="13" fill="#C55A11">12 mA → (12−4)/(20−4) × 4000 = 2000</text>
+<text x="238.0" y="244.0" font-size="12" fill="#2F5597">4 mA → 0</text>
+<text x="594.0" y="54.0" font-size="12" fill="#2F5597" text-anchor="end">20 mA → 4000</text>
+</svg>

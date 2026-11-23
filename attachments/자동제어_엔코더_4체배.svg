@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="720" height="300" fill="#ffffff"/>
+<text x="360" y="26" font-size="16" font-weight="bold" fill="#2F5597" text-anchor="middle">2상 엔코더와 4체배: 에지마다 1카운트</text>
+<text x="20" y="108" font-size="15" font-weight="bold" fill="#2F5597">A상</text>
+<text x="20" y="188" font-size="15" font-weight="bold" fill="#548235">B상</text>
+<polyline points="80,110 150,110 150,76 290,76 290,110 430,110 430,76 570,76 570,110 682,110" fill="none" stroke="#2F5597" stroke-width="3"/>
+<polyline points="80,190 220,190 220,156 360,156 360,190 500,190 500,156 640,156 640,190 682,190" fill="none" stroke="#548235" stroke-width="3"/>
+<line x1="150" y1="62" x2="150" y2="200" stroke="#bbb" stroke-dasharray="4 4"/>
+<circle cx="150" cy="93" r="5" fill="#C00000"/><text x="150" y="222" font-size="14" font-weight="bold" fill="#C00000" text-anchor="middle">1</text>
+<line x1="220" y1="62" x2="220" y2="200" stroke="#bbb" stroke-dasharray="4 4"/>
+<circle cx="220" cy="173" r="5" fill="#C00000"/><text x="220" y="222" font-size="14" font-weight="bold" fill="#C00000" text-anchor="middle">2</text>
+<line x1="290" y1="62" x2="290" y2="200" stroke="#bbb" stroke-dasharray="4 4"/>
+<circle cx="290" cy="93" r="5" fill="#C00000"/><text x="290" y="222" font-size="14" font-weight="bold" fill="#C00000" text-anchor="middle">3</text>
+<line x1="360" y1="62" x2="360" y2="200" stroke="#bbb" stroke-dasharray="4 4"/>
+<circle cx="360" cy="173" r="5" fill="#C00000"/><text x="360" y="222" font-size="14" font-weight="bold" fill="#C00000" text-anchor="middle">4</text>
+<line x1="430" y1="62" x2="430" y2="200" stroke="#bbb" stroke-dasharray="4 4"/>
+<circle cx="430" cy="93" r="5" fill="#C00000"/><text x="430" y="222" font-size="14" font-weight="bold" fill="#C00000" text-anchor="middle">5</text>
+<line x1="500" y1="62" x2="500" y2="200" stroke="#bbb" stroke-dasharray="4 4"/>
+<circle cx="500" cy="173" r="5" fill="#C00000"/><text x="500" y="222" font-size="14" font-weight="bold" fill="#C00000" text-anchor="middle">6</text>
+<line x1="570" y1="62" x2="570" y2="200" stroke="#bbb" stroke-dasharray="4 4"/>
+<circle cx="570" cy="93" r="5" fill="#C00000"/><text x="570" y="222" font-size="14" font-weight="bold" fill="#C00000" text-anchor="middle">7</text>
+<line x1="640" y1="62" x2="640" y2="200" stroke="#bbb" stroke-dasharray="4 4"/>
+<circle cx="640" cy="173" r="5" fill="#C00000"/><text x="640" y="222" font-size="14" font-weight="bold" fill="#C00000" text-anchor="middle">8</text>
+<text x="290" y="52" font-size="13" fill="#333" text-anchor="middle">A상 1주기</text>
+<line x1="150" y1="58" x2="430" y2="58" stroke="#333" stroke-width="2"/>
+<text x="360" y="240" font-size="12" fill="#555" text-anchor="middle">(정회전 예: A가 B보다 먼저 변한다. 역회전이면 순서가 반대)</text>
+<text x="360" y="264" font-size="14" fill="#333" text-anchor="middle">A·B 두 상의 상승·하강 에지를 모두 센다 → 한 주기에 4카운트 = 4체배</text>
+<text x="360" y="288" font-size="14" fill="#C55A11" text-anchor="middle">엔코더 1000 P/R × 4체배 = 4000 카운트/회전 (A만 세면 1체배 = 1000)</text>
+</svg>
