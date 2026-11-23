@@ -43,6 +43,15 @@ python -I .claude/skills/enrich-unit-note/scripts/credits_section.py 00_Inbox/�
 4. **막혀도 전체를 멈추지 않는다.** 위키미디어 429가 길어지면 다운로드를 백그라운드로 돌리고 본문을 먼저 쓴다. 그래도 맞는 그림을 못 구하면 직접 그리거나 그 절은 그림 없이 두고, 마지막 보고에 "그림 보류" 목록으로 남긴다.
 5. **멈추는 경우는 푸시가 거부될 때뿐이다**(충돌·인증). 원격에 새 커밋이 있어서 거부되면 `git pull --rebase` 후 다시 푸시하고, 그래도 안 되면 그 지점에서 멈추고 보고한다. 내용을 지워야만 할 것 같은 상황은 지우지 말고 옮기거나 합쳐서 해결한다.
 6. 모두 끝나면 노트별 결과(넣은 그림 수, 직접 그린 그림, 보류 항목, 커밋 해시)를 표 하나로 보고한다.
+7. 사용자가 노트 목록과 순서를 직접 주면 그 순서를 따른다.
+
+### 노트 하나당 체크리스트 (일괄 실행 때 매번 이 순서로)
+
+1. 노트를 끝까지 읽고, 기준 예시 `30_공유압/공유압_기초.md`의 구성으로 다시 쓴다 (기존 문장은 하나도 지우지 않는다).
+2. 그림 자리를 고르고 → 위키미디어 검색·받기 → 막히면 Openverse(`--no-wikimedia`) → 그래도 없으면 직접 그린 SVG.
+3. 받은 그림은 Read로 열어 보고 캡션을 실제 모습에 맞춘다. 직접 그린 SVG는 `render_check.py`로 PNG를 만들어 보고 겹침·잘림·원리 오류를 고친다.
+4. `credits_section.py <노트>` → `loss_check.py <노트>`(본문 문장 missing 0) → `link_check.py <노트>`(broken 0).
+5. 그 노트와 그 노트의 그림만 `git add` → 커밋 → `git push`. 바로 다음 노트로.
 
 ## 지켜야 하는 볼트 규칙 (이유 포함)
 
@@ -124,16 +133,17 @@ SVG로 그려 `attachments/<과목>_<이름>.svg`에 둔다 (예: `공유압_절
 - 흰 배경 `rect`를 깔아 Obsidian 어두운 테마에서도 보이게 한다.
 - 색은 과목 팔레트를 쓴다: 자동제어 `#2F5597`, 기계요소설계 `#548235`, 공유압 `#C55A11`, 강조 빨강 `#C00000`.
 - 글꼴은 `Malgun Gothic, Apple SD Gothic Neo, sans-serif`.
-- **반드시 렌더링해서 눈으로 본다.** 처음 그린 그림은 거의 항상 글자 겹침·오른쪽 잘림이 있다. 여러 장은 한 HTML에 모아 헤드리스 Edge로 PNG를 찍어 Read로 보면 빠르다 (브라우저 창이 숨겨져 있거나 볼트 밖 파일이라 열리지 않을 때도 된다):
+- **반드시 렌더링해서 눈으로 본다.** 처음 그린 그림은 거의 항상 글자 겹침·오른쪽 잘림이 있다. 여러 장을 한 번에 헤드리스 Edge로 PNG로 찍어 주는 스크립트가 있다 (브라우저 창이 숨겨져 있어도 된다). 출력 폴더는 스크래치 디렉터리로 준다:
   ```powershell
-  & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --headless=new --disable-gpu --hide-scrollbars "--screenshot=<scratch>\gallery.png" --window-size=620,3400 "file:///<scratch>/gallery.html"
+  python -I .claude/skills/enrich-unit-note/scripts/render_check.py <scratch폴더> attachments/자동제어_근궤적.svg attachments/자동제어_릴레이_원리.svg
   ```
+  출력된 `render_0.png …`를 Read로 열어 확인한다.
 - **내용도 검증한다.** 겹침만 보지 말고 그림이 물리적으로 맞는지 본다. CH01 릴레이 그림은 처음에 지렛대 양 끝이 모두 내려가게 그려서, a접점(NO)을 위로 옮겨 고쳤다. 그래프는 본문 수치와 맞는 예제 값으로 그린다 (퍼지 25 ℃ → 0.7/0.3, 근궤적 극점 0·−2).
 - 출처 표의 "직접 그린 그림" 줄은 `credits_section.py`가 SVG 링크를 찾아 자동으로 만든다.
 
 ## 마무리 확인
 
-- 노트의 모든 `../attachments/…` 링크와 `….md` 링크가 실제 파일을 가리키는지 스크립트로 확인한다.
+- 노트의 모든 `../attachments/…` 링크, `….md` 링크, `#제목` 링크가 실제 대상을 가리키는지 확인한다: `python -I .claude/skills/enrich-unit-note/scripts/link_check.py <노트>` → `broken 0`.
 - 기존 기출 포인트·체크리스트 항목 수가 줄지 않았는지 확인한다.
 - Obsidian이 열려 있으면 작업 중에 표 간격을 자동 정렬해 파일이 "바뀌었다"고 나올 수 있다. diff가 공백뿐이면 다시 읽고 덮어써도 된다.
 ## 커밋과 푸시
