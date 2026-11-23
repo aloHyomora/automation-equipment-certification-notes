@@ -218,13 +218,6 @@
   "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "artist": "en:User:Cburnett"
  },
- "자동제어_7세그먼트.webp": {
-  "title": "Common segment displays.svg",
-  "page": "https://commons.wikimedia.org/wiki/File:Common_segment_displays.svg",
-  "license": "CC0",
-  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "artist": "Errorage"
- },
  "자동제어_RS232_핀.webp": {
   "title": "RS-232 Pinouts for the DE-9 Connector.svg",
   "page": "https://commons.wikimedia.org/wiki/File:RS-232_Pinouts_for_the_DE-9_Connector.svg",
@@ -252,5 +245,19 @@
   "license": "CC0",
   "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "artist": "Cabfdb"
+ },
+ "자동제어_모드버스_구조.webp": {
+  "title": "MODBUS Network Architecture.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:MODBUS_Network_Architecture.svg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Sertion"
+ },
+ "자동제어_CAN_2선.webp": {
+  "title": "CAN-Bus Elektrische Zweidrahtleitung.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:CAN-Bus_Elektrische_Zweidrahtleitung.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "Stefan-Xp"
  }
 }
