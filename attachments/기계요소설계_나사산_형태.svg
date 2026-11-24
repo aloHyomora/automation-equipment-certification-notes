@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 95 780 265" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="780" height="360" fill="#ffffff"/>
+<text x="390.0" y="122.0" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">나사산의 모양 — 축 방향 단면(산 2개)</text>
+<path d="M20.0,240.0 L20.0,210.0 L50.0,160.6 L80.0,210.0 L110.0,160.6 L140.0,210.0 L140.0,240.0 Z" fill="#E2EFDA" stroke="#548235" stroke-width="2.5"/>
+<line x1="10.0" y1="240.0" x2="150.0" y2="240.0" stroke="#555" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+<text x="80.0" y="250.0" font-size="10" fill="#555" text-anchor="middle">축선</text>
+<text x="80.0" y="280.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">삼각 나사</text>
+<text x="80.0" y="302.0" font-size="12" fill="#555" text-anchor="middle">체결용</text>
+<text x="80.0" y="320.0" font-size="12" fill="#555" text-anchor="middle">미터·유니파이 60°</text>
+<text x="80.0" y="338.0" font-size="12" fill="#555" text-anchor="middle">관용 55°</text>
+<path d="M98.0,181.6 A24,24 0 0 0 122.0,181.6" fill="none" stroke="#C00000" stroke-width="1.5"/><text x="110.0" y="205.6" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">60°</text>
+<path d="M175.0,240.0 L175.0,210.0 L190.0,210.0 L190.0,180.0 L220.0,180.0 L220.0,210.0 L250.0,210.0 L250.0,180.0 L280.0,180.0 L280.0,210.0 L295.0,210.0 L295.0,240.0 Z" fill="#E2EFDA" stroke="#548235" stroke-width="2.5"/>
+<line x1="165.0" y1="240.0" x2="305.0" y2="240.0" stroke="#555" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+<text x="235.0" y="250.0" font-size="10" fill="#555" text-anchor="middle">축선</text>
+<text x="235.0" y="280.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">사각 나사</text>
+<text x="235.0" y="302.0" font-size="12" fill="#555" text-anchor="middle">큰 힘 전달·효율 좋음</text>
+<text x="235.0" y="320.0" font-size="12" fill="#555" text-anchor="middle">가공 어려움</text>
+<text x="235.0" y="338.0" font-size="12" fill="#555" text-anchor="middle">잭·프레스</text>
+
+<path d="M330.0,240.0 L330.0,210.0 L342.4,210.0 L351.0,178.0 L369.0,178.0 L377.6,210.0 L402.4,210.0 L411.0,178.0 L429.0,178.0 L437.6,210.0 L450.0,210.0 L450.0,240.0 Z" fill="#E2EFDA" stroke="#548235" stroke-width="2.5"/>
+<line x1="320.0" y1="240.0" x2="460.0" y2="240.0" stroke="#555" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+<text x="390.0" y="250.0" font-size="10" fill="#555" text-anchor="middle">축선</text>
+<text x="390.0" y="280.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">사다리꼴 나사</text>
+<text x="390.0" y="302.0" font-size="12" fill="#555" text-anchor="middle">Tr: 30°(미터)</text>
+<text x="390.0" y="320.0" font-size="12" fill="#555" text-anchor="middle">TW: 29°(인치)</text>
+<text x="390.0" y="338.0" font-size="12" fill="#555" text-anchor="middle">공작기계 이송·잭</text>
+<line x1="411.0" y1="178.0" x2="414.8" y2="164.0" stroke="#C00000" stroke-width="1" stroke-dasharray="2 2"/><line x1="429.0" y1="178.0" x2="425.2" y2="164.0" stroke="#C00000" stroke-width="1" stroke-dasharray="2 2"/><text x="420.0" y="158.0" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">30°</text>
+<path d="M485.0,240.0 L485.0,210.0 L495.0,210.0 L514.6,176.0 L525.0,176.0 L525.0,210.0 L555.0,210.0 L574.6,176.0 L585.0,176.0 L585.0,210.0 L605.0,210.0 L605.0,240.0 Z" fill="#E2EFDA" stroke="#548235" stroke-width="2.5"/>
+<line x1="475.0" y1="240.0" x2="615.0" y2="240.0" stroke="#555" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+<text x="545.0" y="250.0" font-size="10" fill="#555" text-anchor="middle">축선</text>
+<text x="545.0" y="280.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">톱니 나사</text>
+<text x="545.0" y="302.0" font-size="12" fill="#555" text-anchor="middle">하중면 축에 직각</text>
+<text x="545.0" y="320.0" font-size="12" fill="#555" text-anchor="middle">반대면 30° 경사</text>
+<text x="545.0" y="338.0" font-size="12" fill="#555" text-anchor="middle">바이스·프레스·잭</text>
+<line x1="615.0" y1="193.0" x2="587.0" y2="193.0" stroke="#C00000" stroke-width="2"/><polygon points="587.0,193.0 597.0,188.4 597.0,197.6" fill="#C00000"/><text x="597.0" y="162.0" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">하중</text><line x1="555.0" y1="210.0" x2="555.0" y2="176.0" stroke="#C00000" stroke-width="1" stroke-dasharray="2 2"/><text x="549.0" y="172.0" font-size="12" fill="#C00000" text-anchor="end" font-weight="bold">30°</text>
+<path d="M640,240 L640,210 L655.0,210 C655,170 685,170 685,210 L715.0,210 C715,170 745,170 745,210 L760,210 L760,240 Z" fill="#E2EFDA" stroke="#548235" stroke-width="2.5"/>
+<line x1="630.0" y1="240.0" x2="770.0" y2="240.0" stroke="#555" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+<text x="700.0" y="250.0" font-size="10" fill="#555" text-anchor="middle">축선</text>
+<text x="700.0" y="280.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">둥근 나사</text>
+<text x="700.0" y="302.0" font-size="12" fill="#555" text-anchor="middle">산·골이 둥글다</text>
+<text x="700.0" y="320.0" font-size="12" fill="#555" text-anchor="middle">먼지·이물질·충격</text>
+<text x="700.0" y="338.0" font-size="12" fill="#555" text-anchor="middle">전구·호스 연결</text>
+
+</svg>

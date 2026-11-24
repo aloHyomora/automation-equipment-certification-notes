@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="390" fill="#ffffff"/>
+<text x="380.0" y="28.0" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">피치와 리드 — 줄 수가 늘면 리드가 늘고, 피치는 그대로</text>
+<clipPath id="clip170"><rect x="50" y="90" width="240" height="220"/></clipPath>
+<rect x="50" y="90" width="240" height="220" fill="#E2EFDA" stroke="#548235" stroke-width="2"/>
+<text x="170.0" y="64.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">1줄 나사: L = p</text>
+<line x1="50" y1="30.0" x2="290" y2="60.0" stroke="#548235" stroke-width="3" clip-path="url(#clip170)"/>
+<line x1="50" y1="70.0" x2="290" y2="100.0" stroke="#548235" stroke-width="3" clip-path="url(#clip170)"/>
+<line x1="50" y1="110.0" x2="290" y2="140.0" stroke="#548235" stroke-width="3" clip-path="url(#clip170)"/>
+<line x1="50" y1="150.0" x2="290" y2="180.0" stroke="#548235" stroke-width="3" clip-path="url(#clip170)"/>
+<line x1="50" y1="190.0" x2="290" y2="220.0" stroke="#548235" stroke-width="3" clip-path="url(#clip170)"/>
+<line x1="50" y1="230.0" x2="290" y2="260.0" stroke="#548235" stroke-width="3" clip-path="url(#clip170)"/>
+<line x1="50" y1="270.0" x2="290" y2="300.0" stroke="#548235" stroke-width="3" clip-path="url(#clip170)"/>
+<line x1="50" y1="310.0" x2="290" y2="340.0" stroke="#548235" stroke-width="3" clip-path="url(#clip170)"/>
+<line x1="290.0" y1="180.0" x2="322.0" y2="180.0" stroke="#999" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="290.0" y1="220.0" x2="322.0" y2="220.0" stroke="#999" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="312.0" y1="180.0" x2="312.0" y2="220.0" stroke="#333" stroke-width="1.5"/><polygon points="312.0,220.0 308.2,211.8 315.8,211.8" fill="#333"/><polygon points="312.0,180.0 315.8,188.2 308.2,188.2" fill="#333"/>
+<text x="318.0" y="205.0" font-size="15" fill="#333" text-anchor="start" font-weight="bold">p</text>
+<line x1="290.0" y1="220.0" x2="360.0" y2="220.0" stroke="#999" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="320.0" y1="180.0" x2="360.0" y2="180.0" stroke="#999" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="350.0" y1="180.0" x2="350.0" y2="220.0" stroke="#C00000" stroke-width="1.5"/><polygon points="350.0,220.0 346.2,211.8 353.8,211.8" fill="#C00000"/><polygon points="350.0,180.0 353.8,188.2 346.2,188.2" fill="#C00000"/>
+<text x="356.0" y="205.0" font-size="16" fill="#C00000" text-anchor="start" font-weight="bold">L</text>
+<line x1="170.0" y1="320.0" x2="170.0" y2="80.0" stroke="#555" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+<clipPath id="clip540"><rect x="420" y="90" width="240" height="220"/></clipPath>
+<rect x="420" y="90" width="240" height="220" fill="#E2EFDA" stroke="#548235" stroke-width="2"/>
+<text x="540.0" y="64.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">2줄 나사: L = 2p</text>
+<line x1="420" y1="30.0" x2="660" y2="60.0" stroke="#548235" stroke-width="3" clip-path="url(#clip540)"/>
+<line x1="420" y1="70.0" x2="660" y2="100.0" stroke="#C00000" stroke-width="3" clip-path="url(#clip540)"/>
+<line x1="420" y1="110.0" x2="660" y2="140.0" stroke="#548235" stroke-width="3" clip-path="url(#clip540)"/>
+<line x1="420" y1="150.0" x2="660" y2="180.0" stroke="#C00000" stroke-width="3" clip-path="url(#clip540)"/>
+<line x1="420" y1="190.0" x2="660" y2="220.0" stroke="#548235" stroke-width="3" clip-path="url(#clip540)"/>
+<line x1="420" y1="230.0" x2="660" y2="260.0" stroke="#C00000" stroke-width="3" clip-path="url(#clip540)"/>
+<line x1="420" y1="270.0" x2="660" y2="300.0" stroke="#548235" stroke-width="3" clip-path="url(#clip540)"/>
+<line x1="420" y1="310.0" x2="660" y2="340.0" stroke="#C00000" stroke-width="3" clip-path="url(#clip540)"/>
+<line x1="660.0" y1="180.0" x2="692.0" y2="180.0" stroke="#999" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="660.0" y1="220.0" x2="692.0" y2="220.0" stroke="#999" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="682.0" y1="180.0" x2="682.0" y2="220.0" stroke="#333" stroke-width="1.5"/><polygon points="682.0,220.0 678.2,211.8 685.8,211.8" fill="#333"/><polygon points="682.0,180.0 685.8,188.2 678.2,188.2" fill="#333"/>
+<text x="688.0" y="205.0" font-size="15" fill="#333" text-anchor="start" font-weight="bold">p</text>
+<line x1="660.0" y1="260.0" x2="730.0" y2="260.0" stroke="#999" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="690.0" y1="180.0" x2="730.0" y2="180.0" stroke="#999" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="720.0" y1="180.0" x2="720.0" y2="260.0" stroke="#C00000" stroke-width="1.5"/><polygon points="720.0,260.0 716.2,251.8 723.8,251.8" fill="#C00000"/><polygon points="720.0,180.0 723.8,188.2 716.2,188.2" fill="#C00000"/>
+<text x="726.0" y="225.0" font-size="16" fill="#C00000" text-anchor="start" font-weight="bold">L</text>
+<line x1="540.0" y1="320.0" x2="540.0" y2="80.0" stroke="#555" stroke-width="1" stroke-dasharray="14 4 3 4"/>
+<text x="40.0" y="350.0" font-size="13" fill="#333" text-anchor="start">같은 색 선이 한 가닥의 나사줄이다. 한 바퀴 돌리면 같은 줄의 다음 산까지, 즉 리드 L만큼 나아간다.</text>
+<text x="40.0" y="374.0" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">계산 예: 피치 3 mm, 3줄 → 리드 3 × 3 = 9 mm → 2회전이면 9 × 2 = 18 mm 이동</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="400" fill="#ffffff"/>
+<text x="380.0" y="28.0" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">나사 = 원통에 감은 빗면 — 펼치면 밑변 π d₂, 높이 L인 경사면</text>
+<polygon points="60,300 360,300 360,190.8" fill="#E2EFDA" stroke="#548235" stroke-width="2.5"/>
+<line x1="60.0" y1="322.0" x2="360.0" y2="322.0" stroke="#333" stroke-width="1.2"/><polygon points="360.0,322.0 351.8,325.8 351.8,318.2" fill="#333"/><polygon points="60.0,322.0 68.2,318.2 68.2,325.8" fill="#333"/>
+<text x="210.0" y="342.0" font-size="13" fill="#333" text-anchor="middle">π d₂ (유효지름 한 바퀴 둘레)</text>
+<line x1="382.0" y1="300.0" x2="382.0" y2="190.8" stroke="#C00000" stroke-width="1.4"/><polygon points="382.0,190.8 385.8,199.0 378.2,199.0" fill="#C00000"/><polygon points="382.0,300.0 378.2,291.8 385.8,291.8" fill="#C00000"/>
+<text x="390.0" y="250.4" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">L (리드)</text>
+<path d="M110,300 A50,50 0 0 0 107.0,282.9" fill="none" stroke="#2F5597" stroke-width="1.5"/>
+<text x="118.0" y="294.0" font-size="16" fill="#2F5597" text-anchor="start" font-weight="bold">λ</text>
+<text x="60.0" y="86.0" font-size="15" fill="#2F5597" text-anchor="start" font-weight="bold">tan λ = L / (π d₂)</text>
+<text x="60.0" y="108.0" font-size="12" fill="#555" text-anchor="start">리드각 λ가 작을수록 빗면이 완만하다</text>
+<polygon points="450,300 700,300 700,209.0" fill="#F2F2F2" stroke="#777" stroke-width="1.5"/>
+<polygon points="576.5,254.0 623.5,236.9 612.5,206.8 565.6,223.9" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<line x1="594.5" y1="230.4" x2="594.5" y2="310.4" stroke="#333" stroke-width="2"/><polygon points="594.5,310.4 589.9,300.4 599.2,300.4" fill="#333"/>
+<text x="600.5" y="308.4" font-size="13" fill="#333" text-anchor="start" font-weight="bold">W (축 하중)</text>
+<line x1="484.5" y1="230.4" x2="568.5" y2="230.4" stroke="#C00000" stroke-width="2"/><polygon points="568.5,230.4 558.6,235.0 558.6,225.7" fill="#C00000"/>
+<text x="484.5" y="222.4" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">P (돌리는 힘)</text>
+<line x1="600.0" y1="245.4" x2="567.5" y2="156.1" stroke="#999" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="569.8" y="151.4" font-size="11" fill="#777" text-anchor="start">법선</text>
+<line x1="600.0" y1="245.4" x2="549.7" y2="164.8" stroke="#2F5597" stroke-width="2"/><polygon points="549.7,164.8 558.9,170.8 551.0,175.8" fill="#2F5597"/>
+<text x="543.7" y="158.8" font-size="13" fill="#2F5597" text-anchor="end" font-weight="bold">R (반력)</text>
+<text x="590.3" y="173.8" font-size="15" fill="#2F5597" text-anchor="start" font-weight="bold">ρ</text>
+<text x="450.0" y="86.0" font-size="15" fill="#C00000" text-anchor="start" font-weight="bold">올릴 때: P = W tan(λ + ρ)</text>
+<text x="450.0" y="108.0" font-size="12" fill="#555" text-anchor="start">마찰각 ρ (μ = tan ρ): 반력 R이 법선에서 ρ만큼 기운다</text>
+<text x="450.0" y="130.0" font-size="13" fill="#333" text-anchor="start">토크 T = P · d₂/2</text>
+<text x="60.0" y="380.0" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">효율 η = tan λ / tan(λ + ρ)   —   λ ≤ ρ 이면 손을 놓아도 풀리지 않는다(자립)</text>
+</svg>
