@@ -60,18 +60,27 @@ def main():
     ap.add_argument("--prefix", required=True)
     ap.add_argument("--url", required=True, help="direct image URL")
     ap.add_argument("--name", required=True, help="short name -> <prefix>_<name>.webp")
-    ap.add_argument("--license", required=True, help='e.g. "CC0", "Public domain", "CC BY 2.0", "CC BY-SA 4.0"')
+    ap.add_argument("--license", default="", help='e.g. "CC0", "Public domain", "CC BY 2.0", "CC BY-SA 4.0"')
     ap.add_argument("--author", default="")
     ap.add_argument("--page", required=True, help="source page where the licence can be verified")
     ap.add_argument("--title", default=None)
     ap.add_argument("--source", default=None, help="source label shown in the credits table")
     ap.add_argument("--dest", default="attachments")
+    ap.add_argument("--personal-use", action="store_true",
+                    help="USER-APPROVED EXCEPTION: manufacturer catalogue photo (all rights reserved) kept only "
+                         "in the PRIVATE vault for personal study. Skips the open-licence check; "
+                         "--author must name the company.")
     a = ap.parse_args()
 
     lic = a.license.strip()
-    ok = lic in ("CC0", "Public domain") or lic.upper().startswith(("CC BY ", "CC BY-SA "))
-    if not ok or "NC" in lic.upper() or "ND" in lic.upper():
-        sys.exit(f"REFUSED licence: {lic}")
+    if a.personal_use:
+        if not a.author:
+            sys.exit("--personal-use needs --author <company>")
+        lic = "저작권 보유(개인 학습용, 비공개 저장소 한정)"
+    else:
+        ok = lic in ("CC0", "Public domain") or lic.upper().startswith(("CC BY ", "CC BY-SA "))
+        if not ok or "NC" in lic.upper() or "ND" in lic.upper():
+            sys.exit(f"REFUSED licence: {lic}")
 
     dest = pathlib.Path(a.dest)
     out = dest / f"{a.prefix}_{a.name}.webp"
