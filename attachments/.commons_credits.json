@@ -1718,5 +1718,21 @@
   "licurl": null,
   "artist": "Fluke",
   "source": "Fluke 카탈로그"
+ },
+ "자동제어_열동형_과부하계전기.webp": {
+  "title": "LS ELECTRIC 열동형 과부하 계전기 MT 시리즈 (카탈로그 사진)",
+  "page": "https://nahpdev-web.ls-electric.com/product/1677/thermal-overload-relay",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "LS ELECTRIC",
+  "source": "LS ELECTRIC 카탈로그"
+ },
+ "기계요소설계_호브.webp": {
+  "title": "Gleason 호브와 밀링 커터 (카탈로그 사진)",
+  "page": "https://www.gleason.com/en/products/tools/cylindrical/hobbing-and-milling/hobs-and-milling-cutters",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "Gleason",
+  "source": "Gleason 카탈로그"
  }
 }
