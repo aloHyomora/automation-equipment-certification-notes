@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="800" height="360" fill="#ffffff"/>
+<text x="400.0" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">코터 이음 — 쐐기를 박아 축 방향 하중을 받는다</text>
+<rect x="12" y="44" width="470" height="304" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="250" y="130" width="200" height="100" fill="#BFBFBF" stroke="#555" stroke-width="1.5"/>
+<rect x="250" y="160" width="140" height="40" fill="#ffffff" stroke="#555"/>
+<rect x="60" y="160" width="325" height="40" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<path d="M330,88 L358,88 L350,272 L330,272 Z" fill="#F4B183" stroke="#C00000" stroke-width="2"/>
+<line x1="70" y1="180" x2="30" y2="180" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="42" y="172" font-size="15" fill="#C00000" text-anchor="start" font-weight="bold">P</text>
+<line x1="450" y1="180" x2="474" y2="180" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="462" y="172" font-size="15" fill="#C00000" text-anchor="start" font-weight="bold">P</text>
+<text x="120" y="152" font-size="14" fill="#548235" text-anchor="middle" font-weight="bold">로드</text>
+<text x="420" y="122" font-size="14" fill="#555" text-anchor="middle" font-weight="bold">소켓</text>
+<text x="366" y="98" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">코터 (쐐기)</text>
+<line x1="358" y1="88" x2="358" y2="272" stroke="#333" stroke-dasharray="4 3"/>
+<text x="366" y="290" font-size="12" fill="#333" text-anchor="start">한쪽 기울기 (과장)</text>
+<text x="30" y="322" font-size="12" fill="#333" text-anchor="start">로드를 소켓에 끼우고 두 부재를 꿰뚫는 구멍에 코터를 박는다.</text>
+<text x="30" y="340" font-size="12" fill="#333" text-anchor="start">코터 단면은 하중 P를 가로로 받아 전단된다 (2면 전단).</text>
+<rect x="496" y="44" width="292" height="304" rx="8" fill="#ffffff" stroke="#548235"/>
+<text x="512" y="74" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">기울기 선택</text>
+<text x="512" y="100" font-size="14" fill="#333" text-anchor="start">자주 분해  1/5 ~ 1/10</text>
+<text x="512" y="124" font-size="14" fill="#333" text-anchor="start">보통  1/20</text>
+<text x="512" y="148" font-size="14" fill="#333" text-anchor="start">반영구  1/50 ~ 1/100</text>
+<text x="512" y="172" font-size="14" fill="#C00000" text-anchor="start">기울기 작을수록 잘 안 빠진다</text>
+<text x="512" y="214" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">자립 조건 (ρ: 마찰각)</text>
+<text x="512" y="240" font-size="14" fill="#333" text-anchor="start">한쪽 기울기  α ≤ 2ρ</text>
+<text x="512" y="264" font-size="14" fill="#333" text-anchor="start">양쪽 기울기  α ≤ ρ</text>
+<text x="512" y="300" font-size="14" fill="#555" text-anchor="start">쓰는 곳: 피스톤 로드 − 크로스헤드</text>
+<text x="512" y="324" font-size="14" fill="#555" text-anchor="start">분해 가능한 축 방향 결합</text>
+</svg>

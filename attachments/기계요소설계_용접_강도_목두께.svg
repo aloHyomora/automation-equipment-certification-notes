@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="800" height="380" fill="#ffffff"/>
+<text x="400.0" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">맞대기 용접은 판 두께로, 필릿 용접은 목 두께로 계산한다</text>
+<rect x="12" y="44" width="380" height="324" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="408" y="44" width="380" height="324" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<text x="202" y="68" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">맞대기 용접 (V형 홈)</text>
+<rect x="50" y="150" width="140" height="40" fill="#D9D9D9" stroke="#555"/>
+<rect x="214" y="150" width="140" height="40" fill="#D9D9D9" stroke="#555"/>
+<path d="M176,150 L228,150 L214,190 L190,190 Z" fill="#F4B183" stroke="#C00000" stroke-width="2"/>
+<path d="M176,150 Q202,138 228,150 Z" fill="#F4B183" stroke="#C00000" stroke-width="1.5"/>
+<line x1="60" y1="170" x2="26" y2="170" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="32" y="160" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">P</text>
+<line x1="344" y1="170" x2="380" y2="170" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="368" y="160" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">P</text>
+<line x1="330" y1="150" x2="330" y2="190" stroke="#333" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="322" y="175" font-size="14" fill="#333" text-anchor="end" font-weight="bold">t</text>
+<text x="202" y="120" font-size="12" fill="#555" text-anchor="middle">용접 금속(빨강)이 두 판을 잇는다</text>
+<text x="202" y="236" font-size="17" fill="#333" text-anchor="middle" font-weight="bold">σ = P / (t × l)</text>
+<text x="202" y="262" font-size="12" fill="#555" text-anchor="middle">t : 판 두께,  l : 용접 길이(앞뒤 방향)</text>
+<text x="202" y="300" font-size="13" fill="#C00000" text-anchor="middle">예: P = 6000 N, t = 10 mm, l = 100 mm</text>
+<text x="202" y="322" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">σ = 6000 / 1000 = 6 MPa</text>
+<text x="598" y="68" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">필릿 용접 (T 이음 단면)</text>
+<rect x="440" y="250" width="320" height="26" fill="#D9D9D9" stroke="#555"/>
+<rect x="586" y="96" width="26" height="154" fill="#D9D9D9" stroke="#555"/>
+<path d="M612,250 L712,250 L612,150 Z" fill="#F4B183" stroke="#C00000" stroke-width="2"/>
+<path d="M586,250 L526,250 L586,190 Z" fill="#F4B183" stroke="#C00000" stroke-width="1.5"/>
+<line x1="612" y1="250" x2="662" y2="200" stroke="#C00000" stroke-width="3"/>
+<text x="668" y="196" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">목 두께 a</text>
+<line x1="612" y1="296" x2="712" y2="296" stroke="#333" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="662" y="314" font-size="13" fill="#333" text-anchor="middle">다리 길이 h</text>
+<line x1="712" y1="252" x2="712" y2="302" stroke="#999"/><line x1="612" y1="278" x2="612" y2="302" stroke="#999"/>
+<line x1="740" y1="150" x2="740" y2="248" stroke="#333" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="748" y="204" font-size="14" fill="#333" text-anchor="start" font-weight="bold">h</text>
+<line x1="614" y1="150" x2="744" y2="150" stroke="#999"/>
+<text x="598" y="340" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">a = h cos 45° = 0.707 h,   τ = P / (a × l)</text>
+<text x="598" y="360" font-size="12" fill="#C00000" text-anchor="middle">예: h = 10 mm → a ≈ 7.07 mm</text>
+</svg>

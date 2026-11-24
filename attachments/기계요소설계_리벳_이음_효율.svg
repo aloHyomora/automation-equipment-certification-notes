@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="800" height="430" fill="#ffffff"/>
+<text x="400.0" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">리벳 이음 — 겹치기와 맞대기, 그리고 구멍이 깎아 먹는 판의 강도</text>
+<rect x="12" y="44" width="380" height="200" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="408" y="44" width="380" height="200" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<text x="202" y="68" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">겹치기 이음 (1면 전단)</text>
+<text x="598" y="68" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">양쪽 덮개판 맞대기 이음 (2면 전단)</text>
+<rect x="40" y="128" width="200" height="18" fill="#D9D9D9" stroke="#555"/>
+<rect x="150" y="146" width="210" height="18" fill="#D9D9D9" stroke="#555"/>
+<rect x="168" y="128" width="14" height="36" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/><path d="M161,128 A14 9 0 0 1 189,128 Z" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/><path d="M161,164 A14 9 0 0 0 189,164 Z" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/>
+<rect x="208" y="128" width="14" height="36" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/><path d="M201,128 A14 9 0 0 1 229,128 Z" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/><path d="M201,164 A14 9 0 0 0 229,164 Z" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/>
+<line x1="150" y1="146" x2="240" y2="146" stroke="#C00000" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="60" y1="137" x2="24" y2="137" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="30" y="128" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">P</text>
+<line x1="340" y1="155" x2="378" y2="155" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="366" y="148" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">P</text>
+<text x="202" y="200" font-size="13" fill="#C00000" text-anchor="middle">전단면 1개 : τ = P / (π d² / 4)</text>
+<text x="202" y="222" font-size="12" fill="#555" text-anchor="middle">(리벳 1개당)</text>
+<rect x="420" y="146" width="168" height="18" fill="#D9D9D9" stroke="#555"/>
+<rect x="598" y="146" width="178" height="18" fill="#D9D9D9" stroke="#555"/>
+<rect x="480" y="128" width="220" height="18" fill="#EDEDED" stroke="#555"/>
+<rect x="480" y="164" width="220" height="18" fill="#EDEDED" stroke="#555"/>
+<rect x="523" y="128" width="14" height="54" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/><path d="M516,128 A14 9 0 0 1 544,128 Z" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/><path d="M516,182 A14 9 0 0 0 544,182 Z" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/>
+<rect x="653" y="128" width="14" height="54" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/><path d="M646,128 A14 9 0 0 1 674,128 Z" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/><path d="M646,182 A14 9 0 0 0 674,182 Z" fill="#A9D18E" stroke="#548235" stroke-width="1.5"/>
+<line x1="512" y1="146" x2="548" y2="146" stroke="#C00000" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="512" y1="164" x2="548" y2="164" stroke="#C00000" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="440" y1="155" x2="412" y2="155" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="416" y="146" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">P</text>
+<line x1="756" y1="155" x2="784" y2="155" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="768" y="146" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">P</text>
+<text x="598" y="112" font-size="12" fill="#555" text-anchor="middle">덮개판</text>
+<text x="598" y="208" font-size="13" fill="#C00000" text-anchor="middle">전단면 2개 → 전단 면적 2배</text>
+<text x="598" y="228" font-size="13" fill="#C00000" text-anchor="middle">τ = P / (2 × π d² / 4)</text>
+<rect x="12" y="256" width="776" height="164" rx="8" fill="#ffffff" stroke="#548235"/>
+<text x="30" y="280" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">위에서 본 판 : 리벳 구멍 한 줄</text>
+<rect x="30" y="300" width="420" height="80" fill="#D9D9D9" stroke="#555"/>
+<circle cx="80" cy="340" r="17" fill="#ffffff" stroke="#555"/>
+<circle cx="170" cy="340" r="17" fill="#ffffff" stroke="#555"/>
+<circle cx="260" cy="340" r="17" fill="#ffffff" stroke="#555"/>
+<circle cx="350" cy="340" r="17" fill="#ffffff" stroke="#555"/>
+<rect x="215" y="300" width="90" height="80" fill="none" stroke="#C00000" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="170" y1="294" x2="260" y2="294" stroke="#333" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="215" y="290" font-size="14" fill="#333" text-anchor="middle" font-weight="bold">p</text>
+<line x1="243" y1="340" x2="277" y2="340" stroke="#333" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="260" y="334" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">d</text>
+<text x="30" y="400" font-size="12" fill="#C00000" text-anchor="start">피치 p 한 칸(빨간 점선)에서 힘을 받는 폭은 p − d</text>
+<text x="470" y="310" font-size="15" fill="#548235" text-anchor="start" font-weight="bold">강판 효율</text>
+<text x="470" y="338" font-size="16" fill="#333" text-anchor="start" font-weight="bold">η_t = (p − d) / p</text>
+<text x="470" y="366" font-size="13" fill="#333" text-anchor="start">예: p = 50 mm, d = 20 mm</text>
+<text x="470" y="388" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">→ η_t = 30 / 50 = 0.6 (60 %)</text>
+<text x="470" y="408" font-size="11" fill="#555" text-anchor="start">리벳 효율 = 리벳 전단 강도 / 구멍 없는 판 인장 강도</text>
+</svg>

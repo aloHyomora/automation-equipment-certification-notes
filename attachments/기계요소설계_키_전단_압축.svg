@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="800" height="400" fill="#ffffff"/>
+<text x="400.0" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">키 한 개가 받는 힘 — 전단(가로로 잘림)과 압축(옆면 눌림)</text>
+<rect x="12" y="44" width="400" height="344" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<circle cx="175" cy="235" r="128" fill="#BFBFBF" stroke="#555"/>
+<circle cx="175" cy="235" r="90" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<rect x="160" y="130" width="30" height="30" fill="#F4B183" stroke="#C00000" stroke-width="2"/>
+<line x1="145" y1="145" x2="205" y2="145" stroke="#C00000" stroke-width="2.5" stroke-dasharray="6 3"/>
+<line x1="123" y1="153" x2="158" y2="153" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="227" y1="137" x2="192" y2="137" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="113" y="158" font-size="14" fill="#C00000" text-anchor="end" font-weight="bold">F</text>
+<text x="237" y="142" font-size="14" fill="#C00000" font-weight="bold">F</text>
+<text x="175" y="125" font-size="13" fill="#333" text-anchor="middle">b</text>
+<text x="197" y="173" font-size="13" fill="#333">h</text>
+<line x1="87" y1="255" x2="263" y2="255" stroke="#333" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="175" y="275" font-size="14" fill="#333" text-anchor="middle">축 지름 d</text>
+<path d="M130,215 A50 50 0 0 1 220,215" fill="none" stroke="#548235" stroke-width="3" marker-end="url(#ag)"/>
+<text x="175" y="233" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">T</text>
+<line x1="205" y1="145" x2="318" y2="175" stroke="#C00000"/>
+<text x="322" y="179" font-size="13" fill="#C00000">전단면</text>
+<text x="322" y="197" font-size="13" fill="#C00000">b × l</text>
+<text x="30" y="72" font-size="13" fill="#333">위 절반은 보스 홈, 아래 절반은 축 홈에</text>
+<text x="30" y="382" font-size="13" fill="#333">l : 키 길이 (그림의 앞뒤 방향)</text>
+<rect x="430" y="44" width="358" height="344" rx="8" fill="#ffffff" stroke="#548235"/>
+<text x="448" y="78" font-size="14" fill="#548235" font-weight="bold">① 축 표면의 접선력</text>
+<text x="448" y="102" font-size="14" fill="#333">F = T ÷ (d/2) = 2T / d</text>
+<text x="448" y="140" font-size="14" fill="#548235" font-weight="bold">② 전단 응력 — 면적 b × l</text>
+<text x="448" y="164" font-size="14" fill="#333">τ = F / (b l) = 2T / (b l d)</text>
+<text x="448" y="202" font-size="14" fill="#548235" font-weight="bold">③ 압축(면압) 응력 — 면적 (h/2) × l</text>
+<text x="448" y="226" font-size="14" fill="#333">σc = F / ((h/2) l) = 4T / (h l d)</text>
+<text x="448" y="250" font-size="14" fill="#555">키 옆면은 절반(h/2)만 보스에 닿는다</text>
+<text x="448" y="290" font-size="14" fill="#C00000" font-weight="bold">계산 예  T = 100 N·m, d = 40 mm</text>
+<text x="448" y="314" font-size="14" fill="#C00000">b × h × l = 12 × 8 × 60 mm</text>
+<text x="448" y="338" font-size="14" fill="#333">F = 2 × 100 000 / 40 = 5000 N</text>
+<text x="448" y="362" font-size="14" fill="#333">τ ≈ 6.9 MPa,  σc ≈ 20.8 MPa</text>
+</svg>
