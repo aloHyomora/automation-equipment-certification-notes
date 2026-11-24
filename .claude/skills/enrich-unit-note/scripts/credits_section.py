@@ -34,6 +34,8 @@ for f in used:
     title = re.sub(r"\.(svg|png|jpe?g|gif|tiff?|webp)$", "", c["title"], flags=re.I)
     src = c.get("source", "Wikimedia Commons")
     rows.append(f"| [{title}]({c['page']}) | {c['artist']} | {lic} | {src} |")
+if any(cred[f].get("license", "").startswith("저작권 보유") for f in used):
+    rows += ["", "제조사 카탈로그 사진은 저작권이 각 회사에 있으며, 개인 학습용으로 비공개 저장소에서만 쓴다(공개 전에 삭제)."]
 own = []
 for f in re.findall(r"\.\./attachments/([^)|]+?\.svg)", t):
     name = f.rstrip("\\").rsplit(".", 1)[0].split("_", 1)[-1].replace("_", " ")
