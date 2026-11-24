@@ -1623,14 +1623,6 @@
   "artist": "Alan Langford",
   "source": "Openverse (flickr)"
  },
- "기계요소설계_테이퍼롤러베어링.webp": {
-  "title": "Project 365 #240: 280822 Bearing Left",
-  "page": "https://www.flickr.com/photos/23408922@N07/52317333506",
-  "license": "CC BY 2.0",
-  "licurl": "https://creativecommons.org/licenses/by/2.0/",
-  "artist": "comedy_nose",
-  "source": "Openverse (flickr)"
- },
  "기계요소설계_브리넬_시험기.webp": {
   "title": "IMG_8158",
   "page": "https://www.flickr.com/photos/30661871@N03/40837838683",
@@ -1758,5 +1750,13 @@
   "licurl": null,
   "artist": "Wheelabrator (Norican Group)",
   "source": "Wheelabrator 카탈로그"
+ },
+ "기계요소설계_테이퍼롤러_컵콘.webp": {
+  "title": "NSK 테이퍼 롤러 베어링 (카탈로그 사진)",
+  "page": "https://www.nsk.com/products/roller-bearings/tapered-roller-bearings/",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "NSK",
+  "source": "NSK 카탈로그"
  }
 }
