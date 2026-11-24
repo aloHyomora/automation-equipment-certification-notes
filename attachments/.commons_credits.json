@@ -1774,5 +1774,13 @@
   "licurl": null,
   "artist": "Kistler",
   "source": "Kistler 카탈로그"
+ },
+ "자동제어_전자유량계.webp": {
+  "title": "Siemens SITRANS FM S500 전자 유량계 센서 (카탈로그 이미지)",
+  "page": "https://www.siemens.com/en-us/products/sitrans/f-m-mag-5100-w/",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "Siemens",
+  "source": "Siemens 카탈로그"
  }
 }
