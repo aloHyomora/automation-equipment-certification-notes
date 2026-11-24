@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 345" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="760" height="345" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">스위치 오브젝트 동작 비교 (타임차트)</text>
+  <!-- touch periods: 1) 220-280  2) 400-470  3) 580-620 -->
+  <g stroke="#ddd" stroke-dasharray="4 4">
+    <line x1="220" y1="45" x2="220" y2="300"/><line x1="280" y1="45" x2="280" y2="300"/>
+    <line x1="400" y1="45" x2="400" y2="300"/><line x1="470" y1="45" x2="470" y2="300"/>
+    <line x1="580" y1="45" x2="580" y2="300"/><line x1="620" y1="45" x2="620" y2="300"/>
+  </g>
+  <text x="250" y="58" text-anchor="middle" font-size="12" fill="#666">터치 1</text>
+  <text x="435" y="58" text-anchor="middle" font-size="12" fill="#666">터치 2</text>
+  <text x="600" y="58" text-anchor="middle" font-size="12" fill="#666">터치 3</text>
+
+  <!-- rows: baseline y, high y = baseline-30 -->
+  <text x="20" y="100" font-size="14" fill="#222" font-weight="bold">손가락 터치</text>
+  <polyline points="160,105 220,105 220,75 280,75 280,105 400,105 400,75 470,75 470,105 580,105 580,75 620,75 620,105 740,105" fill="none" stroke="#C00000" stroke-width="3"/>
+
+  <text x="20" y="160" font-size="14" fill="#222" font-weight="bold">모멘터리</text>
+  <text x="20" y="177" font-size="11" fill="#666">누르는 동안만 ON</text>
+  <polyline points="160,165 220,165 220,135 280,135 280,165 400,165 400,135 470,135 470,165 580,165 580,135 620,135 620,165 740,165" fill="none" stroke="#2F5597" stroke-width="3"/>
+
+  <text x="20" y="220" font-size="14" fill="#222" font-weight="bold">얼터네이트</text>
+  <text x="20" y="237" font-size="11" fill="#666">누를 때마다 반전</text>
+  <polyline points="160,225 220,225 220,195 400,195 400,225 580,225 580,195 740,195" fill="none" stroke="#2F5597" stroke-width="3"/>
+
+  <text x="20" y="280" font-size="14" fill="#222" font-weight="bold">세트 / 리셋</text>
+  <text x="20" y="297" font-size="11" fill="#666">1=세트, 2=리셋</text>
+  <polyline points="160,285 220,285 220,255 400,255 400,285 740,285" fill="none" stroke="#2F5597" stroke-width="3"/>
+  <text x="300" y="248" text-anchor="middle" font-size="11" fill="#C00000">세트: 손을 떼도 ON 유지</text>
+  <text x="500" y="278" text-anchor="middle" font-size="11" fill="#C00000">리셋을 눌러야 OFF</text>
+  <text x="380" y="330" text-anchor="middle" font-size="12" fill="#666">터치 3은 세트·리셋 행에서는 누르지 않은 것으로 가정</text>
+</svg>

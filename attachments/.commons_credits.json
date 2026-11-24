@@ -833,5 +833,54 @@
   "license": "Public domain",
   "licurl": null,
   "artist": "NAVFAC"
+ },
+ "자동제어_SCADA_관제실.webp": {
+  "title": "NEWater S.C.A.D.A. room.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:NEWater_S.C.A.D.A._room.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Z22"
+ },
+ "자동제어_SCADA_전력감시.webp": {
+  "title": "US Navy 110328-N-OJ170-009 Hideji Kawasaki operates the supervisory control and data acquisition (SCADA) system to balance an electrical load insid.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Navy_110328-N-OJ170-009_Hideji_Kawasaki_operates_the_supervisory_control_and_data_acquisition_(SCADA)_system_to_balance_an_electrical_load_insid.jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "U.S. Navy photo by Joe Schmitt"
+ },
+ "자동제어_적외선_터치.webp": {
+  "title": "Infrared touchscreen pcb.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Infrared_touchscreen_pcb.jpg",
+  "license": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0",
+  "artist": "Jrw01"
+ },
+ "자동제어_RTU_실물.webp": {
+  "title": "FCN-RTU.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:FCN-RTU.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Edver"
+ },
+ "자동제어_RTU_모듈형.webp": {
+  "title": "Remote Terminal Unit Modular.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Remote_Terminal_Unit_Modular.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "FernaCM"
+ },
+ "자동제어_OPC_UA_서버클라이언트.webp": {
+  "title": "OPC-UA-Server-Client.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:OPC-UA-Server-Client.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Monkhiker"
+ },
+ "자동제어_HMI_터치패널.webp": {
+  "title": "SIMATIC HMI.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SIMATIC_HMI.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "ZianMan"
  }
 }

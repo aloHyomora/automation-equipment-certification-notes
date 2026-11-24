@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#C00000"/></marker>
+  </defs>
+  <rect width="800" height="520" fill="#ffffff"/>
+  <text x="400" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">터치 패널 4가지 방식의 원리</text>
+
+  <!-- 1 resistive -->
+  <rect x="15" y="45" width="380" height="225" rx="10" fill="#F7F9FC" stroke="#2F5597"/>
+  <text x="30" y="70" font-size="15" font-weight="bold" fill="#2F5597">① 저항막 (압력)</text>
+  <!-- finger -->
+  <path d="M 190 85 q 20 0 20 25 l 0 22 l -40 0 l 0 -22 q 0 -25 20 -25 z" fill="#F4C7A1" stroke="#a06a40"/>
+  <!-- top film bent -->
+  <path d="M 40 140 L 160 140 Q 190 162 220 140 L 290 140" fill="none" stroke="#2F5597" stroke-width="4"/>
+  <text x="298" y="144" font-size="11" fill="#2F5597">위 필름(ITO)</text>
+  <g fill="#999"><circle cx="70" cy="153" r="2.5"/><circle cx="130" cy="153" r="2.5"/><circle cx="250" cy="153" r="2.5"/><circle cx="270" cy="153" r="2.5"/></g>
+  <text x="298" y="158" font-size="10" fill="#666">스페이서</text>
+  <line x1="40" y1="166" x2="290" y2="166" stroke="#2F5597" stroke-width="4"/>
+  <text x="298" y="172" font-size="11" fill="#2F5597">아래 유리(ITO)</text>
+  <circle cx="190" cy="163" r="5" fill="#C00000"/>
+  <text x="200" y="195" text-anchor="middle" font-size="12" fill="#C00000">눌린 점에서 두 막이 닿음 → 전압 분배로 위치</text>
+  <text x="30" y="225" font-size="12" fill="#222">· 압력이면 되므로 장갑·펜 OK, 저렴</text>
+  <text x="30" y="245" font-size="12" fill="#222">· 산업용 HMI에 가장 많다</text>
+
+  <!-- 2 capacitive -->
+  <rect x="405" y="45" width="380" height="225" rx="10" fill="#F7F9FC" stroke="#2F5597"/>
+  <text x="420" y="70" font-size="15" font-weight="bold" fill="#2F5597">② 정전용량 (손가락 전하)</text>
+  <path d="M 595 85 q 20 0 20 25 l 0 22 l -40 0 l 0 -22 q 0 -25 20 -25 z" fill="#F4C7A1" stroke="#a06a40"/>
+  <rect x="450" y="140" width="290" height="10" fill="#DDEBF7" stroke="#2F5597"/>
+  <text x="748" y="149" font-size="10" fill="#2F5597">유리</text>
+  <g fill="#2F5597"><rect x="460" y="155" width="20" height="6"/><rect x="500" y="155" width="20" height="6"/><rect x="540" y="155" width="20" height="6"/><rect x="580" y="155" width="20" height="6"/><rect x="620" y="155" width="20" height="6"/><rect x="660" y="155" width="20" height="6"/><rect x="700" y="155" width="20" height="6"/></g>
+  <text x="748" y="162" font-size="10" fill="#2F5597">전극</text>
+  <g stroke="#C00000" stroke-width="1.5"><line x1="585" y1="134" x2="590" y2="156"/><line x1="595" y1="134" x2="595" y2="156"/><line x1="605" y1="134" x2="600" y2="156"/></g>
+  <text x="595" y="190" text-anchor="middle" font-size="12" fill="#C00000">손가락이 전하를 빼앗아 정전용량 변화</text>
+  <text x="420" y="225" font-size="12" fill="#222">· 멀티터치, 가볍게 닿기만 해도 반응</text>
+  <text x="420" y="245" font-size="12" fill="#222">· 일반 장갑은 전하가 안 통해 사용 제한</text>
+
+  <!-- 3 infrared -->
+  <rect x="15" y="285" width="380" height="225" rx="10" fill="#F7F9FC" stroke="#2F5597"/>
+  <text x="30" y="310" font-size="15" font-weight="bold" fill="#2F5597">③ 적외선 (빛 격자 차단)</text>
+  <rect x="80" y="325" width="230" height="130" fill="#fff" stroke="#333"/>
+  <g stroke="#F4B183" stroke-width="1.2">
+    <line x1="80" y1="345" x2="310" y2="345"/><line x1="80" y1="370" x2="310" y2="370"/><line x1="80" y1="420" x2="310" y2="420"/><line x1="80" y1="440" x2="310" y2="440"/>
+    <line x1="105" y1="325" x2="105" y2="455"/><line x1="135" y1="325" x2="135" y2="455"/><line x1="165" y1="325" x2="165" y2="455"/><line x1="225" y1="325" x2="225" y2="455"/><line x1="255" y1="325" x2="255" y2="455"/><line x1="285" y1="325" x2="285" y2="455"/>
+  </g>
+  <g stroke="#C00000" stroke-width="1.5" stroke-dasharray="4 3">
+    <line x1="80" y1="395" x2="185" y2="395"/><line x1="195" y1="325" x2="195" y2="385"/>
+  </g>
+  <circle cx="195" cy="395" r="10" fill="#F4C7A1" stroke="#a06a40"/>
+  <text x="75" y="340" text-anchor="end" font-size="10" fill="#666">LED</text>
+  <text x="315" y="340" font-size="10" fill="#666">수광</text>
+  <text x="200" y="478" text-anchor="middle" font-size="12" fill="#C00000">가로·세로 빛이 끊긴 교차점 = 위치</text>
+  <text x="30" y="500" font-size="12" fill="#222">· 대형 화면에 유리 (막이 없어 투과율 좋음)</text>
+
+  <!-- 4 SAW -->
+  <rect x="405" y="285" width="380" height="225" rx="10" fill="#F7F9FC" stroke="#2F5597"/>
+  <text x="420" y="310" font-size="15" font-weight="bold" fill="#2F5597">④ 초음파 SAW (표면 탄성파)</text>
+  <rect x="470" y="325" width="230" height="130" fill="#fff" stroke="#333"/>
+  <rect x="455" y="330" width="14" height="14" fill="#2F5597"/><text x="452" y="358" text-anchor="end" font-size="10" fill="#666">발신</text>
+  <rect x="701" y="330" width="14" height="14" fill="#2F5597"/><text x="718" y="358" font-size="10" fill="#666">수신</text>
+  <path d="M 475 390 q 8 -10 16 0 t 16 0 t 16 0 t 16 0 t 16 0 t 16 0 t 16 0" fill="none" stroke="#2F5597" stroke-width="2"/>
+  <path d="M 603 390 q 8 -4 16 0 t 16 0 t 16 0 t 16 0 t 16 0" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="3 2"/>
+  <circle cx="595" cy="392" r="10" fill="#F4C7A1" stroke="#a06a40"/>
+  <text x="585" y="430" text-anchor="middle" font-size="11" fill="#C00000">손가락이 파동을 흡수 → 감쇠 위치</text>
+  <text x="590" y="478" text-anchor="middle" font-size="12" fill="#C00000">유리 표면을 흐르는 초음파의 약해진 곳</text>
+  <text x="420" y="500" font-size="12" fill="#222">· 투과율 좋음, 물방울·먼지 오염에 약함</text>
+</svg>

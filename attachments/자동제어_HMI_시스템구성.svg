@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="800" height="340" fill="#ffffff"/>
+  <text x="400" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">HMI 시스템 구성 3가지</text>
+
+  <!-- Panel 1 STAND-ALONE -->
+  <rect x="15" y="45" width="240" height="280" rx="10" fill="#F7F9FC" stroke="#2F5597"/>
+  <text x="135" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F5597">STAND-ALONE</text>
+  <rect x="60" y="95" width="150" height="80" rx="6" fill="#2F5597"/>
+  <text x="135" y="122" text-anchor="middle" font-size="13" fill="#fff">HMI PC 1대</text>
+  <text x="135" y="142" text-anchor="middle" font-size="11" fill="#fff">수집 + 저장 + 화면</text>
+  <text x="135" y="158" text-anchor="middle" font-size="11" fill="#fff">모두 담당</text>
+  <line x1="135" y1="175" x2="135" y2="220" stroke="#333" stroke-width="2"/>
+  <rect x="85" y="220" width="100" height="36" rx="6" fill="#fff" stroke="#333"/>
+  <text x="135" y="243" text-anchor="middle" font-size="13" fill="#222">PLC</text>
+  <text x="135" y="295" text-anchor="middle" font-size="12" fill="#444">단위 공정 · 소규모 자동화</text>
+
+  <!-- Panel 2 Client/Server -->
+  <rect x="280" y="45" width="240" height="280" rx="10" fill="#F7F9FC" stroke="#2F5597"/>
+  <text x="400" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F5597">분산 (Client/Server)</text>
+  <rect x="295" y="88" width="62" height="34" rx="5" fill="#fff" stroke="#2F5597"/><text x="326" y="110" text-anchor="middle" font-size="11" fill="#222">감시 1</text>
+  <rect x="369" y="88" width="62" height="34" rx="5" fill="#fff" stroke="#2F5597"/><text x="400" y="110" text-anchor="middle" font-size="11" fill="#222">감시 2</text>
+  <rect x="443" y="88" width="62" height="34" rx="5" fill="#fff" stroke="#2F5597"/><text x="474" y="110" text-anchor="middle" font-size="11" fill="#222">감시 3</text>
+  <line x1="300" y1="150" x2="500" y2="150" stroke="#2F5597" stroke-width="3"/>
+  <text x="400" y="143" text-anchor="middle" font-size="10" fill="#2F5597">네트워크</text>
+  <line x1="326" y1="122" x2="326" y2="150" stroke="#333"/><line x1="400" y1="122" x2="400" y2="136" stroke="#333"/><line x1="474" y1="122" x2="474" y2="150" stroke="#333"/>
+  <rect x="300" y="170" width="95" height="34" rx="5" fill="#2F5597"/><text x="347" y="192" text-anchor="middle" font-size="11" fill="#fff">I/O 서버</text>
+  <rect x="405" y="170" width="95" height="34" rx="5" fill="#2F5597"/><text x="452" y="192" text-anchor="middle" font-size="11" fill="#fff">파일 서버</text>
+  <line x1="347" y1="150" x2="347" y2="170" stroke="#333"/><line x1="452" y1="150" x2="452" y2="170" stroke="#333"/>
+  <line x1="347" y1="204" x2="347" y2="225" stroke="#333"/>
+  <rect x="300" y="225" width="95" height="32" rx="5" fill="#fff" stroke="#333"/><text x="347" y="246" text-anchor="middle" font-size="12" fill="#222">PLC 여러 대</text>
+  <text x="400" y="295" text-anchor="middle" font-size="12" fill="#444">세부 공정을 나눠 감시 · 확장 쉬움</text>
+
+  <!-- Panel 3 Redundant -->
+  <rect x="545" y="45" width="240" height="280" rx="10" fill="#F7F9FC" stroke="#2F5597"/>
+  <text x="665" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F5597">이중화</text>
+  <rect x="565" y="95" width="90" height="50" rx="6" fill="#2F5597"/>
+  <text x="610" y="117" text-anchor="middle" font-size="12" fill="#fff">주 서버</text>
+  <text x="610" y="134" text-anchor="middle" font-size="10" fill="#fff">운전 중</text>
+  <rect x="675" y="95" width="90" height="50" rx="6" fill="#fff" stroke="#2F5597" stroke-dasharray="5 3"/>
+  <text x="720" y="117" text-anchor="middle" font-size="12" fill="#2F5597">대기 서버</text>
+  <text x="720" y="134" text-anchor="middle" font-size="10" fill="#2F5597">Standby</text>
+  <path d="M 655 120 L 675 120" stroke="#C00000" stroke-width="2"/>
+  <text x="665" y="168" text-anchor="middle" font-size="12" fill="#C00000" font-weight="bold">고장 시 자동 절체</text>
+  <line x1="575" y1="190" x2="755" y2="190" stroke="#2F5597" stroke-width="3"/>
+  <line x1="575" y1="200" x2="755" y2="200" stroke="#2F5597" stroke-width="3"/>
+  <text x="665" y="280" text-anchor="middle" font-size="11" fill="#2F5597">Line 이중화 (통신선 2개)</text>
+  <line x1="610" y1="145" x2="610" y2="190" stroke="#333"/><line x1="720" y1="145" x2="720" y2="200" stroke="#333"/>
+  <line x1="665" y1="200" x2="665" y2="228" stroke="#333"/><line x1="655" y1="190" x2="655" y2="228" stroke="#333"/>
+  <rect x="615" y="228" width="100" height="32" rx="5" fill="#fff" stroke="#333"/><text x="665" y="249" text-anchor="middle" font-size="12" fill="#222">PLC</text>
+  <text x="665" y="305" text-anchor="middle" font-size="12" fill="#444">고신뢰 설비 (정지 불가)</text>
+</svg>

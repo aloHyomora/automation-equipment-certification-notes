@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="780" height="400" fill="#ffffff"/>
+  <text x="390" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">제어 범위로 보는 PLC · DCS · SCADA</text>
+
+  <!-- SCADA wide area -->
+  <rect x="20" y="45" width="740" height="340" rx="16" fill="#F7F9FC" stroke="#2F5597" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="40" y="72" font-size="16" font-weight="bold" fill="#2F5597">SCADA — 광역 분산 설비 (수 km ~ 수백 km)</text>
+  <text x="40" y="92" font-size="12" fill="#444">원격 감시 · 데이터 수집 중심 · 상하수도, 전력 계통, 가스관</text>
+
+  <!-- central -->
+  <rect x="300" y="110" width="180" height="50" rx="8" fill="#2F5597"/>
+  <text x="390" y="132" text-anchor="middle" font-size="13" fill="#fff">중앙 관제 (MTU · HMI)</text>
+  <text x="390" y="150" text-anchor="middle" font-size="11" fill="#fff">감시 Supervisory</text>
+
+  <!-- remote sites -->
+  <rect x="40" y="250" width="150" height="110" rx="8" fill="#fff" stroke="#2F5597"/>
+  <text x="115" y="275" text-anchor="middle" font-size="13" fill="#222">원격 펌프장</text>
+  <rect x="65" y="290" width="100" height="30" rx="5" fill="#DDEBF7" stroke="#2F5597"/><text x="115" y="310" text-anchor="middle" font-size="12" fill="#222">RTU / PLC</text>
+  <text x="115" y="345" text-anchor="middle" font-size="11" fill="#666">센서 · 밸브 · 모터</text>
+
+  <rect x="590" y="250" width="150" height="110" rx="8" fill="#fff" stroke="#2F5597"/>
+  <text x="665" y="275" text-anchor="middle" font-size="13" fill="#222">원격 변전소</text>
+  <rect x="615" y="290" width="100" height="30" rx="5" fill="#DDEBF7" stroke="#2F5597"/><text x="665" y="310" text-anchor="middle" font-size="12" fill="#222">RTU / PLC</text>
+  <text x="665" y="345" text-anchor="middle" font-size="11" fill="#666">차단기 · 계측</text>
+
+  <path d="M 330 160 Q 200 200 115 250" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M 450 160 Q 580 200 665 250" fill="none" stroke="#2F5597" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="150" y="215" text-anchor="end" font-size="11" fill="#2F5597">원거리 통신망</text>
+
+  <!-- DCS plant -->
+  <rect x="235" y="190" width="310" height="180" rx="12" fill="#EAF1DD" stroke="#548235" stroke-width="2"/>
+  <text x="390" y="214" text-anchor="middle" font-size="14" font-weight="bold" fill="#38571A">DCS — 공장 하나의 연속 공정</text>
+  <text x="390" y="232" text-anchor="middle" font-size="11" fill="#38571A">루프(PID) 제어 · 이중화 · 정유, 발전소</text>
+
+  <!-- PLC machine -->
+  <rect x="270" y="250" width="240" height="105" rx="10" fill="#FBE5D6" stroke="#C00000" stroke-width="2"/>
+  <text x="390" y="275" text-anchor="middle" font-size="14" font-weight="bold" fill="#C00000">PLC — 기계 · 라인</text>
+  <text x="390" y="295" text-anchor="middle" font-size="11" fill="#222">고속 시퀀스 제어 (ms 단위)</text>
+  <text x="390" y="313" text-anchor="middle" font-size="11" fill="#222">조립 라인, 포장기</text>
+  <rect x="320" y="322" width="140" height="26" rx="4" fill="#fff" stroke="#333"/>
+  <text x="390" y="340" text-anchor="middle" font-size="11" fill="#222">현장 HMI 터치패널</text>
+</svg>

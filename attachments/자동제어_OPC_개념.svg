@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="400" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">OPC가 없을 때와 있을 때</text>
+
+  <!-- left: without OPC -->
+  <rect x="15" y="45" width="370" height="320" rx="10" fill="#FDF2F2" stroke="#C00000"/>
+  <text x="200" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#C00000">OPC 없음: 조합마다 전용 드라이버</text>
+  <g font-size="12" fill="#222" text-anchor="middle">
+    <rect x="40" y="95" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="85" y="117">HMI</text>
+    <rect x="155" y="95" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="200" y="117">SCADA</text>
+    <rect x="270" y="95" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="315" y="117">MES · DB</text>
+    <rect x="40" y="260" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="85" y="282">A사 PLC</text>
+    <rect x="155" y="260" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="200" y="282">B사 PLC</text>
+    <rect x="270" y="260" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="315" y="282">C사 계측기</text>
+  </g>
+  <g stroke="#C00000" stroke-width="1.5">
+    <line x1="85" y1="129" x2="85" y2="260"/><line x1="85" y1="129" x2="200" y2="260"/><line x1="85" y1="129" x2="315" y2="260"/>
+    <line x1="200" y1="129" x2="85" y2="260"/><line x1="200" y1="129" x2="200" y2="260"/><line x1="200" y1="129" x2="315" y2="260"/>
+    <line x1="315" y1="129" x2="85" y2="260"/><line x1="315" y1="129" x2="200" y2="260"/><line x1="315" y1="129" x2="315" y2="260"/>
+  </g>
+  <text x="200" y="325" text-anchor="middle" font-size="13" fill="#C00000">3 × 3 = 9개 드라이버</text>
+  <text x="200" y="345" text-anchor="middle" font-size="11" fill="#444">제품이 늘 때마다 곱으로 늘어난다</text>
+
+  <!-- right: with OPC -->
+  <rect x="415" y="45" width="370" height="320" rx="10" fill="#F7F9FC" stroke="#2F5597"/>
+  <text x="600" y="70" text-anchor="middle" font-size="15" font-weight="bold" fill="#2F5597">OPC 있음: 표준 하나로 연결</text>
+  <g font-size="12" fill="#222" text-anchor="middle">
+    <rect x="440" y="95" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="485" y="117">HMI</text>
+    <rect x="555" y="95" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="600" y="117">SCADA</text>
+    <rect x="670" y="95" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="715" y="117">MES · DB</text>
+    <rect x="440" y="260" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="485" y="282">A사 PLC</text>
+    <rect x="555" y="260" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="600" y="282">B사 PLC</text>
+    <rect x="670" y="260" width="90" height="34" rx="5" fill="#fff" stroke="#333"/><text x="715" y="282">C사 계측기</text>
+  </g>
+  <rect x="440" y="170" width="320" height="50" rx="8" fill="#2F5597"/>
+  <text x="600" y="192" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">OPC 서버 (표준 인터페이스)</text>
+  <text x="600" y="210" text-anchor="middle" font-size="11" fill="#fff">클라이언트는 OPC만 알면 된다</text>
+  <g stroke="#2F5597" stroke-width="2">
+    <line x1="485" y1="129" x2="485" y2="170"/><line x1="600" y1="129" x2="600" y2="170"/><line x1="715" y1="129" x2="715" y2="170"/>
+    <line x1="485" y1="220" x2="485" y2="260"/><line x1="600" y1="220" x2="600" y2="260"/><line x1="715" y1="220" x2="715" y2="260"/>
+  </g>
+  <text x="657" y="153" text-anchor="middle" font-size="10" fill="#666">OPC 클라이언트</text>
+  <text x="600" y="320" text-anchor="middle" font-size="12" fill="#222"><tspan font-weight="bold">DA</tspan>: Windows COM/DCOM, 구형</text>
+  <text x="600" y="342" text-anchor="middle" font-size="12" fill="#222"><tspan font-weight="bold" fill="#C00000">UA</tspan>: 플랫폼 독립 · 보안 내장 · 스마트 팩토리</text>
+</svg>
