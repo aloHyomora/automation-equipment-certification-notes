@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+</defs>
+<rect width="900" height="330" fill="#ffffff"/>
+<text x="450" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">작용 방향에 따른 하중 5가지</text>
+<g font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">
+<text x="90" y="62">① 인장</text><text x="270" y="62">② 압축</text><text x="450" y="62">③ 전단</text><text x="630" y="62">④ 굽힘</text><text x="810" y="62">⑤ 비틀림</text>
+</g>
+<g stroke="#BFBFBF" stroke-width="1"><line x1="180" y1="45" x2="180" y2="315"/><line x1="360" y1="45" x2="360" y2="315"/><line x1="540" y1="45" x2="540" y2="315"/><line x1="720" y1="45" x2="720" y2="315"/></g>
+<!-- tension -->
+<rect x="50" y="140" width="80" height="40" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<line x1="50" y1="160" x2="14" y2="160" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="130" y1="160" x2="166" y2="160" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="90" y="225" font-size="13" text-anchor="middle" fill="#333">양 끝을 잡아당김</text>
+<text x="90" y="246" font-size="13" text-anchor="middle" fill="#333">→ 늘어난다</text>
+<text x="90" y="285" font-size="13" text-anchor="middle" fill="#C00000">수직 응력 σ</text>
+<!-- compression -->
+<rect x="230" y="140" width="80" height="40" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<line x1="194" y1="160" x2="228" y2="160" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="346" y1="160" x2="312" y2="160" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="270" y="225" font-size="13" text-anchor="middle" fill="#333">양 끝을 밀어 누름</text>
+<text x="270" y="246" font-size="13" text-anchor="middle" fill="#333">→ 줄어든다</text>
+<text x="270" y="285" font-size="13" text-anchor="middle" fill="#C00000">수직 응력 σ</text>
+<!-- shear -->
+<rect x="400" y="120" width="50" height="40" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<rect x="450" y="160" width="50" height="40" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<line x1="450" y1="105" x2="450" y2="215" stroke="#333" stroke-dasharray="5 3"/>
+<line x1="425" y1="96" x2="425" y2="118" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="475" y1="224" x2="475" y2="202" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="425" y="90" font-size="12" text-anchor="middle" fill="#C00000">P</text>
+<text x="475" y="238" font-size="12" text-anchor="middle" fill="#C00000">P</text>
+<text x="450" y="258" font-size="13" text-anchor="middle" fill="#333">가위처럼 어긋나게 자름</text>
+<text x="450" y="285" font-size="13" text-anchor="middle" fill="#C00000">전단 응력 τ</text>
+<!-- bending -->
+<rect x="575" y="150" width="120" height="20" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<path d="M575,170 l-8,14 h16 z" fill="#7F7F7F"/>
+<path d="M695,170 l-8,14 h16 z" fill="#7F7F7F"/>
+<line x1="635" y1="110" x2="635" y2="146" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="648" y="122" font-size="12" fill="#C00000">P</text>
+<path d="M575,205 Q635,232 695,205" fill="none" stroke="#548235" stroke-width="2" stroke-dasharray="5 3"/>
+<text x="630" y="258" font-size="13" text-anchor="middle" fill="#333">보 가운데를 누름 → 휜다</text>
+<text x="630" y="285" font-size="13" text-anchor="middle" fill="#C00000">굽힘 응력 σb = M/Z</text>
+<!-- torsion -->
+<rect x="755" y="145" width="110" height="30" rx="4" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<ellipse cx="755" cy="160" rx="7" ry="15" fill="#C5E0B4" stroke="#548235" stroke-width="2"/>
+<path d="M745,128 A18,32 0 0 0 745,192" fill="none" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M875,192 A18,32 0 0 0 875,128" fill="none" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="740" y="118" font-size="12" fill="#C00000">T</text>
+<text x="876" y="118" font-size="12" fill="#C00000">T</text>
+<text x="810" y="225" font-size="13" text-anchor="middle" fill="#333">축 양 끝을 반대로</text>
+<text x="810" y="246" font-size="13" text-anchor="middle" fill="#333">돌림 → 비틀린다</text>
+<text x="810" y="285" font-size="13" text-anchor="middle" fill="#C00000">전단 응력 τ = T/Zp</text>
+<text x="450" y="316" font-size="13" text-anchor="middle" fill="#548235">인장·압축은 단면에 직각(수직 응력), 전단·비틀림은 단면에 나란하게(전단 응력) 작용한다</text>
+</svg>

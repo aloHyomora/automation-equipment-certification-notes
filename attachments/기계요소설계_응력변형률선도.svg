@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="420" fill="#ffffff"/>
+<text x="380" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">연강의 응력–변형률 선도</text>
+<!-- axes origin (70,360) -->
+<line x1="70" y1="360" x2="720" y2="360" stroke="#333" stroke-width="2"/>
+<line x1="70" y1="360" x2="70" y2="50" stroke="#333" stroke-width="2"/>
+<text x="715" y="385" font-size="13" text-anchor="end" fill="#333">변형률 ε</text>
+<text x="80" y="58" font-size="13" fill="#333">응력 σ</text>
+<!-- curve: O->A linear, ->B, upper yield C, drop to D, plateau, hardening to E, necking to F -->
+<path d="M70,360 L118,200 Q122,188 126,182 L132,170 L138,200 L150,196 L165,201 L180,197 L200,200 Q260,140 360,110 Q440,98 520,112 Q580,128 620,168" fill="none" stroke="#548235" stroke-width="3"/>
+<!-- points -->
+<g fill="#C00000"><circle cx="118" cy="200" r="4.5"/><circle cx="126" cy="182" r="4.5"/><circle cx="132" cy="170" r="4.5"/><circle cx="138" cy="200" r="4.5"/><circle cx="440" cy="99" r="4.5"/><circle cx="620" cy="168" r="4.5"/></g>
+<g font-size="13" fill="#333">
+<line x1="118" y1="200" x2="160" y2="262" stroke="#999"/><text x="164" y="274">A 비례 한도 (여기까지 σ = Eε 직선)</text>
+<line x1="126" y1="182" x2="200" y2="234" stroke="#999"/><text x="204" y="244" fill="#C00000" font-weight="bold">B 탄성 한도 (하중을 빼면 원래대로)</text>
+<line x1="132" y1="170" x2="160" y2="96" stroke="#999"/><text x="96" y="88">C 상항복점</text>
+<line x1="150" y1="200" x2="232" y2="209" stroke="#999"/><text x="236" y="214">D 하항복점 (응력이 거의 그대로인데 늘어남)</text>
+<text x="440" y="80" text-anchor="middle" font-weight="bold">E 극한 강도 (최대 응력 = 인장 강도)</text>
+<text x="630" y="196">F 파단점</text>
+</g>
+<!-- regions -->
+<g font-size="12" fill="#548235" text-anchor="middle">
+<line x1="126" y1="300" x2="126" y2="366" stroke="#548235" stroke-dasharray="4 3"/>
+<line x1="440" y1="105" x2="440" y2="366" stroke="#548235" stroke-dasharray="4 3"/>
+<text x="98" y="330">탄성</text>
+<text x="290" y="330">소성 (영구 변형)</text>
+<text x="540" y="330">국부 수축(네킹)</text>
+</g>
+<text x="380" y="408" font-size="13" text-anchor="middle" fill="#333">O→A 직선의 기울기 = 세로 탄성 계수 E.  E 이후 시험편 한 곳이 잘록해지며 공칭 응력이 떨어지다 F에서 끊어진다.</text>
+</svg>

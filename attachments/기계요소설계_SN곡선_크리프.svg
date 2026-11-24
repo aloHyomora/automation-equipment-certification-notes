@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 370" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="860" height="370" fill="#ffffff"/>
+<text x="430" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">피로(S-N 곡선)와 크리프 곡선</text>
+<rect x="12" y="44" width="410" height="314" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="438" y="44" width="410" height="314" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<text x="217" y="70" font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">피로: 반복 횟수와 견디는 응력</text>
+<text x="643" y="70" font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">크리프: 고온·일정 하중, 시간이 흐르면</text>
+<!-- SN axes origin (60,300) -->
+<line x1="60" y1="300" x2="405" y2="300" stroke="#333" stroke-width="2"/>
+<line x1="60" y1="300" x2="60" y2="90" stroke="#333" stroke-width="2"/>
+<text x="68" y="100" font-size="12" fill="#333">응력 진폭 S</text>
+<text x="400" y="334" font-size="12" text-anchor="end" fill="#333">반복 횟수 N (로그)</text>
+<g font-size="11" fill="#555" text-anchor="middle"><text x="100" y="316">10³</text><text x="170" y="316">10⁵</text><text x="240" y="316">10⁷</text><text x="310" y="316">10⁹</text></g>
+<path d="M70,110 Q140,130 210,190 Q230,206 260,208 L400,208" fill="none" stroke="#548235" stroke-width="3"/>
+<path d="M70,130 Q160,170 230,230 Q300,262 400,278" fill="none" stroke="#7F7F7F" stroke-width="2.5" stroke-dasharray="7 4"/>
+<line x1="60" y1="208" x2="400" y2="208" stroke="#C00000" stroke-dasharray="4 3"/>
+<text x="268" y="200" font-size="13" fill="#C00000" font-weight="bold">피로 한도 (수평부)</text>
+<text x="150" y="116" font-size="12" fill="#548235" font-weight="bold">강(철강)</text>
+<text x="280" y="234" font-size="12" fill="#555">알루미늄 등: 수평부 없음</text>
+<text x="40" y="352" font-size="12" fill="#333">이 응력 아래면 아무리 반복해도 파괴되지 않는다</text>
+<!-- creep axes origin (490,300) -->
+<line x1="490" y1="300" x2="830" y2="300" stroke="#333" stroke-width="2"/>
+<line x1="490" y1="300" x2="490" y2="90" stroke="#333" stroke-width="2"/>
+<text x="498" y="100" font-size="12" fill="#333">변형률 ε</text>
+<text x="826" y="334" font-size="12" text-anchor="end" fill="#333">시간 t</text>
+<path d="M490,260 L490,240 Q520,200 570,192 L710,170 Q760,160 790,105" fill="none" stroke="#548235" stroke-width="3"/>
+<circle cx="790" cy="105" r="5" fill="#C00000"/>
+<text x="770" y="96" font-size="12" fill="#C00000">파단</text>
+<line x1="570" y1="100" x2="570" y2="300" stroke="#7F7F7F" stroke-dasharray="4 3"/>
+<line x1="710" y1="100" x2="710" y2="300" stroke="#7F7F7F" stroke-dasharray="4 3"/>
+<g font-size="12" text-anchor="middle" fill="#333">
+<text x="530" y="285">1차</text><text x="640" y="285">2차 (정상)</text><text x="760" y="285">3차 (가속)</text>
+<text x="530" y="230">감속</text><text x="640" y="225">일정 속도로 늘어남</text>
+</g>
+<text x="496" y="270" font-size="11" fill="#555">순간 변형</text>
+<text x="470" y="352" font-size="12" fill="#333">응력이 그대로여도 변형이 시간에 따라 계속 증가한다</text>
+</svg>

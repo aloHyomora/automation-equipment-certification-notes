@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker>
+</defs>
+<rect width="700" height="340" fill="#ffffff"/>
+<text x="350" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">두 줄이 대칭으로 물체를 매달 때의 장력</text>
+<!-- ceiling -->
+<rect x="40" y="50" width="380" height="12" fill="#BFBFBF"/>
+<g stroke="#7F7F7F"><line x1="50" y1="50" x2="40" y2="62"/><line x1="90" y1="50" x2="80" y2="62"/><line x1="130" y1="50" x2="120" y2="62"/><line x1="170" y1="50" x2="160" y2="62"/><line x1="210" y1="50" x2="200" y2="62"/><line x1="250" y1="50" x2="240" y2="62"/><line x1="290" y1="50" x2="280" y2="62"/><line x1="330" y1="50" x2="320" y2="62"/><line x1="370" y1="50" x2="360" y2="62"/><line x1="410" y1="50" x2="400" y2="62"/></g>
+<!-- ropes from (110,62) and (350,62) to hook (230,200) -->
+<line x1="110" y1="62" x2="230" y2="200" stroke="#548235" stroke-width="3"/>
+<line x1="350" y1="62" x2="230" y2="200" stroke="#548235" stroke-width="3"/>
+<line x1="230" y1="200" x2="230" y2="80" stroke="#7F7F7F" stroke-dasharray="5 4"/>
+<path d="M230,160 A40,40 0 0 1 204,170" fill="none" stroke="#C00000" stroke-width="1.5"/>
+<path d="M230,160 A40,40 0 0 0 256,170" fill="none" stroke="#C00000" stroke-width="1.5"/>
+<text x="206" y="155" font-size="14" fill="#C00000">θ</text>
+<text x="244" y="155" font-size="14" fill="#C00000">θ</text>
+<text x="140" y="128" font-size="14" fill="#548235" font-weight="bold">T</text>
+<text x="310" y="128" font-size="14" fill="#548235" font-weight="bold">T</text>
+<!-- load -->
+<line x1="230" y1="200" x2="230" y2="225" stroke="#333" stroke-width="2"/>
+<rect x="185" y="225" width="90" height="55" fill="#BFBFBF" stroke="#555"/>
+<text x="230" y="258" font-size="15" text-anchor="middle" fill="#333">W</text>
+<line x1="230" y1="282" x2="230" y2="322" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<!-- force triangle right side -->
+<text x="560" y="62" font-size="14" text-anchor="middle" font-weight="bold" fill="#548235">고리점에서 힘의 평형</text>
+<line x1="560" y1="90" x2="510" y2="148" stroke="#548235" stroke-width="2.5" marker-end="url(#ag)"/>
+<line x1="560" y1="90" x2="610" y2="148" stroke="#548235" stroke-width="2.5" marker-end="url(#ag)"/>
+<line x1="560" y1="90" x2="560" y2="148" stroke="#548235" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="500" y="128" font-size="13" fill="#548235">T</text>
+<text x="612" y="128" font-size="13" fill="#548235">T</text>
+<g font-size="13" fill="#333">
+<text x="460" y="185">세로 성분: 2·T·cosθ = W</text>
+<text x="460" y="215" fill="#C00000" font-weight="bold" font-size="15">T = W / (2cosθ)</text>
+<text x="460" y="245">θ: 줄과 수직선 사이 각</text>
+<text x="460" y="270">θ가 커질수록(줄이 벌어질수록)</text>
+<text x="460" y="290">cosθ가 작아져 장력이 커진다</text>
+<text x="460" y="318">줄의 응력 = T ÷ 줄 단면적</text>
+</g>
+</svg>

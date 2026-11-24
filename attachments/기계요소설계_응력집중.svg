@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+</defs>
+<rect width="760" height="340" fill="#ffffff"/>
+<text x="380" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">구멍 둘레의 응력 집중 — 평균보다 훨씬 큰 응력이 모인다</text>
+<!-- plate -->
+<rect x="80" y="70" width="360" height="200" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<circle cx="260" cy="170" r="32" fill="#ffffff" stroke="#548235" stroke-width="2"/>
+<line x1="80" y1="170" x2="30" y2="170" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="440" y1="170" x2="490" y2="170" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="40" y="160" font-size="14" fill="#C00000">P</text>
+<text x="476" y="160" font-size="14" fill="#C00000">P</text>
+<!-- section line through hole -->
+<line x1="260" y1="62" x2="260" y2="278" stroke="#333" stroke-dasharray="6 4"/>
+<text x="268" y="294" font-size="12" fill="#333">구멍을 지나는 단면</text>
+<!-- stress distribution plotted to the right of section: x offset from 520 baseline -->
+<line x1="560" y1="70" x2="560" y2="270" stroke="#333" stroke-width="1.5"/>
+<path d="M560,70 L600,70 Q604,100 612,125 Q622,136 680,138 L560,138 Z" fill="#F4CCCC" stroke="#C00000" stroke-width="2"/>
+<path d="M560,202 L680,202 Q622,204 612,215 Q604,240 600,270 L560,270 Z" fill="#F4CCCC" stroke="#C00000" stroke-width="2"/>
+<rect x="560" y="138" width="10" height="64" fill="#ffffff" stroke="#999" stroke-dasharray="3 2"/>
+<line x1="620" y1="62" x2="620" y2="278" stroke="#2F5597" stroke-dasharray="5 3"/>
+<text x="624" y="294" font-size="12" fill="#2F5597">σ평균</text>
+<text x="686" y="142" font-size="13" fill="#C00000" font-weight="bold">σmax</text>
+<text x="574" y="174" font-size="11" fill="#555">구멍</text>
+<g font-size="13" fill="#333">
+<text x="40" y="322">응력 집중 계수 α = σmax / σ평균  (구멍·노치·나사·키 홈처럼 단면이 급변하는 곳)</text>
+</g>
+</svg>

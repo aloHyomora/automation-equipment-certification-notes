@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="880" height="300" fill="#ffffff"/>
+<text x="440" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">시간에 따른 하중 변화 — 정하중과 동하중</text>
+<g font-size="15" text-anchor="middle" font-weight="bold">
+<text x="115" y="62" fill="#548235">정하중</text><text x="335" y="62" fill="#548235">반복 하중</text><text x="555" y="62" fill="#C00000">교번 하중</text><text x="775" y="62" fill="#548235">충격 하중</text>
+</g>
+<!-- axes: each panel origin x0, zero line y=170, range +-70 -->
+<g stroke="#333" stroke-width="1.5" fill="none">
+<path d="M25,90 V250 M25,170 H205"/>
+<path d="M245,90 V250 M245,170 H425"/>
+<path d="M465,90 V250 M465,170 H645"/>
+<path d="M685,90 V250 M685,170 H865"/>
+</g>
+<g font-size="11" fill="#555">
+<text x="30" y="100">하중</text><text x="190" y="186">시간</text>
+<text x="250" y="100">하중</text><text x="410" y="186">시간</text>
+<text x="470" y="100">하중</text><text x="630" y="186">시간</text>
+<text x="690" y="100">하중</text><text x="850" y="186">시간</text>
+<text x="10" y="174">0</text>
+</g>
+<!-- static -->
+<path d="M25,120 H200" stroke="#548235" stroke-width="3" fill="none"/>
+<!-- repeated: 0 to +, same direction -->
+<path d="M245,170 Q262,105 280,170 Q297,105 315,170 Q332,105 350,170 Q367,105 385,170 Q402,105 420,170" stroke="#548235" stroke-width="3" fill="none"/>
+<!-- alternating: + and - -->
+<path d="M465,170 Q482,100 500,170 Q517,240 535,170 Q552,100 570,170 Q587,240 605,170 Q622,100 640,170" stroke="#C00000" stroke-width="3" fill="none"/>
+<!-- impact -->
+<path d="M685,165 H740 L748,100 L756,165 H860" stroke="#548235" stroke-width="3" fill="none"/>
+<g font-size="13" text-anchor="middle" fill="#333">
+<text x="115" y="272">크기·방향이 변하지 않음</text>
+<text x="335" y="272">같은 방향, 크기만 반복</text>
+<text x="555" y="272">크기와 방향이 함께 바뀜</text>
+<text x="775" y="272">아주 짧은 시간에 큰 하중</text>
+<text x="555" y="292" fill="#C00000" font-weight="bold">→ 가장 가혹 (피로 파괴 위험 최대)</text>
+</g>
+</svg>

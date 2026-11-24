@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker>
+</defs>
+<rect width="760" height="340" fill="#ffffff"/>
+<text x="380" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">수직 응력은 단면에 직각, 전단 응력은 단면에 나란하게</text>
+<rect x="12" y="44" width="360" height="284" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="388" y="44" width="360" height="284" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<text x="192" y="70" font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">수직 응력 σ = P / A</text>
+<text x="568" y="70" font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">전단 응력 τ = P / A</text>
+<!-- normal: bar cut, section face shaded -->
+<rect x="60" y="130" width="120" height="50" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<rect x="172" y="130" width="10" height="50" fill="#C5E0B4" stroke="#548235"/>
+<line x1="60" y1="155" x2="26" y2="155" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="34" y="146" font-size="13" fill="#C00000">P</text>
+<g stroke="#548235" stroke-width="2"><line x1="186" y1="138" x2="214" y2="138" marker-end="url(#ag)"/><line x1="186" y1="155" x2="214" y2="155" marker-end="url(#ag)"/><line x1="186" y1="172" x2="214" y2="172" marker-end="url(#ag)"/></g>
+<text x="224" y="150" font-size="13" fill="#548235">σ (단면에 직각)</text>
+<text x="224" y="168" font-size="12" fill="#555">잘린 면 넓이 A</text>
+<text x="192" y="225" font-size="13" text-anchor="middle" fill="#333">하중이 단면을 수직으로 꿰뚫는다</text>
+<text x="192" y="248" font-size="13" text-anchor="middle" fill="#333">인장(당김) · 압축(누름)</text>
+<text x="192" y="290" font-size="13" text-anchor="middle" fill="#C00000">응력 ∝ 하중,  응력 ∝ 1 / 단면적</text>
+<!-- shear: bolt joining two plates -->
+<rect x="420" y="110" width="200" height="26" fill="#BFBFBF" stroke="#555"/>
+<rect x="500" y="136" width="200" height="26" fill="#BFBFBF" stroke="#555"/>
+<rect x="545" y="98" width="24" height="76" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<rect x="537" y="90" width="40" height="10" fill="#A9D18E" stroke="#548235"/>
+<rect x="537" y="172" width="40" height="10" fill="#A9D18E" stroke="#548235"/>
+<line x1="530" y1="136" x2="590" y2="136" stroke="#C00000" stroke-width="2" stroke-dasharray="5 3"/>
+<line x1="440" y1="123" x2="404" y2="123" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="680" y1="149" x2="728" y2="149" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="410" y="114" font-size="13" fill="#C00000">P</text>
+<text x="716" y="140" font-size="13" fill="#C00000">P</text>
+<text x="598" y="128" font-size="12" fill="#C00000">전단면</text>
+<text x="568" y="212" font-size="13" text-anchor="middle" fill="#333">볼트 단면(A = πd²/4)을 따라</text>
+<text x="568" y="235" font-size="13" text-anchor="middle" fill="#333">위아래가 어긋나며 잘리려 한다</text>
+<text x="568" y="270" font-size="13" text-anchor="middle" fill="#333">볼트 전단 · 리벳 · 가위 · 프레스 전단</text>
+<text x="568" y="290" font-size="13" text-anchor="middle" fill="#C00000">τ 는 단면에 나란한 접선 응력</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+</defs>
+<rect width="800" height="360" fill="#ffffff"/>
+<text x="400" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">원형 축 단면의 응력 분포 — 굽힘(Z)과 비틀림(Zp)</text>
+<rect x="12" y="44" width="380" height="304" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="408" y="44" width="380" height="304" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<text x="202" y="70" font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">굽힘: σb = M / Z</text>
+<text x="598" y="70" font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">비틀림: τ = T / Zp</text>
+<!-- bending: circle section + linear distribution -->
+<circle cx="110" cy="190" r="70" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<line x1="30" y1="190" x2="320" y2="190" stroke="#333" stroke-dasharray="6 4"/>
+<text x="110" y="184" font-size="12" text-anchor="middle" fill="#333">중립축</text>
+<line x1="240" y1="120" x2="240" y2="260" stroke="#333"/>
+<path d="M240,120 L300,120 L180,260 L240,260 Z" fill="none"/>
+<polygon points="240,120 300,120 240,190" fill="#DDEBF7" stroke="#2F5597"/>
+<polygon points="240,190 180,260 240,260" fill="#F4CCCC" stroke="#C00000"/>
+<text x="304" y="124" font-size="12" fill="#2F5597">압축 최대</text>
+<text x="140" y="276" font-size="12" fill="#C00000">인장 최대</text>
+<text x="246" y="208" font-size="12" fill="#333">0</text>
+<g font-size="13" fill="#333">
+<text x="30" y="300">중립축에서 0, 위·아래 끝에서 최대 (아래로 처지는 보)</text>
+<text x="30" y="322">원형 Z = πd³/32,  사각형 Z = bh²/6</text>
+</g>
+<!-- torsion: circle with tangential arrows, radial distribution -->
+<circle cx="520" cy="190" r="70" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<circle cx="520" cy="190" r="3" fill="#333"/>
+<path d="M520,120 A70,70 0 0 1 581,155" fill="none" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M520,260 A70,70 0 0 1 459,225" fill="none" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="640" y1="120" x2="640" y2="260" stroke="#333"/>
+<polygon points="640,120 700,120 640,190" fill="#F4CCCC" stroke="#C00000"/>
+<polygon points="640,190 640,260 700,260" fill="#F4CCCC" stroke="#C00000"/>
+<text x="704" y="124" font-size="12" fill="#C00000">표면 최대</text>
+<text x="704" y="264" font-size="12" fill="#C00000">표면 최대</text>
+<text x="646" y="194" font-size="12" fill="#333">중심 0</text>
+<g font-size="13" fill="#333">
+<text x="426" y="300">중심에서 0, 바깥 표면에서 최대</text>
+<text x="426" y="322">원형 Zp = πd³/16 = <tspan fill="#C00000" font-weight="bold">2Z</tspan></text>
+</g>
+</svg>

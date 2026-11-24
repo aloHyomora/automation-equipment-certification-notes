@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="sm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+</defs>
+<rect width="900" height="360" fill="#ffffff"/>
+<text x="450" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">보의 최대 굽힘 모멘트 — 하중 그림(위)과 굽힘 모멘트 선도(아래)</text>
+<g font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">
+<text x="150" y="62">외팔보 + 끝 집중 하중</text><text x="450" y="62">단순보 + 중앙 집중 하중</text><text x="750" y="62">단순보 + 등분포 하중</text>
+</g>
+<g stroke="#BFBFBF"><line x1="300" y1="45" x2="300" y2="345"/><line x1="600" y1="45" x2="600" y2="345"/></g>
+<!-- cantilever: wall at x=40 -->
+<rect x="30" y="100" width="12" height="60" fill="#7F7F7F"/>
+<rect x="42" y="120" width="220" height="16" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<line x1="262" y1="84" x2="262" y2="118" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="272" y="96" font-size="13" fill="#C00000">P</text>
+<line x1="42" y1="156" x2="262" y2="156" stroke="#333"/><text x="152" y="172" font-size="12" text-anchor="middle">l</text>
+<!-- BMD: max at wall -->
+<line x1="42" y1="210" x2="262" y2="210" stroke="#333"/>
+<path d="M42,210 L42,290 L262,210 Z" fill="#C5E0B4" stroke="#548235" stroke-width="2"/>
+<text x="52" y="306" font-size="13" fill="#C00000" font-weight="bold">벽(고정단)에서 최대</text>
+<text x="150" y="334" font-size="16" text-anchor="middle" fill="#C00000" font-weight="bold">M = Pl</text>
+<!-- simply supported center load -->
+<rect x="340" y="120" width="220" height="16" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<path d="M340,136 l-9,16 h18 z" fill="#7F7F7F"/><path d="M560,136 l-9,16 h18 z" fill="#7F7F7F"/>
+<line x1="450" y1="84" x2="450" y2="118" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="460" y="96" font-size="13" fill="#C00000">P</text>
+<line x1="340" y1="166" x2="560" y2="166" stroke="#333"/><text x="450" y="182" font-size="12" text-anchor="middle">l</text>
+<line x1="340" y1="210" x2="560" y2="210" stroke="#333"/>
+<path d="M340,210 L450,290 L560,210 Z" fill="#C5E0B4" stroke="#548235" stroke-width="2"/>
+<text x="450" y="306" font-size="13" text-anchor="middle" fill="#C00000" font-weight="bold">중앙에서 최대 (삼각형)</text>
+<text x="450" y="334" font-size="16" text-anchor="middle" fill="#C00000" font-weight="bold">M = Pl / 4</text>
+<!-- simply supported UDL -->
+<rect x="640" y="120" width="220" height="16" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<path d="M640,136 l-9,16 h18 z" fill="#7F7F7F"/><path d="M860,136 l-9,16 h18 z" fill="#7F7F7F"/>
+<rect x="640" y="92" width="220" height="10" fill="none" stroke="#C00000"/>
+<g stroke="#C00000" stroke-width="1.5"><line x1="650" y1="102" x2="650" y2="118" marker-end="url(#sm)"/><line x1="680" y1="102" x2="680" y2="118" marker-end="url(#sm)"/><line x1="710" y1="102" x2="710" y2="118" marker-end="url(#sm)"/><line x1="740" y1="102" x2="740" y2="118" marker-end="url(#sm)"/><line x1="770" y1="102" x2="770" y2="118" marker-end="url(#sm)"/><line x1="800" y1="102" x2="800" y2="118" marker-end="url(#sm)"/><line x1="830" y1="102" x2="830" y2="118" marker-end="url(#sm)"/><line x1="855" y1="102" x2="855" y2="118" marker-end="url(#sm)"/></g>
+<text x="750" y="86" font-size="13" text-anchor="middle" fill="#C00000">w [N/m]</text>
+<line x1="640" y1="166" x2="860" y2="166" stroke="#333"/><text x="750" y="182" font-size="12" text-anchor="middle">l</text>
+<line x1="640" y1="210" x2="860" y2="210" stroke="#333"/>
+<path d="M640,210 Q750,370 860,210 Z" fill="#C5E0B4" stroke="#548235" stroke-width="2"/>
+<text x="750" y="306" font-size="13" text-anchor="middle" fill="#C00000" font-weight="bold">중앙에서 최대 (포물선)</text>
+<text x="750" y="334" font-size="16" text-anchor="middle" fill="#C00000" font-weight="bold">M = wl² / 8</text>
+</svg>
