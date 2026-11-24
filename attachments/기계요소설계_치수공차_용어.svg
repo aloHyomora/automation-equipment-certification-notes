@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker></defs>
+<rect width="760" height="460" fill="#ffffff"/>
+<text x="380" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">치수 공차 용어 — φ50 구멍(H7)과 축(g6)의 공차역</text>
+<line x1="40" y1="210" x2="720" y2="210" stroke="#000" stroke-width="1.8"/>
+<text x="715" y="202" font-size="12" fill="#000" text-anchor="end" font-weight="bold">기준선 = 기준 치수 φ50.000</text>
+<text x="28" y="150" font-size="18" fill="#000" text-anchor="middle" font-weight="bold">+</text>
+<text x="28" y="285" font-size="18" fill="#000" text-anchor="middle" font-weight="bold">−</text>
+<rect x="190" y="110.0" width="130" height="100.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.8"/>
+<text x="255.0" y="165.0" font-size="14" fill="#548235" text-anchor="middle" font-weight="bold">구멍 H7</text>
+<line x1="160" y1="210" x2="160" y2="111.0" stroke="#548235" stroke-width="1.4" marker-end="url(#ag)"/>
+<line x1="155" y1="110.0" x2="190" y2="110.0" stroke="#548235" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="152" y="112.0" font-size="11" fill="#548235" text-anchor="end" font-weight="bold">위 치수 허용차</text>
+<text x="152" y="127.0" font-size="11" fill="#548235" text-anchor="end">ES = +0.025</text>
+<text x="180" y="228" font-size="11" fill="#548235" text-anchor="end" font-weight="bold">아래 치수 허용차 EI = 0</text>
+<text x="180" y="243" font-size="10" fill="#555" text-anchor="end">(= 기초가 되는 치수 허용차)</text>
+<line x1="338" y1="210" x2="338" y2="110.0" stroke="#C00000" stroke-width="1.6" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="346" y="158.0" font-size="11" fill="#C00000" text-anchor="start" font-weight="bold">치수 공차</text>
+<text x="346" y="173.0" font-size="11" fill="#C00000" text-anchor="start" font-weight="bold">0.025</text>
+<rect x="480" y="246.0" width="130" height="64.0" fill="#DEEBF7" stroke="#2F5597" stroke-width="1.8"/>
+<text x="545.0" y="283.0" font-size="14" fill="#2F5597" text-anchor="middle" font-weight="bold">축 g6</text>
+<line x1="430" y1="210" x2="430" y2="245.0" stroke="#2F5597" stroke-width="1.4" marker-end="url(#ab)"/>
+<line x1="430" y1="246.0" x2="480" y2="246.0" stroke="#2F5597" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="424" y="248.0" font-size="11" fill="#2F5597" text-anchor="end" font-weight="bold">위 치수 허용차 es = −0.009</text>
+<text x="424" y="263.0" font-size="10" fill="#555" text-anchor="end">(기초가 되는 치수 허용차)</text>
+<line x1="458" y1="210" x2="458" y2="309.0" stroke="#2F5597" stroke-width="1.4" marker-end="url(#ab)"/>
+<line x1="458" y1="310.0" x2="480" y2="310.0" stroke="#2F5597" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="452" y="314.0" font-size="11" fill="#2F5597" text-anchor="end" font-weight="bold">아래 치수 허용차 ei = −0.025</text>
+<line x1="628" y1="246.0" x2="628" y2="310.0" stroke="#C00000" stroke-width="1.6" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="636" y="276.0" font-size="11" fill="#C00000" text-anchor="start" font-weight="bold">치수 공차</text>
+<text x="636" y="291.0" font-size="11" fill="#C00000" text-anchor="start" font-weight="bold">0.016</text>
+<rect x="40" y="345" width="680" height="100" fill="#F7F7F7" stroke="#BFBFBF" stroke-width="1"/>
+<text x="60" y="369" font-size="13" fill="#548235" text-anchor="start" font-weight="bold">구멍 φ50H7 = φ50 +0.025 / 0</text>
+<text x="60" y="389" font-size="12" fill="#333" text-anchor="start">최대 허용 치수 50.025 · 최소 허용 치수 50.000 · 공차 0.025</text>
+<text x="400" y="369" font-size="13" fill="#2F5597" text-anchor="start" font-weight="bold">축 φ50g6 = φ50 −0.009 / −0.025</text>
+<text x="400" y="389" font-size="12" fill="#333" text-anchor="start">최대 49.991 · 최소 49.975 · 공차 0.016</text>
+<text x="380" y="421" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">치수 공차 = 최대 허용 치수 − 최소 허용 치수 = 위 치수 허용차 − 아래 치수 허용차 (항상 양수)</text>
+</svg>

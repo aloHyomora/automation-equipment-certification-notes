@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 460" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker></defs>
+<rect width="780" height="460" fill="#ffffff"/>
+<text x="390" y="28" font-size="16" fill="#548235" text-anchor="middle" font-weight="bold">IT 기본 공차 — 등급 숫자가 커지면 공차가 커진다 (기준 치수 18~30 mm)</text>
+<line x1="55" y1="360" x2="620" y2="360" stroke="#000" stroke-width="1.2"/>
+<line x1="55" y1="360" x2="55" y2="60" stroke="#000" stroke-width="1.2"/>
+<text x="60" y="56" font-size="11" fill="#333" text-anchor="start">공차 (μm)</text>
+<line x1="50" y1="260.0" x2="620" y2="260.0" stroke="#D9D9D9" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="48" y="264.0" font-size="10" fill="#555" text-anchor="end">50</text>
+<line x1="50" y1="160.0" x2="620" y2="160.0" stroke="#D9D9D9" stroke-width="0.8" stroke-dasharray="4 3"/>
+<text x="48" y="164.0" font-size="10" fill="#555" text-anchor="end">100</text>
+<rect x="70" y="357.0" width="32" height="3.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="86" y="351.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">1.5</text>
+<text x="86" y="376" font-size="11" fill="#333" text-anchor="middle">IT1</text>
+<rect x="120" y="355.0" width="32" height="5.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="136" y="349.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">2.5</text>
+<text x="136" y="376" font-size="11" fill="#333" text-anchor="middle">IT2</text>
+<rect x="170" y="352.0" width="32" height="8.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="186" y="346.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">4</text>
+<text x="186" y="376" font-size="11" fill="#333" text-anchor="middle">IT3</text>
+<rect x="220" y="348.0" width="32" height="12.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="236" y="342.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">6</text>
+<text x="236" y="376" font-size="11" fill="#333" text-anchor="middle">IT4</text>
+<rect x="270" y="342.0" width="32" height="18.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="286" y="336.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">9</text>
+<text x="286" y="376" font-size="11" fill="#333" text-anchor="middle">IT5</text>
+<rect x="320" y="334.0" width="32" height="26.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="336" y="328.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">13</text>
+<text x="336" y="376" font-size="11" fill="#333" text-anchor="middle">IT6</text>
+<rect x="370" y="318.0" width="32" height="42.0" fill="#F4CCCC" stroke="#C00000" stroke-width="1.2"/>
+<text x="386" y="312.0" font-size="11" fill="#C00000" text-anchor="middle" font-weight="bold">21</text>
+<text x="386" y="376" font-size="11" fill="#333" text-anchor="middle">IT7</text>
+<rect x="420" y="294.0" width="32" height="66.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="436" y="288.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">33</text>
+<text x="436" y="376" font-size="11" fill="#333" text-anchor="middle">IT8</text>
+<rect x="470" y="256.0" width="32" height="104.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="486" y="250.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">52</text>
+<text x="486" y="376" font-size="11" fill="#333" text-anchor="middle">IT9</text>
+<rect x="520" y="192.0" width="32" height="168.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="536" y="186.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">84</text>
+<text x="536" y="376" font-size="11" fill="#333" text-anchor="middle">IT10</text>
+<rect x="570" y="100.0" width="32" height="260.0" fill="#E2EFDA" stroke="#548235" stroke-width="1.2"/>
+<text x="586" y="94.0" font-size="11" fill="#548235" text-anchor="middle" font-weight="bold">130</text>
+<text x="586" y="376" font-size="11" fill="#333" text-anchor="middle">IT11</text>
+<text x="52" y="404" font-size="11" fill="#548235" text-anchor="end" font-weight="bold">구멍</text>
+<rect x="64" y="390" width="244" height="20" fill="#FFF2CC" stroke="#999" stroke-width="0.8"/>
+<text x="186.0" y="404" font-size="11" fill="#333" text-anchor="middle">게이지류 IT1~5</text>
+<rect x="314" y="390" width="244" height="20" fill="#E2EFDA" stroke="#999" stroke-width="0.8"/>
+<text x="436.0" y="404" font-size="11" fill="#333" text-anchor="middle">끼워맞춤 부분 IT6~10</text>
+<rect x="564" y="390" width="44" height="20" fill="#EDEDED" stroke="#999" stroke-width="0.8"/>
+<text x="586.0" y="404" font-size="11" fill="#333" text-anchor="middle">IT11~</text>
+<text x="52" y="430" font-size="11" fill="#2F5597" text-anchor="end" font-weight="bold">축</text>
+<rect x="64" y="416" width="194" height="20" fill="#FFF2CC" stroke="#999" stroke-width="0.8"/>
+<text x="161.0" y="430" font-size="11" fill="#333" text-anchor="middle">게이지류 IT1~4</text>
+<rect x="264" y="416" width="244" height="20" fill="#DEEBF7" stroke="#999" stroke-width="0.8"/>
+<text x="386.0" y="430" font-size="11" fill="#333" text-anchor="middle">끼워맞춤 부분 IT5~9</text>
+<rect x="514" y="416" width="94" height="20" fill="#EDEDED" stroke="#999" stroke-width="0.8"/>
+<text x="561.0" y="430" font-size="11" fill="#333" text-anchor="middle">IT10~</text>
+<rect x="640" y="70" width="125" height="200" fill="#F7F7F7" stroke="#BFBFBF" stroke-width="1"/>
+<text x="702" y="92" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">같은 IT7이라도</text>
+<text x="702" y="110" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">기준 치수가 크면 ↑</text>
+<text x="650" y="140" font-size="11" fill="#333" text-anchor="start">3~6 mm</text>
+<text x="755" y="140" font-size="11" fill="#333" text-anchor="end" font-weight="bold">12 μm</text>
+<text x="650" y="170" font-size="11" fill="#333" text-anchor="start">18~30 mm</text>
+<text x="755" y="170" font-size="11" fill="#C00000" text-anchor="end" font-weight="bold">21 μm</text>
+<text x="650" y="200" font-size="11" fill="#333" text-anchor="start">30~50 mm</text>
+<text x="755" y="200" font-size="11" fill="#333" text-anchor="end" font-weight="bold">25 μm</text>
+<text x="650" y="230" font-size="11" fill="#333" text-anchor="start">120~180 mm</text>
+<text x="755" y="230" font-size="11" fill="#333" text-anchor="end" font-weight="bold">40 μm</text>
+<text x="702" y="262" font-size="10" fill="#555" text-anchor="middle">(φ25의 IT7 = 0.021)</text>
+</svg>
