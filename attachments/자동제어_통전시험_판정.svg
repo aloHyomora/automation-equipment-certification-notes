@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="720" height="300" fill="#ffffff"/>
+<text x="360" y="26" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">통전 시험 판정: 전원 끄고 저항 레인지로 잰다</text>
+<g stroke-width="3" fill="none">
+<!-- panel 1 -->
+<polyline points="40,90 200,90" stroke="#333"/>
+<rect x="95" y="78" width="50" height="24" fill="#fff" stroke="#2F5597"/>
+<polyline points="40,90 40,160" stroke="#333"/><polyline points="200,90 200,160" stroke="#333"/>
+<!-- panel 2 -->
+<polyline points="280,90 345,90" stroke="#333"/><polyline points="375,90 440,90" stroke="#333"/>
+<polyline points="280,90 280,160" stroke="#333"/><polyline points="440,90 440,160" stroke="#333"/>
+<!-- panel 3 -->
+<polyline points="520,90 680,90" stroke="#333"/>
+<rect x="575" y="78" width="50" height="24" fill="#fff" stroke="#2F5597"/>
+<polyline points="560,90 560,60 640,60 640,90" stroke="#C00000"/>
+<polyline points="520,90 520,160" stroke="#333"/><polyline points="680,90 680,160" stroke="#333"/>
+</g>
+<text x="120" y="70" font-size="12" fill="#2F5597" text-anchor="middle">부하(코일)</text>
+<text x="360" y="75" font-size="20" fill="#C00000" text-anchor="middle" font-weight="bold">✕</text>
+<text x="360" y="118" font-size="12" fill="#C00000" text-anchor="middle">끊김</text>
+<text x="600" y="52" font-size="12" fill="#C00000" text-anchor="middle">합선</text>
+<g font-size="14">
+<rect x="70" y="150" width="100" height="40" rx="6" fill="#333"/><text x="120" y="176" fill="#7FFF9F" text-anchor="middle">35.2 Ω</text>
+<rect x="310" y="150" width="100" height="40" rx="6" fill="#333"/><text x="360" y="176" fill="#7FFF9F" text-anchor="middle">OL</text>
+<rect x="550" y="150" width="100" height="40" rx="6" fill="#333"/><text x="600" y="176" fill="#7FFF9F" text-anchor="middle">0.1 Ω</text>
+</g>
+<line x1="40" y1="160" x2="70" y2="170" stroke="#C00000" stroke-width="2"/><line x1="200" y1="160" x2="170" y2="170" stroke="#333" stroke-width="2"/>
+<line x1="280" y1="160" x2="310" y2="170" stroke="#C00000" stroke-width="2"/><line x1="440" y1="160" x2="410" y2="170" stroke="#333" stroke-width="2"/>
+<line x1="520" y1="160" x2="550" y2="170" stroke="#C00000" stroke-width="2"/><line x1="680" y1="160" x2="650" y2="170" stroke="#333" stroke-width="2"/>
+<text x="120" y="228" font-size="15" fill="#2F5597" text-anchor="middle" font-weight="bold">정상</text>
+<text x="120" y="250" font-size="12.5" fill="#333" text-anchor="middle">부하 고유 저항값</text>
+<text x="360" y="228" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">단선 · 접속 불량</text>
+<text x="360" y="250" font-size="12.5" fill="#333" text-anchor="middle">∞ Ω (표시 OL)</text>
+<text x="600" y="228" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">단락</text>
+<text x="600" y="250" font-size="12.5" fill="#333" text-anchor="middle">0 Ω 근처</text>
+<line x1="240" y1="50" x2="240" y2="270" stroke="#ccc" stroke-dasharray="4 3"/>
+<line x1="480" y1="50" x2="480" y2="270" stroke="#ccc" stroke-dasharray="4 3"/>
+</svg>

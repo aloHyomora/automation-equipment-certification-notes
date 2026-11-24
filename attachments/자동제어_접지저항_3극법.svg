@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="700" height="400" fill="#ffffff"/>
+<text x="350" y="26" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">접지 저항 측정: 3극법(보조 접지봉 2개)</text>
+<rect x="270" y="50" width="160" height="70" rx="8" fill="#DEEBF7" stroke="#2F5597" stroke-width="2"/>
+<text x="350" y="76" font-size="14" fill="#2F5597" text-anchor="middle" font-weight="bold">접지 저항계</text>
+<text x="350" y="96" font-size="12" fill="#333" text-anchor="middle">E    P    C</text>
+<rect x="0" y="230" width="700" height="120" fill="#E8DCC8"/>
+<line x1="0" y1="230" x2="700" y2="230" stroke="#7A5C2E" stroke-width="2"/>
+<text x="20" y="340" font-size="12" fill="#7A5C2E">대지</text>
+<rect x="94" y="200" width="12" height="110" fill="#2F5597"/>
+<rect x="344" y="215" width="10" height="55" fill="#888"/>
+<rect x="594" y="215" width="10" height="55" fill="#888"/>
+<path d="M322,104 C200,120 100,150 100,200" fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<path d="M350,104 L350,215" fill="none" stroke="#333" stroke-width="2"/>
+<path d="M378,104 C500,120 600,150 600,215" fill="none" stroke="#C00000" stroke-width="2.5"/>
+<text x="114" y="196" font-size="13" fill="#2F5597" font-weight="bold">E</text>
+<text x="100" y="330" font-size="12" fill="#2F5597" text-anchor="middle">측정할 접지극</text>
+<text x="380" y="210" font-size="13" fill="#333" font-weight="bold">P</text>
+<text x="349" y="290" font-size="12" fill="#333" text-anchor="middle">전위 보조극</text>
+<text x="620" y="210" font-size="13" fill="#C00000" font-weight="bold">C</text>
+<text x="599" y="290" font-size="12" fill="#C00000" text-anchor="middle">전류 보조극</text>
+<line x1="100" y1="250" x2="349" y2="250" stroke="#555" stroke-width="1.2"/>
+<line x1="349" y1="250" x2="599" y2="250" stroke="#555" stroke-width="1.2"/>
+<text x="225" y="245" font-size="12" fill="#333" text-anchor="middle">약 10 m</text>
+<text x="474" y="245" font-size="12" fill="#333" text-anchor="middle">약 10 m</text>
+<text x="350" y="380" font-size="13" fill="#333" text-anchor="middle">E–P–C를 일직선으로 박고, C로 전류 I를 흘려 E–P 전압 V를 재면 R = V/I</text>
+</svg>

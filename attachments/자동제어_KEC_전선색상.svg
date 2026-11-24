@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="640" height="360" fill="#ffffff"/>
+<text x="320" y="28" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">KEC(2021) 전선 식별 색상</text>
+<text x="30" y="62" font-size="12" fill="#555">도체</text>
+<text x="390" y="62" font-size="12" fill="#555">색상</text>
+<g font-size="14">
+<text x="30" y="98" font-weight="bold" fill="#333">L1</text>
+<rect x="80" y="86" width="290" height="16" rx="8" fill="#8B4513"/>
+<text x="390" y="99" fill="#333" font-weight="bold">갈색</text>
+<text x="30" y="148" font-weight="bold" fill="#333">L2</text>
+<rect x="80" y="136" width="290" height="16" rx="8" fill="#111111"/>
+<text x="390" y="149" fill="#333" font-weight="bold">흑색</text>
+<text x="30" y="198" font-weight="bold" fill="#333">L3</text>
+<rect x="80" y="186" width="290" height="16" rx="8" fill="#8C8C8C"/>
+<text x="390" y="199" fill="#333" font-weight="bold">회색</text>
+<text x="30" y="248" font-weight="bold" fill="#333">N</text>
+<rect x="80" y="236" width="290" height="16" rx="8" fill="#1F6FD0"/>
+<text x="390" y="249" fill="#333" font-weight="bold">청색</text>
+<text x="30" y="298" font-weight="bold" fill="#C00000">PE</text>
+<defs><pattern id="gy" width="24" height="16" patternUnits="userSpaceOnUse" patternTransform="skewX(-30)"><rect width="12" height="16" fill="#2E9B3A"/><rect x="12" width="12" height="16" fill="#F2D21B"/></pattern></defs>
+<rect x="80" y="286" width="290" height="16" rx="8" fill="url(#gy)"/>
+<text x="390" y="299" fill="#C00000" font-weight="bold">녹색-노란색</text>
+</g>
+<text x="320" y="340" font-size="12.5" fill="#555" text-anchor="middle">옛 기준의 녹색 접지선과 적·백·흑 상 구분은 KEC(2021)부터 위 색상으로 바뀌었다</text>
+</svg>
