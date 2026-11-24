@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker>
+<marker id="dm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker>
+</defs>
+<rect width="760" height="400" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">구름 베어링(깊은 홈 볼 베어링)의 구조</text>
+<circle cx="190.0" cy="205.0" r="140.0" fill="#E2EFDA" stroke="#000" stroke-width="1.8" />
+<circle cx="190.0" cy="205.0" r="110.0" fill="#ffffff" stroke="#000" stroke-width="1.4" />
+<circle cx="190.0" cy="205.0" r="80.0" fill="#E2EFDA" stroke="#000" stroke-width="1.4" />
+<circle cx="190.0" cy="205.0" r="55.0" fill="#ffffff" stroke="#000" stroke-width="1.8" />
+<circle cx="190.0" cy="205.0" r="95.0" fill="none" stroke="#548235" stroke-width="5" stroke-opacity="0.55"/>
+<circle cx="190.0" cy="110.0" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<circle cx="251.1" cy="132.2" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<circle cx="283.6" cy="188.5" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<circle cx="272.3" cy="252.5" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<circle cx="222.5" cy="294.3" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<circle cx="157.5" cy="294.3" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<circle cx="107.7" cy="252.5" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<circle cx="96.4" cy="188.5" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<circle cx="128.9" cy="132.2" r="13.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<line x1="35.0" y1="205.0" x2="345.0" y2="205.0" stroke="#7F7F7F" stroke-width="0.8" stroke-dasharray="14 4 2 4"/>
+<line x1="190.0" y1="50.0" x2="190.0" y2="360.0" stroke="#7F7F7F" stroke-width="0.8" stroke-dasharray="14 4 2 4"/>
+<text x="190.0" y="392.0" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">정면도</text>
+<line x1="310.0" y1="110.0" x2="352.0" y2="70.0" stroke="#333" stroke-width="0.9" />
+<text x="355.0" y="74.0" font-size="13" fill="#333" text-anchor="start">외륜</text>
+<line x1="250.0" y1="245.0" x2="30.0" y2="330.0" stroke="#333" stroke-width="0.9" />
+<text x="10.0" y="346.0" font-size="13" fill="#333" text-anchor="start">내륜</text>
+<line x1="128.9" y1="132.2" x2="30.0" y2="70.0" stroke="#548235" stroke-width="0.9" />
+<text x="10.0" y="62.0" font-size="13" fill="#548235" text-anchor="start" font-weight="bold">리테이너(케이지)</text>
+<line x1="282.3" y1="260.5" x2="352.0" y2="340.0" stroke="#333" stroke-width="0.9" />
+<text x="355.0" y="344.0" font-size="13" fill="#333" text-anchor="start">볼(전동체)</text>
+<rect x="500.0" y="60.0" width="70.0" height="30.0" fill="#E2EFDA" stroke="#000" stroke-width="1.6"/>
+<rect x="500.0" y="120.0" width="70.0" height="25.0" fill="#E2EFDA" stroke="#000" stroke-width="1.6"/>
+<circle cx="535.0" cy="105.0" r="17.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<rect x="503.0" y="89.0" width="3.0" height="31.0" fill="#404040" stroke="#404040" stroke-width="0.5"/>
+<rect x="564.0" y="89.0" width="3.0" height="31.0" fill="#404040" stroke="#404040" stroke-width="0.5"/>
+<rect x="500.0" y="310.0" width="70.0" height="30.0" fill="#E2EFDA" stroke="#000" stroke-width="1.6"/>
+<rect x="500.0" y="255.0" width="70.0" height="25.0" fill="#E2EFDA" stroke="#000" stroke-width="1.6"/>
+<circle cx="535.0" cy="295.0" r="17.0" fill="#BFBFBF" stroke="#000" stroke-width="1.4" />
+<rect x="503.0" y="280.0" width="3.0" height="31.0" fill="#404040" stroke="#404040" stroke-width="0.5"/>
+<rect x="564.0" y="280.0" width="3.0" height="31.0" fill="#404040" stroke="#404040" stroke-width="0.5"/>
+<line x1="470.0" y1="200.0" x2="640.0" y2="200.0" stroke="#7F7F7F" stroke-width="0.9" stroke-dasharray="14 4 2 4"/>
+<text x="535.0" y="392.0" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">단면도 (ZZ 실드 붙이)</text>
+<line x1="500.0" y1="48.0" x2="500.0" y2="58.0" stroke="#333" stroke-width="0.8" />
+<line x1="570.0" y1="48.0" x2="570.0" y2="58.0" stroke="#333" stroke-width="0.8" />
+<line x1="500.0" y1="50.0" x2="570.0" y2="50.0" stroke="#333" stroke-width="1" marker-start="url(#dm)" marker-end="url(#dm)"/>
+<text x="535.0" y="44.0" font-size="13" fill="#333" text-anchor="middle">폭 B</text>
+<line x1="572.0" y1="60.0" x2="615.0" y2="60.0" stroke="#333" stroke-width="0.8" />
+<line x1="572.0" y1="340.0" x2="615.0" y2="340.0" stroke="#333" stroke-width="0.8" />
+<line x1="610.0" y1="60.0" x2="610.0" y2="340.0" stroke="#333" stroke-width="1" marker-start="url(#dm)" marker-end="url(#dm)"/>
+<text x="616.0" y="230.0" font-size="13" fill="#333" text-anchor="start">바깥지름 D</text>
+<line x1="535.0" y1="145.0" x2="535.0" y2="255.0" stroke="#C00000" stroke-width="1.4" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="541.0" y="180.0" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">안지름 d</text>
+<text x="541.0" y="196.0" font-size="11" fill="#C00000" text-anchor="start">(호칭 번호</text>
+<text x="541.0" y="210.0" font-size="11" fill="#C00000" text-anchor="start">끝 두 자리)</text>
+<line x1="568.0" y1="95.0" x2="690.0" y2="95.0" stroke="#333" stroke-width="0.9" />
+<text x="645.0" y="89.0" font-size="12" fill="#333" text-anchor="start">실드</text>
+<text x="645.0" y="120.0" font-size="11" fill="#333" text-anchor="start">외륜·내륜의</text>
+<text x="645.0" y="134.0" font-size="11" fill="#333" text-anchor="start">홈 = 궤도면</text>
+</svg>

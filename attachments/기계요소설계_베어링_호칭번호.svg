@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker>
+<marker id="dm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker>
+</defs>
+<rect width="760" height="420" fill="#ffffff"/>
+<text x="380.0" y="26.0" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">호칭 번호 읽기 — 6205ZZ C3 와 7206C DB</text>
+<rect x="70.0" y="50.0" width="62.0" height="56.0" fill="#F2F8EE" stroke="#548235" stroke-width="2"/>
+<text x="101.0" y="90.0" font-size="32" fill="#548235" text-anchor="middle" font-weight="bold">6</text>
+<text x="101.0" y="128.0" font-size="13" fill="#548235" text-anchor="middle" font-weight="bold">형식</text>
+<text x="101.0" y="146.0" font-size="12" fill="#333" text-anchor="middle">깊은 홈 볼</text>
+<rect x="144.0" y="50.0" width="62.0" height="56.0" fill="#FFFFFF" stroke="#2F5597" stroke-width="2"/>
+<text x="175.0" y="90.0" font-size="32" fill="#2F5597" text-anchor="middle" font-weight="bold">2</text>
+<text x="175.0" y="128.0" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">지름 계열</text>
+<text x="175.0" y="146.0" font-size="12" fill="#333" text-anchor="middle">0<1<2<3<4</text>
+<rect x="218.0" y="50.0" width="84.0" height="56.0" fill="#FFFFFF" stroke="#C00000" stroke-width="2"/>
+<text x="260.0" y="90.0" font-size="32" fill="#C00000" text-anchor="middle" font-weight="bold">05</text>
+<text x="260.0" y="128.0" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">안지름 번호</text>
+<text x="260.0" y="146.0" font-size="12" fill="#333" text-anchor="middle">05×5 = 25 mm</text>
+<rect x="314.0" y="50.0" width="84.0" height="56.0" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+<text x="356.0" y="90.0" font-size="32" fill="#333" text-anchor="middle" font-weight="bold">ZZ</text>
+<text x="356.0" y="128.0" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">실드</text>
+<text x="356.0" y="146.0" font-size="12" fill="#333" text-anchor="middle">양쪽 철판</text>
+<rect x="428.0" y="50.0" width="84.0" height="56.0" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+<text x="470.0" y="90.0" font-size="32" fill="#333" text-anchor="middle" font-weight="bold">C3</text>
+<text x="470.0" y="128.0" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">내부 틈새</text>
+<text x="470.0" y="146.0" font-size="12" fill="#333" text-anchor="middle">보통보다 큼</text>
+<text x="70.0" y="172.0" font-size="12" fill="#548235" text-anchor="start">계열 기호(62)</text>
+<line x1="70.0" y1="160.0" x2="206.0" y2="160.0" stroke="#548235" stroke-width="1.2" />
+<text x="530.0" y="72.0" font-size="12" fill="#333" text-anchor="start">← 보조 기호 순서:</text>
+<text x="530.0" y="90.0" font-size="12" fill="#333" text-anchor="start">실드·실 → 궤도륜 모양</text>
+<text x="530.0" y="108.0" font-size="12" fill="#333" text-anchor="start">→ 조합 → 틈새 → 등급</text>
+<rect x="70.0" y="195.0" width="62.0" height="50.0" fill="#FFFFFF" stroke="#548235" stroke-width="1.6"/>
+<text x="101.0" y="230.0" font-size="28" fill="#548235" text-anchor="middle" font-weight="bold">7</text>
+<text x="101.0" y="264.0" font-size="12" fill="#333" text-anchor="middle">앵귤러 볼</text>
+<rect x="144.0" y="195.0" width="62.0" height="50.0" fill="#FFFFFF" stroke="#2F5597" stroke-width="1.6"/>
+<text x="175.0" y="230.0" font-size="28" fill="#2F5597" text-anchor="middle" font-weight="bold">2</text>
+<text x="175.0" y="264.0" font-size="12" fill="#333" text-anchor="middle">지름 계열</text>
+<rect x="218.0" y="195.0" width="84.0" height="50.0" fill="#FFFFFF" stroke="#C00000" stroke-width="1.6"/>
+<text x="260.0" y="230.0" font-size="28" fill="#C00000" text-anchor="middle" font-weight="bold">06</text>
+<text x="260.0" y="264.0" font-size="12" fill="#333" text-anchor="middle">06×5 = 30 mm</text>
+<rect x="332.0" y="195.0" width="62.0" height="50.0" fill="#FFFFFF" stroke="#333" stroke-width="1.6"/>
+<text x="363.0" y="230.0" font-size="28" fill="#333" text-anchor="middle" font-weight="bold">C</text>
+<text x="363.0" y="264.0" font-size="12" fill="#333" text-anchor="middle">접촉각 약 15°</text>
+<rect x="406.0" y="195.0" width="84.0" height="50.0" fill="#FFFFFF" stroke="#333" stroke-width="1.6"/>
+<text x="448.0" y="230.0" font-size="28" fill="#333" text-anchor="middle" font-weight="bold">DB</text>
+<text x="448.0" y="264.0" font-size="12" fill="#333" text-anchor="middle">배면 조합</text>
+<text x="530.0" y="225.0" font-size="12" fill="#C00000" text-anchor="start" font-weight="bold">C·A·B는 앵귤러에서만 접촉각</text>
+<text x="530.0" y="243.0" font-size="12" fill="#333" text-anchor="start">(A ≈ 30°, B ≈ 40°, C ≈ 15°)</text>
+<text x="70.0" y="300.0" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">안지름 번호 → 안지름 [mm]</text>
+<rect x="70.0" y="312.0" width="76.0" height="30.0" fill="#FBE5E5" stroke="#999" stroke-width="1"/>
+<rect x="70.0" y="342.0" width="76.0" height="30.0" fill="#FFFFFF" stroke="#999" stroke-width="1"/>
+<text x="108.0" y="333.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">00</text>
+<text x="108.0" y="363.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">10</text>
+<rect x="148.0" y="312.0" width="76.0" height="30.0" fill="#FBE5E5" stroke="#999" stroke-width="1"/>
+<rect x="148.0" y="342.0" width="76.0" height="30.0" fill="#FFFFFF" stroke="#999" stroke-width="1"/>
+<text x="186.0" y="333.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">01</text>
+<text x="186.0" y="363.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">12</text>
+<rect x="226.0" y="312.0" width="76.0" height="30.0" fill="#FBE5E5" stroke="#999" stroke-width="1"/>
+<rect x="226.0" y="342.0" width="76.0" height="30.0" fill="#FFFFFF" stroke="#999" stroke-width="1"/>
+<text x="264.0" y="333.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">02</text>
+<text x="264.0" y="363.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">15</text>
+<rect x="304.0" y="312.0" width="76.0" height="30.0" fill="#FBE5E5" stroke="#999" stroke-width="1"/>
+<rect x="304.0" y="342.0" width="76.0" height="30.0" fill="#FFFFFF" stroke="#999" stroke-width="1"/>
+<text x="342.0" y="333.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">03</text>
+<text x="342.0" y="363.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">17</text>
+<rect x="382.0" y="312.0" width="76.0" height="30.0" fill="#F2F2F2" stroke="#999" stroke-width="1"/>
+<rect x="382.0" y="342.0" width="76.0" height="30.0" fill="#FFFFFF" stroke="#999" stroke-width="1"/>
+<text x="420.0" y="333.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">04</text>
+<text x="420.0" y="363.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">20</text>
+<rect x="460.0" y="312.0" width="76.0" height="30.0" fill="#F2F2F2" stroke="#999" stroke-width="1"/>
+<rect x="460.0" y="342.0" width="76.0" height="30.0" fill="#FFFFFF" stroke="#999" stroke-width="1"/>
+<text x="498.0" y="333.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">05</text>
+<text x="498.0" y="363.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">25</text>
+<rect x="538.0" y="312.0" width="76.0" height="30.0" fill="#F2F2F2" stroke="#999" stroke-width="1"/>
+<rect x="538.0" y="342.0" width="76.0" height="30.0" fill="#FFFFFF" stroke="#999" stroke-width="1"/>
+<text x="576.0" y="333.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">12</text>
+<text x="576.0" y="363.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">60</text>
+<rect x="616.0" y="312.0" width="76.0" height="30.0" fill="#F2F2F2" stroke="#999" stroke-width="1"/>
+<rect x="616.0" y="342.0" width="76.0" height="30.0" fill="#FFFFFF" stroke="#999" stroke-width="1"/>
+<text x="654.0" y="333.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">/22</text>
+<text x="654.0" y="363.0" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">22</text>
+<text x="70.0" y="398.0" font-size="12" fill="#333" text-anchor="start">00~03은 외우는 예외(빨강), 04부터는 ×5, 슬래시(/) 뒤 숫자는 그대로 mm</text>
+</svg>

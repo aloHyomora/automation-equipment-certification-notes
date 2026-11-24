@@ -1218,5 +1218,82 @@
   "license": "CC BY-SA 3.0",
   "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "artist": "작성자 미표기 (출처 페이지 참조)"
+ },
+ "기계요소설계_깊은홈볼베어링.webp": {
+  "title": "Radial-deep-groove-ball-bearing din625-t1 2rs.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs.png",
+  "license": "CC BY 2.5",
+  "licurl": "https://creativecommons.org/licenses/by/2.5",
+  "artist": "Silberwolf"
+ },
+ "기계요소설계_앵귤러볼베어링.webp": {
+  "title": "Angular-contact-ball-bearing single-row din628 type-b.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Angular-contact-ball-bearing_single-row_din628_type-b.png",
+  "license": "CC BY 2.5",
+  "licurl": "https://creativecommons.org/licenses/by/2.5",
+  "artist": "Silberwolf"
+ },
+ "기계요소설계_원통롤러베어링.webp": {
+  "title": "Cylindrical-roller-bearing din5412-t1 type-nup.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Cylindrical-roller-bearing_din5412-t1_type-nup.png",
+  "license": "CC BY 2.5",
+  "licurl": "https://creativecommons.org/licenses/by/2.5",
+  "artist": "Silberwolf"
+ },
+ "기계요소설계_스러스트볼베어링.webp": {
+  "title": "Thrust-ball-bearing din711.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Thrust-ball-bearing_din711.png",
+  "license": "CC BY 2.5",
+  "licurl": "https://creativecommons.org/licenses/by/2.5",
+  "artist": "Silberwolf"
+ },
+ "기계요소설계_자동조심롤러베어링.webp": {
+  "title": "Spherical-roller-bearing double-row din635-t2.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Spherical-roller-bearing_double-row_din635-t2.png",
+  "license": "CC BY 2.5",
+  "licurl": "https://creativecommons.org/licenses/by/2.5",
+  "artist": "Silberwolf"
+ },
+ "기계요소설계_자동조심볼베어링.webp": {
+  "title": "Ball bearing self aligning.gif",
+  "page": "https://commons.wikimedia.org/wiki/File:Ball_bearing_self_aligning.gif",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Lidingo"
+ },
+ "기계요소설계_니들롤러베어링.webp": {
+  "title": "Needle roller bearing.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Needle_roller_bearing.svg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Kaboldy"
+ },
+ "기계요소설계_베어링_리테이너.webp": {
+  "title": "Bearing cage balls steel riveted with balls.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Bearing_cage_balls_steel_riveted_with_balls.png",
+  "license": "CC BY-SA 2.5",
+  "licurl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "artist": "Silberwolf (talk)"
+ },
+ "기계요소설계_베어링_실드ZZ.webp": {
+  "title": "1990s deep groove ball bearing with metal shields G007-2Z by Slovakian company ZVL.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1990s_deep_groove_ball_bearing_with_metal_shields_G007-2Z_by_Slovakian_company_ZVL.jpg",
+  "license": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0",
+  "artist": "R. Henrik Nilsson"
+ },
+ "기계요소설계_미끄럼베어링_부시.webp": {
+  "title": "Plain-bearing DIN-ISO4379 Type-F.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Plain-bearing_DIN-ISO4379_Type-F.png",
+  "license": "CC BY-SA 2.5",
+  "licurl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "artist": "Silberwolf"
+ },
+ "기계요소설계_저널베어링_메탈.webp": {
+  "title": "Miba Journal Bearing.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Miba_Journal_Bearing.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Miba Industrial Bearings"
  }
 }

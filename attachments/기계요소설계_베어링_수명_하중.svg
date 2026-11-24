@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker>
+<marker id="dm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2F5597"/></marker>
+</defs>
+<rect width="720" height="400" fill="#ffffff"/>
+<text x="360.0" y="26.0" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">하중이 늘면 수명은 r제곱으로 줄어든다</text>
+<line x1="80.0" y1="340.0" x2="480.0" y2="340.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="72.0" y="344.0" font-size="11" fill="#333" text-anchor="end">0.0</text>
+<line x1="80.0" y1="282.0" x2="480.0" y2="282.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="72.0" y="286.0" font-size="11" fill="#333" text-anchor="end">0.2</text>
+<line x1="80.0" y1="224.0" x2="480.0" y2="224.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="72.0" y="228.0" font-size="11" fill="#333" text-anchor="end">0.4</text>
+<line x1="80.0" y1="166.0" x2="480.0" y2="166.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="72.0" y="170.0" font-size="11" fill="#333" text-anchor="end">0.6</text>
+<line x1="80.0" y1="108.0" x2="480.0" y2="108.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="72.0" y="112.0" font-size="11" fill="#333" text-anchor="end">0.8</text>
+<line x1="80.0" y1="50.0" x2="480.0" y2="50.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="72.0" y="54.0" font-size="11" fill="#333" text-anchor="end">1.0</text>
+<line x1="80.0" y1="50.0" x2="80.0" y2="340.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="80.0" y="358.0" font-size="11" fill="#333" text-anchor="middle">1배</text>
+<line x1="180.0" y1="50.0" x2="180.0" y2="340.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="180.0" y="358.0" font-size="11" fill="#333" text-anchor="middle">1.5배</text>
+<line x1="280.0" y1="50.0" x2="280.0" y2="340.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="280.0" y="358.0" font-size="11" fill="#333" text-anchor="middle">2배</text>
+<line x1="380.0" y1="50.0" x2="380.0" y2="340.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="380.0" y="358.0" font-size="11" fill="#333" text-anchor="middle">2.5배</text>
+<line x1="480.0" y1="50.0" x2="480.0" y2="340.0" stroke="#E0E0E0" stroke-width="0.8" />
+<text x="480.0" y="358.0" font-size="11" fill="#333" text-anchor="middle">3배</text>
+<line x1="80.0" y1="340.0" x2="480.0" y2="340.0" stroke="#333" stroke-width="1.4" />
+<line x1="80.0" y1="50.0" x2="80.0" y2="340.0" stroke="#333" stroke-width="1.4" />
+<text x="280.0" y="380.0" font-size="13" fill="#333" text-anchor="middle">동등가 하중 P (처음 하중의 몇 배)</text>
+<text x="30" y="195.0" font-size="13" fill="#333" text-anchor="middle" transform="rotate(-90 30 195.0)">수명 L₁₀ (처음 수명의 몇 배)</text>
+<polyline points="80.0,50.0 85.0,70.7 90.0,89.5 95.0,106.6 100.0,122.1 105.0,136.3 110.0,149.3 115.0,161.2 120.0,172.2 125.0,182.2 130.0,191.5 135.0,200.1 140.0,208.0 145.0,215.3 150.0,222.1 155.0,228.4 160.0,234.3 165.0,239.8 170.0,244.9 175.0,249.6 180.0,254.1 185.0,258.2 190.0,262.1 195.0,265.8 200.0,269.2 205.0,272.4 210.0,275.4 215.0,278.3 220.0,281.0 225.0,283.5 230.0,285.9 235.0,288.1 240.0,290.3 245.0,292.3 250.0,294.2 255.0,296.0 260.0,297.7 265.0,299.3 270.0,300.9 275.0,302.4 280.0,303.8 285.0,305.1 290.0,306.3 295.0,307.5 300.0,308.7 305.0,309.8 310.0,310.8 315.0,311.8 320.0,312.8 325.0,313.7 330.0,314.5 335.0,315.4 340.0,316.2 345.0,316.9 350.0,317.7 355.0,318.4 360.0,319.0 365.0,319.7 370.0,320.3 375.0,320.9 380.0,321.4 385.0,322.0 390.0,322.5 395.0,323.0 400.0,323.5 405.0,324.0 410.0,324.4 415.0,324.8 420.0,325.3 425.0,325.7 430.0,326.1 435.0,326.4 440.0,326.8 445.0,327.1 450.0,327.5 455.0,327.8 460.0,328.1 465.0,328.4 470.0,328.7 475.0,329.0 480.0,329.3" fill="none" stroke="#548235" stroke-width="2.6"/>
+<polyline points="80.0,50.0 85.0,72.9 90.0,93.5 95.0,112.1 100.0,128.9 105.0,144.2 110.0,158.0 115.0,170.6 120.0,182.1 125.0,192.6 130.0,202.2 135.0,211.0 140.0,219.1 145.0,226.5 150.0,233.4 155.0,239.7 160.0,245.5 165.0,250.9 170.0,256.0 175.0,260.6 180.0,264.9 185.0,269.0 190.0,272.7 195.0,276.2 200.0,279.5 205.0,282.5 210.0,285.4 215.0,288.0 220.0,290.5 225.0,292.9 230.0,295.1 235.0,297.2 240.0,299.1 245.0,301.0 250.0,302.7 255.0,304.3 260.0,305.9 265.0,307.3 270.0,308.7 275.0,310.0 280.0,311.2 285.0,312.4 290.0,313.5 295.0,314.6 300.0,315.5 305.0,316.5 310.0,317.4 315.0,318.2 320.0,319.1 325.0,319.8 330.0,320.6 335.0,321.3 340.0,321.9 345.0,322.6 350.0,323.2 355.0,323.8 360.0,324.3 365.0,324.9 370.0,325.4 375.0,325.9 380.0,326.3 385.0,326.8 390.0,327.2 395.0,327.6 400.0,328.0 405.0,328.4 410.0,328.7 415.0,329.1 420.0,329.4 425.0,329.7 430.0,330.0 435.0,330.3 440.0,330.6 445.0,330.9 450.0,331.2 455.0,331.4 460.0,331.7 465.0,331.9 470.0,332.1 475.0,332.3 480.0,332.6" fill="none" stroke="#2F5597" stroke-width="2.6"/>
+<line x1="280.0" y1="303.8" x2="280.0" y2="340.0" stroke="#C00000" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="280.0" cy="303.8" r="5.0" fill="#C00000" stroke="#C00000" stroke-width="1" />
+<circle cx="280.0" cy="311.2" r="4.0" fill="#2F5597" stroke="#2F5597" stroke-width="1" />
+<line x1="288.0" y1="297.8" x2="340.0" y2="253.0" stroke="#C00000" stroke-width="0.9" />
+<text x="342.0" y="249.0" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">볼: (1/2)³ = 1/8</text>
+<text x="342.0" y="266.0" font-size="12" fill="#2F5597" text-anchor="start">롤러: (1/2)^(10/3) ≈ 1/10</text>
+<text x="104.0" y="70.3" font-size="13" fill="#548235" text-anchor="start" font-weight="bold">볼 r = 3</text>
+<text x="164.0" y="180.5" font-size="12" fill="#2F5597" text-anchor="start" font-weight="bold">롤러 r = 10/3 (파랑)</text>
+<rect x="500.0" y="70.0" width="205.0" height="220.0" fill="#F2F8EE" stroke="#548235" stroke-width="1.2"/>
+<text x="512.0" y="95.0" font-size="13" fill="#548235" text-anchor="start" font-weight="bold">기본 정격 수명</text>
+<text x="512.0" y="118.0" font-size="12" fill="#333" text-anchor="start">L₁₀ = (C/P)ʳ × 10⁶ 회전</text>
+<text x="512.0" y="138.0" font-size="12" fill="#333" text-anchor="start">Lh = L₁₀ / (60N) [h]</text>
+<text x="512.0" y="168.0" font-size="12" fill="#333" text-anchor="start" font-weight="bold">C: 기본 동정격 하중</text>
+<text x="512.0" y="186.0" font-size="12" fill="#333" text-anchor="start">= 100만 회전을 견디는 하중</text>
+<text x="512.0" y="214.0" font-size="12" fill="#2F5597" text-anchor="start" font-weight="bold">예) C/P = 10, N = 1000 rpm</text>
+<text x="512.0" y="232.0" font-size="12" fill="#333" text-anchor="start">L₁₀ = 10³ × 10⁶ = 10⁹ 회전</text>
+<text x="512.0" y="250.0" font-size="12" fill="#333" text-anchor="start">Lh = 10⁹ / 60000</text>
+<text x="512.0" y="268.0" font-size="12" fill="#C00000" text-anchor="start" font-weight="bold">    ≈ 16,700 h</text>
+</svg>
