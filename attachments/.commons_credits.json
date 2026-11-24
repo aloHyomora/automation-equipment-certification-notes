@@ -1554,5 +1554,26 @@
   "license": "Public domain",
   "licurl": null,
   "artist": "No machine-readable author provided. Miaow Miaow assumed (based on copyright claims)."
+ },
+ "기계요소설계_로크웰경도시험기.webp": {
+  "title": "Rockwell hardness tester 001.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rockwell_hardness_tester_001.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Three-quarter-ten"
+ },
+ "기계요소설계_비커스_압흔.webp": {
+  "title": "Vicker Hardness - Diamond Indentation.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vicker_Hardness_-_Diamond_Indentation.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Encik Tekateki"
+ },
+ "기계요소설계_풀림로.webp": {
+  "title": "Annealing furnace Saltford Brass Mill.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Annealing_furnace_Saltford_Brass_Mill.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Rodw"
  }
 }

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker></defs>
+<rect width="780" height="360" fill="#ffffff"/>
+<text x="390.0" y="28.0" font-size="16" fill="#548235" text-anchor="middle" font-weight="bold">경도 시험 4가지 — 무엇으로 누르고, 무엇을 재는가</text>
+<rect x="20" y="200" width="160" height="40" fill="#EDEDED" stroke="#888"/>
+<text x="100.0" y="60.0" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">브리넬 HB</text>
+<rect x="210" y="200" width="160" height="40" fill="#EDEDED" stroke="#888"/>
+<text x="290.0" y="60.0" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">로크웰 HRC</text>
+<rect x="400" y="200" width="160" height="40" fill="#EDEDED" stroke="#888"/>
+<text x="480.0" y="60.0" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">비커스 HV</text>
+<rect x="590" y="200" width="160" height="40" fill="#EDEDED" stroke="#888"/>
+<text x="670.0" y="60.0" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">쇼어 HS</text>
+<path d="M74,200 A34,34 0 0 0 126,200 Z" fill="#ffffff" stroke="#888"/>
+<circle cx="100" cy="178.1" r="34" fill="#BFBFBF" stroke="#333" stroke-width="1.5"/>
+<line x1="100" y1="80" x2="100" y2="136" stroke="#C00000" stroke-width="2.4" marker-end="url(#ar)"/>
+<text x="108.0" y="100.0" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">F</text>
+<text x="60.0" y="170.0" font-size="12" fill="#333" text-anchor="end">강구</text>
+<line x1="74" y1="252" x2="126" y2="252" stroke="#2F5597" stroke-width="1.4" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="100.0" y="270.0" font-size="12" fill="#2F5597" text-anchor="middle" font-weight="bold">자국 지름 d</text>
+<path d="M258.8,200 L290,218 L321.2,200 Z" fill="#ffffff" stroke="#888"/>
+<path d="M228.8,150 L258.8,200 L290,218 L321.2,200 L351.2,150 Z" fill="#DDE5F2" stroke="#333" stroke-width="1.5"/>
+<line x1="290" y1="80" x2="290" y2="126" stroke="#C00000" stroke-width="2.4" marker-end="url(#ar)"/>
+<text x="298.0" y="100.0" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">F</text>
+<text x="290.0" y="142.0" font-size="11" fill="#333" text-anchor="middle">다이아몬드 원뿔 120°</text>
+<line x1="340" y1="200" x2="340" y2="218" stroke="#2F5597" stroke-width="1.4" marker-start="url(#ak)" marker-end="url(#ak)"/>
+<text x="290.0" y="270.0" font-size="12" fill="#2F5597" text-anchor="middle" font-weight="bold">압입 깊이 h</text>
+<path d="M450.3,200 L480,212 L509.7,200 Z" fill="#ffffff" stroke="#888"/>
+<path d="M425.3,150 L450.3,200 L480,212 L509.7,200 L534.7,150 Z" fill="#DDE5F2" stroke="#333" stroke-width="1.5"/>
+<line x1="480" y1="80" x2="480" y2="126" stroke="#C00000" stroke-width="2.4" marker-end="url(#ar)"/>
+<text x="488.0" y="100.0" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">F</text>
+<text x="480.0" y="142.0" font-size="11" fill="#333" text-anchor="middle">다이아몬드 사각뿔 136°</text>
+<polygon points="480,253 502,275 480,297 458,275" fill="#ffffff" stroke="#333"/>
+<line x1="458" y1="275" x2="502" y2="275" stroke="#2F5597" stroke-width="1.4"/>
+<line x1="480" y1="253" x2="480" y2="297" stroke="#2F5597" stroke-width="1.4"/>
+<text x="510.0" y="279.0" font-size="12" fill="#2F5597" text-anchor="start" font-weight="bold">대각선 d₁·d₂</text>
+<rect x="658" y="70" width="24" height="34" rx="4" fill="#BFBFBF" stroke="#333"/>
+<text x="652.0" y="92.0" font-size="11" fill="#333" text-anchor="end">해머</text>
+<line x1="670" y1="108" x2="670" y2="196" stroke="#C00000" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#ar)"/>
+<line x1="710" y1="196" x2="710" y2="130" stroke="#2F5597" stroke-width="2" marker-end="url(#ak)"/>
+<line x1="700" y1="130" x2="740" y2="130" stroke="#2F5597" stroke-width="1" stroke-dasharray="3 2"/>
+<text x="716.0" y="165.0" font-size="11" fill="#2F5597" text-anchor="start">반발</text>
+<text x="670.0" y="270.0" font-size="12" fill="#2F5597" text-anchor="middle" font-weight="bold">튀어 오른 높이</text>
+<text x="100.0" y="330.0" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">주철·연한 재료</text>
+<text x="290.0" y="330.0" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">열처리강(C)·연강(B)</text>
+<text x="480.0" y="330.0" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">얇은 판·경화층</text>
+<text x="670.0" y="330.0" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">큰 부품 현장 측정</text>
+<line x1="20" y1="308" x2="760" y2="308" stroke="#D9D9D9"/>
+</svg>

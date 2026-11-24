@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker></defs>
+<rect width="780" height="400" fill="#ffffff"/>
+<text x="390.0" y="28.0" font-size="16" fill="#548235" text-anchor="middle" font-weight="bold">표면 결 도시 기호 — 기본 · 제거 가공 필요 · 제거 가공 금지</text>
+<line x1="50" y1="170" x2="170" y2="170" stroke="#333" stroke-width="2.2"/>
+<rect x="50" y="170" width="120" height="14" fill="#EDEDED" stroke="none"/>
+<polyline points="87.5,131.0 110.0,170.0 155.0,92.0" fill="none" stroke="#548235" stroke-width="2.4"/>
+<text x="110.0" y="208.0" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">기본 기호 √</text>
+<text x="110.0" y="228.0" font-size="12" fill="#333" text-anchor="middle">가공 방법 상관없음</text>
+<line x1="230" y1="170" x2="350" y2="170" stroke="#333" stroke-width="2.2"/>
+<rect x="230" y="170" width="120" height="14" fill="#EDEDED" stroke="none"/>
+<polyline points="267.5,131.0 290.0,170.0 335.0,92.0" fill="none" stroke="#C00000" stroke-width="2.4"/>
+<line x1="267.5" y1="131.0" x2="312.5" y2="131.0" stroke="#C00000" stroke-width="2.4"/>
+<text x="290.0" y="208.0" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">가로선 → 닫힌 삼각형</text>
+<text x="290.0" y="228.0" font-size="12" fill="#C00000" text-anchor="middle">제거 가공 필요 (절삭·연삭)</text>
+<line x1="410" y1="170" x2="530" y2="170" stroke="#333" stroke-width="2.2"/>
+<rect x="410" y="170" width="120" height="14" fill="#EDEDED" stroke="none"/>
+<polyline points="447.5,131.0 470.0,170.0 515.0,92.0" fill="none" stroke="#C00000" stroke-width="2.4"/>
+<circle cx="470.0" cy="145.8" r="12.1" fill="none" stroke="#C00000" stroke-width="2.4"/>
+<text x="470.0" y="208.0" font-size="13" fill="#333" text-anchor="middle" font-weight="bold">√ 안에 원</text>
+<text x="470.0" y="228.0" font-size="12" fill="#C00000" text-anchor="middle">제거 가공 금지 (주조·단조면)</text>
+<rect x="560" y="50" width="205" height="200" rx="6" fill="#F3F7EE" stroke="#548235"/>
+<text x="662.0" y="70.0" font-size="13" fill="#548235" text-anchor="middle" font-weight="bold">ISO 1302 기입 위치</text>
+<line x1="570" y1="205" x2="700" y2="205" stroke="#333" stroke-width="2"/>
+<polyline points="582.3,157.0 610.0,205.0 665.4,109.0" fill="none" stroke="#333" stroke-width="1.6"/>
+<line x1="582.3" y1="157.0" x2="637.7" y2="157.0" stroke="#333" stroke-width="1.6"/>
+<line x1="665.4" y1="109.0" x2="760.4" y2="109.0" stroke="#333" stroke-width="1.6"/>
+<text x="710.4" y="101.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">c</text>
+<text x="710.4" y="129.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">a</text>
+<text x="710.4" y="151.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">b</text>
+<text x="640.0" y="200.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">d</text>
+<text x="578.0" y="168.0" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">e</text>
+<text x="662.0" y="238.0" font-size="11" fill="#333" text-anchor="middle">a·b 요구사항 c 가공법</text>
+<rect x="30" y="265" width="735" height="120" rx="6" fill="#ffffff" stroke="#BFBFBF"/>
+<text x="45.0" y="287.0" font-size="13" fill="#548235" text-anchor="start" font-weight="bold">읽기 예</text>
+<line x1="90" y1="360" x2="210" y2="360" stroke="#333" stroke-width="2"/>
+<polyline points="127.5,321.0 150.0,360.0 195.0,282.0" fill="none" stroke="#333" stroke-width="1.6"/>
+<line x1="127.5" y1="321.0" x2="172.5" y2="321.0" stroke="#333" stroke-width="1.6"/>
+<line x1="195.0" y1="282.0" x2="305.0" y2="282.0" stroke="#333" stroke-width="1.6"/>
+<text x="250.0" y="276.0" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">밀링 (M)</text>
+<text x="250.0" y="300.0" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">Ra 3.2</text>
+<text x="178.0" y="356.0" font-size="15" fill="#548235" text-anchor="middle" font-weight="bold">⊥</text>
+<text x="400.0" y="310.0" font-size="13" fill="#333" text-anchor="start">→ 제거 가공 필요 (가로선)</text>
+<text x="400.0" y="332.0" font-size="13" fill="#333" text-anchor="start">→ 밀링으로 가공, 산술 평균 거칠기 Ra 3.2 μm 이하</text>
+<text x="400.0" y="354.0" font-size="13" fill="#333" text-anchor="start">→ 줄무늬는 기호를 기입한 투상면에 직각</text>
+<text x="400.0" y="376.0" font-size="12" fill="#666" text-anchor="start">(평가 길이: 샘플링 길이 5개, 16% 규칙 — 생략 시 기본값)</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 500" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker></defs>
+<rect width="780" height="500" fill="#ffffff"/>
+<text x="390.0" y="28.0" font-size="16" fill="#548235" text-anchor="middle" font-weight="bold">열처리 4가지 — 같은 온도로 가열하고, 식히는 방법이 다르다</text>
+<rect x="20" y="50" width="360" height="210" rx="6" fill="#ffffff" stroke="#BFBFBF"/>
+<text x="32.0" y="70.0" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">담금질 (퀜칭)</text>
+<text x="370.0" y="70.0" font-size="12" fill="#C00000" text-anchor="end" font-weight="bold">물·기름에 급랭</text>
+<line x1="60" y1="210" x2="360" y2="210" stroke="#333" stroke-width="1.2" marker-end="url(#ak)"/>
+<line x1="60" y1="210" x2="60" y2="85" stroke="#333" stroke-width="1.2" marker-end="url(#ak)"/>
+<text x="360.0" y="226.0" font-size="11" fill="#555" text-anchor="end">시간</text>
+<text x="54.0" y="89.0" font-size="11" fill="#555" text-anchor="end">온도</text>
+<line x1="60" y1="130" x2="350" y2="130" stroke="#888" stroke-dasharray="5 3"/>
+<text x="352.0" y="126.0" font-size="10" fill="#666" text-anchor="end">A₁ 변태점(약 727 ℃)</text>
+<path d="M60,205 L110,105 L150,105 L157,205 L320,205" fill="none" stroke="#2F5597" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="130.0" y="99.0" font-size="10" fill="#555" text-anchor="middle">가열·유지</text>
+<text x="172.0" y="160.0" font-size="11" fill="#2F5597" text-anchor="start" font-weight="bold">급랭</text>
+<text x="32.0" y="246.0" font-size="12" fill="#333" text-anchor="start">→ 마텐자이트, 경도·강도 ↑ (취성도 ↑)</text>
+<rect x="400" y="50" width="360" height="210" rx="6" fill="#ffffff" stroke="#BFBFBF"/>
+<text x="412.0" y="70.0" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">뜨임 (템퍼링)</text>
+<text x="750.0" y="70.0" font-size="12" fill="#C00000" text-anchor="end" font-weight="bold">담금질 후 A₁ 아래로 재가열</text>
+<line x1="440" y1="210" x2="740" y2="210" stroke="#333" stroke-width="1.2" marker-end="url(#ak)"/>
+<line x1="440" y1="210" x2="440" y2="85" stroke="#333" stroke-width="1.2" marker-end="url(#ak)"/>
+<text x="740.0" y="226.0" font-size="11" fill="#555" text-anchor="end">시간</text>
+<text x="434.0" y="89.0" font-size="11" fill="#555" text-anchor="end">온도</text>
+<line x1="440" y1="130" x2="730" y2="130" stroke="#888" stroke-dasharray="5 3"/>
+<text x="732.0" y="126.0" font-size="10" fill="#666" text-anchor="end">A₁ 변태점(약 727 ℃)</text>
+<path d="M440,205 L490,105 L530,105 L537,205 L570,205 L600,160 L655,160 L700,205" fill="none" stroke="#2F5597" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="510.0" y="99.0" font-size="10" fill="#555" text-anchor="middle">가열·유지</text>
+<text x="627.0" y="154.0" font-size="10" fill="#C00000" text-anchor="middle">재가열 (A₁ 이하)</text>
+<text x="552.0" y="198.0" font-size="10" fill="#2F5597" text-anchor="middle">급랭</text>
+<text x="412.0" y="246.0" font-size="12" fill="#333" text-anchor="start">→ 인성 회복, 취성·내부 응력 ↓</text>
+<rect x="20" y="275" width="360" height="210" rx="6" fill="#ffffff" stroke="#BFBFBF"/>
+<text x="32.0" y="295.0" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">풀림 (어닐링)</text>
+<text x="370.0" y="295.0" font-size="12" fill="#C00000" text-anchor="end" font-weight="bold">노 안에서 서서히 (노랭)</text>
+<line x1="60" y1="435" x2="360" y2="435" stroke="#333" stroke-width="1.2" marker-end="url(#ak)"/>
+<line x1="60" y1="435" x2="60" y2="310" stroke="#333" stroke-width="1.2" marker-end="url(#ak)"/>
+<text x="360.0" y="451.0" font-size="11" fill="#555" text-anchor="end">시간</text>
+<text x="54.0" y="314.0" font-size="11" fill="#555" text-anchor="end">온도</text>
+<line x1="60" y1="355" x2="350" y2="355" stroke="#888" stroke-dasharray="5 3"/>
+<text x="352.0" y="351.0" font-size="10" fill="#666" text-anchor="end">A₁ 변태점(약 727 ℃)</text>
+<path d="M60,430 L110,330 L150,330 L158.5,334.5 L167.0,339.0 L175.5,343.6 L184.0,348.2 L192.5,352.8 L201.0,357.5 L209.5,362.1 L218.0,366.9 L226.5,371.6 L235.0,376.4 L243.5,381.3 L252.0,386.2 L260.5,391.1 L269.0,396.2 L277.5,401.3 L286.0,406.5 L294.5,411.9 L303.0,417.4 L311.5,423.3 L320.0,430.0" fill="none" stroke="#548235" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="130.0" y="324.0" font-size="10" fill="#555" text-anchor="middle">가열·유지</text>
+<text x="265.0" y="385.0" font-size="11" fill="#548235" text-anchor="start" font-weight="bold">아주 천천히</text>
+<text x="32.0" y="471.0" font-size="12" fill="#333" text-anchor="start">→ 연화, 가공성 ↑, 내부 응력 제거</text>
+<rect x="400" y="275" width="360" height="210" rx="6" fill="#ffffff" stroke="#BFBFBF"/>
+<text x="412.0" y="295.0" font-size="14" fill="#548235" text-anchor="start" font-weight="bold">불림 (노멀라이징)</text>
+<text x="750.0" y="295.0" font-size="12" fill="#C00000" text-anchor="end" font-weight="bold">공기 중에서 (공랭)</text>
+<line x1="440" y1="435" x2="740" y2="435" stroke="#333" stroke-width="1.2" marker-end="url(#ak)"/>
+<line x1="440" y1="435" x2="440" y2="310" stroke="#333" stroke-width="1.2" marker-end="url(#ak)"/>
+<text x="740.0" y="451.0" font-size="11" fill="#555" text-anchor="end">시간</text>
+<text x="434.0" y="314.0" font-size="11" fill="#555" text-anchor="end">온도</text>
+<line x1="440" y1="355" x2="730" y2="355" stroke="#888" stroke-dasharray="5 3"/>
+<text x="732.0" y="351.0" font-size="10" fill="#666" text-anchor="end">A₁ 변태점(약 727 ℃)</text>
+<path d="M440,430 L490,330 L530,330 L533.8,349.0 L537.5,364.6 L541.2,377.4 L545.0,387.8 L548.8,396.3 L552.5,403.2 L556.2,408.8 L560.0,413.3 L563.8,417.0 L567.5,419.9 L571.2,422.3 L575.0,424.1 L578.8,425.6 L582.5,426.8 L586.2,427.7 L590.0,428.5 L593.8,429.0 L597.5,429.4 L601.2,429.8 L605.0,430.0 L700,430" fill="none" stroke="#548235" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="510.0" y="324.0" font-size="10" fill="#555" text-anchor="middle">가열·유지</text>
+<text x="575.0" y="385.0" font-size="11" fill="#548235" text-anchor="start" font-weight="bold">공기 중 냉각</text>
+<text x="412.0" y="471.0" font-size="12" fill="#333" text-anchor="start">→ 결정립 미세화, 조직 표준화</text>
+<text x="390.0" y="495.0" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">냉각 속도: 담금질(급랭) > 불림(공랭) > 풀림(노랭). 담금질 다음에는 반드시 뜨임.</text>
+</svg>
