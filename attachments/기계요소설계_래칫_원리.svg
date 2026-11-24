@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 345" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker></defs>
+<rect x="0" y="0" width="560" height="345" fill="#ffffff"/>
+<text x="280" y="28" font-size="16" fill="#548235" text-anchor="middle" font-weight="bold">래칫 휠과 폴 — 한 방향만 돈다</text>
+<polygon points="272.0,190.0 282.4,228.5 263.7,221.0 263.7,221.0 253.5,259.5 241.0,243.7 241.0,243.7 212.9,272.0 210.0,252.0 210.0,252.0 171.5,262.4 179.0,243.7 179.0,243.7 140.5,233.5 156.3,221.0 156.3,221.0 128.0,192.9 148.0,190.0 148.0,190.0 137.6,151.5 156.3,159.0 156.3,159.0 166.5,120.5 179.0,136.3 179.0,136.3 207.1,108.0 210.0,128.0 210.0,128.0 248.5,117.6 241.0,136.3 241.0,136.3 279.5,146.5 263.7,159.0 263.7,159.0 292.0,187.1 272.0,190.0" fill="#E2EFDA" stroke="#548235" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="210" cy="190" r="14" fill="#fff" stroke="#548235" stroke-width="2"/><circle cx="210" cy="190" r="4" fill="#548235"/>
+<text x="210" y="230" font-size="13" fill="#548235" text-anchor="middle" font-weight="bold">래칫 휠</text>
+<polygon points="320,85 320,105 215.3,126.0 211.3,118.0" fill="#BFBFBF" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="320" cy="95" r="7" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="334" y="117" font-size="13" fill="#333" text-anchor="start" font-weight="bold">폴(걸쇠)</text>
+<text x="334" y="135" font-size="12" fill="#555" text-anchor="start" font-weight="normal">핀을 중심으로 흔들림</text>
+<line x1="255" y1="46" x2="295" y2="46" stroke="#777" stroke-width="5"/>
+<polyline points="269,48 281,53 269,58 281,63 269,68 281,73 269,78 281,83 269,88" fill="none" stroke="#C00000" stroke-width="2"/>
+<text x="302" y="66" font-size="12" fill="#C00000" text-anchor="start" font-weight="normal">스프링이 폴을 휠 쪽으로 누름</text>
+<path d="M 108.5 153.1 A 108 108 0 0 0 116.5 244.0" fill="none" stroke="#548235" stroke-width="3" marker-end="url(#ag)"/>
+<path d="M 316.4 208.8 A 108 108 0 0 1 264.0 283.5" fill="none" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="14" y="84" font-size="13" fill="#548235" text-anchor="start" font-weight="bold">반시계 방향:</text>
+<text x="14" y="102" font-size="12" fill="#548235" text-anchor="start" font-weight="normal">폴이 경사면을</text>
+<text x="14" y="118" font-size="12" fill="#548235" text-anchor="start" font-weight="normal">타고 넘음 → 회전</text>
+<text x="310" y="270" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">시계 방향: 곧은 면이 폴 끝에</text>
+<text x="310" y="288" font-size="13" fill="#C00000" text-anchor="start" font-weight="bold">걸려 막힘 → 역전 방지</text>
+<text x="280" y="330" font-size="13" fill="#333" text-anchor="middle" font-weight="normal">쓰임: 라쳇 렌치, 윈치·호이스트 역전 방지, 시계 태엽 감기</text>
+</svg>
