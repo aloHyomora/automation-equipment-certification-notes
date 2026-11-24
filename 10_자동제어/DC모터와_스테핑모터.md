@@ -85,6 +85,10 @@ flowchart TB
 
 *가운데 줄무늬 구리 원통이 **정류자**, 그 위에 스프링(코일 모양)으로 눌러 붙인 네모난 덩어리들이 **탄소 브러시**다. 브러시는 회전하는 정류자에 계속 문질러지므로 닳아 없어지고 가루·불꽃이 생긴다 — DC 모터의 "브러시 교환·노이즈" 단점이 바로 여기서 나온다.*
 
+![소형 브러시 DC 모터의 외관과 분해: 위 왼쪽이 완성품, 위 오른쪽은 브러시 캡·전기자·영구자석이 붙은 외함으로 분해한 모습, 아래 왼쪽은 전기자, 아래 오른쪽은 브러시 캡 안쪽|560](../attachments/자동제어_DC모터_분해.webp)
+
+*소형 DC 모터를 분해한 사진이다. **전기자**(아래 왼쪽)는 철심에 구리 코일을 감은 회전자이고 한쪽 끝에 정류자가 붙어 있다. 브러시는 **캡 안쪽**(아래 오른쪽)의 얇은 금속 접점으로, 회전하는 정류자에 스치며 전류를 준다. 고정부인 **외함**(위 오른쪽)은 안쪽에 영구자석이 붙어 계자 역할을 한다 — 위 표의 계자·전기자·정류자·브러시가 모두 이 한 손바닥 크기 안에 있다.*
+
 - 구조는 **주프레임**(외함, 브러시, 계자극 = 고정부)과 **전기자 장치**(전기자, 정류자, 전기자 도체). 극수(2·4·6·8극)는 용량과 속도로 정하고, 소형은 영구자석 자극을 쓴다.
 - 장점: 회전 방향·속도 제어가 쉽고 힘이 크다. 단점: 정류자·브러시 때문에 구조가 복잡하다.
 - 장점: 기동 토크 큼, 전압-속도 특성이 **직선적**, 제어 간단·저렴. 단점: 브러시 마모·노이즈.
@@ -370,6 +374,7 @@ flowchart LR
 | 그림 | 작성자 | 라이선스 | 출처 |
 | --- | --- | --- | --- |
 | [Commutator and brushes DC motor](https://commons.wikimedia.org/wiki/File:Commutator_and_brushes_DC_motor.jpg) | Christian Kral | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | Wikimedia Commons |
+| [Brushed dc motor assembly](https://commons.wikimedia.org/wiki/File:Brushed_dc_motor_assembly.jpg) | Iliakriv: Ilia Krivoruk | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | Wikimedia Commons |
 | [Stator of a brushless DC motor](https://commons.wikimedia.org/wiki/File:Stator_of_a_brushless_DC_motor.jpg) | No machine-readable author provided. Xmastree~commonswiki assumed (based on copyright claims). | 퍼블릭 도메인 | Wikimedia Commons |
 | [Motore a riluttanza magnetica variabile](https://commons.wikimedia.org/wiki/File:Motore_a_riluttanza_magnetica_variabile.gif) | Carmelo 1955 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | Wikimedia Commons |
 | [Stepper motor rotor](https://commons.wikimedia.org/wiki/File:Stepper_motor_rotor.jpg) | Dolly1010 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | Wikimedia Commons |
