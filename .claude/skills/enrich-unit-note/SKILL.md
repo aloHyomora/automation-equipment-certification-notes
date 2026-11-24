@@ -95,6 +95,7 @@ python -I .claude/skills/enrich-unit-note/scripts/credits_section.py 00_Inbox/�
 | --- | --- | --- | --- |
 | 1 | 위키미디어 공용 | 기본. 원리도·SVG가 가장 많다 | `commons_search.py` → `commons_fetch.py` |
 | 2 | **Openverse** (위키미디어·Flickr·박물관·NASA 등 통합 검색) | 1에 맞는 그림이 없거나 **429가 계속될 때**. 자체 썸네일 서버를 거쳐서 위키미디어 제한을 피한다 | `openverse_search.py` → `openverse_fetch.py` |
+| 2b | 그 밖의 공개 라이선스 페이지 (NASA, 박물관 open access, 미 정부 자료 등. **페이지에서 라이선스를 직접 확인할 수 있을 때만**) | Openverse에도 없을 때 | `web_fetch.py --prefix … --url <이미지 URL> --name … --license "CC0" --author … --page <출처 페이지>` |
 | 3 | 직접 그리기 | 1·2 모두 없거나, 있는 그림이 시험 정의와 다를 때 | SVG(아래 5번) 또는 Mermaid·표·코드 블록 |
 | 4 | 보류 | 위가 다 안 되면 그림 자리를 설명 상자로 바꾸고 최종 보고에 "그림 보류"로 남긴다 | — |
 
@@ -103,6 +104,12 @@ python -I .claude/skills/enrich-unit-note/scripts/credits_section.py 00_Inbox/�
 - 구글 이미지 검색 결과, 블로그·쇼핑몰 사진, 교재·기출문제 이미지는 라이선스를 확인할 수 없으므로 쓰지 않는다.
 - **주의**: 위키미디어가 막혀 있을 때는 Openverse도 위키미디어에 올라간 파일은 못 가져온다(424 응답). 이때는 `openverse_search.py --no-wikimedia ...`로 Flickr·박물관 등 다른 곳의 사진만 찾고, 원리도·그래프는 바로 3번(직접 그리기)으로 간다. 실제로 CH01에서는 원리도 9장을 직접 그렸고, 한국어 시험 용어를 그림 안에 바로 쓸 수 있어 오히려 더 좋았다.
 - 두 fetch 스크립트는 같은 `attachments/.commons_credits.json`에 기록하고(저장 직전에 다시 읽어 합치므로 동시에 돌려도 안전), `credits_section.py`가 출처 열까지 포함한 표 하나로 만든다.
+
+### 실전에서 알게 된 것 (그림 찾기 요령)
+- **429에는 `Retry-After`가 실려 온다** (120~600초). 같은 IP를 여럿이 쓰면 통째로 막히므로 그 시간만큼 기다리고(`commons_fetch.py --patient`), 연달아 두드리지 않는다. 막힌 파일은 백그라운드 재시도에 맡기고 다른 출처로 간다.
+- Openverse의 비(非)위키미디어 결과는 대부분 Flickr 개인 사진이라 **제목이 엉뚱한 경우가 많다.** 한 번에 여러 장을 한 장의 컨택트시트로 이어 붙여 Read로 보면 빨리 거를 수 있다. 태그(`/v1/images/<id>/`의 `tags`)가 내용 확인에 도움이 된다(예: Kirkaldy Testing Museum, brinellhardness).
+- 효과를 본 검색어: 부품 이름 + `cutaway`/`engraving`, 박물관 이름, 실제 설치 장면(예: `cylinder head studs`). 소스 필터 `--source`는 smithsonian_*·museumsvictoria·rawpixel 모두 기계요소 사진은 거의 없었다.
+- **Library of Congress**(loc.gov)는 스크립트 접근에 Cloudflare 확인 화면(403)을 내므로 이 방법으로는 쓸 수 없다 — 우회하지 않는다.
 
 ### 2. 검색
 ```powershell
