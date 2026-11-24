@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 268" width="780" height="268" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker><marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><pattern id="hat" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#548235" stroke-width="1.2"/></pattern></defs>
+<rect width="780" height="268" fill="#fff"/>
+<text x="390.0" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#548235">자세 공차의 공차역 — 데이텀 A를 기준으로</text>
+<text x="130" y="62" font-size="15" text-anchor="middle" fill="#548235" font-weight="bold">평행도 //</text>
+<path d="M40,115 C90,109 150,121 220,113 L220,190 L40,190 Z" fill="#EEF5E9" stroke="#548235" stroke-width="2"/>
+<line x1="30" y1="106" x2="230" y2="106" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4"/>
+<line x1="30" y1="124" x2="230" y2="124" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4"/>
+<rect x="30" y="190" width="200" height="10" fill="url(#hat)"/>
+<line x1="30" y1="190" x2="230" y2="190" stroke="#000" stroke-width="2"/>
+<text x="130" y="220" font-size="12.5" text-anchor="middle" fill="#000" font-weight="bold">데이텀 A</text>
+<text x="130" y="98" font-size="12" text-anchor="middle" fill="#C00000">A에 평행한 두 평면</text>
+<text x="380" y="62" font-size="15" text-anchor="middle" fill="#548235" font-weight="bold">직각도 ⊥</text>
+<path d="M310,190 L310,80 L391,80 C386,110 395,140 390,190 Z" fill="#EEF5E9" stroke="#548235" stroke-width="2"/>
+<path d="M290,190 L470,190" stroke="#000"/>
+<rect x="310" y="150" width="0" height="0"/>
+<line x1="382" y1="75" x2="382" y2="190" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4"/>
+<line x1="400" y1="75" x2="400" y2="190" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4"/>
+<rect x="280" y="190" width="200" height="10" fill="url(#hat)"/>
+<line x1="280" y1="190" x2="480" y2="190" stroke="#000" stroke-width="2"/>
+<text x="380" y="220" font-size="12.5" text-anchor="middle" fill="#000" font-weight="bold">데이텀 A</text>
+<text x="410" y="110" font-size="12" text-anchor="start" fill="#C00000">A에 수직인</text>
+<text x="410" y="126" font-size="12" text-anchor="start" fill="#C00000">두 평면</text>
+<text x="630" y="62" font-size="15" text-anchor="middle" fill="#548235" font-weight="bold">경사도 ∠</text>
+<path d="M540,190 L540,112 C600,128 650,150 720,170 L720,190 Z" fill="#EEF5E9" stroke="#548235" stroke-width="2"/>
+<line x1="532.8460498941515" y1="98.46185031754538" x2="732.8460498941515" y2="165.46185031754538" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4"/>
+<line x1="527.1539501058485" y1="115.53814968245462" x2="727.1539501058485" y2="182.53814968245462" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4"/>
+<rect x="530" y="190" width="200" height="10" fill="url(#hat)"/>
+<line x1="530" y1="190" x2="730" y2="190" stroke="#000" stroke-width="2"/>
+<text x="630" y="220" font-size="12.5" text-anchor="middle" fill="#000" font-weight="bold">데이텀 A</text>
+<rect x="670" y="140" width="40" height="22" fill="#fff" stroke="#000"/>
+<text x="690" y="156" font-size="13" text-anchor="middle" fill="#000">30°</text>
+<text x="670" y="135" font-size="11" text-anchor="middle" fill="#555">TED</text>
+<text x="560" y="98" font-size="12" text-anchor="start" fill="#C00000">A에 대해 [각도] 기운 두 평면</text>
+<text x="390" y="252" font-size="12.5" text-anchor="middle" fill="#333">자세 공차는 반드시 데이텀이 있어야 '무엇에 대해' 평행·직각·경사인지 정할 수 있다</text>
+</svg>

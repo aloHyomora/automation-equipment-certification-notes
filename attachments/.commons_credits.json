@@ -1092,5 +1092,19 @@
   "license": "Public domain",
   "licurl": null,
   "artist": "Lucas Vieira"
+ },
+ "기계요소설계_다이얼게이지_사용.webp": {
+  "title": "Dial Indicator in Use.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dial_Indicator_in_Use.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "David English"
+ },
+ "기계요소설계_V블록.webp": {
+  "title": "V-block steel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:V-block_steel.jpg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Rrudzik"
  }
 }

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 345" width="780" height="345" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#000"/></marker><marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><pattern id="hat" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#548235" stroke-width="1.2"/></pattern></defs>
+<rect width="780" height="345" fill="#fff"/>
+<text x="390.0" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#548235">공차 기입 틀 읽기 — // 0.05 A, 지정 길이 0.005/100</text>
+<path d="M40,210 C100,203 160,217 220,209 S340,204 400,211 L400,270 L40,270 Z" fill="#EEF5E9" stroke="#548235" stroke-width="2"/>
+<line x1="30" y1="201" x2="410" y2="201" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4"/>
+<line x1="30" y1="219" x2="410" y2="219" stroke="#C00000" stroke-width="1.5" stroke-dasharray="6,4"/>
+<text x="418" y="206" font-size="13" text-anchor="start" fill="#C00000" font-weight="bold">공차역 폭 0.05</text>
+<text x="418" y="224" font-size="12.5" text-anchor="start" fill="#C00000">데이텀 A에 평행한 두 평면 사이</text>
+<rect x="80" y="70" width="50" height="70" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<path d="M96,116 l8,-22 M108,116 l8,-22" stroke="#000" stroke-width="2.2" fill="none"/>
+<rect x="130" y="70" width="110" height="35" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<text x="185" y="93" font-size="16" text-anchor="middle" fill="#000">0.05</text>
+<rect x="130" y="105" width="110" height="35" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<text x="185" y="128" font-size="15" text-anchor="middle" fill="#000">0.005/100</text>
+<rect x="240" y="70" width="45" height="70" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<text x="262.5" y="111" font-size="17" text-anchor="middle" fill="#000">A</text>
+<text x="105" y="62" font-size="16" text-anchor="middle" fill="#C00000" font-weight="bold">①</text>
+<text x="185" y="62" font-size="16" text-anchor="middle" fill="#C00000" font-weight="bold">②</text>
+<text x="262.5" y="62" font-size="16" text-anchor="middle" fill="#C00000" font-weight="bold">③</text>
+<text x="185" y="160" font-size="16" text-anchor="middle" fill="#C00000" font-weight="bold">④</text>
+<polyline points="80,105 55,105 55,198" fill="none" stroke="#000" stroke-width="1.5"/>
+<polygon points="49,190 61,190 55,202" fill="#000"/>
+<polygon points="208,270 232,270 220,285" fill="#000"/>
+<line x1="220" y1="285" x2="220" y2="300" stroke="#000" stroke-width="1.5"/>
+<rect x="205" y="300" width="30" height="30" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<text x="220" y="321" font-size="17" text-anchor="middle" fill="#000">A</text>
+<text x="245" y="320" font-size="13" text-anchor="start" fill="#222">데이텀 A (기준이 되는 아랫면)</text>
+<text x="320" y="78" font-size="14" text-anchor="start" fill="#C00000" font-weight="bold">①</text>
+<text x="342" y="78" font-size="13" text-anchor="start" fill="#222">공차 기호: // 평행도</text>
+<text x="320" y="104" font-size="14" text-anchor="start" fill="#C00000" font-weight="bold">②</text>
+<text x="342" y="104" font-size="13" text-anchor="start" fill="#222">공차값 0.05 mm (전체 길이). 앞에 φ가 붙으면 원통 공차역</text>
+<text x="320" y="130" font-size="14" text-anchor="start" fill="#C00000" font-weight="bold">③</text>
+<text x="342" y="130" font-size="13" text-anchor="start" fill="#222">데이텀 문자. 칸이 여러 개면 왼쪽부터 1차·2차·3차</text>
+<text x="320" y="156" font-size="14" text-anchor="start" fill="#C00000" font-weight="bold">④</text>
+<text x="342" y="156" font-size="13" text-anchor="start" fill="#222">아래 줄 0.005/100: 임의의 100 mm 길이마다 0.005 mm</text>
+</svg>

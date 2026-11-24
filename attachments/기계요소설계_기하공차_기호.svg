@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="800" height="470" fill="#fff"/>
+<text x="400.0" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#548235">기하 공차 14종 기호 (KS A ISO 1101)</text>
+<rect x="15" y="55" width="770" height="87" rx="8" fill="#EEF5E9" stroke="#548235" stroke-width="1.2"/>
+<text x="30" y="87" font-size="17" font-weight="bold" fill="#548235">모양 공차</text>
+<text x="30" y="110" font-size="12.5" fill="#C00000">데이텀 불필요</text>
+<text x="30" y="127" font-size="12.5" fill="#333">(단독 형체)</text>
+<rect x="223" y="65" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<line x1="231" y1="87" x2="259" y2="87" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="245" y="129" text-anchor="middle" font-size="12.5" fill="#222">진직도</text>
+<rect x="315" y="65" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<polygon points="323,95 343,95 351,79 331,79" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="337" y="129" text-anchor="middle" font-size="12.5" fill="#222">평면도</text>
+<rect x="407" y="65" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<circle cx="429" cy="87" r="11" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="429" y="129" text-anchor="middle" font-size="12.5" fill="#222">진원도</text>
+<rect x="499" y="65" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<circle cx="521" cy="87" r="8" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="502" y1="97" x2="513" y2="73" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="529" y1="101" x2="540" y2="77" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="521" y="129" text-anchor="middle" font-size="12.5" fill="#222">원통도</text>
+<rect x="591" y="65" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<path d="M600,94 A13,13 0 0 1 626,94" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="613" y="129" text-anchor="middle" font-size="12.5" fill="#222">선의 윤곽도*</text>
+<rect x="683" y="65" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<path d="M692,94 A13,13 0 0 1 718,94 Z" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="705" y="129" text-anchor="middle" font-size="12.5" fill="#222">면의 윤곽도*</text>
+<rect x="15" y="150" width="770" height="87" rx="8" fill="#F8FBF6" stroke="#548235" stroke-width="1.2"/>
+<text x="30" y="182" font-size="17" font-weight="bold" fill="#548235">자세 공차</text>
+<text x="30" y="205" font-size="12.5" fill="#333">데이텀 필요</text>
+<text x="30" y="222" font-size="12.5" fill="#333">(관련 형체)</text>
+<rect x="223" y="160" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<line x1="235" y1="193" x2="243" y2="171" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="247" y1="193" x2="255" y2="171" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="245" y="224" text-anchor="middle" font-size="12.5" fill="#222">평행도</text>
+<rect x="315" y="160" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<line x1="324" y1="193" x2="350" y2="193" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="337" y1="193" x2="337" y2="170" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="337" y="224" text-anchor="middle" font-size="12.5" fill="#222">직각도</text>
+<rect x="407" y="160" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<polyline points="442,171 416,193 443,193" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="429" y="224" text-anchor="middle" font-size="12.5" fill="#222">경사도</text>
+<rect x="15" y="245" width="770" height="87" rx="8" fill="#EEF5E9" stroke="#548235" stroke-width="1.2"/>
+<text x="30" y="277" font-size="17" font-weight="bold" fill="#548235">위치 공차</text>
+<text x="30" y="300" font-size="12.5" fill="#333">데이텀 필요</text>
+<text x="30" y="317" font-size="12.5" fill="#333">(위치도는 경우에 따라)</text>
+<rect x="223" y="255" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<circle cx="245" cy="277" r="8" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="231" y1="277" x2="259" y2="277" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="245" y1="263" x2="245" y2="291" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="245" y="319" text-anchor="middle" font-size="12.5" fill="#222">위치도</text>
+<rect x="315" y="255" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<circle cx="337" cy="277" r="12" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="337" cy="277" r="5" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="337" y="319" text-anchor="middle" font-size="12.5" fill="#222">동심도·동축도</text>
+<rect x="407" y="255" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<line x1="415" y1="277" x2="443" y2="277" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="421" y1="269" x2="437" y2="269" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="421" y1="285" x2="437" y2="285" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="429" y="319" text-anchor="middle" font-size="12.5" fill="#222">대칭도</text>
+<rect x="15" y="340" width="770" height="87" rx="8" fill="#F8FBF6" stroke="#548235" stroke-width="1.2"/>
+<text x="30" y="372" font-size="17" font-weight="bold" fill="#548235">흔들림 공차</text>
+<text x="30" y="395" font-size="12.5" fill="#333">데이텀 필요</text>
+<text x="30" y="412" font-size="12.5" fill="#C00000">φ 붙이지 않음</text>
+<rect x="223" y="350" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<line x1="236" y1="384" x2="254" y2="362" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="256,359 246,363 252,369" fill="#000"/>
+<text x="245" y="414" text-anchor="middle" font-size="12.5" fill="#222">원주 흔들림</text>
+<rect x="315" y="350" width="44" height="44" fill="#fff" stroke="#555" stroke-width="1.2"/>
+<line x1="322" y1="384" x2="342" y2="384" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="322" y1="384" x2="334" y2="362" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="336,359 326,363 332,369" fill="#000"/>
+<line x1="334" y1="384" x2="346" y2="362" stroke="#000" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="348,359 338,363 344,369" fill="#000"/>
+<text x="337" y="414" text-anchor="middle" font-size="12.5" fill="#222">온 흔들림</text>
+<text x="780" y="458" text-anchor="end" font-size="12" fill="#555">* 윤곽도는 데이텀 없이 쓰면 모양 공차, 데이텀을 붙이면 자세·위치 공차</text>
+</svg>
