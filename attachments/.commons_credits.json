@@ -973,5 +973,82 @@
   "license": "CC BY-SA 3.0",
   "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "artist": "Nevit Dilmen"
+ },
+ "기계요소설계_스퍼기어.webp": {
+  "title": "Gear - Spur (PSF).png",
+  "page": "https://commons.wikimedia.org/wiki/File:Gear_-_Spur_(PSF).png",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Pearson Scott Foresman"
+ },
+ "기계요소설계_더블헬리컬기어.webp": {
+  "title": "Double-helical gear.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Double-helical_gear.jpg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Parchaco"
+ },
+ "기계요소설계_랙과피니언.webp": {
+  "title": "Animated rack and pinion.gif",
+  "page": "https://commons.wikimedia.org/wiki/File:Animated_rack_and_pinion.gif",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Jahobr"
+ },
+ "기계요소설계_베벨기어.webp": {
+  "title": "Gear - Bevel (PSF).png",
+  "page": "https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Pearson Scott Foresman"
+ },
+ "기계요소설계_웜기어.webp": {
+  "title": "Worm Gear and Pinion.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Worm_Gear_and_Pinion.jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Arthur Clarke at English Wikipedia"
+ },
+ "기계요소설계_하이포이드기어.webp": {
+  "title": "Hypoid gear.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hypoid_gear.jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Sam novo"
+ },
+ "기계요소설계_내접기어.webp": {
+  "title": "Internal gear.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:Internal_gear.svg",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Jahobr"
+ },
+ "기계요소설계_유성기어.webp": {
+  "title": "Planetary Gear Animation.gif",
+  "page": "https://commons.wikimedia.org/wiki/File:Planetary_Gear_Animation.gif",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "Laserlicht"
+ },
+ "기계요소설계_하모닉드라이브.webp": {
+  "title": "Harmonic Drive AG strain wave gear set.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Harmonic_Drive_AG_strain_wave_gear_set.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Pieceofmetalwork"
+ },
+ "기계요소설계_기어_피팅.webp": {
+  "title": "Pitting on gear flank.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pitting_on_gear_flank.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Loscimmio"
+ },
+ "기계요소설계_호빙.webp": {
+  "title": "Gear-hobbing-spur-gear-on-cnc-cutting-machine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gear-hobbing-spur-gear-on-cnc-cutting-machine.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Affoltergroup"
  }
 }

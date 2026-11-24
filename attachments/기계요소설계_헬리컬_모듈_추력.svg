@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="dm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker>
+</defs>
+<rect width="760" height="410" fill="#ffffff"/>
+<text x="380.0" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">헬리컬 기어 — 비틀림각 β, 이직각·축직각 모듈, 축 방향 추력</text>
+<text x="210.0" y="66.0" font-size="13" fill="#548235" text-anchor="middle" font-weight="bold">(a) 피치면을 펼쳐 본 잇줄</text>
+<rect x="60" y="80" width="300" height="220" fill="#F2F8EE" stroke="#548235" stroke-width="1.5"/>
+<clipPath id="ch"><rect x="60" y="80" width="300" height="220"/></clipPath>
+<g clip-path="url(#ch)">
+<line x1="-220.0" y1="300.0" x2="-117.4" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="-150.0" y1="300.0" x2="-47.4" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="-80.0" y1="300.0" x2="22.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="-10.0" y1="300.0" x2="92.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="60.0" y1="300.0" x2="162.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="130.0" y1="300.0" x2="232.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="200.0" y1="300.0" x2="302.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="270.0" y1="300.0" x2="372.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="340.0" y1="300.0" x2="442.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="410.0" y1="300.0" x2="512.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="480.0" y1="300.0" x2="582.6" y2="80.0" stroke="#548235" stroke-width="3" />
+<line x1="550.0" y1="300.0" x2="652.6" y2="80.0" stroke="#548235" stroke-width="3" />
+</g>
+<line x1="144.0" y1="270.0" x2="214.0" y2="270.0" stroke="#C00000" stroke-width="2" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<rect x="115.0" y="276" width="128" height="18" fill="#ffffff" fill-opacity="0.9"/>
+<text x="179.0" y="290.0" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">p_s = πm_s (축직각)</text>
+<line x1="260.6" y1="170.0" x2="318.1" y2="196.8" stroke="#2F5597" stroke-width="2" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<rect x="282.6" y="146.0" width="128" height="18" fill="#ffffff" fill-opacity="0.9"/>
+<text x="286.6" y="160.0" font-size="12" fill="#2F5597" text-anchor="start" font-weight="bold">p_n = πm_n (이직각)</text>
+<line x1="270.0" y1="300.0" x2="270.0" y2="230.0" stroke="#333" stroke-width="1" stroke-dasharray="4 3"/>
+<path d="M270,245 A55,55 0 0 1 293.2,250.2" fill="none" stroke="#333"/>
+<text x="276.0" y="240.0" font-size="14" fill="#333" text-anchor="start" font-weight="bold">β</text>
+<line x1="42.0" y1="90.0" x2="42.0" y2="290.0" stroke="#333" stroke-width="1.5" marker-start="url(#dm)" marker-end="url(#dm)"/>
+<text x="36.0" y="76.0" font-size="11" fill="#333" text-anchor="start">축 방향</text>
+<line x1="70.0" y1="334.0" x2="350.0" y2="334.0" stroke="#333" stroke-width="1.5" marker-start="url(#dm)" marker-end="url(#dm)"/>
+<text x="210.0" y="350.0" font-size="11" fill="#333" text-anchor="middle">원주 방향</text>
+<text x="30.0" y="370.0" font-size="14" fill="#333" text-anchor="start" font-weight="bold">p_n = p_s cos β  →  m_s = m_n / cos β</text>
+<text x="30.0" y="392.0" font-size="14" fill="#C00000" text-anchor="start" font-weight="bold">피치원 지름 D = m_s z = m_n z / cos β</text>
+<text x="575.0" y="66.0" font-size="13" fill="#548235" text-anchor="middle" font-weight="bold">(b) 축 방향 추력과 상쇄</text>
+<rect x="450" y="110" width="90" height="120" fill="#F2F8EE" stroke="#000" stroke-width="2"/>
+<line x1="456.0" y1="144.0" x2="534.0" y2="120.0" stroke="#548235" stroke-width="2" />
+<line x1="456.0" y1="172.0" x2="534.0" y2="148.0" stroke="#548235" stroke-width="2" />
+<line x1="456.0" y1="200.0" x2="534.0" y2="176.0" stroke="#548235" stroke-width="2" />
+<line x1="456.0" y1="228.0" x2="534.0" y2="204.0" stroke="#548235" stroke-width="2" />
+<line x1="420.0" y1="170.0" x2="570.0" y2="170.0" stroke="#7F7F7F" stroke-width="0.8" stroke-dasharray="14 4 2 4"/>
+<line x1="545.0" y1="250.0" x2="610.0" y2="250.0" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="495.0" y="270.0" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">헬리컬: 한쪽으로 추력</text>
+<text x="495.0" y="286.0" font-size="12" fill="#333" text-anchor="middle">→ 스러스트 베어링 필요</text>
+<rect x="620" y="110" width="110" height="120" fill="#F2F8EE" stroke="#000" stroke-width="2"/>
+<line x1="626.0" y1="144.0" x2="675.0" y2="122.0" stroke="#548235" stroke-width="2" />
+<line x1="675.0" y1="122.0" x2="724.0" y2="144.0" stroke="#548235" stroke-width="2" />
+<line x1="626.0" y1="172.0" x2="675.0" y2="150.0" stroke="#548235" stroke-width="2" />
+<line x1="675.0" y1="150.0" x2="724.0" y2="172.0" stroke="#548235" stroke-width="2" />
+<line x1="626.0" y1="200.0" x2="675.0" y2="178.0" stroke="#548235" stroke-width="2" />
+<line x1="675.0" y1="178.0" x2="724.0" y2="200.0" stroke="#548235" stroke-width="2" />
+<line x1="626.0" y1="228.0" x2="675.0" y2="206.0" stroke="#548235" stroke-width="2" />
+<line x1="675.0" y1="206.0" x2="724.0" y2="228.0" stroke="#548235" stroke-width="2" />
+<line x1="675.0" y1="110.0" x2="675.0" y2="230.0" stroke="#7F7F7F" stroke-width="0.8" stroke-dasharray="3 3"/>
+<line x1="670.0" y1="250.0" x2="625.0" y2="250.0" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="680.0" y1="250.0" x2="725.0" y2="250.0" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="675.0" y="270.0" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">더블 헬리컬(헤링본)</text>
+<text x="675.0" y="286.0" font-size="12" fill="#333" text-anchor="middle">좌우 추력이 상쇄</text>
+<text x="440.0" y="336.0" font-size="12" fill="#333" text-anchor="start">스퍼보다 물림률이 커서 조용하고 큰 힘,</text>
+<text x="440.0" y="354.0" font-size="12" fill="#333" text-anchor="start">대신 잇줄이 비스듬해 축 방향 힘이 생긴다.</text>
+</svg>
