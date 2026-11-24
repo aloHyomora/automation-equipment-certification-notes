@@ -1758,5 +1758,21 @@
   "licurl": null,
   "artist": "NSK",
   "source": "NSK 카탈로그"
+ },
+ "기계요소설계_LM가이드.webp": {
+  "title": "HIWIN 리니어 가이드웨이 (카탈로그 사진)",
+  "page": "https://www.hiwin.com/linear-guideways",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "HIWIN",
+  "source": "HIWIN 카탈로그"
+ },
+ "자동제어_압전가속도계.webp": {
+  "title": "Kistler 압전 가속도 센서 8276A (카탈로그 사진)",
+  "page": "https://www.kistler.com/US/en/cp/piezoelectric-accelerometers-8276a/P0000494",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "Kistler",
+  "source": "Kistler 카탈로그"
  }
 }

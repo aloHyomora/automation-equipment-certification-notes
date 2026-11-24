@@ -200,6 +200,10 @@ LM(Linear Motion) 가이드는 **레일** 위에 **블록**(캐리지)이 올라
 
 *레일(회색)을 블록(연두)이 말안장처럼 감싼다. 빨간 볼 4줄의 점선이 **접촉선**이다. 위 두 줄은 접촉선이 안쪽 아래로 기울어 테이블을 **누르는 하중**(레이디얼)을, 아래 두 줄은 반대로 기울어 **들어 올리는 하중**(역레이디얼)을 받는다. 접촉선이 45°라 좌우 볼 쌍이 **가로 하중**도 똑같이 나눠 받는다 — 이것이 **4방향 등하중형**이다. 레일 가운데 구멍은 레일을 베이스에 고정하는 볼트 자리다.*
 
+![HIWIN 리니어 가이드 두 줄: 긴 레일 위에 블록(캐리지)이 올라타 있고 블록 양 끝에 빨간·녹색 엔드 실이 붙어 있다|560](../attachments/기계요소설계_LM가이드.webp)
+
+*HIWIN 카탈로그의 리니어 가이드(LM 가이드와 같은 형식) 제품 사진(제조사 사진). 긴 **레일**(은색, 구멍은 바닥에 볼트로 고정하는 자리) 위에 **블록(캐리지)**이 올라타 있다. 블록 위의 작은 구멍 네 개는 테이블을 볼트로 고정하는 자리이고, 블록 양 끝의 빨간·녹색 부분은 먼지와 윤활유를 지키는 **엔드 실(end seal)**이다. 같은 레일 두 줄을 나란히 깔고 그 위에 테이블을 얹어 쓴다.*
+
 ### LM 가이드
 
 - 구성: 레일, 블록(캐리지), 볼·롤러, 엔드 실, 그리스 니플.
@@ -302,7 +306,10 @@ flowchart LR
 | [BallScrewNut-showing-balls-recirculating-tubes](https://commons.wikimedia.org/wiki/File:BallScrewNut-showing-balls-recirculating-tubes.jpg) | No machine-readable author provided. Graibeard assumed (based on copyright claims). | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | Wikimedia Commons |
 | [BallScrews-with-detail-insets](https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg) | No machine-readable author provided. Graibeard assumed (based on copyright claims). | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | Wikimedia Commons |
 | [Ausgleichskupplung](https://commons.wikimedia.org/wiki/File:Ausgleichskupplung.JPG) | Archiumtechnica | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | Wikimedia Commons |
+| [HIWIN 리니어 가이드웨이 (카탈로그 사진)](https://www.hiwin.com/linear-guideways) | HIWIN | 저작권 보유(개인 학습용, 비공개 저장소 한정) | HIWIN 카탈로그 |
 | [Linear-table with detail](https://commons.wikimedia.org/wiki/File:Linear-table_with_detail.png) | Silberwolf | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | Wikimedia Commons |
+
+제조사 카탈로그 사진은 저작권이 각 회사에 있으며, 개인 학습용으로 비공개 저장소에서만 쓴다(공개 전에 삭제).
 
 직접 그린 그림(SVG, 이 볼트용으로 새로 작성): 볼스크루 이송계, 볼스크루 미끄럼나사 비교, 나사 리드 피치([나사와 볼트](나사와_볼트.md)에서 재사용), 볼스크루 예압, 볼스크루 지지방식, LM가이드 단면, LM가이드 조립.
 
