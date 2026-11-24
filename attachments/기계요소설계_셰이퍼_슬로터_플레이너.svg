@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker>
+</defs>
+<rect width="720" height="360" fill="#ffffff"/>
+<text x="360" y="26" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">누가 왕복하나? — 셰이퍼 · 슬로터 · 플레이너</text>
+<!-- panel frames -->
+<rect x="12" y="44" width="224" height="288" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="248" y="44" width="224" height="288" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="484" y="44" width="224" height="288" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<text x="124" y="68" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">셰이퍼</text>
+<text x="360" y="68" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">슬로터</text>
+<text x="596" y="68" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">플레이너</text>
+<!-- shaper -->
+<rect x="150" y="90" width="60" height="150" fill="#BFBFBF" stroke="#555"/>
+<text x="180" y="170" font-size="11" text-anchor="middle" fill="#333">본체</text>
+<rect x="40" y="100" width="140" height="22" fill="#A9D18E" stroke="#548235"/>
+<text x="110" y="116" font-size="11" text-anchor="middle" fill="#333">램(ram)</text>
+<polygon points="48,122 60,122 56,150 50,150" fill="#555"/>
+<text x="70" y="146" font-size="11" fill="#333">공구</text>
+<line x1="45" y1="92" x2="170" y2="92" stroke="#C00000" stroke-width="3" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="40" y="152" width="70" height="26" fill="#F4B183" stroke="#C55A11"/>
+<text x="75" y="170" font-size="11" text-anchor="middle" fill="#333">공작물</text>
+<rect x="30" y="178" width="110" height="18" fill="#D9D9D9" stroke="#555"/>
+<text x="85" y="191" font-size="10" text-anchor="middle" fill="#333">테이블</text>
+<line x1="85" y1="205" x2="85" y2="225" stroke="#548235" stroke-width="2" marker-start="url(#ag)" marker-end="url(#ag)"/>
+<text x="95" y="220" font-size="10" fill="#548235">이송(조금씩)</text>
+<text x="124" y="270" font-size="13" text-anchor="middle" fill="#C00000" font-weight="bold">공구가 수평 왕복</text>
+<text x="124" y="292" font-size="12" text-anchor="middle" fill="#333">공작물은 고정·이송만</text>
+<text x="124" y="314" font-size="12" text-anchor="middle" fill="#333">→ 작은 평면</text>
+<!-- slotter -->
+<rect x="390" y="84" width="60" height="160" fill="#BFBFBF" stroke="#555"/>
+<text x="420" y="170" font-size="11" text-anchor="middle" fill="#333">본체</text>
+<rect x="335" y="84" width="24" height="76" fill="#A9D18E" stroke="#548235"/>
+<text x="347" y="80" font-size="11" text-anchor="middle" fill="#333">램</text>
+<line x1="359" y1="100" x2="390" y2="100" stroke="#555" stroke-width="3"/>
+<rect x="342" y="160" width="10" height="24" fill="#555"/>
+<line x1="315" y1="92" x2="315" y2="176" stroke="#C00000" stroke-width="3" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<ellipse cx="347" cy="204" rx="44" ry="12" fill="#F4B183" stroke="#C55A11"/>
+<rect x="342" y="192" width="10" height="12" fill="#ffffff" stroke="#C00000"/>
+<text x="347" y="235" font-size="11" text-anchor="middle" fill="#333">공작물(보스 구멍)</text>
+<rect x="290" y="214" width="114" height="8" fill="#D9D9D9" stroke="#555"/>
+<text x="360" y="270" font-size="13" text-anchor="middle" fill="#C00000" font-weight="bold">공구가 수직 왕복</text>
+<text x="360" y="292" font-size="12" text-anchor="middle" fill="#333">셰이퍼를 세운 꼴</text>
+<text x="360" y="314" font-size="12" text-anchor="middle" fill="#333">→ 구멍 안 키 홈</text>
+<!-- planer -->
+<rect x="500" y="86" width="16" height="120" fill="#BFBFBF" stroke="#555"/>
+<rect x="676" y="86" width="16" height="120" fill="#BFBFBF" stroke="#555"/>
+<rect x="500" y="100" width="192" height="16" fill="#BFBFBF" stroke="#555"/>
+<text x="596" y="96" font-size="10" text-anchor="middle" fill="#333">크로스 레일</text>
+<rect x="584" y="116" width="24" height="18" fill="#A9D18E" stroke="#548235"/>
+<polygon points="590,134 602,134 598,152 594,152" fill="#555"/>
+<text x="625" y="148" font-size="11" fill="#333">공구(고정)</text>
+<rect x="540" y="152" width="110" height="26" fill="#F4B183" stroke="#C55A11"/>
+<text x="595" y="170" font-size="11" text-anchor="middle" fill="#333">큰 공작물</text>
+<rect x="500" y="178" width="192" height="18" fill="#D9D9D9" stroke="#555"/>
+<text x="596" y="191" font-size="10" text-anchor="middle" fill="#333">긴 테이블</text>
+<line x1="520" y1="216" x2="672" y2="216" stroke="#C00000" stroke-width="3" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="596" y="270" font-size="13" text-anchor="middle" fill="#C00000" font-weight="bold">공작물(테이블)이 왕복</text>
+<text x="596" y="292" font-size="12" text-anchor="middle" fill="#333">공구는 이송만</text>
+<text x="596" y="314" font-size="12" text-anchor="middle" fill="#333">→ 대형 평면 (평삭기)</text>
+<text x="360" y="352" font-size="12" text-anchor="middle" fill="#555">빨간 화살표 = 절삭 운동(왕복), 초록 화살표 = 이송 운동</text>
+</svg>

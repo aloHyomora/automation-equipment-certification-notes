@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="720" height="350" fill="#ffffff"/>
+<text x="360" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">테일러의 원리 — 플러그 게이지(구멍 검사)로 보기</text>
+<!-- plug gauge -->
+<rect x="60" y="92" width="200" height="56" rx="3" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<rect x="260" y="100" width="200" height="40" rx="6" fill="#BFBFBF" stroke="#555" stroke-width="2"/>
+<text x="360" y="125" font-size="13" text-anchor="middle" fill="#333">손잡이</text>
+<rect x="460" y="88" width="56" height="64" rx="3" fill="#F8CBAD" stroke="#C00000" stroke-width="2"/>
+<line x1="470" y1="88" x2="470" y2="152" stroke="#C00000" stroke-width="2"/>
+<text x="160" y="125" font-size="15" text-anchor="middle" fill="#333" font-weight="bold">통과측 GO</text>
+<text x="488" y="76" font-size="13" text-anchor="middle" fill="#C00000" font-weight="bold">정지측 NO GO</text>
+<text x="488" y="172" font-size="11" text-anchor="middle" fill="#C00000">(빨간 띠 표시)</text>
+<!-- explanations -->
+<rect x="30" y="190" width="320" height="120" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<text x="46" y="214" font-size="14" fill="#548235" font-weight="bold">통과측 — 최소 허용 치수</text>
+<text x="46" y="238" font-size="13" fill="#333">길고 완전한 형상으로 만든다</text>
+<text x="46" y="260" font-size="13" fill="#333">→ 지름·진원도·진직도 등을</text>
+<text x="46" y="282" font-size="13" fill="#C00000" font-weight="bold">   전체를 동시에 검사</text>
+<text x="46" y="302" font-size="12" fill="#555">구멍에 들어가야 한다</text>
+<rect x="370" y="190" width="320" height="120" rx="8" fill="#FBEFEF" stroke="#C00000"/>
+<text x="386" y="214" font-size="14" fill="#C00000" font-weight="bold">정지측 — 최대 허용 치수</text>
+<text x="386" y="238" font-size="13" fill="#333">짧게(또는 점 접촉으로) 만든다</text>
+<text x="386" y="260" font-size="13" fill="#333">→ 치수 요소를</text>
+<text x="386" y="282" font-size="13" fill="#C00000" font-weight="bold">   하나씩 따로 검사</text>
+<text x="386" y="302" font-size="12" fill="#555">구멍에 들어가면 안 된다</text>
+<text x="360" y="336" font-size="13" text-anchor="middle" fill="#333">판정: 통과측은 들어가고 정지측은 안 들어가면 <tspan fill="#548235" font-weight="bold">합격</tspan>  (축은 링 게이지·스냅 게이지로 같은 방식)</text>
+</svg>

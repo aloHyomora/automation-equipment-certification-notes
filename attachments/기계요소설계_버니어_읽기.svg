@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="720" height="330" fill="#ffffff"/>
+<text x="360" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">버니어 캘리퍼스 읽기 (최소 0.05 mm) — 12 + 0.35 = 12.35 mm</text>
+<rect x="20" y="70" width="680" height="80" fill="#E2EFDA" stroke="#548235"/>
+<text x="30" y="88" font-size="12" fill="#548235" font-weight="bold">어미자 (1 mm 눈금)</text>
+<line x1="40" y1="124" x2="40" y2="150" stroke="#333" stroke-width="1.3"/>
+<text x="40" y="120" font-size="13" text-anchor="middle" fill="#333">0</text>
+<line x1="58" y1="137" x2="58" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="76" y1="137" x2="76" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="94" y1="137" x2="94" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="112" y1="137" x2="112" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="130" y1="130" x2="130" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="148" y1="137" x2="148" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="166" y1="137" x2="166" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="184" y1="137" x2="184" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="202" y1="137" x2="202" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="220" y1="124" x2="220" y2="150" stroke="#333" stroke-width="1.3"/>
+<text x="220" y="120" font-size="13" text-anchor="middle" fill="#333">10</text>
+<line x1="238" y1="137" x2="238" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="256" y1="137" x2="256" y2="150" stroke="#C00000" stroke-width="2.5"/>
+<line x1="274" y1="137" x2="274" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="292" y1="137" x2="292" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="310" y1="130" x2="310" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="328" y1="137" x2="328" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="346" y1="137" x2="346" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="364" y1="137" x2="364" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="382" y1="137" x2="382" y2="150" stroke="#C00000" stroke-width="2.5"/>
+<line x1="400" y1="124" x2="400" y2="150" stroke="#333" stroke-width="1.3"/>
+<text x="400" y="120" font-size="13" text-anchor="middle" fill="#333">20</text>
+<line x1="418" y1="137" x2="418" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="436" y1="137" x2="436" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="454" y1="137" x2="454" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="472" y1="137" x2="472" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="490" y1="130" x2="490" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="508" y1="137" x2="508" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="526" y1="137" x2="526" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="544" y1="137" x2="544" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="562" y1="137" x2="562" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="580" y1="124" x2="580" y2="150" stroke="#333" stroke-width="1.3"/>
+<text x="580" y="120" font-size="13" text-anchor="middle" fill="#333">30</text>
+<line x1="598" y1="137" x2="598" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="616" y1="137" x2="616" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="634" y1="137" x2="634" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="652" y1="137" x2="652" y2="150" stroke="#333" stroke-width="1.3"/>
+<line x1="670" y1="130" x2="670" y2="150" stroke="#333" stroke-width="1.3"/>
+<rect x="242.3" y="150" width="382.0" height="70" fill="#A9D18E" stroke="#548235"/>
+<text x="618.3" y="240" font-size="12" text-anchor="end" fill="#548235" font-weight="bold">아들자 (19 mm를 20등분 → 한 칸 0.95 mm)</text>
+<line x1="262.3" y1="150" x2="262.3" y2="172" stroke="#C00000" stroke-width="2.5"/>
+<text x="262.3" y="188" font-size="12" text-anchor="middle" fill="#333">0</text>
+<line x1="279.4" y1="150" x2="279.4" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="296.5" y1="150" x2="296.5" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="296.5" y="188" font-size="12" text-anchor="middle" fill="#333">1</text>
+<line x1="313.6" y1="150" x2="313.6" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="330.7" y1="150" x2="330.7" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="330.7" y="188" font-size="12" text-anchor="middle" fill="#333">2</text>
+<line x1="347.8" y1="150" x2="347.8" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="364.9" y1="150" x2="364.9" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="364.9" y="188" font-size="12" text-anchor="middle" fill="#333">3</text>
+<line x1="382.0" y1="150" x2="382.0" y2="163" stroke="#C00000" stroke-width="2.5"/>
+<line x1="399.1" y1="150" x2="399.1" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="399.1" y="188" font-size="12" text-anchor="middle" fill="#333">4</text>
+<line x1="416.2" y1="150" x2="416.2" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="433.3" y1="150" x2="433.3" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="433.3" y="188" font-size="12" text-anchor="middle" fill="#333">5</text>
+<line x1="450.4" y1="150" x2="450.4" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="467.5" y1="150" x2="467.5" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="467.5" y="188" font-size="12" text-anchor="middle" fill="#333">6</text>
+<line x1="484.6" y1="150" x2="484.6" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="501.7" y1="150" x2="501.7" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="501.7" y="188" font-size="12" text-anchor="middle" fill="#333">7</text>
+<line x1="518.8" y1="150" x2="518.8" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="535.9" y1="150" x2="535.9" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="535.9" y="188" font-size="12" text-anchor="middle" fill="#333">8</text>
+<line x1="553.0" y1="150" x2="553.0" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="570.1" y1="150" x2="570.1" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="570.1" y="188" font-size="12" text-anchor="middle" fill="#333">9</text>
+<line x1="587.2" y1="150" x2="587.2" y2="163" stroke="#333" stroke-width="1.3"/>
+<line x1="604.3" y1="150" x2="604.3" y2="172" stroke="#333" stroke-width="1.3"/>
+<text x="604.3" y="188" font-size="12" text-anchor="middle" fill="#333">10</text>
+<line x1="256" y1="130" x2="216" y2="60" stroke="#C00000"/>
+<text x="212" y="58" font-size="12" text-anchor="end" fill="#C00000">① 아들자 0 바로 왼쪽 = 12 mm</text>
+<line x1="382" y1="136" x2="442" y2="60" stroke="#C00000"/>
+<text x="446" y="58" font-size="12" fill="#C00000">② 어미자와 딱 맞는 아들자 눈금</text>
+<text x="360" y="272" font-size="14" text-anchor="middle" fill="#333">맞는 눈금은 아들자 7번째 칸(숫자 3과 4 사이) → 7 × 0.05 = <tspan fill="#C00000" font-weight="bold">0.35 mm</tspan></text>
+<text x="360" y="300" font-size="14" text-anchor="middle" fill="#333">③ 읽음값 = 12 + 0.35 = <tspan fill="#C00000" font-weight="bold">12.35 mm</tspan></text>
+</svg>

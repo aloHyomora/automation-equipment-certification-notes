@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="720" height="360" fill="#ffffff"/>
+<text x="360" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">마이크로미터 읽기 — 슬리브 + 심블 = 7.5 + 0.28 = 7.78 mm</text>
+<rect x="40" y="145" width="340" height="90" fill="#E2EFDA" stroke="#548235" stroke-width="2"/>
+<text x="200" y="260" font-size="13" text-anchor="middle" fill="#548235" font-weight="bold">슬리브 (고정)</text>
+<line x1="40" y1="190" x2="380" y2="190" stroke="#333" stroke-width="2"/>
+<line x1="60" y1="170" x2="60" y2="190" stroke="#333" stroke-width="2"/>
+<text x="60" y="164" font-size="14" text-anchor="middle" fill="#333">0</text>
+<line x1="100" y1="170" x2="100" y2="190" stroke="#333" stroke-width="2"/>
+<line x1="140" y1="170" x2="140" y2="190" stroke="#333" stroke-width="2"/>
+<line x1="180" y1="170" x2="180" y2="190" stroke="#333" stroke-width="2"/>
+<line x1="220" y1="170" x2="220" y2="190" stroke="#333" stroke-width="2"/>
+<line x1="260" y1="170" x2="260" y2="190" stroke="#333" stroke-width="2"/>
+<text x="260" y="164" font-size="14" text-anchor="middle" fill="#333">5</text>
+<line x1="300" y1="170" x2="300" y2="190" stroke="#333" stroke-width="2"/>
+<line x1="340" y1="170" x2="340" y2="190" stroke="#333" stroke-width="2"/>
+<line x1="80.0" y1="190" x2="80.0" y2="204" stroke="#333" stroke-width="2"/>
+<line x1="120.0" y1="190" x2="120.0" y2="204" stroke="#333" stroke-width="2"/>
+<line x1="160.0" y1="190" x2="160.0" y2="204" stroke="#333" stroke-width="2"/>
+<line x1="200.0" y1="190" x2="200.0" y2="204" stroke="#333" stroke-width="2"/>
+<line x1="240.0" y1="190" x2="240.0" y2="204" stroke="#333" stroke-width="2"/>
+<line x1="280.0" y1="190" x2="280.0" y2="204" stroke="#333" stroke-width="2"/>
+<line x1="320.0" y1="190" x2="320.0" y2="204" stroke="#333" stroke-width="2"/>
+<line x1="360.0" y1="190" x2="360.0" y2="204" stroke="#C00000" stroke-width="2"/>
+<rect x="371.2" y="110" width="120" height="160" rx="6" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<text x="446.2" y="290" font-size="13" text-anchor="middle" fill="#548235" font-weight="bold">심블 (회전, 50등분)</text>
+<line x1="371.2" y1="262" x2="385.2" y2="262" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="254" x2="393.2" y2="254" stroke="#333" stroke-width="1.5"/>
+<text x="399.2" y="259" font-size="13" fill="#333">20</text>
+<line x1="371.2" y1="246" x2="385.2" y2="246" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="238" x2="385.2" y2="238" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="230" x2="385.2" y2="230" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="222" x2="385.2" y2="222" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="214" x2="393.2" y2="214" stroke="#333" stroke-width="1.5"/>
+<text x="399.2" y="219" font-size="13" fill="#333">25</text>
+<line x1="371.2" y1="206" x2="385.2" y2="206" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="198" x2="385.2" y2="198" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="190" x2="385.2" y2="190" stroke="#C00000" stroke-width="3"/>
+<line x1="371.2" y1="182" x2="385.2" y2="182" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="174" x2="393.2" y2="174" stroke="#333" stroke-width="1.5"/>
+<text x="399.2" y="179" font-size="13" fill="#333">30</text>
+<line x1="371.2" y1="166" x2="385.2" y2="166" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="158" x2="385.2" y2="158" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="150" x2="385.2" y2="150" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="142" x2="385.2" y2="142" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="134" x2="393.2" y2="134" stroke="#333" stroke-width="1.5"/>
+<text x="399.2" y="139" font-size="13" fill="#333">35</text>
+<line x1="371.2" y1="126" x2="385.2" y2="126" stroke="#333" stroke-width="1.5"/>
+<line x1="371.2" y1="118" x2="385.2" y2="118" stroke="#333" stroke-width="1.5"/>
+<text x="421.2" y="195" font-size="14" fill="#C00000" font-weight="bold">← 28</text>
+<line x1="340" y1="130" x2="340" y2="168" stroke="#2F5597" stroke-width="1.5"/>
+<text x="334" y="126" font-size="12" text-anchor="end" fill="#2F5597">위 눈금 7 mm</text>
+<line x1="360.0" y1="206" x2="330.0" y2="230" stroke="#C00000" stroke-width="1.5"/>
+<text x="326.0" y="230" font-size="12" text-anchor="end" fill="#C00000">아래 0.5 눈금이 보임 → 7.5</text>
+<text x="210" y="90" font-size="12" text-anchor="middle" fill="#555">위: 1 mm 눈금 / 아래: 0.5 mm 눈금 / 가운데 선: 기준선</text>
+<rect x="520" y="70" width="185" height="230" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<text x="534" y="96" font-size="13" fill="#548235" font-weight="bold" xml:space="preserve">읽는 순서</text>
+<text x="534" y="114" font-size="13" fill="#333" xml:space="preserve">① 슬리브에서 심블</text>
+<text x="534" y="132" font-size="13" fill="#333" xml:space="preserve">   끝 왼쪽 값: 7.5</text>
+<text x="534" y="150" font-size="13" fill="#333" xml:space="preserve">② 기준선과 맞는</text>
+<text x="534" y="168" font-size="13" fill="#333" xml:space="preserve">   심블 눈금: 28</text>
+<text x="534" y="186" font-size="13" fill="#333" xml:space="preserve">   → 0.28 mm</text>
+<text x="534" y="204" font-size="13" fill="#333" xml:space="preserve">③ 더하기</text>
+<text x="534" y="222" font-size="13" fill="#333" xml:space="preserve">   7.5 + 0.28</text>
+<text x="534" y="240" font-size="13" fill="#C00000" font-weight="bold" xml:space="preserve">   = 7.78 mm</text>
+<text x="534" y="258" font-size="13" fill="#333" xml:space="preserve"></text>
+<text x="534" y="276" font-size="13" fill="#555" xml:space="preserve">최소 눈금 0.5÷50</text>
+<text x="534" y="294" font-size="13" fill="#548235" font-weight="bold" xml:space="preserve">= 0.01 mm</text>
+</svg>

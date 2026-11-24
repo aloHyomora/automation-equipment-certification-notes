@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="720" height="360" fill="#ffffff"/>
+<text x="360" y="26" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">아베의 원리 — 눈금(표준자)과 측정물이 한 축선 위에 있어야 한다</text>
+<rect x="12" y="44" width="340" height="300" rx="8" fill="#F3F8EF" stroke="#548235"/>
+<rect x="368" y="44" width="340" height="300" rx="8" fill="#FBEFEF" stroke="#C00000"/>
+<text x="182" y="70" font-size="15" text-anchor="middle" font-weight="bold" fill="#548235">외측 마이크로미터 — 원리를 지킴</text>
+<text x="538" y="70" font-size="15" text-anchor="middle" font-weight="bold" fill="#C00000">버니어 캘리퍼스 — 원리를 못 지킴</text>
+<!-- micrometer schematic -->
+<path d="M50,170 L50,230 Q50,270 100,270 L230,270 Q260,270 260,230 L260,180" fill="none" stroke="#555" stroke-width="12"/>
+<rect x="44" y="160" width="14" height="20" fill="#7F7F7F"/>
+<rect x="58" y="162" width="60" height="16" fill="#F4B183" stroke="#C55A11"/>
+<text x="88" y="152" font-size="11" text-anchor="middle" fill="#333">측정물</text>
+<rect x="118" y="164" width="100" height="12" fill="#BFBFBF" stroke="#555"/>
+<rect x="218" y="156" width="60" height="28" fill="#A9D18E" stroke="#548235"/>
+<rect x="278" y="152" width="50" height="36" fill="#A9D18E" stroke="#548235"/>
+<text x="290" y="144" font-size="11" text-anchor="middle" fill="#333">슬리브·심블(눈금)</text>
+<line x1="30" y1="170" x2="340" y2="170" stroke="#C00000" stroke-width="1.5" stroke-dasharray="7 4"/>
+<text x="182" y="300" font-size="13" text-anchor="middle" fill="#333">측정 축 = 눈금 축 (한 직선)</text>
+<text x="182" y="322" font-size="13" text-anchor="middle" fill="#548235" font-weight="bold">기울어져도 오차가 거의 없다</text>
+<!-- caliper schematic -->
+<rect x="390" y="110" width="300" height="20" fill="#BFBFBF" stroke="#555"/>
+<g stroke="#333" stroke-width="1">
+<line x1="470" y1="110" x2="470" y2="120"/><line x1="490" y1="110" x2="490" y2="120"/><line x1="510" y1="110" x2="510" y2="120"/><line x1="530" y1="110" x2="530" y2="120"/><line x1="550" y1="110" x2="550" y2="120"/><line x1="570" y1="110" x2="570" y2="120"/><line x1="590" y1="110" x2="590" y2="120"/><line x1="610" y1="110" x2="610" y2="120"/>
+</g>
+<text x="660" y="104" font-size="11" text-anchor="middle" fill="#333">어미자(눈금)</text>
+<rect x="420" y="130" width="20" height="130" fill="#7F7F7F"/>
+<!-- slider jaw tilted -->
+<g transform="rotate(6 560 120)">
+<rect x="540" y="104" width="50" height="34" fill="#A9D18E" stroke="#548235" opacity="0.9"/>
+<rect x="540" y="138" width="20" height="122" fill="#548235" opacity="0.85"/>
+</g>
+<rect x="440" y="218" width="88" height="30" fill="#F4B183" stroke="#C55A11"/>
+<text x="484" y="238" font-size="11" text-anchor="middle" fill="#333">측정물</text>
+<line x1="380" y1="120" x2="700" y2="120" stroke="#548235" stroke-width="1.5" stroke-dasharray="7 4"/>
+<line x1="380" y1="233" x2="700" y2="233" stroke="#C00000" stroke-width="1.5" stroke-dasharray="7 4"/>
+<line x1="660" y1="122" x2="660" y2="231" stroke="#C00000" stroke-width="2"/>
+<polygon points="655,130 665,130 660,122" fill="#C00000"/><polygon points="655,223 665,223 660,231" fill="#C00000"/>
+<text x="668" y="182" font-size="15" fill="#C00000" font-weight="bold">h</text>
+<text x="538" y="290" font-size="13" text-anchor="middle" fill="#333">눈금 축과 측정 축이 h만큼 떨어짐</text>
+<text x="538" y="312" font-size="13" text-anchor="middle" fill="#C00000" font-weight="bold">슬라이더가 θ 기울면 오차 ≈ h·θ</text>
+<text x="538" y="334" font-size="12" text-anchor="middle" fill="#555">하이트 게이지도 같은 이유로 원리를 못 지킨다</text>
+</svg>
