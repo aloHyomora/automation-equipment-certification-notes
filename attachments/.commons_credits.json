@@ -1050,5 +1050,47 @@
   "license": "CC BY-SA 4.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "Affoltergroup"
+ },
+ "기계요소설계_토크렌치.webp": {
+  "title": "Torque wrench 20-220 Nm.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Torque_wrench_20-220_Nm.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Lead holder"
+ },
+ "기계요소설계_로켓_발사.webp": {
+  "title": "Apollo 11 Launch - GPN-2000-000630.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Apollo_11_Launch_-_GPN-2000-000630.jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "NASA"
+ },
+ "기계요소설계_킬로그램_원기.webp": {
+  "title": "International prototype of the kilogram aka Le Grand K.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:International_prototype_of_the_kilogram_aka_Le_Grand_K.jpg",
+  "license": "CC BY-SA 3.0 igo",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+  "artist": "BIPM"
+ },
+ "기계요소설계_SI_기본단위.webp": {
+  "title": "SI Illustration Base Units and Constants Colour Full.svg",
+  "page": "https://commons.wikimedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "BIPM (Original), User:Cmglee Rearranged version."
+ },
+ "기계요소설계_시소.webp": {
+  "title": "Playground seesaw.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Playground_seesaw.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Killarnee"
+ },
+ "기계요소설계_관성모멘트_구르기.webp": {
+  "title": "Rolling Racers - Moment of inertia.gif",
+  "page": "https://commons.wikimedia.org/wiki/File:Rolling_Racers_-_Moment_of_inertia.gif",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Lucas Vieira"
  }
 }

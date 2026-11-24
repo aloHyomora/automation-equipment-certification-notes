@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+</defs>
+<rect width="760" height="390" fill="#ffffff"/>
+<text x="380" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">동력 P가 일정하면 토크 T는 각속도 ω에 반비례</text>
+<!-- axes origin (80,330); omega 1 unit = 100 px; T unit: T=P/omega, P=1 -> y = 330 - 200/omega*... -->
+<line x1="80" y1="330" x2="500" y2="330" stroke="#333" stroke-width="1.5" marker-end="url(#ax)"/>
+<line x1="80" y1="330" x2="80" y2="55" stroke="#333" stroke-width="1.5" marker-end="url(#ax)"/>
+<text x="506" y="335" font-size="14">ω (회전 속도)</text><text x="88" y="58" font-size="14">T (토크)</text>
+<!-- rectangles: omega=1 -> x=180, T=2 -> y=330-200=130 ; omega=2 -> x=280, T=1 -> y=230 -->
+<rect x="80" y="130" width="100" height="200" fill="#E2F0D9" stroke="#548235" stroke-width="1.5"/>
+<rect x="80" y="230" width="200" height="100" fill="#C5E0B4" fill-opacity="0.6" stroke="#2F5597" stroke-width="1.5" stroke-dasharray="5,3"/>
+<!-- hyperbola T = 2/omega(units): points omega 0.5->T4 (x130,y-70 off) start omega 0.6 -->
+<path d="M146.7,30 C160,100 170,118 180,130 C210,170 240,215 280,230 C330,250 400,262 480,266.7" fill="none" stroke="#C00000" stroke-width="3"/>
+<circle cx="180" cy="130" r="5" fill="#C00000"/><circle cx="280" cy="230" r="5" fill="#C00000"/>
+<text x="188" y="124" font-size="13">(ω₁, T₁)</text>
+<text x="288" y="224" font-size="13">(2ω₁, T₁/2)</text>
+<text x="130" y="300" font-size="13" text-anchor="middle" fill="#548235">넓이 T·ω = P</text>
+<text x="230" y="300" font-size="13" text-anchor="middle" fill="#2F5597">넓이 같음</text>
+<text x="420" y="255" font-size="14" fill="#C00000" font-weight="bold">T = P / ω</text>
+<g font-size="14">
+<text x="540" y="110" font-weight="bold" fill="#548235">P = T · ω</text>
+<text x="540" y="138">속도 2배 → 토크 ½</text>
+<text x="540" y="166">속도 ½ → 토크 2배</text>
+<text x="540" y="206" fill="#C00000" font-weight="bold">"토크가 속도에</text>
+<text x="540" y="226" fill="#C00000" font-weight="bold"> 비례"는 틀린 보기</text>
+<text x="540" y="266">감속기로 속도를 낮추면</text>
+<text x="540" y="286">토크가 커지는 이유</text>
+</g>
+</svg>

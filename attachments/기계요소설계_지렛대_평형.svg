@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+<marker id="dm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+</defs>
+<rect width="900" height="350" fill="#ffffff"/>
+<text x="450" y="28" font-size="18" fill="#548235" text-anchor="middle" font-weight="bold">지렛대의 평형 — 받침점 기준 모멘트 합 = 0</text>
+<!-- loads -->
+<rect x="20" y="104" width="60" height="70" fill="#C5E0B4" stroke="#548235" stroke-width="2"/>
+<text x="50" y="145" font-size="15" text-anchor="middle" font-weight="bold">80 kgf</text>
+<rect x="628" y="138" width="44" height="36" fill="#C5E0B4" stroke="#548235" stroke-width="2"/>
+<text x="650" y="161" font-size="13" text-anchor="middle" font-weight="bold">W₂</text>
+<!-- beam -->
+<rect x="30" y="174" width="640" height="12" fill="#A9D18E" stroke="#548235" stroke-width="2"/>
+<!-- fulcrum -->
+<path d="M250,186 L224,232 L276,232 Z" fill="#7F7F7F"/>
+<line x1="205" y1="234" x2="295" y2="234" stroke="#333" stroke-width="2"/>
+<text x="250" y="252" font-size="13" text-anchor="middle">받침점</text>
+<!-- weight arrows -->
+<line x1="50" y1="186" x2="50" y2="228" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="60" y="222" font-size="14" fill="#C00000">W₁</text>
+<line x1="650" y1="186" x2="650" y2="228" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="660" y="222" font-size="14" fill="#C00000">W₂</text>
+<!-- dims -->
+<line x1="50" y1="270" x2="250" y2="270" stroke="#333" marker-start="url(#dm)" marker-end="url(#dm)"/>
+<text x="150" y="290" font-size="14" text-anchor="middle">a = 420 mm</text>
+<line x1="250" y1="270" x2="650" y2="270" stroke="#333" marker-start="url(#dm)" marker-end="url(#dm)"/>
+<text x="450" y="290" font-size="14" text-anchor="middle">b = 840 mm</text>
+<g stroke="#999" stroke-dasharray="3,3"><line x1="50" y1="232" x2="50" y2="278"/><line x1="250" y1="252" x2="250" y2="278"/><line x1="650" y1="232" x2="650" y2="278"/></g>
+<!-- rotation hints -->
+<path d="M150,120 A110,110 0 0,0 110,150" fill="none" stroke="#2F5597" stroke-width="2" marker-end="url(#ar)"/>
+<text x="140" y="108" font-size="12" fill="#2F5597">반시계로 돌림</text>
+<path d="M350,120 A110,110 0 0,1 390,150" fill="none" stroke="#2F5597" stroke-width="2" marker-end="url(#ar)"/>
+<text x="318" y="108" font-size="12" fill="#2F5597">시계로 돌림</text>
+<!-- equations -->
+<g font-size="15">
+<text x="700" y="80" font-weight="bold" fill="#548235">평형 조건</text>
+<text x="700" y="110" fill="#C00000" font-weight="bold">W₁ · a = W₂ · b</text>
+<text x="700" y="140">80 × 420 = W₂ × 840</text>
+<text x="700" y="170" fill="#C00000" font-weight="bold">W₂ = 40 kgf</text>
+</g>
+<text x="450" y="322" font-size="14" text-anchor="middle">무거운 쪽이 받침점에 가깝다 — 거리 비는 무게 비의 역수 (7 kgf : 3 kgf → 거리 3 : 7)</text>
+</svg>
