@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker></defs>
+<rect width="840" height="400" fill="#ffffff"/>
+<text x="420" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">맞물림 클러치 vs 마찰 클러치 — 턱으로 물리나, 눌러서 비비나</text>
+<line x1="420" y1="50" x2="420" y2="390" stroke="#d9d9d9"/>
+<!-- dog clutch -->
+<text x="210" y="66" font-size="15" fill="#262626" text-anchor="middle" font-weight="bold">맞물림(도그) 클러치</text>
+<rect x="20" y="168" width="140" height="24" fill="#d9d9d9" stroke="#595959"/>
+<path d="M140,120 H180 V140 H196 V160 H180 V200 H196 V220 H180 V240 H140 Z" fill="#a9d18e" stroke="#548235" stroke-width="2"/>
+<rect x="250" y="168" width="150" height="24" fill="#d9d9d9" stroke="#595959"/>
+<path d="M280,120 H230 V136 H246 V170 H230 V190 H246 V224 H230 V240 H280 Z" fill="#c5e0b4" stroke="#548235" stroke-width="2"/>
+<rect x="282" y="158" width="60" height="44" fill="none" stroke="#7f7f7f" stroke-dasharray="4,3"/>
+<text x="312" y="222" font-size="10" fill="#595959" text-anchor="middle">스플라인</text>
+<line x1="300" y1="100" x2="250" y2="100" stroke="#C00000" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="306" y="104" font-size="12" fill="#C00000">밀어서 턱을 물림</text>
+<text x="80" y="160" font-size="11" fill="#595959" text-anchor="middle">구동축</text>
+<text x="340" y="160" font-size="11" fill="#595959" text-anchor="middle">피동축</text>
+<text x="210" y="280" font-size="13" fill="#262626" text-anchor="middle">턱(도그)이 서로 걸려 미끄럼 없이 전달</text>
+<text x="210" y="304" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">돌 때 물리면 턱이 부딪친다</text>
+<text x="210" y="326" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">→ 정지(또는 같은 속도) 중에만 연결</text>
+<!-- friction clutch -->
+<text x="630" y="66" font-size="15" fill="#262626" text-anchor="middle" font-weight="bold">마찰(원판) 클러치</text>
+<rect x="440" y="168" width="140" height="24" fill="#d9d9d9" stroke="#595959"/>
+<rect x="580" y="100" width="20" height="160" fill="#a9d18e" stroke="#548235" stroke-width="2"/>
+<rect x="600" y="104" width="8" height="152" fill="#C55A11"/>
+<rect x="612" y="100" width="20" height="160" fill="#c5e0b4" stroke="#548235" stroke-width="2"/>
+<rect x="632" y="168" width="170" height="24" fill="#d9d9d9" stroke="#595959"/>
+<line x1="700" y1="130" x2="640" y2="130" stroke="#C00000" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="700" y1="230" x2="640" y2="230" stroke="#C00000" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="706" y="134" font-size="13" fill="#C00000" font-weight="bold">F</text>
+<text x="706" y="234" font-size="13" fill="#C00000" font-weight="bold">F</text>
+<text x="604" y="90" font-size="11" fill="#C55A11" text-anchor="middle">마찰재</text>
+<text x="500" y="160" font-size="11" fill="#595959" text-anchor="middle">구동축</text>
+<text x="760" y="160" font-size="11" fill="#595959" text-anchor="middle">피동축</text>
+<text x="630" y="280" font-size="13" fill="#262626" text-anchor="middle">축 방향 힘 F 로 눌러 마찰로 전달</text>
+<text x="630" y="304" font-size="13" fill="#262626" text-anchor="middle">처음엔 미끄러지며 속도를 맞춤 → 충격 적음</text>
+<text x="630" y="326" font-size="13" fill="#548235" text-anchor="middle" font-weight="bold">→ 운전 중에도 연결 가능</text>
+<text x="630" y="356" font-size="13" fill="#262626" text-anchor="middle">전달 토크 T = μ F × (평균 반지름)</text>
+<text x="630" y="376" font-size="11" fill="#595959" text-anchor="middle">F 를 전자석이 만들면 전자 클러치</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ak" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#404040"/></marker><marker id="aks" markerWidth="10" markerHeight="10" refX="2" refY="5" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#404040"/></marker></defs>
+<rect width="840" height="400" fill="#ffffff"/>
+<text x="420" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">비틀림 각 θ — 바흐의 축 공식은 "얼마나 비틀려도 되나"(강성) 기준</text>
+<rect x="56" y="110" width="24" height="180" fill="#d9d9d9" stroke="#7f7f7f"/>
+<g stroke="#7f7f7f">
+<line x1="56" y1="130" x2="44" y2="142"/><line x1="56" y1="160" x2="44" y2="172"/><line x1="56" y1="190" x2="44" y2="202"/><line x1="56" y1="220" x2="44" y2="232"/><line x1="56" y1="250" x2="44" y2="262"/><line x1="56" y1="280" x2="44" y2="292"/>
+</g>
+<text x="68" y="310" font-size="11" fill="#595959" text-anchor="middle">고정</text>
+<rect x="80" y="160" width="460" height="80" fill="#e2efda" stroke="#548235" stroke-width="2"/>
+<ellipse cx="540" cy="200" rx="14" ry="40" fill="#c5e0b4" stroke="#548235" stroke-width="2"/>
+<line x1="80" y1="170" x2="540" y2="170" stroke="#7f7f7f" stroke-dasharray="6,4" stroke-width="1.5"/>
+<line x1="80" y1="170" x2="540" y2="226" stroke="#C00000" stroke-width="2.5"/>
+<text x="300" y="158" font-size="11" fill="#7f7f7f" text-anchor="middle">비틀기 전 표면의 직선</text>
+<text x="380" y="232" font-size="11" fill="#C00000" text-anchor="middle">비튼 뒤(나선)</text>
+<path d="M572,166 A 14 40 0 0 1 572,234" fill="none" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="588" y="204" font-size="15" fill="#C00000" font-weight="bold">T</text>
+<line x1="80" y1="268" x2="540" y2="268" stroke="#404040" marker-end="url(#ak)" marker-start="url(#aks)"/>
+<text x="310" y="288" font-size="13" fill="#262626" text-anchor="middle">길이 l</text>
+<text x="310" y="306" font-size="11" fill="#595959" text-anchor="middle">지름 d, 가로 탄성 계수 G</text>
+<!-- end view -->
+<circle cx="720" cy="200" r="60" fill="#e2efda" stroke="#548235" stroke-width="2"/>
+<line x1="720" y1="200" x2="720" y2="140" stroke="#7f7f7f" stroke-dasharray="5,4" stroke-width="2"/>
+<line x1="720" y1="200" x2="758.6" y2="154" stroke="#C00000" stroke-width="2.5"/>
+<path d="M720,165 A 35 35 0 0 1 742.5,173.2" fill="none" stroke="#C00000" stroke-width="1.5"/>
+<text x="736" y="160" font-size="14" fill="#C00000" font-weight="bold">θ</text>
+<text x="720" y="285" font-size="12" fill="#595959" text-anchor="middle">끝면에서 본 모습</text>
+<text x="720" y="301" font-size="11" fill="#595959" text-anchor="middle">(θ 는 과장해서 그림)</text>
+<rect x="60" y="326" width="720" height="60" rx="8" fill="#f2f2f2" stroke="#548235"/>
+<text x="230" y="352" font-size="15" fill="#262626" text-anchor="middle">θ = T·l / (G·Ip) [rad],  Ip = πd⁴/32</text>
+<text x="580" y="352" font-size="15" fill="#C00000" text-anchor="middle" font-weight="bold">바흐: 연강 축 1 m 당 θ ≤ 1/4°</text>
+<text x="420" y="376" font-size="12" fill="#595959" text-anchor="middle">θ 가 d⁴ 에 반비례 → 강성 조건으로 정한 지름은 강도로 정한 지름보다 굵게 나오기 쉽다</text>
+</svg>

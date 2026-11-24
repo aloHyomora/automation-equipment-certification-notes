@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 420" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#e2efda"/><line x1="0" y1="0" x2="0" y2="8" stroke="#548235" stroke-width="1"/></pattern>
+<pattern id="h2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="8" height="8" fill="#e2efda"/><line x1="0" y1="0" x2="0" y2="8" stroke="#548235" stroke-width="1"/></pattern>
+<marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+</defs>
+<rect width="840" height="420" fill="#ffffff"/>
+<text x="420" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">플랜지 커플링 단면 — 토크는 키 → 플랜지 → 볼트 → 플랜지 → 키로 흐른다</text>
+<!-- left hub + flange (section, hatched) -->
+<path d="M250,150 H380 V90 H410 V330 H380 V270 H250 Z" fill="url(#h)" stroke="#262626" stroke-width="1.5"/>
+<!-- right hub + flange -->
+<path d="M410,90 H440 V150 H570 V270 H440 V330 H410 Z" fill="url(#h2)" stroke="#262626" stroke-width="1.5"/>
+<!-- shafts (not sectioned) -->
+<rect x="70" y="180" width="338" height="60" fill="#d9d9d9" stroke="#262626" stroke-width="1.5"/>
+<rect x="412" y="180" width="338" height="60" fill="#d9d9d9" stroke="#262626" stroke-width="1.5"/>
+<!-- keys -->
+<rect x="270" y="170" width="90" height="20" fill="#7f7f7f" stroke="#262626"/>
+<rect x="460" y="170" width="90" height="20" fill="#7f7f7f" stroke="#262626"/>
+<!-- bolts -->
+<rect x="374" y="108" width="42" height="14" fill="#bfbfbf" stroke="#262626"/>
+<rect x="362" y="102" width="12" height="26" fill="#a6a6a6" stroke="#262626"/>
+<rect x="416" y="102" width="14" height="26" fill="#a6a6a6" stroke="#262626"/>
+<rect x="374" y="298" width="42" height="14" fill="#bfbfbf" stroke="#262626"/>
+<rect x="362" y="292" width="12" height="26" fill="#a6a6a6" stroke="#262626"/>
+<rect x="416" y="292" width="14" height="26" fill="#a6a6a6" stroke="#262626"/>
+<line x1="40" y1="210" x2="800" y2="210" stroke="#7f7f7f" stroke-dasharray="14,3,2,3"/>
+<line x1="410" y1="60" x2="410" y2="345" stroke="#C00000" stroke-width="1" stroke-dasharray="3,3"/>
+<!-- labels -->
+<text x="130" y="170" font-size="13" fill="#262626" text-anchor="middle">축 (구동측)</text>
+<text x="690" y="170" font-size="13" fill="#262626" text-anchor="middle">축 (피동측)</text>
+<line x1="315" y1="170" x2="300" y2="140" stroke="#404040"/><text x="290" y="136" font-size="13" fill="#262626" text-anchor="end">키</text>
+<line x1="395" y1="95" x2="360" y2="70" stroke="#404040"/><text x="356" y="66" font-size="13" fill="#262626" text-anchor="end">볼트·너트</text>
+<line x1="430" y1="100" x2="470" y2="70" stroke="#404040"/><text x="474" y="66" font-size="13" fill="#262626">플랜지</text>
+<line x1="520" y1="260" x2="580" y2="300" stroke="#404040"/><text x="584" y="304" font-size="13" fill="#262626">보스(허브) — 단면(해칭)</text>
+<text x="410" y="362" font-size="11" fill="#C00000" text-anchor="middle">맞댄 면</text>
+<!-- torque path -->
+<rect x="40" y="374" width="760" height="36" rx="6" fill="#f2f2f2" stroke="#548235"/>
+<text x="420" y="397" font-size="13" fill="#262626" text-anchor="middle">볼트는 맞댄 면에서 <tspan fill="#C00000" font-weight="bold">전단</tspan>을 받는다 · 축·키·볼트는 길이 방향으로 단면하지 않으므로 해칭하지 않는다</text>
+</svg>

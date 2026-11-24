@@ -1386,5 +1386,75 @@
   "license": "CC BY-SA 2.5",
   "licurl": "https://creativecommons.org/licenses/by-sa/2.5",
   "artist": "Silberwolf"
+ },
+ "기계요소설계_유니버설조인트.webp": {
+  "title": "Universal joint.gif",
+  "page": "https://commons.wikimedia.org/wiki/File:Universal_joint.gif",
+  "license": "CC BY 2.5",
+  "licurl": "https://creativecommons.org/licenses/by/2.5",
+  "artist": "Van helsing"
+ },
+ "기계요소설계_더블카르단조인트.webp": {
+  "title": "Double Cardan Joint (animated).gif",
+  "page": "https://commons.wikimedia.org/wiki/File:Double_Cardan_Joint_(animated).gif",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "User:Catsquisher"
+ },
+ "기계요소설계_기어커플링.webp": {
+  "title": "Gear coupling.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Gear_coupling.png",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Petteri Aimonen"
+ },
+ "기계요소설계_조커플링.webp": {
+  "title": "JawConcept.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JawConcept.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Aruland"
+ },
+ "기계요소설계_크랭크축.webp": {
+  "title": "Crankshaft of an engine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Crankshaft_of_an_engine.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Seedlesslime"
+ },
+ "기계요소설계_플렉시블축.webp": {
+  "title": "Flexible shaft for a power drill.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Flexible_shaft_for_a_power_drill.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "W.carter"
+ },
+ "기계요소설계_철도차축.webp": {
+  "title": "Rail vehicle wheelset.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Rail_vehicle_wheelset.png",
+  "license": "CC0",
+  "licurl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "artist": "SCHolar44 at Wikipedia"
+ },
+ "기계요소설계_원심클러치.webp": {
+  "title": "CentrifugalClutch.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Fletcher6"
+ },
+ "기계요소설계_일방향클러치.webp": {
+  "title": "Sprag one-way bearing labeled.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Sprag_one-way_bearing_labeled.png",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": "Staff, Goddard Space Center"
+ },
+ "기계요소설계_디스크커플링.webp": {
+  "title": "CD Coupling Disc Pack.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:CD_Coupling_Disc_Pack.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "Perianah"
  }
 }

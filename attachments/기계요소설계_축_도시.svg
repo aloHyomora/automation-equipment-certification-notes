@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs>
+<pattern id="h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="7" stroke="#548235" stroke-width="0.8"/></pattern>
+<marker id="ak" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#262626"/></marker>
+<marker id="aks" markerWidth="10" markerHeight="10" refX="2" refY="5" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#262626"/></marker>
+</defs>
+<rect width="840" height="400" fill="#ffffff"/>
+<text x="420" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">축의 도시 — 길이 방향으로 자르지 않고, 필요한 곳만 부분 단면</text>
+<!-- shaft fill -->
+<path d="M60,159 L64,155 H180 V145 H380 V215 H180 V205 H64 L60,201 Z" fill="#f7f7f7"/>
+<path d="M420,145 H680 V155 H796 L800,159 V201 L796,205 H680 V215 H420 Z" fill="#f7f7f7"/>
+<!-- partial section region -->
+<path d="M210,145 H340 V176 C330,170 318,182 306,176 S 284,170 272,177 S 250,182 238,175 S 218,170 210,176 Z" fill="url(#h)"/>
+<rect x="225" y="145" width="100" height="9" fill="#ffffff"/>
+<path d="M225,145 V154 H325 V145" fill="none" stroke="#262626" stroke-width="2"/>
+<path d="M340,176 C330,170 318,182 306,176 S 284,170 272,177 S 250,182 238,175 S 218,170 210,176" fill="none" stroke="#262626" stroke-width="1"/>
+<line x1="210" y1="145" x2="210" y2="176" stroke="#262626" stroke-width="1" stroke-dasharray="0"/>
+<!-- outline -->
+<g fill="none" stroke="#262626" stroke-width="2">
+<path d="M380,145 H180 V155 H64 L60,159 V201 L64,205 H180 V215 H380"/>
+<path d="M420,145 H680 V155 H796 L800,159 V201 L796,205 H680 V215 H420"/>
+<line x1="64" y1="155" x2="64" y2="205"/>
+<line x1="796" y1="155" x2="796" y2="205"/>
+</g>
+<!-- break lines -->
+<path d="M380,145 C372,162 388,180 380,198 S 386,210 380,215" fill="none" stroke="#262626" stroke-width="1"/>
+<path d="M420,145 C412,162 428,180 420,198 S 426,210 420,215" fill="none" stroke="#262626" stroke-width="1"/>
+<!-- centre line -->
+<line x1="40" y1="180" x2="820" y2="180" stroke="#7f7f7f" stroke-dasharray="14,3,2,3"/>
+<!-- revolved section -->
+<circle cx="560" cy="180" r="30" fill="url(#h)" stroke="#262626" stroke-width="1"/>
+<!-- flat -->
+<line x1="720" y1="155" x2="720" y2="205" stroke="#262626" stroke-width="1"/>
+<line x1="776" y1="155" x2="776" y2="205" stroke="#262626" stroke-width="1"/>
+<line x1="720" y1="155" x2="776" y2="205" stroke="#262626" stroke-width="1"/>
+<line x1="720" y1="205" x2="776" y2="155" stroke="#262626" stroke-width="1"/>
+<!-- centre hole hidden -->
+<path d="M60,176 H70 L76,180 L70,184 H60" fill="none" stroke="#595959" stroke-dasharray="3,2"/>
+<!-- labels -->
+<line x1="275" y1="150" x2="250" y2="92" stroke="#C00000"/><text x="250" y="78" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">부분 단면도</text><text x="250" y="92" font-size="11" fill="#262626" text-anchor="end">(키 홈) </text>
+<line x1="560" y1="160" x2="560" y2="92" stroke="#C00000"/><text x="560" y="78" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">회전 도시 단면도</text><text x="560" y="92" font-size="11" fill="#262626" text-anchor="middle">90° 돌려 가는 실선</text>
+<line x1="748" y1="168" x2="760" y2="110" stroke="#C00000"/><text x="760" y="96" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">평면 부분</text><text x="760" y="110" font-size="11" fill="#262626" text-anchor="end">가는 실선 대각선 </text>
+<line x1="400" y1="140" x2="400" y2="120" stroke="#C00000"/><text x="400" y="114" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">파단선(생략)</text>
+<line x1="68" y1="180" x2="96" y2="118" stroke="#C00000"/><text x="96" y="78" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">센터 구멍</text><text x="96" y="94" font-size="11" fill="#262626" text-anchor="middle">ISO 6411-B 2.5/8</text><text x="96" y="110" font-size="10" fill="#595959" text-anchor="middle">드릴 지름 / 카운터싱크 지름</text>
+<text x="52" y="230" font-size="12" fill="#262626">C1</text>
+<text x="796" y="230" font-size="12" fill="#262626">C1</text>
+<!-- dimension -->
+<line x1="60" y1="205" x2="60" y2="268" stroke="#262626" stroke-width="0.8"/>
+<line x1="800" y1="205" x2="800" y2="268" stroke="#262626" stroke-width="0.8"/>
+<line x1="60" y1="262" x2="800" y2="262" stroke="#262626" stroke-width="0.8" marker-start="url(#aks)" marker-end="url(#ak)"/>
+<text x="430" y="256" font-size="14" fill="#262626" text-anchor="middle">1200</text>
+<text x="430" y="286" font-size="12" fill="#C00000" text-anchor="middle">줄여 그려도 치수는 실제 길이 (1200)</text>
+<line x1="180" y1="215" x2="180" y2="240" stroke="#262626" stroke-width="0.8"/>
+<line x1="60" y1="234" x2="180" y2="234" stroke="#262626" stroke-width="0.8" marker-start="url(#aks)" marker-end="url(#ak)"/>
+<text x="120" y="229" font-size="12" fill="#262626" text-anchor="middle">80</text>
+<rect x="40" y="306" width="760" height="80" rx="8" fill="#f2f2f2" stroke="#548235"/>
+<text x="420" y="330" font-size="13" fill="#262626" text-anchor="middle">축은 길이 방향으로 단면하지 않는다(전체 단면 ✕) → 키 홈·구멍은 <tspan fill="#C00000">부분 단면</tspan>으로만 보인다</text>
+<text x="420" y="352" font-size="13" fill="#262626" text-anchor="middle">단 부분 치수는 따로 적고, 끝에는 모따기(C)를 표시한다 · 작은 구석은 부분 확대도</text>
+<text x="420" y="374" font-size="13" fill="#262626" text-anchor="middle">널링은 바른 줄 또는 30° 빗줄로 그리고 따로 지시한다</text>
+</svg>
