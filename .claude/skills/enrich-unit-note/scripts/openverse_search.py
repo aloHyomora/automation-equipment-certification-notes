@@ -27,6 +27,17 @@ params = dict(license="cc0,pdm,by,by-sa", page_size=10)
 if "--no-wikimedia" in args:
     args.remove("--no-wikimedia")
     params["excluded_source"] = "wikimedia"
+# Narrowing flags (each takes one value), e.g.
+#   --category illustration   old book engravings / drawings (best for machine principles)
+#   --category photograph
+#   --source flickr|smithsonian_*|wellcome_collection|nasa|museumsvictoria|rawpixel ...
+#   --creator "Internet Archive Book Images"   (public-domain scans of old technical books)
+#   --size 20                                  results per query
+for flag, key in (("--category", "category"), ("--source", "source"), ("--creator", "creator"), ("--size", "page_size")):
+    if flag in args:
+        i = args.index(flag)
+        params[key] = args[i + 1]
+        del args[i:i + 2]
 
 for q in args:
     time.sleep(2)

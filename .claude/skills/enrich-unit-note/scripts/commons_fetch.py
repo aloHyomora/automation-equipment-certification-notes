@@ -37,18 +37,30 @@ class Throttled(Exception):
     pass
 
 
+PATIENCE = 120  # seconds one item may spend waiting out 429s; --patient MIN raises it
+
+
 def get(url):
-    # Commons throttles in bursts: space every request out, back off on 429,
-    # and give up on just this item (not the whole run) if it keeps refusing.
-    for wait in (0, 20, 45, 90):
-        time.sleep(wait + 6)
+    # Commons throttles per IP (a shared office/proxy IP gets blocked for everyone
+    # on it). A 429 carries "Retry-After" (often 600 s): retrying sooner only
+    # prolongs the block, so obey it. Give up on just this item (not the whole run)
+    # once waiting would exceed PATIENCE.
+    waited, tries = 0, 0
+    while True:
+        time.sleep(6)
         try:
             return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
         except urllib.error.HTTPError as e:
             if e.code != 429:
                 raise
-            print("  (429 rate limited, backing off)", flush=True)
-    raise Throttled(url)
+            ra = int(e.headers.get("Retry-After") or 0) or 20 * 2 ** tries
+            tries += 1
+            if waited + ra > PATIENCE:
+                print(f"  (429, Retry-After {ra}s exceeds patience {PATIENCE}s - skipping)", flush=True)
+                raise Throttled(url)
+            print(f"  (429, Retry-After {ra}s - waiting)", flush=True)
+            time.sleep(ra + 5)
+            waited += ra + 5
 
 
 def to_webp(data, out):
@@ -67,8 +79,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--prefix", required=True, help="subject prefix, e.g. 공유압")
     ap.add_argument("--dest", default="attachments")
+    ap.add_argument("--patient", type=int, metavar="MIN", default=0,
+                    help="wait up to MIN minutes per item for a 429 block to lift (run in background)")
     ap.add_argument("items", nargs="+", help='"File:Title.ext=short_name"')
     a = ap.parse_args()
+    global PATIENCE
+    if a.patient:
+        PATIENCE = a.patient * 60
 
     dest = pathlib.Path(a.dest)
     cache = dest / ".commons_credits.json"
