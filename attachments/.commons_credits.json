@@ -1734,5 +1734,29 @@
   "licurl": null,
   "artist": "Gleason",
   "source": "Gleason 카탈로그"
+ },
+ "기계요소설계_하이트게이지.webp": {
+  "title": "Mitutoyo 버니어 하이트 게이지 514-102 (카탈로그 사진)",
+  "page": "https://pim.mitutoyo.com/products/small-tool-instruments-and-data-management/height-gages-2/mechanical-height-gages/vernier-height-gage/",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "Mitutoyo",
+  "source": "Mitutoyo 카탈로그"
+ },
+ "기계요소설계_옵티컬플랫.webp": {
+  "title": "Starrett 옵티컬 플랫 OFS 4 RC (카탈로그 사진)",
+  "page": "https://www.starrett.com/products/gage-blocks-and-calibration-solutions/optical-flats/OFS%204.%20RC",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "Starrett",
+  "source": "Starrett 카탈로그"
+ },
+ "기계요소설계_숏피닝.webp": {
+  "title": "Wheelabrator 숏피닝 (카탈로그 사진)",
+  "page": "https://www.wheelabratorgroup.com/shot-peening-machines/",
+  "license": "저작권 보유(개인 학습용, 비공개 저장소 한정)",
+  "licurl": null,
+  "artist": "Wheelabrator (Norican Group)",
+  "source": "Wheelabrator 카탈로그"
  }
 }
