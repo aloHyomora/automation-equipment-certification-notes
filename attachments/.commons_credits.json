@@ -1351,5 +1351,40 @@
   "license": "CC BY-SA 3.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
   "artist": "imoni"
+ },
+ "기계요소설계_볼스크루_너트_리턴튜브.webp": {
+  "title": "BallScrewNut-showing-balls-recirculating-tubes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BallScrewNut-showing-balls-recirculating-tubes.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "No machine-readable author provided. Graibeard assumed (based on copyright claims)."
+ },
+ "기계요소설계_볼스크루_실물.webp": {
+  "title": "BallScrews-with-detail-insets.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "No machine-readable author provided. Graibeard assumed (based on copyright claims)."
+ },
+ "기계요소설계_CNC_이송축.webp": {
+  "title": "Assix,y,z.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Assix,y,z.jpg",
+  "license": "CC BY-SA 4.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "artist": "LabMecsrl"
+ },
+ "기계요소설계_벨로즈커플링.webp": {
+  "title": "Ausgleichskupplung.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Ausgleichskupplung.JPG",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Archiumtechnica"
+ },
+ "기계요소설계_리니어테이블.webp": {
+  "title": "Linear-table with detail.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Linear-table_with_detail.png",
+  "license": "CC BY-SA 2.5",
+  "licurl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "artist": "Silberwolf"
  }
 }

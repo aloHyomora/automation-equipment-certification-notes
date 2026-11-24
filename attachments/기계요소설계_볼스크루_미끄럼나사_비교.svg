@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ag" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker><marker id="ak" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#404040"/></marker></defs>
+<rect width="780" height="430" fill="#ffffff"/>
+<text x="390.0" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">미끄럼 나사(사다리꼴)와 볼스크루 — 면의 미끄럼 vs 볼의 구름</text>
+<text x="195" y="62" font-size="14" fill="#262626" text-anchor="middle" font-weight="bold">사다리꼴 나사: 나사산 면끼리 미끄럼</text>
+<rect x="30" y="110" width="330" height="50" fill="#e2efda" stroke="#548235"/>
+<rect x="30" y="200" width="330" height="40" fill="#d9d9d9" stroke="#7f7f7f"/>
+<polygon points="40,200 48,170 62,170 70,200" fill="#d9d9d9" stroke="#7f7f7f"/>
+<polygon points="100,200 108,170 122,170 130,200" fill="#d9d9d9" stroke="#7f7f7f"/>
+<polygon points="160,200 168,170 182,170 190,200" fill="#d9d9d9" stroke="#7f7f7f"/>
+<polygon points="220,200 228,170 242,170 250,200" fill="#d9d9d9" stroke="#7f7f7f"/>
+<polygon points="280,200 288,170 302,170 310,200" fill="#d9d9d9" stroke="#7f7f7f"/>
+<polygon points="30.0,160 30.0,190 42.7,190 50.7,160" fill="#e2efda" stroke="#548235"/>
+<line x1="50.7" y1="160" x2="42.7" y2="190" stroke="#C00000" stroke-width="3"/>
+<polygon points="65.3,160 73.3,190 102.7,190 110.7,160" fill="#e2efda" stroke="#548235"/>
+<line x1="110.7" y1="160" x2="102.7" y2="190" stroke="#C00000" stroke-width="3"/>
+<polygon points="125.3,160 133.3,190 162.7,190 170.7,160" fill="#e2efda" stroke="#548235"/>
+<line x1="170.7" y1="160" x2="162.7" y2="190" stroke="#C00000" stroke-width="3"/>
+<polygon points="185.3,160 193.3,190 222.7,190 230.7,160" fill="#e2efda" stroke="#548235"/>
+<line x1="230.7" y1="160" x2="222.7" y2="190" stroke="#C00000" stroke-width="3"/>
+<polygon points="245.3,160 253.3,190 282.7,190 290.7,160" fill="#e2efda" stroke="#548235"/>
+<line x1="290.7" y1="160" x2="282.7" y2="190" stroke="#C00000" stroke-width="3"/>
+<polygon points="305.3,160 313.3,190 342.7,190 350.7,160" fill="#e2efda" stroke="#548235"/>
+<text x="195" y="100" font-size="12" fill="#548235" text-anchor="middle" font-weight="bold">너트</text>
+<text x="195" y="258" font-size="12" fill="#404040" text-anchor="middle" font-weight="bold">나사축</text>
+<text x="195" y="282" font-size="12" fill="#C00000" text-anchor="middle">빨간 선 = 면 접촉 → 미끄럼 마찰이 크다</text>
+<text x="585" y="62" font-size="14" fill="#262626" text-anchor="middle" font-weight="bold">볼스크루: 홈 사이에서 볼이 구른다</text>
+<rect x="420" y="110" width="330" height="50" fill="#e2efda" stroke="#548235"/>
+<rect x="420" y="190" width="330" height="50" fill="#d9d9d9" stroke="#7f7f7f"/>
+<path d="M434,160 A16,16 0 0,0 466,160" fill="#ffffff" stroke="#548235"/>
+<path d="M434,190 A16,16 0 0,1 466,190" fill="#ffffff" stroke="#7f7f7f"/>
+<rect x="434" y="159" width="32" height="32" fill="#ffffff" stroke="none"/>
+<line x1="434" y1="160" x2="434" y2="160" stroke="none"/>
+<circle cx="450" cy="175" r="13" fill="#C00000" fill-opacity="0.85"/>
+<path d="M444,170 A7,7 0 1,1 455,180" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M496,160 A16,16 0 0,0 528,160" fill="#ffffff" stroke="#548235"/>
+<path d="M496,190 A16,16 0 0,1 528,190" fill="#ffffff" stroke="#7f7f7f"/>
+<rect x="496" y="159" width="32" height="32" fill="#ffffff" stroke="none"/>
+<line x1="496" y1="160" x2="496" y2="160" stroke="none"/>
+<circle cx="512" cy="175" r="13" fill="#C00000" fill-opacity="0.85"/>
+<path d="M506,170 A7,7 0 1,1 517,180" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M558,160 A16,16 0 0,0 590,160" fill="#ffffff" stroke="#548235"/>
+<path d="M558,190 A16,16 0 0,1 590,190" fill="#ffffff" stroke="#7f7f7f"/>
+<rect x="558" y="159" width="32" height="32" fill="#ffffff" stroke="none"/>
+<line x1="558" y1="160" x2="558" y2="160" stroke="none"/>
+<circle cx="574" cy="175" r="13" fill="#C00000" fill-opacity="0.85"/>
+<path d="M568,170 A7,7 0 1,1 579,180" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M620,160 A16,16 0 0,0 652,160" fill="#ffffff" stroke="#548235"/>
+<path d="M620,190 A16,16 0 0,1 652,190" fill="#ffffff" stroke="#7f7f7f"/>
+<rect x="620" y="159" width="32" height="32" fill="#ffffff" stroke="none"/>
+<line x1="620" y1="160" x2="620" y2="160" stroke="none"/>
+<circle cx="636" cy="175" r="13" fill="#C00000" fill-opacity="0.85"/>
+<path d="M630,170 A7,7 0 1,1 641,180" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M682,160 A16,16 0 0,0 714,160" fill="#ffffff" stroke="#548235"/>
+<path d="M682,190 A16,16 0 0,1 714,190" fill="#ffffff" stroke="#7f7f7f"/>
+<rect x="682" y="159" width="32" height="32" fill="#ffffff" stroke="none"/>
+<line x1="682" y1="160" x2="682" y2="160" stroke="none"/>
+<circle cx="698" cy="175" r="13" fill="#C00000" fill-opacity="0.85"/>
+<path d="M692,170 A7,7 0 1,1 703,180" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+<text x="585" y="100" font-size="12" fill="#548235" text-anchor="middle" font-weight="bold">너트 (홈)</text>
+<text x="585" y="258" font-size="12" fill="#404040" text-anchor="middle" font-weight="bold">나사축 (홈)</text>
+<text x="585" y="282" font-size="12" fill="#C00000" text-anchor="middle">빨간 원 = 강구(볼) → 구름 마찰이라 아주 작다</text>
+<text x="390.0" y="318" font-size="14" fill="#548235" text-anchor="middle" font-weight="bold">기계 효율 (회전 → 직선)</text>
+<text x="170" y="353" font-size="13" fill="#262626" text-anchor="end">사다리꼴 나사</text>
+<rect x="180" y="336" width="147.0" height="24" fill="#a6a6a6"/>
+<text x="335.0" y="353" font-size="13" fill="#262626" text-anchor="start">약 20~40 % · 자립 가능</text>
+<text x="170" y="389" font-size="13" fill="#262626" text-anchor="end">볼스크루</text>
+<rect x="180" y="372" width="386.40000000000003" height="24" fill="#548235"/>
+<text x="574.4000000000001" y="389" font-size="13" fill="#548235" text-anchor="start" font-weight="bold">90 % 이상</text>
+<text x="390.0" y="418" font-size="12" fill="#C00000" text-anchor="middle">마찰이 작으면 테이블을 밀어도 축이 돈다(역구동) → 볼스크루는 자립하지 않아 수직축에 브레이크가 필요</text>
+</svg>

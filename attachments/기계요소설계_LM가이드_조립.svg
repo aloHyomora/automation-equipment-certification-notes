@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ag" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker><marker id="ak" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#404040"/></marker></defs>
+<rect width="780" height="400" fill="#ffffff"/>
+<text x="390.0" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">LM 가이드 조립 순서 — 기준 레일을 먼저, 종속 레일은 따라 맞춘다</text>
+<rect x="20" y="50" width="115" height="34" rx="5" fill="#e2efda" stroke="#548235"/>
+<text x="77.5" y="72" font-size="12" fill="#262626" text-anchor="middle" font-weight="bold">① 기준면 청소</text>
+<line x1="135" y1="67" x2="145" y2="67" stroke="#548235" stroke-width="2"/>
+<rect x="145" y="50" width="115" height="34" rx="5" fill="#548235" stroke="#548235"/>
+<text x="202.5" y="72" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">② 기준 레일 고정</text>
+<line x1="260" y1="67" x2="270" y2="67" stroke="#548235" stroke-width="2"/>
+<rect x="270" y="50" width="115" height="34" rx="5" fill="#548235" stroke="#548235"/>
+<text x="327.5" y="72" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">③ 종속 레일 평행</text>
+<line x1="385" y1="67" x2="395" y2="67" stroke="#548235" stroke-width="2"/>
+<rect x="395" y="50" width="115" height="34" rx="5" fill="#e2efda" stroke="#548235"/>
+<text x="452.5" y="72" font-size="12" fill="#262626" text-anchor="middle" font-weight="bold">④ 블록 장착</text>
+<line x1="510" y1="67" x2="520" y2="67" stroke="#548235" stroke-width="2"/>
+<rect x="520" y="50" width="115" height="34" rx="5" fill="#e2efda" stroke="#548235"/>
+<text x="577.5" y="72" font-size="12" fill="#262626" text-anchor="middle" font-weight="bold">⑤ 테이블 조립</text>
+<line x1="635" y1="67" x2="645" y2="67" stroke="#548235" stroke-width="2"/>
+<rect x="645" y="50" width="115" height="34" rx="5" fill="#e2efda" stroke="#548235"/>
+<text x="702.5" y="72" font-size="12" fill="#262626" text-anchor="middle" font-weight="bold">⑥ 동작 확인</text>
+<rect x="60" y="120" width="560" height="230" fill="#f2f2f2" stroke="#7f7f7f"/>
+<text x="70" y="140" font-size="12" fill="#404040" text-anchor="start">베이스 (위에서 본 그림)</text>
+<rect x="60" y="150" width="560" height="10" fill="#548235"/>
+<text x="630" y="160" font-size="12" fill="#548235" text-anchor="start" font-weight="bold">기준면(턱)</text>
+<rect x="90" y="160" width="500" height="22" fill="#bfbfbf" stroke="#7f7f7f"/>
+<text x="340" y="176" font-size="12" fill="#262626" text-anchor="middle">기준 레일 — 기준면 턱에 밀어 붙여 고정</text>
+<line x1="140" y1="205" x2="140" y2="186" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="260" y1="205" x2="260" y2="186" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="380" y1="205" x2="380" y2="186" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="500" y1="205" x2="500" y2="186" stroke="#C00000" stroke-width="2" marker-end="url(#ar)"/>
+<text x="630" y="200" font-size="12" fill="#C00000" text-anchor="start">밀어 붙이기</text>
+<text x="630" y="216" font-size="11" fill="#C00000" text-anchor="start">(누름 볼트·쐐기)</text>
+<rect x="90" y="290" width="500" height="22" fill="#bfbfbf" stroke="#7f7f7f"/>
+<text x="340" y="306" font-size="12" fill="#262626" text-anchor="middle">종속 레일 — 기준 레일과 평행하게</text>
+<line x1="200" y1="186" x2="200" y2="286" stroke="#548235" stroke-width="1.5" marker-start="url(#ag)" marker-end="url(#ag)"/>
+<line x1="480" y1="186" x2="480" y2="286" stroke="#548235" stroke-width="1.5" marker-start="url(#ag)" marker-end="url(#ag)"/>
+<text x="210" y="240" font-size="12" fill="#548235" text-anchor="start" font-weight="bold">간격 A</text>
+<text x="490" y="240" font-size="12" fill="#548235" text-anchor="start" font-weight="bold">간격 A</text>
+<text x="340" y="262" font-size="12" fill="#548235" text-anchor="middle">다이얼 게이지로 전 길이 평행도 확인</text>
+<text x="630" y="300" font-size="11" fill="#404040" text-anchor="start">가조립 후</text>
+<text x="630" y="316" font-size="11" fill="#404040" text-anchor="start">평행을 맞추고</text>
+<text x="630" y="332" font-size="11" fill="#404040" text-anchor="start">본 체결</text>
+<text x="390.0" y="380" font-size="12" fill="#404040" text-anchor="middle">볼트는 가운데에서 바깥쪽으로, 규정 토크로 차례차례 조인다 · 이물질 하나가 직진도를 망친다</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 410" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ag" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker><marker id="ak" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#404040"/></marker></defs>
+<rect width="780" height="410" fill="#ffffff"/>
+<text x="390.0" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">볼스크루 이송계 (위에서 본 그림) — 회전을 직선 운동으로</text>
+<rect x="270" y="104" width="400" height="12" fill="#bfbfbf" stroke="#7f7f7f"/>
+<rect x="270" y="284" width="400" height="12" fill="#bfbfbf" stroke="#7f7f7f"/>
+<text x="668" y="96" font-size="12" fill="#404040" text-anchor="end">LM 가이드 레일</text>
+<rect x="250" y="190" width="440" height="20" fill="#d9d9d9" stroke="#7f7f7f"/>
+<line x1="254" y1="190" x2="260" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="264" y1="190" x2="270" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="274" y1="190" x2="280" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="284" y1="190" x2="290" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="294" y1="190" x2="300" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="304" y1="190" x2="310" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="314" y1="190" x2="320" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="324" y1="190" x2="330" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="334" y1="190" x2="340" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="344" y1="190" x2="350" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="354" y1="190" x2="360" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="364" y1="190" x2="370" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="374" y1="190" x2="380" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="384" y1="190" x2="390" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="394" y1="190" x2="400" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="404" y1="190" x2="410" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="414" y1="190" x2="420" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="424" y1="190" x2="430" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="434" y1="190" x2="440" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="444" y1="190" x2="450" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="454" y1="190" x2="460" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="464" y1="190" x2="470" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="474" y1="190" x2="480" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="484" y1="190" x2="490" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="494" y1="190" x2="500" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="504" y1="190" x2="510" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="514" y1="190" x2="520" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="524" y1="190" x2="530" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="534" y1="190" x2="540" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="544" y1="190" x2="550" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="554" y1="190" x2="560" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="564" y1="190" x2="570" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="574" y1="190" x2="580" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="584" y1="190" x2="590" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="594" y1="190" x2="600" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="604" y1="190" x2="610" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="614" y1="190" x2="620" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="624" y1="190" x2="630" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="634" y1="190" x2="640" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="644" y1="190" x2="650" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="654" y1="190" x2="660" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="664" y1="190" x2="670" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<line x1="674" y1="190" x2="680" y2="210" stroke="#7f7f7f" stroke-width="1"/>
+<rect x="40" y="160" width="90" height="80" rx="4" fill="#548235"/>
+<text x="85" y="198" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">서보 모터</text>
+<text x="85" y="216" font-size="11" fill="#ffffff" text-anchor="middle">(엔코더)</text>
+<rect x="130" y="195" width="20" height="10" fill="#a6a6a6"/>
+<rect x="150" y="182" width="40" height="36" fill="#ffffff" stroke="#548235" stroke-width="2"/>
+<polyline points="150,184 155,216 160,184 165,216 170,184 175,216 180,184 185,216 190,184" fill="none" stroke="#548235" stroke-width="1.5"/>
+<text x="170" y="172" font-size="12" fill="#548235" text-anchor="middle" font-weight="bold">커플링</text>
+<rect x="190" y="195" width="12" height="10" fill="#a6a6a6"/>
+<rect x="202" y="165" width="48" height="70" fill="#e2efda" stroke="#548235" stroke-width="2"/>
+<circle cx="216" cy="200" r="7" fill="#ffffff" stroke="#548235"/><line x1="211" y1="195" x2="221" y2="205" stroke="#548235"/><line x1="211" y1="205" x2="221" y2="195" stroke="#548235"/>
+<circle cx="236" cy="200" r="7" fill="#ffffff" stroke="#548235"/><line x1="231" y1="195" x2="241" y2="205" stroke="#548235"/><line x1="231" y1="205" x2="241" y2="195" stroke="#548235"/>
+<text x="226" y="254" font-size="12" fill="#548235" text-anchor="middle" font-weight="bold">고정측</text>
+<text x="226" y="270" font-size="11" fill="#404040" text-anchor="middle">앵귤러 베어링 쌍</text>
+<rect x="690" y="172" width="44" height="56" fill="#e2efda" stroke="#548235" stroke-width="2"/>
+<circle cx="712" cy="200" r="7" fill="#ffffff" stroke="#548235"/>
+<text x="712" y="248" font-size="12" fill="#548235" text-anchor="middle" font-weight="bold">지지측</text>
+<text x="712" y="264" font-size="11" fill="#404040" text-anchor="middle">깊은 홈 볼</text>
+<rect x="380" y="80" width="180" height="240" fill="#548235" fill-opacity="0.12" stroke="#548235" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="470" y="72" font-size="13" fill="#548235" text-anchor="middle" font-weight="bold">테이블</text>
+<rect x="392" y="96" width="60" height="28" rx="3" fill="#548235" fill-opacity="0.75"/>
+<text x="422" y="115" font-size="11" fill="#ffffff" text-anchor="middle">블록</text>
+<rect x="392" y="276" width="60" height="28" rx="3" fill="#548235" fill-opacity="0.75"/>
+<text x="422" y="295" font-size="11" fill="#ffffff" text-anchor="middle">블록</text>
+<rect x="488" y="96" width="60" height="28" rx="3" fill="#548235" fill-opacity="0.75"/>
+<text x="518" y="115" font-size="11" fill="#ffffff" text-anchor="middle">블록</text>
+<rect x="488" y="276" width="60" height="28" rx="3" fill="#548235" fill-opacity="0.75"/>
+<text x="518" y="295" font-size="11" fill="#ffffff" text-anchor="middle">블록</text>
+<rect x="440" y="180" width="60" height="40" rx="3" fill="#C00000"/>
+<text x="470" y="205" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">볼 너트</text>
+<path d="M300,180 A14,22 0 1,1 300,222" fill="none" stroke="#404040" stroke-width="1.5" marker-end="url(#ak)"/>
+<text x="330" y="176" font-size="12" fill="#404040" text-anchor="start">회전 N</text>
+<text x="625" y="178" font-size="12" fill="#404040" text-anchor="middle">나사축 (리드 L)</text>
+<line x1="400" y1="340" x2="540" y2="340" stroke="#C00000" stroke-width="2.5" marker-end="url(#ar)" marker-start="url(#ar)"/>
+<text x="470" y="362" font-size="14" fill="#C00000" text-anchor="middle" font-weight="bold">직선 이송  v = L × N</text>
+<text x="390.0" y="395" font-size="13" fill="#404040" text-anchor="middle">예: L = 10 mm, N = 1500 rpm → v = 15 000 mm/min = 15 m/min</text>
+</svg>

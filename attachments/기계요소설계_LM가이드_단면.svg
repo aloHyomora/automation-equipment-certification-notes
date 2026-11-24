@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker><marker id="ag" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#548235"/></marker><marker id="ak" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#404040"/></marker></defs>
+<rect width="780" height="440" fill="#ffffff"/>
+<text x="390.0" y="28" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold">LM 가이드 단면 — 볼 4줄이 45°로 받쳐 4방향 하중을 받는다</text>
+<path d="M150,150 L450,150 L450,300 L362,300 L362,182 L238,182 L238,300 L150,300 Z" fill="#548235" fill-opacity="0.25" stroke="#548235" stroke-width="2"/>
+<rect x="245" y="190" width="110" height="160" fill="#d9d9d9" stroke="#7f7f7f" stroke-width="2"/>
+<circle cx="300" cy="230" r="12" fill="#ffffff" stroke="#7f7f7f"/>
+<line x1="300" y1="242" x2="300" y2="350" stroke="#7f7f7f" stroke-dasharray="4 3"/>
+<circle cx="244" cy="189" r="9" fill="#C00000"/>
+<line x1="222" y1="167" x2="266" y2="211" stroke="#262626" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="356" cy="189" r="9" fill="#C00000"/>
+<line x1="378" y1="167" x2="334" y2="211" stroke="#262626" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="241" cy="268" r="9" fill="#C00000"/>
+<line x1="219" y1="290" x2="263" y2="246" stroke="#262626" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="359" cy="268" r="9" fill="#C00000"/>
+<line x1="381" y1="290" x2="337" y2="246" stroke="#262626" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="120" y="350" width="360" height="22" fill="#bfbfbf" stroke="#7f7f7f"/>
+<text x="300" y="366" font-size="11" fill="#404040" text-anchor="middle">베이스(기준면)</text>
+<rect x="130" y="120" width="340" height="28" fill="#ffffff" stroke="#404040" stroke-dasharray="5 3"/>
+<text x="300" y="139" font-size="12" fill="#404040" text-anchor="middle">테이블</text>
+<text x="140" y="180" font-size="13" fill="#548235" text-anchor="start" font-weight="bold">블록</text>
+<text x="365" y="335" font-size="13" fill="#404040" text-anchor="start" font-weight="bold">레일</text>
+<text x="178" y="330" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">볼(4줄)</text>
+<line x1="200" y1="318" x2="234" y2="288" stroke="#C00000"/>
+<line x1="300" y1="62" x2="300" y2="112" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="310" y="80" font-size="12" fill="#C00000" text-anchor="start" font-weight="bold">레이디얼(누르는 방향)</text>
+<line x1="190" y1="112" x2="190" y2="66" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="180" y="80" font-size="12" fill="#C00000" text-anchor="end" font-weight="bold">역레이디얼(들어 올림)</text>
+<line x1="515" y1="225" x2="460" y2="225" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="85" y1="225" x2="140" y2="225" stroke="#C00000" stroke-width="3" marker-end="url(#ar)"/>
+<text x="520" y="220" font-size="12" fill="#C00000" text-anchor="start" font-weight="bold">가로</text>
+<text x="520" y="236" font-size="12" fill="#C00000" text-anchor="start" font-weight="bold">(횡) 하중</text>
+<text x="80" y="220" font-size="12" fill="#C00000" text-anchor="end" font-weight="bold">가로</text>
+<text x="80" y="236" font-size="12" fill="#C00000" text-anchor="end" font-weight="bold">(횡) 하중</text>
+<rect x="560" y="270" width="205" height="150" rx="6" fill="#e2efda" stroke="#548235"/>
+<text x="572" y="292" font-size="12" fill="#262626" text-anchor="start">점선 = 볼 접촉선 (45°)</text>
+<text x="572" y="311" font-size="12" fill="#262626" text-anchor="start">위 두 줄: 누르는 하중</text>
+<text x="572" y="330" font-size="12" fill="#262626" text-anchor="start">아래 두 줄: 들어 올리는 하중</text>
+<text x="572" y="349" font-size="12" fill="#262626" text-anchor="start">좌우 쌍: 가로 하중</text>
+<text x="572" y="368" font-size="12" fill="#548235" text-anchor="start" font-weight="bold">→ 4방향 등하중형</text>
+<text x="572" y="387" font-size="12" fill="#262626" text-anchor="start">블록 2개 이상·레일 2줄이면</text>
+<text x="572" y="406" font-size="12" fill="#262626" text-anchor="start">모멘트 하중도 받는다</text>
+</svg>
