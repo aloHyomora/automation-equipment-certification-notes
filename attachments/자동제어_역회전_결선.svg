@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C00000"/></marker>
+  </defs>
+  <text x="380" y="26" font-size="17" font-weight="bold" fill="#2F5597" text-anchor="middle">3상 유도전동기의 역회전: 세 선 중 두 선만 바꾼다</text>
+  <line x1="380" y1="45" x2="380" y2="300" stroke="#ccc" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ===== forward ===== -->
+  <text x="190" y="60" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">정회전</text>
+  <g font-size="14" font-weight="bold" fill="#333" text-anchor="end">
+    <text x="52" y="105">R</text><text x="52" y="155">S</text><text x="52" y="205">T</text>
+  </g>
+  <g stroke="#2F5597" stroke-width="2.5">
+    <line x1="60" y1="100" x2="200" y2="100"/>
+    <line x1="60" y1="150" x2="200" y2="150"/>
+    <line x1="60" y1="200" x2="200" y2="200"/>
+  </g>
+  <g font-size="13" fill="#2F5597" font-weight="bold">
+    <text x="205" y="105">U</text><text x="205" y="155">V</text><text x="205" y="205">W</text>
+  </g>
+  <circle cx="290" cy="150" r="50" fill="#F3F6FB" stroke="#2F5597" stroke-width="2.5"/>
+  <text x="290" y="156" font-size="18" font-weight="bold" fill="#2F5597" text-anchor="middle">IM</text>
+  <g stroke="#333" stroke-width="1.5">
+    <line x1="222" y1="100" x2="252" y2="118"/><line x1="222" y1="150" x2="240" y2="150"/><line x1="222" y1="200" x2="252" y2="182"/>
+  </g>
+  <path d="M 262,212 A 66 66 0 0 0 340,200" fill="none" stroke="#C00000" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="290" y="252" font-size="13" fill="#C00000" text-anchor="middle">상회전 R→S→T</text>
+  <text x="190" y="290" font-size="13" fill="#333" text-anchor="middle">R–U, S–V, T–W</text>
+
+  <!-- ===== reverse ===== -->
+  <text x="570" y="60" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">역회전 (R·T 교체)</text>
+  <g font-size="14" font-weight="bold" fill="#333" text-anchor="end">
+    <text x="432" y="105">R</text><text x="432" y="155">S</text><text x="432" y="205">T</text>
+  </g>
+  <g stroke-width="2.5" fill="none">
+    <polyline points="440,100 500,100 540,200 580,200" stroke="#C00000"/>
+    <line x1="440" y1="150" x2="580" y2="150" stroke="#2F5597"/>
+    <polyline points="440,200 500,200 540,100 580,100" stroke="#C00000"/>
+  </g>
+  <g font-size="13" fill="#2F5597" font-weight="bold">
+    <text x="585" y="105">U</text><text x="585" y="155">V</text><text x="585" y="205">W</text>
+  </g>
+  <circle cx="670" cy="150" r="50" fill="#F3F6FB" stroke="#2F5597" stroke-width="2.5"/>
+  <text x="670" y="156" font-size="18" font-weight="bold" fill="#2F5597" text-anchor="middle">IM</text>
+  <g stroke="#333" stroke-width="1.5">
+    <line x1="602" y1="100" x2="632" y2="118"/><line x1="602" y1="150" x2="620" y2="150"/><line x1="602" y1="200" x2="632" y2="182"/>
+  </g>
+  <path d="M 720,200 A 66 66 0 0 1 642,212" fill="none" stroke="#C00000" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="670" y="252" font-size="13" fill="#C00000" text-anchor="middle">상회전 T→S→R (반대)</text>
+  <text x="570" y="290" font-size="13" fill="#333" text-anchor="middle">R–W, S–V, T–U</text>
+  <text x="380" y="318" font-size="12" fill="#666" text-anchor="middle">세 선을 모두 한 칸씩 돌리면(R→V, S→W, T→U) 상순이 그대로라 방향이 바뀌지 않는다</text>
+</svg>

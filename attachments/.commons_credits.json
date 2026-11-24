@@ -700,5 +700,47 @@
   "license": "CC BY-SA 4.0",
   "licurl": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "Carmelo 1955"
+ },
+ "자동제어_농형_회전자.webp": {
+  "title": "Squirrel cage.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Squirrel_cage.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "en:User:Meggar"
+ },
+ "자동제어_농형_회전자_실물.webp": {
+  "title": "Wirnik by Zureks.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wirnik_by_Zureks.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Zureks"
+ },
+ "자동제어_유도전동기_단면.webp": {
+  "title": "TMW 50906 Schnittmodell einer Drehstrommaschine (Asynchronmaschine).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:TMW_50906_Schnittmodell_einer_Drehstrommaschine_(Asynchronmaschine).jpg",
+  "license": "Public domain",
+  "licurl": null,
+  "artist": ""
+ },
+ "자동제어_인버터_실물.webp": {
+  "title": "Small variable-frequency drive.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Small_variable-frequency_drive.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "C J Cowie"
+ },
+ "자동제어_셰이딩코일_모터.webp": {
+  "title": "Shaded pole motor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Shaded_pole_motor.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "The original uploader was Meggar at English Wikipedia."
+ },
+ "자동제어_권선형_슬립링.webp": {
+  "title": "Slip ring induction motor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Slip_ring_induction_motor.jpg",
+  "license": "CC BY 4.0",
+  "licurl": "https://creativecommons.org/licenses/by/4.0",
+  "artist": "Oliver Wallscheid"
  }
 }
