@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="330" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#000"/></marker><marker id="arg" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#548235"/></marker><pattern id="hat" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#333" stroke-width="1"/></pattern></defs>
+<text x="380.0" y="28.0" font-size="17" fill="#548235" text-anchor="middle" font-weight="bold" >단면도의 종류 — 해칭은 가는 실선 45°</text>
+<rect x="40" y="110" width="130" height="25" fill="url(#hat)" stroke="none"/>
+<rect x="40" y="185" width="130" height="25" fill="url(#hat)" stroke="none"/>
+<rect x="40" y="110" width="130" height="100" fill="none" stroke="#000" stroke-width="2.6"/>
+<line x1="40.0" y1="135.0" x2="170.0" y2="135.0" stroke="#000" stroke-width="2.6" />
+<line x1="40.0" y1="185.0" x2="170.0" y2="185.0" stroke="#000" stroke-width="2.6" />
+<line x1="28.0" y1="160.0" x2="182.0" y2="160.0" stroke="#555" stroke-width="0.8" stroke-dasharray="14 4 3 4"/>
+<text x="105.0" y="240.0" font-size="14" fill="#548235" text-anchor="middle" font-weight="bold" >온 단면도</text>
+<text x="105.0" y="258.0" font-size="11" fill="#333" text-anchor="middle" >중심선을 따라</text>
+<text x="105.0" y="272.0" font-size="11" fill="#333" text-anchor="middle" >전부 자른다</text>
+<rect x="225" y="110" width="130" height="25" fill="url(#hat)" stroke="none"/>
+<rect x="225" y="110" width="130" height="100" fill="none" stroke="#000" stroke-width="2.6"/>
+<line x1="225.0" y1="135.0" x2="355.0" y2="135.0" stroke="#000" stroke-width="2.6" />
+<line x1="213.0" y1="160.0" x2="367.0" y2="160.0" stroke="#555" stroke-width="0.8" stroke-dasharray="14 4 3 4"/>
+<text x="365.0" y="130.0" font-size="10" fill="#C00000" text-anchor="start" >단면</text>
+<text x="365.0" y="194.0" font-size="10" fill="#C00000" text-anchor="start" >외형</text>
+<text x="290.0" y="240.0" font-size="14" fill="#548235" text-anchor="middle" font-weight="bold" >한쪽 단면도</text>
+<text x="290.0" y="258.0" font-size="11" fill="#333" text-anchor="middle" >대칭 물체의 1/4을 잘라</text>
+<text x="290.0" y="272.0" font-size="11" fill="#333" text-anchor="middle" >외형과 단면을 동시에</text>
+<rect x="410" y="125" width="140" height="70" fill="none" stroke="#000" stroke-width="2.6"/>
+<path d="M490,125 L550,125 L550,146 L510,146 L502,160 L510,174 L550,174 L550,195 L490,195 Q500,178 490,160 Q480,142 490,125 Z" fill="url(#hat)" fill-rule="evenodd" stroke="none"/>
+<path d="M550,146 L510,146 L502,160 L510,174 L550,174" fill="none" stroke="#000" stroke-width="2.6"/>
+<path d="M490,125 Q480,142 490,160 Q500,178 490,195" fill="none" stroke="#000" stroke-width="1.2"/>
+<line x1="398.0" y1="160.0" x2="562.0" y2="160.0" stroke="#555" stroke-width="0.8" stroke-dasharray="14 4 3 4"/>
+<text x="474.0" y="114.0" font-size="10" fill="#C00000" text-anchor="middle" >파단선</text>
+<text x="480.0" y="240.0" font-size="14" fill="#548235" text-anchor="middle" font-weight="bold" >부분 단면도</text>
+<text x="480.0" y="258.0" font-size="11" fill="#333" text-anchor="middle" >필요한 부분만 자르고</text>
+<text x="480.0" y="272.0" font-size="11" fill="#333" text-anchor="middle" >경계는 파단선</text>
+<line x1="600.0" y1="144.0" x2="730.0" y2="138.0" stroke="#000" stroke-width="2.6" />
+<line x1="600.0" y1="176.0" x2="730.0" y2="182.0" stroke="#000" stroke-width="2.6" />
+<line x1="600.0" y1="130.0" x2="600.0" y2="190.0" stroke="#000" stroke-width="1.2" />
+<line x1="730.0" y1="130.0" x2="730.0" y2="190.0" stroke="#000" stroke-width="1.2" />
+<ellipse cx="665" cy="160" rx="9" ry="18" fill="url(#hat)" stroke="#000" stroke-width="1.1"/>
+<line x1="592.0" y1="160.0" x2="738.0" y2="160.0" stroke="#555" stroke-width="0.8" stroke-dasharray="14 4 3 4"/>
+<text x="665.0" y="130.0" font-size="10" fill="#C00000" text-anchor="middle" >도형 안: 가는 실선</text>
+<text x="665.0" y="240.0" font-size="14" fill="#548235" text-anchor="middle" font-weight="bold" >회전 도시 단면도</text>
+<text x="665.0" y="258.0" font-size="11" fill="#333" text-anchor="middle" >암·리브·훅의 단면을</text>
+<text x="665.0" y="272.0" font-size="11" fill="#333" text-anchor="middle" >90° 돌려 그 자리에</text>
+<text x="380.0" y="312.0" font-size="12" fill="#000" text-anchor="middle" font-weight="bold" >인접한 다른 부품은 해칭 방향·간격을 바꾸고, 글자가 들어가는 곳은 해칭을 중단한다</text>
+</svg>
