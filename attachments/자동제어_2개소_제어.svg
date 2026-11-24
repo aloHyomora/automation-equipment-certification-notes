@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 420" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="740" height="420" fill="#ffffff"/>
+<text x="370.0" y="26" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">2개소 제어: 정지 PB는 직렬, 기동 PB는 병렬</text>
+<line x1="40" y1="60" x2="40" y2="300" stroke="#333" stroke-width="4"/>
+<line x1="700" y1="60" x2="700" y2="300" stroke="#333" stroke-width="4"/>
+<line x1="40" y1="100" x2="70" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="70" y1="100" x2="85" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="105" y1="100" x2="120" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="85" y1="84" x2="85" y2="116" stroke="#2F5597" stroke-width="3"/>
+<line x1="105" y1="84" x2="105" y2="116" stroke="#2F5597" stroke-width="3"/>
+<line x1="79" y1="118" x2="111" y2="82" stroke="#C00000" stroke-width="2.5"/>
+<text x="95" y="76" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">STOP-1</text>
+<text x="95" y="134" font-size="11.5" fill="#555" text-anchor="middle">A 정지 (b)</text>
+<line x1="120" y1="100" x2="160" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="160" y1="100" x2="175" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="195" y1="100" x2="210" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="175" y1="84" x2="175" y2="116" stroke="#2F5597" stroke-width="3"/>
+<line x1="195" y1="84" x2="195" y2="116" stroke="#2F5597" stroke-width="3"/>
+<line x1="169" y1="118" x2="201" y2="82" stroke="#C00000" stroke-width="2.5"/>
+<text x="185" y="76" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">STOP-2</text>
+<text x="185" y="134" font-size="11.5" fill="#555" text-anchor="middle">B 정지 (b)</text>
+<line x1="210" y1="100" x2="260" y2="100" stroke="#333" stroke-width="2.5"/>
+<circle cx="260" cy="100" r="4" fill="#333"/>
+<line x1="260" y1="100" x2="280" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="280" y1="100" x2="295" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="315" y1="100" x2="330" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="295" y1="84" x2="295" y2="116" stroke="#2F5597" stroke-width="3"/>
+<line x1="315" y1="84" x2="315" y2="116" stroke="#2F5597" stroke-width="3"/>
+<text x="305" y="76" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">START-1</text>
+<text x="305" y="130" font-size="11.5" fill="#555" text-anchor="middle">A 기동 (a)</text>
+<line x1="330" y1="100" x2="400" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="260" y1="100" x2="260" y2="185" stroke="#333" stroke-width="2.5"/>
+<line x1="400" y1="100" x2="400" y2="185" stroke="#333" stroke-width="2.5"/>
+<line x1="260" y1="185" x2="280" y2="185" stroke="#333" stroke-width="2.5"/>
+<line x1="280" y1="185" x2="295" y2="185" stroke="#333" stroke-width="2.5"/>
+<line x1="315" y1="185" x2="330" y2="185" stroke="#333" stroke-width="2.5"/>
+<line x1="295" y1="169" x2="295" y2="201" stroke="#2F5597" stroke-width="3"/>
+<line x1="315" y1="169" x2="315" y2="201" stroke="#2F5597" stroke-width="3"/>
+<text x="305" y="161" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">START-2</text>
+<text x="305" y="215" font-size="11.5" fill="#555" text-anchor="middle">B 기동 (a)</text>
+<line x1="330" y1="185" x2="400" y2="185" stroke="#333" stroke-width="2.5"/>
+<line x1="260" y1="185" x2="260" y2="270" stroke="#333" stroke-width="2.5"/>
+<line x1="400" y1="185" x2="400" y2="270" stroke="#333" stroke-width="2.5"/>
+<line x1="260" y1="270" x2="280" y2="270" stroke="#333" stroke-width="2.5"/>
+<line x1="280" y1="270" x2="295" y2="270" stroke="#333" stroke-width="2.5"/>
+<line x1="315" y1="270" x2="330" y2="270" stroke="#333" stroke-width="2.5"/>
+<line x1="295" y1="254" x2="295" y2="286" stroke="#2F5597" stroke-width="3"/>
+<line x1="315" y1="254" x2="315" y2="286" stroke="#2F5597" stroke-width="3"/>
+<text x="305" y="246" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">MC</text>
+<text x="305" y="300" font-size="11.5" fill="#555" text-anchor="middle">자기유지 (a)</text>
+<line x1="330" y1="270" x2="400" y2="270" stroke="#333" stroke-width="2.5"/>
+<circle cx="260" cy="185" r="4" fill="#333"/>
+<circle cx="400" cy="185" r="4" fill="#333"/>
+<circle cx="400" cy="100" r="4" fill="#333"/>
+<line x1="400" y1="100" x2="540" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="540" y1="100" x2="552" y2="100" stroke="#333" stroke-width="2.5"/>
+<line x1="578" y1="100" x2="590" y2="100" stroke="#333" stroke-width="2.5"/>
+<path d="M556,84 Q548,100 556,116" fill="none" stroke="#C55A11" stroke-width="3"/>
+<path d="M574,84 Q582,100 574,116" fill="none" stroke="#C55A11" stroke-width="3"/>
+<text x="565" y="76" font-size="13" fill="#C55A11" text-anchor="middle" font-weight="bold">MC 코일</text>
+<line x1="590" y1="100" x2="700" y2="100" stroke="#333" stroke-width="2.5"/>
+<rect x="64" y="56" width="158" height="88" fill="none" stroke="#C00000" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="143" y="160" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">직렬: 어느 쪽을 눌러도 정지</text>
+<rect x="268" y="56" width="74" height="260" fill="none" stroke="#2F5597" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="420" y="300" font-size="12" fill="#2F5597" text-anchor="start" font-weight="bold">병렬: 어느 쪽을 눌러도 기동</text>
+<rect x="40" y="340" width="660" height="50" fill="#F2F2F2" stroke="#bbb"/>
+<text x="52" y="362" font-size="12.5" fill="#333" text-anchor="start">정지는 '하나라도 열리면 끊김'(AND 조건) → 직렬, 기동은 '하나라도 닫히면 연결'(OR 조건) → 병렬.</text>
+<text x="52" y="380" font-size="12.5" fill="#333" text-anchor="start">3개소 이상도 같은 규칙: 정지 b접점을 줄줄이 직렬로, 기동 a접점을 나란히 병렬로 더한다.</text>
+</svg>

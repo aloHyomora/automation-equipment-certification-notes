@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 480" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="780" height="480" fill="#ffffff"/>
+<text x="390.0" y="26" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">정역 운전 제어회로: 자기유지 + 전기적 인터록</text>
+<line x1="40" y1="60" x2="40" y2="330" stroke="#333" stroke-width="4"/>
+<line x1="740" y1="60" x2="740" y2="330" stroke="#333" stroke-width="4"/>
+<line x1="40" y1="110" x2="70" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="70" y1="110" x2="85" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="105" y1="110" x2="120" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="85" y1="94" x2="85" y2="126" stroke="#2F5597" stroke-width="3"/>
+<line x1="105" y1="94" x2="105" y2="126" stroke="#2F5597" stroke-width="3"/>
+<line x1="79" y1="128" x2="111" y2="92" stroke="#C00000" stroke-width="2.5"/>
+<text x="95" y="86" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">THR</text>
+<text x="95" y="144" font-size="11.5" fill="#555" text-anchor="middle">과부하 시 열림</text>
+<line x1="120" y1="110" x2="150" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="150" y1="110" x2="165" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="185" y1="110" x2="200" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="165" y1="94" x2="165" y2="126" stroke="#2F5597" stroke-width="3"/>
+<line x1="185" y1="94" x2="185" y2="126" stroke="#2F5597" stroke-width="3"/>
+<line x1="159" y1="128" x2="191" y2="92" stroke="#C00000" stroke-width="2.5"/>
+<text x="175" y="86" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">PB-STOP</text>
+<text x="175" y="144" font-size="11.5" fill="#555" text-anchor="middle">정지 (b)</text>
+<line x1="200" y1="110" x2="240" y2="110" stroke="#333" stroke-width="2.5"/>
+<circle cx="240" cy="110" r="4" fill="#333"/>
+<line x1="240" y1="110" x2="240" y2="250" stroke="#333" stroke-width="2.5"/>
+<line x1="240" y1="110" x2="270" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="270" y1="110" x2="285" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="305" y1="110" x2="320" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="285" y1="94" x2="285" y2="126" stroke="#2F5597" stroke-width="3"/>
+<line x1="305" y1="94" x2="305" y2="126" stroke="#2F5597" stroke-width="3"/>
+<text x="295" y="86" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">PB-F 기동(a)</text>
+<line x1="320" y1="110" x2="360" y2="110" stroke="#333" stroke-width="2.5"/>
+<circle cx="260" cy="110" r="4" fill="#333"/>
+<line x1="260" y1="110" x2="260" y2="170" stroke="#333" stroke-width="2.5"/>
+<line x1="260" y1="170" x2="270" y2="170" stroke="#333" stroke-width="2.5"/>
+<line x1="270" y1="170" x2="285" y2="170" stroke="#333" stroke-width="2.5"/>
+<line x1="305" y1="170" x2="320" y2="170" stroke="#333" stroke-width="2.5"/>
+<line x1="285" y1="154" x2="285" y2="186" stroke="#2F5597" stroke-width="3"/>
+<line x1="305" y1="154" x2="305" y2="186" stroke="#2F5597" stroke-width="3"/>
+<text x="295" y="146" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">MC-F</text>
+<text x="295" y="200" font-size="11.5" fill="#555" text-anchor="middle">자기유지 (a)</text>
+<line x1="320" y1="170" x2="345" y2="170" stroke="#333" stroke-width="2.5"/>
+<line x1="345" y1="170" x2="345" y2="110" stroke="#333" stroke-width="2.5"/>
+<circle cx="345" cy="110" r="4" fill="#333"/>
+<line x1="360" y1="110" x2="375" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="395" y1="110" x2="410" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="375" y1="94" x2="375" y2="126" stroke="#C00000" stroke-width="3"/>
+<line x1="395" y1="94" x2="395" y2="126" stroke="#C00000" stroke-width="3"/>
+<line x1="369" y1="128" x2="401" y2="92" stroke="#C00000" stroke-width="2.5"/>
+<text x="385" y="86" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">MC-R</text>
+<text x="385" y="150" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">인터록</text>
+<line x1="410" y1="110" x2="560" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="560" y1="110" x2="572" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="598" y1="110" x2="610" y2="110" stroke="#333" stroke-width="2.5"/>
+<path d="M576,94 Q568,110 576,126" fill="none" stroke="#C55A11" stroke-width="3"/>
+<path d="M594,94 Q602,110 594,126" fill="none" stroke="#C55A11" stroke-width="3"/>
+<text x="585" y="86" font-size="13" fill="#C55A11" text-anchor="middle" font-weight="bold">MC-F 코일</text>
+<text x="585" y="144" font-size="11.5" fill="#555" text-anchor="middle">정회전</text>
+<line x1="610" y1="110" x2="740" y2="110" stroke="#333" stroke-width="2.5"/>
+<line x1="240" y1="250" x2="270" y2="250" stroke="#333" stroke-width="2.5"/>
+<line x1="270" y1="250" x2="285" y2="250" stroke="#333" stroke-width="2.5"/>
+<line x1="305" y1="250" x2="320" y2="250" stroke="#333" stroke-width="2.5"/>
+<line x1="285" y1="234" x2="285" y2="266" stroke="#2F5597" stroke-width="3"/>
+<line x1="305" y1="234" x2="305" y2="266" stroke="#2F5597" stroke-width="3"/>
+<text x="295" y="226" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">PB-R 기동(a)</text>
+<line x1="320" y1="250" x2="360" y2="250" stroke="#333" stroke-width="2.5"/>
+<circle cx="260" cy="250" r="4" fill="#333"/>
+<line x1="260" y1="250" x2="260" y2="310" stroke="#333" stroke-width="2.5"/>
+<line x1="260" y1="310" x2="270" y2="310" stroke="#333" stroke-width="2.5"/>
+<line x1="270" y1="310" x2="285" y2="310" stroke="#333" stroke-width="2.5"/>
+<line x1="305" y1="310" x2="320" y2="310" stroke="#333" stroke-width="2.5"/>
+<line x1="285" y1="294" x2="285" y2="326" stroke="#2F5597" stroke-width="3"/>
+<line x1="305" y1="294" x2="305" y2="326" stroke="#2F5597" stroke-width="3"/>
+<text x="295" y="286" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">MC-R</text>
+<text x="295" y="340" font-size="11.5" fill="#555" text-anchor="middle">자기유지 (a)</text>
+<line x1="320" y1="310" x2="345" y2="310" stroke="#333" stroke-width="2.5"/>
+<line x1="345" y1="310" x2="345" y2="250" stroke="#333" stroke-width="2.5"/>
+<circle cx="345" cy="250" r="4" fill="#333"/>
+<line x1="360" y1="250" x2="375" y2="250" stroke="#333" stroke-width="2.5"/>
+<line x1="395" y1="250" x2="410" y2="250" stroke="#333" stroke-width="2.5"/>
+<line x1="375" y1="234" x2="375" y2="266" stroke="#C00000" stroke-width="3"/>
+<line x1="395" y1="234" x2="395" y2="266" stroke="#C00000" stroke-width="3"/>
+<line x1="369" y1="268" x2="401" y2="232" stroke="#C00000" stroke-width="2.5"/>
+<text x="385" y="226" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">MC-F</text>
+<text x="385" y="290" font-size="12" fill="#C00000" text-anchor="middle" font-weight="bold">인터록</text>
+<line x1="410" y1="250" x2="560" y2="250" stroke="#333" stroke-width="2.5"/>
+<line x1="560" y1="250" x2="572" y2="250" stroke="#333" stroke-width="2.5"/>
+<line x1="598" y1="250" x2="610" y2="250" stroke="#333" stroke-width="2.5"/>
+<path d="M576,234 Q568,250 576,266" fill="none" stroke="#C55A11" stroke-width="3"/>
+<path d="M594,234 Q602,250 594,266" fill="none" stroke="#C55A11" stroke-width="3"/>
+<text x="585" y="226" font-size="13" fill="#C55A11" text-anchor="middle" font-weight="bold">MC-R 코일</text>
+<text x="585" y="284" font-size="11.5" fill="#555" text-anchor="middle">역회전</text>
+<line x1="610" y1="250" x2="740" y2="250" stroke="#333" stroke-width="2.5"/>
+<rect x="352" y="64" width="66" height="232" fill="none" stroke="#C00000" stroke-width="1.5" stroke-dasharray="5,4"/>
+<rect x="40" y="350" width="700" height="104" fill="#F2F2F2" stroke="#bbb"/>
+<text x="52" y="372" font-size="12.5" fill="#333" text-anchor="start">① PB-F를 누르면 MC-F 코일 ON → MC-F a접점이 자기유지, MC-F b접점은 열려 역회전 줄을 끊는다.</text>
+<text x="52" y="390" font-size="12.5" fill="#333" text-anchor="start">② 이 상태에서 PB-R을 눌러도 MC-F b접점이 열려 있어 MC-R은 붙지 않는다 (동시 투입 = 상간 단락 방지).</text>
+<text x="52" y="408" font-size="12.5" fill="#333" text-anchor="start">③ 방향을 바꾸려면 PB-STOP으로 먼저 정지 → 그다음 반대 기동 PB.</text>
+<text x="52" y="426" font-size="12.5" fill="#333" text-anchor="start">④ THR이 과부하로 동작하면 맨 앞 b접점이 열려 두 코일이 모두 떨어진다.</text>
+<text x="52" y="444" font-size="12.5" fill="#333" text-anchor="start">※ 주회로에서는 MC-R이 L1·L3 두 상을 바꿔 연결해 회전 방향이 반대가 된다.</text>
+</svg>

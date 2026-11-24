@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif">
+<rect width="760" height="540" fill="#ffffff"/>
+<text x="380.0" y="26" font-size="16" fill="#2F5597" text-anchor="middle" font-weight="bold">일정 시간 동작 회로: 누르는 즉시 ON, 설정 시간 T 뒤 자동 OFF</text>
+<line x1="40" y1="55" x2="40" y2="260" stroke="#333" stroke-width="4"/>
+<line x1="720" y1="55" x2="720" y2="260" stroke="#333" stroke-width="4"/>
+<line x1="40" y1="95" x2="80" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="80" y1="95" x2="95" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="115" y1="95" x2="130" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="95" y1="79" x2="95" y2="111" stroke="#2F5597" stroke-width="3"/>
+<line x1="115" y1="79" x2="115" y2="111" stroke="#2F5597" stroke-width="3"/>
+<text x="105" y="71" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">PB 기동(a)</text>
+<line x1="130" y1="95" x2="170" y2="95" stroke="#333" stroke-width="2.5"/>
+<circle cx="65" cy="95" r="4" fill="#333"/>
+<line x1="65" y1="95" x2="65" y2="153" stroke="#333" stroke-width="2.5"/>
+<line x1="65" y1="153" x2="80" y2="153" stroke="#333" stroke-width="2.5"/>
+<line x1="80" y1="153" x2="95" y2="153" stroke="#333" stroke-width="2.5"/>
+<line x1="115" y1="153" x2="130" y2="153" stroke="#333" stroke-width="2.5"/>
+<line x1="95" y1="137" x2="95" y2="169" stroke="#2F5597" stroke-width="3"/>
+<line x1="115" y1="137" x2="115" y2="169" stroke="#2F5597" stroke-width="3"/>
+<text x="105" y="129" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">X</text>
+<text x="105" y="183" font-size="11.5" fill="#555" text-anchor="middle">자기유지 (a)</text>
+<line x1="130" y1="153" x2="150" y2="153" stroke="#333" stroke-width="2.5"/>
+<line x1="150" y1="153" x2="150" y2="95" stroke="#333" stroke-width="2.5"/>
+<circle cx="150" cy="95" r="4" fill="#333"/>
+<line x1="170" y1="95" x2="300" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="300" y1="95" x2="315" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="335" y1="95" x2="350" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="315" y1="79" x2="315" y2="111" stroke="#C00000" stroke-width="3"/>
+<line x1="335" y1="79" x2="335" y2="111" stroke="#C00000" stroke-width="3"/>
+<line x1="309" y1="113" x2="341" y2="77" stroke="#C00000" stroke-width="2.5"/>
+<text x="325" y="71" font-size="13" fill="#C00000" text-anchor="middle" font-weight="bold">T</text>
+<text x="325" y="129" font-size="11.5" fill="#C00000" text-anchor="middle" font-weight="bold">한시 동작 b접점</text>
+<line x1="350" y1="95" x2="560" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="560" y1="95" x2="572" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="598" y1="95" x2="610" y2="95" stroke="#333" stroke-width="2.5"/>
+<path d="M576,79 Q568,95 576,111" fill="none" stroke="#C55A11" stroke-width="3"/>
+<path d="M594,79 Q602,95 594,111" fill="none" stroke="#C55A11" stroke-width="3"/>
+<text x="585" y="71" font-size="13" fill="#C55A11" text-anchor="middle" font-weight="bold">X 코일</text>
+<text x="585" y="129" font-size="11.5" fill="#555" text-anchor="middle">보조 계전기</text>
+<line x1="610" y1="95" x2="720" y2="95" stroke="#333" stroke-width="2.5"/>
+<line x1="40" y1="225" x2="80" y2="225" stroke="#333" stroke-width="2.5"/>
+<line x1="80" y1="225" x2="95" y2="225" stroke="#333" stroke-width="2.5"/>
+<line x1="115" y1="225" x2="130" y2="225" stroke="#333" stroke-width="2.5"/>
+<line x1="95" y1="209" x2="95" y2="241" stroke="#2F5597" stroke-width="3"/>
+<line x1="115" y1="209" x2="115" y2="241" stroke="#2F5597" stroke-width="3"/>
+<text x="105" y="201" font-size="13" fill="#2F5597" text-anchor="middle" font-weight="bold">X</text>
+<text x="105" y="259" font-size="11.5" fill="#555" text-anchor="middle">X가 켜지면 (a)</text>
+<line x1="130" y1="225" x2="560" y2="225" stroke="#333" stroke-width="2.5"/>
+<line x1="560" y1="225" x2="572" y2="225" stroke="#333" stroke-width="2.5"/>
+<line x1="598" y1="225" x2="610" y2="225" stroke="#333" stroke-width="2.5"/>
+<path d="M576,209 Q568,225 576,241" fill="none" stroke="#C55A11" stroke-width="3"/>
+<path d="M594,209 Q602,225 594,241" fill="none" stroke="#C55A11" stroke-width="3"/>
+<text x="585" y="201" font-size="13" fill="#C55A11" text-anchor="middle" font-weight="bold">T 코일</text>
+<text x="585" y="259" font-size="11.5" fill="#555" text-anchor="middle">ON 딜레이 타이머</text>
+<line x1="610" y1="225" x2="720" y2="225" stroke="#333" stroke-width="2.5"/>
+<text x="138" y="328" font-size="13" fill="#333" text-anchor="end" font-weight="bold">PB</text>
+<polyline points="150,334 200,334 200,310 240,310 240,334 700,334" fill="none" stroke="#2F5597" stroke-width="2.5"/>
+<text x="138" y="380" font-size="13" fill="#333" text-anchor="end" font-weight="bold">X (출력)</text>
+<polyline points="150,386 200,386 200,362 470,362 470,386 700,386" fill="none" stroke="#C55A11" stroke-width="2.5"/>
+<text x="138" y="432" font-size="13" fill="#333" text-anchor="end" font-weight="bold">T 한시 b접점</text>
+<polyline points="150,414 470,414 470,438 482,438 482,414 700,414" fill="none" stroke="#C00000" stroke-width="2.5"/>
+<line x1="200" y1="302" x2="200" y2="462" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+<line x1="470" y1="302" x2="470" y2="462" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+<line x1="200" y1="474" x2="470" y2="474" stroke="#333" stroke-width="1.5"/>
+<line x1="200" y1="468" x2="200" y2="480" stroke="#333" stroke-width="1.5"/>
+<line x1="470" y1="468" x2="470" y2="480" stroke="#333" stroke-width="1.5"/>
+<text x="335" y="492" font-size="12.5" fill="#333" text-anchor="middle" font-weight="bold">설정 시간 T</text>
+<text x="490" y="406" font-size="11.5" fill="#C00000" text-anchor="start">T 경과 → 순간 열림 → X OFF → 타이머 복귀</text>
+<text x="380" y="528" font-size="12" fill="#2F5597" text-anchor="middle">비교: 지연 동작(ON 딜레이)은 '누른 뒤 T 후에 켜짐', 일정 시간 동작은 '즉시 켜지고 T 후에 꺼짐'</text>
+</svg>

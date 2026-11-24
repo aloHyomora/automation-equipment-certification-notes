@@ -742,5 +742,40 @@
   "license": "CC BY 4.0",
   "licurl": "https://creativecommons.org/licenses/by/4.0",
   "artist": "Oliver Wallscheid"
+ },
+ "자동제어_전자접촉기.webp": {
+  "title": "Contactor DIN IEK.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Contactor_DIN_IEK.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Kae"
+ },
+ "자동제어_MCCB.webp": {
+  "title": "630 Amps Molded Case Circuit Breaker.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:630_Amps_Molded_Case_Circuit_Breaker.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Balurbala"
+ },
+ "자동제어_누전차단기.webp": {
+  "title": "4-pole GE residual current device 30mA 400V.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:4-pole_GE_residual_current_device_30mA_400V.JPG",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Dmitry G"
+ },
+ "자동제어_비상정지.webp": {
+  "title": "Emergency stop button.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Emergency_stop_button.jpg",
+  "license": "CC BY-SA 3.0",
+  "licurl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "artist": "Cjp24"
+ },
+ "자동제어_바이메탈_동작.webp": {
+  "title": "Bimetal.gif",
+  "page": "https://commons.wikimedia.org/wiki/File:Bimetal.gif",
+  "license": "CC BY-SA 3.0",
+  "licurl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "artist": "Baran Ivo"
  }
 }
